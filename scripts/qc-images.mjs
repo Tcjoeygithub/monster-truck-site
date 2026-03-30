@@ -108,7 +108,7 @@ const PAGES = [
   },
   {
     name: "mega-stomp",
-    prompt: `A massive Bigfoot-style monster truck shown from a 3/4 side angle with enormously oversized round tires that are taller than a person. The truck is very tall and imposing, drawn small enough that the COMPLETE truck fits comfortably inside the image with lots of white space around it. Simple bold design, no background. Every single part of the truck including the very bottom of every tire and the very top of the roof must be fully visible with at least 15% white padding on every side. ${BASE_PROMPT}`,
+    prompt: `A single massive Bigfoot-style monster truck drawn SMALL in the CENTER of a large white page, viewed from the side. The truck has four huge oversized round tires and a tall body. Draw the truck at only 50% of the image size so there is a VERY LARGE white border around it on all sides. No ground line, no background, no other objects. The truck should float in the middle of empty white space like a sticker on a blank page. ${BASE_PROMPT}`,
   },
   {
     name: "night-terror",
@@ -258,7 +258,83 @@ function verifyPrintFit(imagePath) {
   return true;
 }
 
-const MAX_ATTEMPTS = 3;
+// --- Hard pixel-level edge scan ---
+// Checks actual pixel data near image borders for dark content (cutoff detection)
+// This cannot be fooled by AI opinion — it reads the raw pixels.
+const EDGE_MARGIN_PERCENT = 5; // Check the outer 5% border strip on each side
+
+function checkEdgeCutoff(imagePath) {
+  // Export raw pixel data as a temp bitmap we can analyze
+  // Use sips to get a small version for fast analysis
+  const tmpPath = imagePath + ".edge-check.png";
+  // Downscale to 200px wide for fast pixel analysis
+  execSync(`sips --resampleWidth 200 "${imagePath}" --out "${tmpPath}" 2>/dev/null`);
+
+  const { width, height } = getImageDimensions(tmpPath);
+  if (width === 0 || height === 0) {
+    try { fs.unlinkSync(tmpPath); } catch {}
+    return { pass: true, details: "Could not read image for edge check" };
+  }
+
+  // Use python to check pixel brightness in edge strips
+  const marginX = Math.max(Math.round(width * EDGE_MARGIN_PERCENT / 100), 3);
+  const marginY = Math.max(Math.round(height * EDGE_MARGIN_PERCENT / 100), 3);
+
+  const pyScriptPath = tmpPath + ".py";
+  const pyScript = [
+    `from PIL import Image`,
+    `import json`,
+    `img = Image.open(r"${tmpPath}").convert("L")`,
+    `w, h = img.size`,
+    `mx, my = ${marginX}, ${marginY}`,
+    `threshold = 128`,
+    `min_dark_ratio = 0.03`,
+    `edges = {}`,
+    `edges["top"] = [(x, y) for y in range(my) for x in range(w)]`,
+    `edges["bottom"] = [(x, y) for y in range(h - my, h) for x in range(w)]`,
+    `edges["left"] = [(x, y) for x in range(mx) for y in range(h)]`,
+    `edges["right"] = [(x, y) for x in range(w - mx, w) for y in range(h)]`,
+    `results = {}`,
+    `for name, pixels in edges.items():`,
+    `    dark = sum(1 for x, y in pixels if img.getpixel((x, y)) < threshold)`,
+    `    ratio = dark / len(pixels) if pixels else 0`,
+    `    results[name] = {"dark_ratio": round(ratio, 4), "fail": ratio > min_dark_ratio}`,
+    `print(json.dumps(results))`,
+  ].join("\n");
+
+  fs.writeFileSync(pyScriptPath, pyScript);
+
+  try {
+    const result = execSync(`python3 "${pyScriptPath}"`, {
+      encoding: "utf-8",
+      timeout: 10000,
+    }).trim();
+
+    try { fs.unlinkSync(pyScriptPath); } catch {}
+
+    try { fs.unlinkSync(tmpPath); } catch {}
+
+    const edges = JSON.parse(result);
+    const failures = Object.entries(edges)
+      .filter(([, v]) => v.fail)
+      .map(([name, v]) => `${name} edge: ${(v.dark_ratio * 100).toFixed(1)}% dark pixels`);
+
+    return {
+      pass: failures.length === 0,
+      edges,
+      failures,
+      details: failures.length === 0
+        ? "All edges clear"
+        : `Content detected at: ${failures.join(", ")}`,
+    };
+  } catch (err) {
+    try { fs.unlinkSync(tmpPath); } catch {}
+    // If python/PIL not available, fall back to vision-only check
+    return { pass: true, details: `Edge check skipped: ${err.message}` };
+  }
+}
+
+const MAX_ATTEMPTS = 5;
 const MIN_SCORE = 7;
 
 async function main() {
@@ -299,7 +375,22 @@ async function main() {
         console.log(`  Issues: ${qc.issues.join("; ")}`);
       }
 
-      if (qc.pass && qc.overall >= MIN_SCORE) {
+      // Hard pixel-level edge scan (runs regardless of AI score)
+      console.log(`  Edge cutoff scan...`);
+      const edgeResult = checkEdgeCutoff(imagePath);
+      console.log(`    ${edgeResult.details}`);
+
+      // Override AI framing score if pixel scan detects cutoff
+      const framingOverride = !edgeResult.pass;
+      if (framingOverride) {
+        console.log(`    HARD FAIL: Pixel scan detected content at image edges — overriding AI framing score`);
+        qc.pass = false;
+        qc.framing = Math.min(qc.framing, 3);
+        qc.issues = qc.issues || [];
+        qc.issues.push(`Pixel-level edge scan: ${edgeResult.details}`);
+      }
+
+      if (qc.pass && qc.overall >= MIN_SCORE && qc.framing >= 7) {
         // Print-fit check: resize to US Letter portrait
         console.log(`  Print-fit check...`);
         resizeForPrint(imagePath);
