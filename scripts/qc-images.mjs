@@ -1,10 +1,21 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "child_process";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const OUT_DIR = path.join(ROOT, "public/images/coloring-pages");
+
+// --- Print-fit constants ---
+// US Letter at 150 DPI (good quality for coloring pages, reasonable file size)
+const TARGET_DPI = 150;
+const LETTER_WIDTH_IN = 8;    // 8.5 minus 0.25in margins on each side
+const LETTER_HEIGHT_IN = 10.5; // 11 minus 0.25in margins on each side
+const TARGET_WIDTH = Math.round(LETTER_WIDTH_IN * TARGET_DPI);   // 1200px
+const TARGET_HEIGHT = Math.round(LETTER_HEIGHT_IN * TARGET_DPI); // 1575px
+const MIN_WIDTH = 1000;  // Reject images smaller than this
+const MIN_HEIGHT = 1000;
 
 // Load API key
 const envFile = fs.readFileSync(path.join(ROOT, ".env.local"), "utf-8");
@@ -161,6 +172,78 @@ async function generateImage(prompt) {
   return Buffer.from(data.predictions[0].bytesBase64Encoded, "base64");
 }
 
+// --- Print-fit check: resize image to fit US Letter portrait ---
+function getImageDimensions(imagePath) {
+  try {
+    const out = execSync(`sips -g pixelWidth -g pixelHeight "${imagePath}" 2>/dev/null`, {
+      encoding: "utf-8",
+    });
+    const w = parseInt(out.match(/pixelWidth:\s*(\d+)/)?.[1] || "0");
+    const h = parseInt(out.match(/pixelHeight:\s*(\d+)/)?.[1] || "0");
+    return { width: w, height: h };
+  } catch {
+    return { width: 0, height: 0 };
+  }
+}
+
+function resizeForPrint(imagePath) {
+  const { width, height } = getImageDimensions(imagePath);
+  if (width === 0 || height === 0) {
+    console.log(`    Could not read dimensions for ${imagePath}`);
+    return false;
+  }
+
+  console.log(`    Current: ${width}x${height}`);
+
+  if (width < MIN_WIDTH || height < MIN_HEIGHT) {
+    console.log(`    WARN: Image too small (${width}x${height}), minimum is ${MIN_WIDTH}x${MIN_HEIGHT}`);
+    return false;
+  }
+
+  // Calculate the fit: image should fit within TARGET_WIDTH x TARGET_HEIGHT
+  // while maintaining aspect ratio and centering on a white canvas
+  const scaleW = TARGET_WIDTH / width;
+  const scaleH = TARGET_HEIGHT / height;
+  const scale = Math.min(scaleW, scaleH);
+
+  const newW = Math.round(width * scale);
+  const newH = Math.round(height * scale);
+
+  // Pad to exact letter-portrait dimensions with white background
+  const padX = Math.round((TARGET_WIDTH - newW) / 2);
+  const padY = Math.round((TARGET_HEIGHT - newH) / 2);
+
+  // Use sips to resize, then use a canvas approach with sips padColor
+  // Step 1: Resize image to fit
+  execSync(`sips --resampleWidth ${newW} --resampleHeight ${newH} "${imagePath}" 2>/dev/null`);
+  // Step 2: Pad to exact letter dimensions with white
+  execSync(
+    `sips --padToHeightWidth ${TARGET_HEIGHT} ${TARGET_WIDTH} --padColor FFFFFF "${imagePath}" 2>/dev/null`
+  );
+
+  const final = getImageDimensions(imagePath);
+  console.log(`    Resized: ${final.width}x${final.height} (fits US Letter at ${TARGET_DPI} DPI)`);
+  return true;
+}
+
+// Verify final image will print on exactly 1 page
+function verifyPrintFit(imagePath) {
+  const { width, height } = getImageDimensions(imagePath);
+
+  // Image should be portrait or square (height >= width)
+  // and should be exactly our target dimensions after processing
+  if (width !== TARGET_WIDTH || height !== TARGET_HEIGHT) {
+    console.log(`    Print-fit FAIL: ${width}x${height} (expected ${TARGET_WIDTH}x${TARGET_HEIGHT})`);
+    return false;
+  }
+
+  // At target DPI, this prints at exactly LETTER_WIDTH_IN x LETTER_HEIGHT_IN inches
+  const printW = (width / TARGET_DPI).toFixed(1);
+  const printH = (height / TARGET_DPI).toFixed(1);
+  console.log(`    Print-fit OK: prints at ${printW}" x ${printH}" on letter paper`);
+  return true;
+}
+
 const MAX_ATTEMPTS = 3;
 const MIN_SCORE = 7;
 
@@ -202,6 +285,16 @@ async function main() {
       }
 
       if (qc.pass && qc.overall >= MIN_SCORE) {
+        // Print-fit check: resize to US Letter portrait
+        console.log(`  Print-fit check...`);
+        resizeForPrint(imagePath);
+        const printOk = verifyPrintFit(imagePath);
+        if (!printOk) {
+          console.log(`  Print-fit failed — image may not print on a single page`);
+        }
+        // Also resize the thumbnail copy
+        fs.copyFileSync(imagePath, thumbPath);
+
         passed = true;
         results.push({ name: page.name, status: "PASS", attempts: attempt, score: qc.overall });
       } else if (attempt < MAX_ATTEMPTS) {

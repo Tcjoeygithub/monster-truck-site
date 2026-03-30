@@ -7,21 +7,71 @@ interface Props {
 
 export default function PrintDownloadButtons({ imagePath, title }: Props) {
   const handlePrint = () => {
-    window.print();
+    // Open a clean window with just the image — guaranteed single page on all devices
+    const printWindow = window.open("", "_blank");
+    if (!printWindow) {
+      // Fallback if popup blocked
+      window.print();
+      return;
+    }
+
+    const safeTitle = title.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    printWindow.document.write(`
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>${safeTitle} - Coloring Page</title>
+          <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            @page { size: letter portrait; margin: 0.25in; }
+            html, body {
+              width: 100%;
+              height: 100%;
+              background: white;
+            }
+            body {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 0.25in;
+            }
+            img {
+              max-width: 100%;
+              max-height: 100%;
+              object-fit: contain;
+            }
+          </style>
+        </head>
+        <body>
+          <img
+            src="${imagePath}"
+            alt="${safeTitle}"
+            onload="window.print(); window.close();"
+            onerror="document.body.innerText='Image failed to load. Please try again.'"
+          />
+        </body>
+      </html>
+    `);
+    printWindow.document.close();
   };
 
   const handleDownload = async () => {
-    const response = await fetch(imagePath);
-    const blob = await response.blob();
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    const extension = imagePath.split(".").pop() || "png";
-    a.download = `${title.toLowerCase().replace(/\s+/g, "-")}-coloring-page.${extension}`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    try {
+      const response = await fetch(imagePath);
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-coloring-page.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch {
+      // Fallback: open image in new tab for manual save
+      window.open(imagePath, "_blank");
+    }
   };
 
   return (

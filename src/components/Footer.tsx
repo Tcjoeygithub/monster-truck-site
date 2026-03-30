@@ -108,8 +108,40 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
+        {/* Legal Links */}
         <div className="mt-10 pt-6 border-t border-gray-700">
+          <div className="flex flex-wrap justify-center gap-4 text-sm mb-4">
+            <Link
+              href="/about"
+              className="text-gray-400 hover:text-brand-orange transition-colors"
+            >
+              About
+            </Link>
+            <Link
+              href="/contact"
+              className="text-gray-400 hover:text-brand-orange transition-colors"
+            >
+              Contact
+            </Link>
+            <Link
+              href="/privacy-policy"
+              className="text-gray-400 hover:text-brand-orange transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/terms"
+              className="text-gray-400 hover:text-brand-orange transition-colors"
+            >
+              Terms of Service
+            </Link>
+            <Link
+              href="/disclaimer"
+              className="text-gray-400 hover:text-brand-orange transition-colors"
+            >
+              Disclaimer
+            </Link>
+          </div>
           <p className="text-gray-500 text-xs text-center leading-relaxed">
             Unofficial fan site. Not affiliated with Monster Jam or Feld
             Entertainment. All coloring page illustrations are original fan art
