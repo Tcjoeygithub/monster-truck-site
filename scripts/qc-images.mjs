@@ -401,6 +401,18 @@ async function main() {
         // Also resize the thumbnail copy
         fs.copyFileSync(imagePath, thumbPath);
 
+        // Watermark both images
+        console.log(`  Watermarking...`);
+        try {
+          execSync(`python3 "${path.join(ROOT, "scripts", "watermark.py")}" ${page.name}`, {
+            encoding: "utf-8",
+            timeout: 30000,
+          });
+          console.log(`    Watermark applied`);
+        } catch (err) {
+          console.log(`    Watermark failed: ${err.message}`);
+        }
+
         passed = true;
         results.push({ name: page.name, status: "PASS", attempts: attempt, score: qc.overall });
       } else if (attempt < MAX_ATTEMPTS) {
