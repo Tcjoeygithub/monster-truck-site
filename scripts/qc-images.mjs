@@ -59,6 +59,19 @@ Analyze this image and score it on the following criteria. Each score is 1-10.
    - No text or watermarks in the image?
    - Would this look good printed on a standard 8.5x11 page?
 
+6. **FRAMING** (1=badly cut off, 10=perfectly framed) — THIS IS CRITICAL
+   - Is the ENTIRE truck visible within the image? Check ALL of these:
+     - Are all 4 tires/wheels FULLY visible and not cut off at the edges?
+     - Is the top of the truck (roof, exhaust pipes, any decorations) FULLY visible and not cropped?
+     - Is the front bumper/grille FULLY visible and not cut off at the left or right edge?
+     - Is the rear of the truck FULLY visible and not cut off?
+     - Are any parts of the truck touching or going past the edge of the image?
+   - Is there a visible margin/padding of white space between the truck and ALL four edges of the image?
+   - Score 1-4 if ANY part of the truck is cut off or touches an edge
+   - Score 5-6 if the truck is fully visible but very close to an edge (less than 5% margin)
+   - Score 7-8 if there is adequate margin on all sides
+   - Score 9-10 if the truck is perfectly centered with generous white space margins on all sides
+
 Respond in EXACTLY this JSON format and nothing else:
 {
   "simplicity": <score>,
@@ -66,39 +79,40 @@ Respond in EXACTLY this JSON format and nothing else:
   "coloring_friendliness": <score>,
   "engagement": <score>,
   "print_quality": <score>,
-  "overall": <average of all scores rounded to 1 decimal>,
+  "framing": <score>,
+  "overall": <average of all 6 scores rounded to 1 decimal>,
   "pass": <true if ALL individual scores >= 6 AND overall >= 7>,
   "issues": ["list of specific problems found"],
   "suggestions": ["specific prompt improvements to fix the issues"]
 }`;
 
 const BASE_PROMPT =
-  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, very simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, pure white background, minimal background elements, large colorable areas, monster truck as the main focus filling most of the frame.";
+  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, very simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, pure white background, minimal background elements, large colorable areas. CRITICAL FRAMING RULE: The ENTIRE truck must be fully visible inside the image with generous white space margins on ALL four sides. Nothing should be cut off or touch any edge of the image. Leave at least 10% white space padding between the truck and every edge. The truck should be centered in the frame.";
 
 const PAGES = [
   {
     name: "skull-crusher",
-    prompt: `A simple monster truck with a big skull shape on the front of the hood. Huge round tires with basic tread pattern. Truck shown from a 3/4 front angle. Keep the design very simple with just the truck on white background, no other objects. ${BASE_PROMPT}`,
+    prompt: `A simple monster truck with a big skull shape on the front of the hood. Huge round tires with basic tread pattern. Truck shown from a 3/4 front angle. Keep the design very simple with just the truck centered on white background, no other objects. The complete truck including all tires and the full roof must be visible with white space around it. ${BASE_PROMPT}`,
   },
   {
     name: "dirt-rampage",
-    prompt: `A monster truck with big round tires driving through mud. A few simple mud splashes around the tires. Truck shown from the side. Very simple design, no background scenery, just the truck and a few mud splashes. ${BASE_PROMPT}`,
+    prompt: `A monster truck with big round tires driving through mud. A few simple mud splashes around the tires. Truck shown from the side. Very simple design, no background scenery, just the truck and a few mud splashes. The entire truck from front bumper to rear must be fully visible with margins on all sides. ${BASE_PROMPT}`,
   },
   {
     name: "bone-rattler",
-    prompt: `A monster truck jumping in the air with all four wheels off the ground. Simple bone shapes decorating the side panels. The truck is the only element, no background, no stadium, no crowd. Just the truck in mid-air against white space. ${BASE_PROMPT}`,
+    prompt: `A monster truck jumping in the air with all four wheels off the ground. Simple bone shapes decorating the side panels. The truck is the only element, no background, no stadium, no crowd. Just the truck in mid-air centered in the frame with plenty of white space around it on all sides. All four wheels must be fully visible. ${BASE_PROMPT}`,
   },
   {
     name: "thunder-flame",
-    prompt: `A monster truck with simple flame designs along the sides. The truck is shown from the side, racing forward. Simple speed lines behind it. No track, no background, just the truck with flame decals. ${BASE_PROMPT}`,
+    prompt: `A monster truck with simple flame designs along the sides. The truck is shown from the side, racing forward. Simple speed lines behind it. No track, no background, just the truck with flame decals. The entire truck from front to back must be fully visible and centered with white space margins. ${BASE_PROMPT}`,
   },
   {
     name: "mega-stomp",
-    prompt: `A front-facing monster truck with absolutely enormous oversized round tires. The truck is very tall and imposing. Simple bold design, just the truck facing the viewer head-on. No cars underneath, no background. ${BASE_PROMPT}`,
+    prompt: `A massive Bigfoot-style monster truck shown from a 3/4 side angle with enormously oversized round tires that are taller than a person. The truck is very tall and imposing, drawn small enough that the COMPLETE truck fits comfortably inside the image with lots of white space around it. Simple bold design, no background. Every single part of the truck including the very bottom of every tire and the very top of the roof must be fully visible with at least 15% white padding on every side. ${BASE_PROMPT}`,
   },
   {
     name: "night-terror",
-    prompt: `A monster truck with headlights that look like angry eyes and a front grille that looks like monster teeth. Big knobby round tires. Simple spooky design, just the truck from a front-angled view. No background elements. ${BASE_PROMPT}`,
+    prompt: `A monster truck with headlights that look like angry eyes and a front grille that looks like monster teeth. Big knobby round tires. Simple spooky design, just the truck from a front-angled view. No background elements. The ENTIRE truck must be fully visible and centered in the frame with generous white space padding on all four sides. No part of the truck should be cut off or touch the edge. ${BASE_PROMPT}`,
   },
 ];
 
@@ -278,6 +292,7 @@ async function main() {
       console.log(`  Color-friendly: ${qc.coloring_friendliness}/10`);
       console.log(`  Engagement:     ${qc.engagement}/10`);
       console.log(`  Print quality:  ${qc.print_quality}/10`);
+      console.log(`  Framing:        ${qc.framing}/10`);
       console.log(`  OVERALL:        ${qc.overall}/10 ${qc.pass ? "PASS" : "FAIL"}`);
 
       if (qc.issues.length > 0) {
