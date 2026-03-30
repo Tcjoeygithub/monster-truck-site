@@ -1,0 +1,102 @@
+import { ColoringPage, Category } from "./types";
+import categoriesData from "@/data/categories.json";
+import pagesData from "@/data/coloring-pages.json";
+
+const categories: Category[] = categoriesData as Category[];
+const coloringPages: ColoringPage[] = pagesData as ColoringPage[];
+
+// --- Categories ---
+
+export function getAllCategories(): Category[] {
+  return categories.map((cat) => ({
+    ...cat,
+    pageCount: coloringPages.filter(
+      (p) => p.status === "published" && p.categoryIds.includes(cat.id)
+    ).length,
+  }));
+}
+
+export function getCategoryBySlug(slug: string): Category | undefined {
+  const cat = categories.find((c) => c.slug === slug);
+  if (!cat) return undefined;
+  return {
+    ...cat,
+    pageCount: coloringPages.filter(
+      (p) => p.status === "published" && p.categoryIds.includes(cat.id)
+    ).length,
+  };
+}
+
+export function getCategoriesByType(
+  type: Category["type"]
+): Category[] {
+  return getAllCategories().filter((c) => c.type === type);
+}
+
+// --- Coloring Pages ---
+
+export function getAllPublishedPages(): ColoringPage[] {
+  const now = new Date().toISOString().split("T")[0];
+  return coloringPages
+    .filter((p) => p.status === "published" && p.publishDate <= now)
+    .sort(
+      (a, b) =>
+        new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+    );
+}
+
+export function getAllPages(): ColoringPage[] {
+  return [...coloringPages].sort(
+    (a, b) =>
+      new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+  );
+}
+
+export function getPageBySlug(slug: string): ColoringPage | undefined {
+  return coloringPages.find(
+    (p) => p.slug === slug && p.status === "published"
+  );
+}
+
+export function getPageById(id: string): ColoringPage | undefined {
+  return coloringPages.find((p) => p.id === id);
+}
+
+export function getFeaturedPages(): ColoringPage[] {
+  return getAllPublishedPages().filter((p) => p.featured);
+}
+
+export function getNewTodayPages(): ColoringPage[] {
+  const today = new Date().toISOString().split("T")[0];
+  return getAllPublishedPages().filter((p) => p.publishDate === today);
+}
+
+export function getPagesByCategory(categoryId: string): ColoringPage[] {
+  return getAllPublishedPages().filter((p) =>
+    p.categoryIds.includes(categoryId)
+  );
+}
+
+export function getRelatedPages(
+  page: ColoringPage,
+  limit: number = 4
+): ColoringPage[] {
+  const otherPages = getAllPublishedPages().filter((p) => p.id !== page.id);
+  const scored = otherPages.map((p) => {
+    let score = 0;
+    for (const catId of page.categoryIds) {
+      if (p.categoryIds.includes(catId)) score++;
+    }
+    if (p.difficulty === page.difficulty) score++;
+    if (p.ageRange === page.ageRange) score++;
+    return { page: p, score };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, limit).map((s) => s.page);
+}
+
+export function getPagesByCategorySlug(slug: string): ColoringPage[] {
+  const cat = getCategoryBySlug(slug);
+  if (!cat) return [];
+  return getPagesByCategory(cat.id);
+}

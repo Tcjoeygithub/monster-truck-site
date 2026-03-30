@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(mv temp-init/* temp-init/.* .)",
+      "Bash(rm -rf temp-init)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/app/coloring-page/[slug])",
+      "Bash(mkdir -p /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/app/category/[slug])",
+      "Bash(npm run:*)",
+      "Bash(source .env.local)",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{:*)",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models?key=$GOOGLE_IMAGEN_API_KEY\")",
+      "Bash(python3 -c \"import sys,json; [print\\(m[''''name'''']\\) for m in json.load\\(sys.stdin\\).get\\(''''models'''',[]\\) if ''''imagen'''' in m[''''name''''].lower\\(\\) or ''''image'''' in m.get\\(''''description'''',''''''''\\).lower\\(\\)]\")",
+      "Bash(curl -s https://generativelanguage.googleapis.com/v1beta/models?key=$GOOGLE_IMAGEN_API_KEY)",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{:*)",
+      "Bash(node:*)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(git add:*)"
+    ]
+  }
+}

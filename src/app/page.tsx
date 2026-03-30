@@ -1,101 +1,208 @@
-import Image from "next/image";
+import ColoringPageCard from "@/components/ColoringPageCard";
+import Link from "next/link";
+import {
+  getFeaturedPages,
+  getNewTodayPages,
+  getAllPublishedPages,
+  getCategoriesByType,
+} from "@/lib/data";
 
-export default function Home() {
+export default function HomePage() {
+  const featured = getFeaturedPages();
+  const newToday = getNewTodayPages();
+  const allPages = getAllPublishedPages();
+  const truckCategories = getCategoriesByType("truck-type");
+  const themeCategories = getCategoriesByType("theme");
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Free Monster Truck Coloring Pages",
+    url:
+      process.env.NEXT_PUBLIC_SITE_URL ||
+      "https://freemonstertruckcoloringpages.com",
+    description:
+      "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-brand-orange via-brand-orange-dark to-brand-black text-white py-12 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h1 className="font-[var(--font-display)] text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+            Free Monster Truck
+            <br />
+            <span className="text-brand-green-light">Coloring Pages!</span>
+          </h1>
+          <p className="text-lg md:text-xl text-orange-100 max-w-2xl mx-auto mb-8">
+            Awesome monster truck coloring pages for kids ages 2&ndash;8. Print
+            them free, grab your crayons, and let&rsquo;s roll!
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="#new-today"
+              className="bg-brand-green hover:bg-brand-green-dark text-white font-bold py-3 px-8 rounded-xl text-lg transition-colors shadow-lg"
+            >
+              See New Pages
+            </Link>
+            <Link
+              href="/categories"
+              className="bg-white/20 hover:bg-white/30 text-white font-bold py-3 px-8 rounded-xl text-lg transition-colors backdrop-blur"
+            >
+              Browse Categories
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4">
+        {/* New Today Section */}
+        {newToday.length > 0 && (
+          <section id="new-today" className="mt-12">
+            <div className="flex items-center gap-3 mb-6">
+              <span className="bg-brand-green text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide animate-pulse">
+                New Today
+              </span>
+              <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black">
+                Fresh Off the Press!
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {newToday.map((page, i) => (
+                <ColoringPageCard key={page.id} page={page} priority={i < 2} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Featured Section */}
+        {featured.length > 0 && (
+          <section className="mt-12">
+            <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
+              Featured Coloring Pages
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {featured.map((page, i) => (
+                <ColoringPageCard
+                  key={page.id}
+                  page={page}
+                  priority={newToday.length === 0 && i < 2}
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Category Grid */}
+        <section className="mt-12">
+          <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
+            Browse by Truck Type
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {truckCategories.map((cat) => (
+              <Link
+                key={cat.id}
+                href={`/category/${cat.slug}`}
+                className="group bg-gradient-to-br from-brand-orange to-brand-orange-dark text-white rounded-xl p-4 text-center hover:scale-105 transition-transform shadow-md"
+              >
+                <span className="text-3xl block mb-2">🛻</span>
+                <span className="font-bold text-sm">{cat.name}</span>
+                {cat.pageCount !== undefined && cat.pageCount > 0 && (
+                  <span className="block text-xs text-orange-200 mt-1">
+                    {cat.pageCount} page{cat.pageCount !== 1 ? "s" : ""}
+                  </span>
+                )}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {themeCategories.length > 0 && (
+          <section className="mt-8">
+            <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
+              Browse by Theme
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+              {themeCategories.map((cat) => (
+                <Link
+                  key={cat.id}
+                  href={`/category/${cat.slug}`}
+                  className="group bg-gradient-to-br from-brand-black to-brand-dark text-white rounded-xl p-4 text-center hover:scale-105 transition-transform shadow-md"
+                >
+                  <span className="text-3xl block mb-2">
+                    {cat.slug.includes("skeleton") ? "💀" : "🔥"}
+                  </span>
+                  <span className="font-bold text-sm">{cat.name}</span>
+                  {cat.pageCount !== undefined && cat.pageCount > 0 && (
+                    <span className="block text-xs text-gray-400 mt-1">
+                      {cat.pageCount} page{cat.pageCount !== 1 ? "s" : ""}
+                    </span>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* All Pages */}
+        <section className="mt-12">
+          <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
+            All Coloring Pages
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {allPages.map((page) => (
+              <ColoringPageCard key={page.id} page={page} />
+            ))}
+          </div>
+        </section>
+
+        {/* Difficulty Links */}
+        <section className="mt-12 mb-8">
+          <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
+            By Difficulty Level
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Link
+              href="/category/easy"
+              className="bg-brand-green text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
+            >
+              <span className="text-4xl block mb-2">🖍️</span>
+              <span className="font-bold text-lg block">Easy (Ages 2-4)</span>
+              <span className="text-sm text-green-100">
+                Big shapes, simple outlines
+              </span>
+            </Link>
+            <Link
+              href="/category/medium"
+              className="bg-brand-orange text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
+            >
+              <span className="text-4xl block mb-2">✏️</span>
+              <span className="font-bold text-lg block">
+                Medium (Ages 4-6)
+              </span>
+              <span className="text-sm text-orange-100">
+                More detail, more fun
+              </span>
+            </Link>
+            <Link
+              href="/category/hard"
+              className="bg-red-500 text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
+            >
+              <span className="text-4xl block mb-2">🎨</span>
+              <span className="font-bold text-lg block">
+                Detailed (Ages 6-8)
+              </span>
+              <span className="text-sm text-red-100">Challenge accepted!</span>
+            </Link>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }

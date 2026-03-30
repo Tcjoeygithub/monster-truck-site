@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cat-bigfoot",
+    "slug": "bigfoot-style",
+    "name": "Bigfoot Style Trucks",
+    "description": "Coloring pages featuring massive Bigfoot-style monster trucks with giant tires and powerful engines.",
+    "type": "truck-type"
+  },
+  {
+    "id": "cat-crusher",
+    "slug": "car-crushers",
+    "name": "Car Crushers",
+    "description": "Monster trucks crushing cars and jumping over obstacles. Bold action scenes for young artists.",
+    "type": "truck-type"
+  },
+  {
+    "id": "cat-racing",
+    "slug": "racing-trucks",
+    "name": "Racing Trucks",
+    "description": "Fast monster trucks racing on dirt tracks. Speed and excitement in every coloring page.",
+    "type": "truck-type"
+  },
+  {
+    "id": "cat-freestyle",
+    "slug": "freestyle-tricks",
+    "name": "Freestyle Tricks",
+    "description": "Monster trucks doing backflips, donuts, and amazing freestyle tricks in the arena.",
+    "type": "truck-type"
+  },
+  {
+    "id": "cat-mud",
+    "slug": "mud-bog-trucks",
+    "name": "Mud Bog Trucks",
+    "description": "Trucks plowing through mud and dirt. Messy, muddy fun for kids who love getting dirty.",
+    "type": "truck-type"
+  },
+  {
+    "id": "cat-easy",
+    "slug": "easy",
+    "name": "Easy (Ages 2-4)",
+    "description": "Simple designs with thick outlines, perfect for toddlers and preschoolers just learning to color.",
+    "type": "difficulty"
+  },
+  {
+    "id": "cat-medium",
+    "slug": "medium",
+    "name": "Medium (Ages 4-6)",
+    "description": "Moderate detail with fun designs. Great for kids who are getting better at staying in the lines.",
+    "type": "difficulty"
+  },
+  {
+    "id": "cat-hard",
+    "slug": "hard",
+    "name": "Detailed (Ages 6-8)",
+    "description": "More detailed designs for older kids who love a coloring challenge.",
+    "type": "difficulty"
+  },
+  {
+    "id": "cat-skeleton",
+    "slug": "skeleton-trucks",
+    "name": "Skeleton & Skull Trucks",
+    "description": "Spooky skeleton-themed monster trucks with skull designs and bone decorations.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-flame",
+    "slug": "flame-trucks",
+    "name": "Flame & Fire Trucks",
+    "description": "Monster trucks covered in flames and fire designs. Hot wheels for cool kids.",
+    "type": "theme"
+  }
+]
