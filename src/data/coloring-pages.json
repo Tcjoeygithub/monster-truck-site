@@ -3,7 +3,7 @@
     "id": "page-001",
     "slug": "skull-crusher-monster-truck",
     "title": "Skull Crusher Monster Truck",
-    "description": "Meet Skull Crusher \u2014 a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
+    "description": "Meet Skull Crusher — a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
     "metaDescription": "Free printable Skull Crusher monster truck coloring page for kids ages 2-8. Bold outlines, easy to color. Download and print for free!",
     "altText": "Black and white coloring page of Skull Crusher monster truck with skull design on hood and large spiked tires",
     "imagePath": "/images/coloring-pages/skull-crusher.png",
@@ -150,5 +150,525 @@
     "publishDate": "2026-04-01",
     "createdAt": "2026-04-01T12:40:27.675Z",
     "updatedAt": "2026-04-01T12:40:27.675Z"
+  },
+  {
+    "id": "page-1988e1bc",
+    "slug": "big-wheels-baby-monster-truck",
+    "title": "Big Wheels Baby Monster Truck",
+    "description": "This adorable baby monster truck has huge simple wheels and a friendly smile. Perfect for tiny hands to color with just a few big shapes to fill in!",
+    "metaDescription": "Free printable Big Wheels Baby Monster Truck coloring page for toddlers with simple shapes and thick lines.",
+    "altText": "Simple monster truck coloring page with large wheels, basic truck body, and friendly face designed for toddlers",
+    "imagePath": "/images/coloring-pages/big-wheels-baby-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/big-wheels-baby-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:14:16.520Z",
+    "updatedAt": "2026-04-01T13:14:16.520Z"
+  },
+  {
+    "id": "page-6a40fc3c",
+    "slug": "happy-face-monster-truck",
+    "title": "Happy Face Monster Truck",
+    "description": "This cheerful monster truck has a big happy face and simple design that's perfect for beginning colorers. Big shapes make it easy and fun!",
+    "metaDescription": "Free printable Happy Face Monster Truck coloring page with simple design perfect for toddlers and preschoolers.",
+    "altText": "Easy monster truck coloring page with happy face, large wheels, and simple shapes for young children",
+    "imagePath": "/images/coloring-pages/happy-face-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/happy-face-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:14:30.669Z",
+    "updatedAt": "2026-04-01T13:14:30.669Z"
+  },
+  {
+    "id": "page-d4de2d6e",
+    "slug": "super-simple-stomper-truck",
+    "title": "Super Simple Stomper Truck",
+    "description": "This basic stomper truck design has just the essentials - big wheels, simple body, and thick lines perfect for little ones learning to color.",
+    "metaDescription": "Free printable Super Simple Stomper Truck coloring page designed for toddlers with extra thick outlines.",
+    "altText": "Very simple monster truck coloring page with basic shapes and thick outlines for toddler coloring",
+    "imagePath": "/images/coloring-pages/super-simple-stomper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/super-simple-stomper-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:14:56.534Z",
+    "updatedAt": "2026-04-01T13:14:56.534Z"
+  },
+  {
+    "id": "page-343640b9",
+    "slug": "little-crusher-truck",
+    "title": "Little Crusher Truck",
+    "description": "A gentle version of a crusher truck with simple shapes and friendly appearance. Perfect for young children who love big trucks!",
+    "metaDescription": "Free printable Little Crusher Truck coloring page with simple design ideal for preschoolers and toddlers.",
+    "altText": "Easy crusher monster truck coloring page with large simple shapes designed for young children",
+    "imagePath": "/images/coloring-pages/little-crusher-truck.png",
+    "thumbnailPath": "/images/coloring-pages/little-crusher-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:15:49.439Z",
+    "updatedAt": "2026-04-01T13:15:49.439Z"
+  },
+  {
+    "id": "page-f1363917",
+    "slug": "baby-bigfoot-truck",
+    "title": "Baby Bigfoot Truck",
+    "description": "This tiny version of a bigfoot truck has huge wheels and a simple design that's perfect for beginning artists to color.",
+    "metaDescription": "Free printable Baby Bigfoot Truck coloring page with oversized wheels and simple shapes for young children.",
+    "altText": "Simple bigfoot monster truck coloring page with extra large wheels and basic design for toddlers",
+    "imagePath": "/images/coloring-pages/baby-bigfoot-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-bigfoot-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:16:13.922Z",
+    "updatedAt": "2026-04-01T13:16:13.922Z"
+  },
+  {
+    "id": "page-22ca259a",
+    "slug": "easy-racer-monster-truck",
+    "title": "Easy Racer Monster Truck",
+    "description": "A simple racing monster truck with basic shapes and big areas to color. Great for toddlers who love fast trucks!",
+    "metaDescription": "Free printable Easy Racer Monster Truck coloring page with simple racing design for toddlers to color.",
+    "altText": "Simple racing monster truck coloring page with basic shapes and thick outlines for young children",
+    "imagePath": "/images/coloring-pages/easy-racer-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easy-racer-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:16:26.676Z",
+    "updatedAt": "2026-04-01T13:16:26.676Z"
+  },
+  {
+    "id": "page-033e568e",
+    "slug": "friendly-monster-truck",
+    "title": "Friendly Monster Truck",
+    "description": "This friendly monster truck has a welcoming face and simple design that makes coloring fun and easy for little ones.",
+    "metaDescription": "Free printable Friendly Monster Truck coloring page with happy face design perfect for toddlers.",
+    "altText": "Happy monster truck coloring page with friendly face and simple shapes designed for young children",
+    "imagePath": "/images/coloring-pages/friendly-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/friendly-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:16:39.200Z",
+    "updatedAt": "2026-04-01T13:16:39.200Z"
+  },
+  {
+    "id": "page-68f15e48",
+    "slug": "basic-mudder-truck",
+    "title": "Basic Mudder Truck",
+    "description": "A simple mud truck design with big wheels and basic shapes. Perfect for toddlers who want to color their first monster truck!",
+    "metaDescription": "Free printable Basic Mudder Truck coloring page with simple design ideal for toddler's first coloring experience.",
+    "altText": "Simple mud monster truck coloring page with basic shapes and thick lines for toddler coloring",
+    "imagePath": "/images/coloring-pages/basic-mudder-truck.png",
+    "thumbnailPath": "/images/coloring-pages/basic-mudder-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:17:04.904Z",
+    "updatedAt": "2026-04-01T13:17:04.904Z"
+  },
+  {
+    "id": "page-c7c2a1d0",
+    "slug": "simple-stomper-wheels",
+    "title": "Simple Stomper Wheels",
+    "description": "This monster truck focuses on huge simple wheels and basic truck parts. Perfect for toddlers learning about shapes while coloring!",
+    "metaDescription": "Free printable Simple Stomper Wheels coloring page featuring oversized wheels perfect for toddler coloring.",
+    "altText": "Monster truck coloring page emphasizing large simple wheels and basic truck design for young children",
+    "imagePath": "/images/coloring-pages/simple-stomper-wheels.png",
+    "thumbnailPath": "/images/coloring-pages/simple-stomper-wheels-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:17:42.891Z",
+    "updatedAt": "2026-04-01T13:17:42.891Z"
+  },
+  {
+    "id": "page-1fa5849f",
+    "slug": "towering-titan-monster-truck",
+    "title": "Towering Titan Monster Truck",
+    "description": "This massive Bigfoot-style truck stands tall and proud with enormous wheels that tower over everything! Kids will love coloring the giant tires and powerful truck body.",
+    "metaDescription": "Free printable Towering Titan monster truck coloring page with massive wheels and simple design perfect for kids.",
+    "altText": "Black and white coloring page of a monster truck with very large wheels and simple body design",
+    "imagePath": "/images/coloring-pages/towering-titan-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/towering-titan-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:18:37.264Z",
+    "updatedAt": "2026-04-01T13:18:37.264Z"
+  },
+  {
+    "id": "page-747e690a",
+    "slug": "giant-stomper-bigfoot-truck",
+    "title": "Giant Stomper Bigfoot Truck",
+    "description": "Meet the Giant Stomper, a classic Bigfoot-style monster truck with wheels so big they could crush anything! Perfect for little hands to color with its simple, bold design.",
+    "metaDescription": "Free printable Giant Stomper Bigfoot monster truck coloring page with oversized wheels and easy-to-color design.",
+    "altText": "Black and white coloring page of a Bigfoot-style monster truck with enormous wheels and basic truck cab",
+    "imagePath": "/images/coloring-pages/giant-stomper-bigfoot-truck.png",
+    "thumbnailPath": "/images/coloring-pages/giant-stomper-bigfoot-truck-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:18:50.394Z",
+    "updatedAt": "2026-04-01T13:18:50.394Z"
+  },
+  {
+    "id": "page-f8616ba2",
+    "slug": "mountain-crusher-bigfoot",
+    "title": "Mountain Crusher Bigfoot",
+    "description": "The Mountain Crusher is ready to climb over any obstacle with its powerful Bigfoot design! This truck features classic styling with room for creative coloring.",
+    "metaDescription": "Free printable Mountain Crusher Bigfoot monster truck coloring page with detailed wheels and classic styling.",
+    "altText": "Black and white coloring page of a Bigfoot monster truck with detailed wheels and truck body",
+    "imagePath": "/images/coloring-pages/mountain-crusher-bigfoot.png",
+    "thumbnailPath": "/images/coloring-pages/mountain-crusher-bigfoot-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:19:05.297Z",
+    "updatedAt": "2026-04-01T13:19:05.297Z"
+  },
+  {
+    "id": "page-a16db184",
+    "slug": "thunder-giant-monster-truck",
+    "title": "Thunder Giant Monster Truck",
+    "description": "Thunder Giant rumbles across the arena with its massive Bigfoot-style build and impressive wheel stance! Kids can add their favorite colors to this mighty machine.",
+    "metaDescription": "Free printable Thunder Giant monster truck coloring page featuring Bigfoot-style design with large wheels.",
+    "altText": "Black and white coloring page of a monster truck with Bigfoot proportions and detailed features",
+    "imagePath": "/images/coloring-pages/thunder-giant-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/thunder-giant-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:19:19.832Z",
+    "updatedAt": "2026-04-01T13:19:19.832Z"
+  },
+  {
+    "id": "page-36e7be87",
+    "slug": "mega-wheel-champion",
+    "title": "Mega Wheel Champion",
+    "description": "The Mega Wheel Champion dominates the track with its championship Bigfoot styling and enormous wheels! This detailed design offers lots of fun coloring areas.",
+    "metaDescription": "Free printable Mega Wheel Champion Bigfoot monster truck coloring page with detailed championship styling.",
+    "altText": "Black and white coloring page of a championship-style Bigfoot monster truck with detailed wheels and body",
+    "imagePath": "/images/coloring-pages/mega-wheel-champion.png",
+    "thumbnailPath": "/images/coloring-pages/mega-wheel-champion-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:19:47.349Z",
+    "updatedAt": "2026-04-01T13:19:47.349Z"
+  },
+  {
+    "id": "page-9d51749f",
+    "slug": "sky-high-bigfoot-racer",
+    "title": "Sky High Bigfoot Racer",
+    "description": "Sky High soars through the air with its incredible Bigfoot design and racing spirit! This action-packed scene shows the truck mid-jump with amazing detail.",
+    "metaDescription": "Free printable Sky High Bigfoot monster truck coloring page showing truck jumping with detailed racing features.",
+    "altText": "Black and white coloring page of a Bigfoot monster truck jumping through the air with detailed features",
+    "imagePath": "/images/coloring-pages/sky-high-bigfoot-racer.png",
+    "thumbnailPath": "/images/coloring-pages/sky-high-bigfoot-racer-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:20:15.564Z",
+    "updatedAt": "2026-04-01T13:20:15.564Z"
+  },
+  {
+    "id": "page-81b880bb",
+    "slug": "mighty-mountain-bigfoot",
+    "title": "Mighty Mountain Bigfoot",
+    "description": "Mighty Mountain shows off classic Bigfoot styling with a rugged outdoor theme! This truck is perfect for kids who love both monster trucks and nature adventures.",
+    "metaDescription": "Free printable Mighty Mountain Bigfoot monster truck coloring page with outdoor adventure theme and classic styling.",
+    "altText": "Black and white coloring page of a Bigfoot monster truck with mountain and outdoor adventure theme",
+    "imagePath": "/images/coloring-pages/mighty-mountain-bigfoot.png",
+    "thumbnailPath": "/images/coloring-pages/mighty-mountain-bigfoot-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:21:47.968Z",
+    "updatedAt": "2026-04-01T13:21:47.968Z"
+  },
+  {
+    "id": "page-5bbe8bc0",
+    "slug": "car-smasher-monster-truck-coloring-page",
+    "title": "Car Smasher Monster Truck",
+    "description": "This mighty monster truck is ready to crush cars with its powerful wheels! Color this awesome truck as it shows off its strength in the arena.",
+    "metaDescription": "Free printable Car Smasher Monster Truck coloring page with big wheels ready to crush cars. Perfect for kids who love action!",
+    "altText": "Black and white coloring page of a monster truck with large wheels positioned above crushed cars",
+    "imagePath": "/images/coloring-pages/car-smasher-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/car-smasher-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:24:52.816Z",
+    "updatedAt": "2026-04-01T13:24:52.816Z"
+  },
+  {
+    "id": "page-36bcfa88",
+    "slug": "demolition-king-monster-truck-coloring-page",
+    "title": "Demolition King Monster Truck",
+    "description": "The Demolition King reigns supreme in the car crushing arena! This powerful truck loves to stomp on old cars and show off its might.",
+    "metaDescription": "Free printable Demolition King Monster Truck coloring page featuring a powerful truck crushing cars in an exciting arena scene.",
+    "altText": "Black and white coloring page of a crowned monster truck crushing multiple cars in an arena setting",
+    "imagePath": "/images/coloring-pages/demolition-king-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/demolition-king-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:25:33.085Z",
+    "updatedAt": "2026-04-01T13:25:33.085Z"
+  },
+  {
+    "id": "page-d9606a94",
+    "slug": "mega-crusher-beast-coloring-page",
+    "title": "Mega Crusher Beast",
+    "description": "Meet the Mega Crusher Beast, the ultimate car-crushing monster truck! This beast loves to jump over rows of cars and land with a mighty crash.",
+    "metaDescription": "Free printable Mega Crusher Beast coloring page showing an awesome monster truck jumping over cars in mid-air action.",
+    "altText": "Black and white coloring page of a monster truck mid-jump over a row of cars with motion lines and debris",
+    "imagePath": "/images/coloring-pages/mega-crusher-beast-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/mega-crusher-beast-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:26:24.981Z",
+    "updatedAt": "2026-04-01T13:26:24.981Z"
+  },
+  {
+    "id": "page-165acf17",
+    "slug": "simple-stomper-crusher-coloring-page",
+    "title": "Simple Stomper Crusher",
+    "description": "This friendly crusher truck loves to stomp on cars with a big smile! Perfect for little hands to color with its simple, bold design.",
+    "metaDescription": "Free printable Simple Stomper Crusher coloring page with easy-to-color monster truck perfect for toddlers and preschoolers.",
+    "altText": "Black and white coloring page of a smiling monster truck with very simple design crushing a car underneath",
+    "imagePath": "/images/coloring-pages/simple-stomper-crusher-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/simple-stomper-crusher-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:26:37.711Z",
+    "updatedAt": "2026-04-01T13:26:37.711Z"
+  },
+  {
+    "id": "page-c1fc0778",
+    "slug": "arena-champion-crusher-coloring-page",
+    "title": "Arena Champion Crusher",
+    "description": "The Arena Champion Crusher has won every car crushing competition! Color this champion truck as it celebrates another victory over crushed cars.",
+    "metaDescription": "Free printable Arena Champion Crusher monster truck coloring page featuring a winning truck with trophy and crushed cars.",
+    "altText": "Black and white coloring page of a monster truck holding a trophy surrounded by crushed cars in an arena",
+    "imagePath": "/images/coloring-pages/arena-champion-crusher-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/arena-champion-crusher-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:27:17.236Z",
+    "updatedAt": "2026-04-01T13:27:17.236Z"
+  },
+  {
+    "id": "page-7a3b321a",
+    "slug": "junkyard-destroyer-coloring-page",
+    "title": "Junkyard Destroyer",
+    "description": "The Junkyard Destroyer rules the scrapyard with its massive crushing power! This tough truck turns old cars into scrap metal.",
+    "metaDescription": "Free printable Junkyard Destroyer monster truck coloring page showing a powerful truck in a junkyard full of cars to crush.",
+    "altText": "Black and white coloring page of a rugged monster truck in a junkyard setting surrounded by piles of cars and scrap metal",
+    "imagePath": "/images/coloring-pages/junkyard-destroyer-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/junkyard-destroyer-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:27:29.727Z",
+    "updatedAt": "2026-04-01T13:27:29.727Z"
+  },
+  {
+    "id": "page-c1f58500",
+    "slug": "happy-car-crusher-coloring-page",
+    "title": "Happy Car Crusher",
+    "description": "This cheerful monster truck loves its job of crushing cars! With its big smile and friendly eyes, it makes car crushing look fun and easy.",
+    "metaDescription": "Free printable Happy Car Crusher monster truck coloring page with a smiling truck perfect for young children to color.",
+    "altText": "Black and white coloring page of a very simple smiling monster truck with basic shapes crushing cars beneath",
+    "imagePath": "/images/coloring-pages/happy-car-crusher-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/happy-car-crusher-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:27:54.912Z",
+    "updatedAt": "2026-04-01T13:27:54.912Z"
+  },
+  {
+    "id": "page-7c8fe9ac",
+    "slug": "thunder-crush-champion-coloring-page",
+    "title": "Thunder Crush Champion",
+    "description": "Thunder Crush Champion roars through the arena crushing cars with lightning speed! This powerful truck creates thunderous crashes wherever it goes.",
+    "metaDescription": "Free printable Thunder Crush Champion monster truck coloring page with lightning bolts and action-packed car crushing scene.",
+    "altText": "Black and white coloring page of a monster truck with lightning bolt designs crushing cars with storm clouds above",
+    "imagePath": "/images/coloring-pages/thunder-crush-champion-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/thunder-crush-champion-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-crusher"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:28:21.877Z",
+    "updatedAt": "2026-04-01T13:28:21.877Z"
+  },
+  {
+    "id": "page-56ba0617",
+    "slug": "speedway-champion-racing-truck",
+    "title": "Speedway Champion Racing Truck",
+    "description": "This champion racing truck is speeding around the track to victory! Color the big wheels, racing stripes, and winner's trophy as this monster truck crosses the finish line.",
+    "metaDescription": "Free printable Speedway Champion Racing Truck coloring page with monster truck crossing finish line and trophy.",
+    "altText": "Black and white coloring page of a monster truck with racing stripes crossing a checkered finish line with a trophy",
+    "imagePath": "/images/coloring-pages/speedway-champion-racing-truck.png",
+    "thumbnailPath": "/images/coloring-pages/speedway-champion-racing-truck-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:29:45.387Z",
+    "updatedAt": "2026-04-01T13:29:45.387Z"
+  },
+  {
+    "id": "page-1296e595",
+    "slug": "simple-racing-speedster",
+    "title": "Simple Racing Speedster",
+    "description": "A friendly racing monster truck ready for some coloring fun! This simple speedster has big wheels and a racing number that's perfect for little hands to color.",
+    "metaDescription": "Free printable Simple Racing Speedster coloring page featuring an easy monster truck design for toddlers.",
+    "altText": "Black and white coloring page of a very simple monster truck with large wheels and racing number",
+    "imagePath": "/images/coloring-pages/simple-racing-speedster.png",
+    "thumbnailPath": "/images/coloring-pages/simple-racing-speedster-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T13:30:12.286Z",
+    "updatedAt": "2026-04-01T13:30:12.286Z"
   }
 ]
