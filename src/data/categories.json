@@ -68,5 +68,12 @@
     "name": "Flame & Fire Trucks",
     "description": "Monster trucks covered in flames and fire designs. Hot wheels for cool kids.",
     "type": "theme"
+  },
+  {
+    "id": "cat-easter",
+    "slug": "easter-monster-truck-coloring-pages",
+    "name": "Easter Monster Truck Coloring Pages",
+    "description": "Free printable Easter-themed monster truck coloring pages for kids ages 2-8. Monster trucks with bunny ears, Easter eggs, baskets, and springtime fun! Perfect for Easter activities and basket stuffers.",
+    "type": "theme"
   }
 ]

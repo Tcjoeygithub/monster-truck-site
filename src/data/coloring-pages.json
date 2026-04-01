@@ -3,7 +3,7 @@
     "id": "page-001",
     "slug": "skull-crusher-monster-truck",
     "title": "Skull Crusher Monster Truck",
-    "description": "Meet Skull Crusher — a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
+    "description": "Meet Skull Crusher \u2014 a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
     "metaDescription": "Free printable Skull Crusher monster truck coloring page for kids ages 2-8. Bold outlines, easy to color. Download and print for free!",
     "altText": "Black and white coloring page of Skull Crusher monster truck with skull design on hood and large spiked tires",
     "imagePath": "/images/coloring-pages/skull-crusher.png",
@@ -141,8 +141,7 @@
     "imagePath": "/images/coloring-pages/bunny-hop-easter-monster-truck.png",
     "thumbnailPath": "/images/coloring-pages/bunny-hop-easter-monster-truck-thumb.png",
     "categoryIds": [
-      "cat-freestyle",
-      "cat-easy"
+      "cat-easter"
     ],
     "difficulty": "hard",
     "ageRange": "6-8",

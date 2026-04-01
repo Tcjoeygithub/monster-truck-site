@@ -187,8 +187,8 @@ Return ONLY the JSON, no other text.`,
 
   const plan: CollectionPlan = JSON.parse(jsonMatch[0]);
 
-  // Safety check: if Claude says "new" but an existing collection has the same slug
-  // or very similar name, force it to use the existing one
+  // Safety check 1: if Claude says "new" but an existing collection has the same slug
+  // or very similar name, force it to use the existing one (true overlap)
   if (plan.isNewCollection) {
     const existing = existingCategories.find(
       (c) =>
@@ -206,13 +206,28 @@ Return ONLY the JSON, no other text.`,
     }
   }
 
-  // Safety check: if Claude says "new" but any existing collection has < 10 pages,
-  // redirect to the most underfilled collection
+  // Safety check 2: if Claude says "new" but existing collections need filling,
+  // ONLY redirect if the new collection isn't a genuinely distinct concept.
+  // Seasonal, event, and clearly unique themes should be allowed as new collections
+  // even when existing ones are underfilled — they're time-sensitive.
   if (plan.isNewCollection) {
     const underfilled = existingCategories
       .filter((c) => (c.pageCount || 0) < 10)
       .sort((a, b) => (a.pageCount || 0) - (b.pageCount || 0));
-    if (underfilled.length > 0) {
+
+    // Check if this is a genuinely new concept (seasonal, demographic, unique mashup)
+    const newConceptSignals = [
+      "easter", "christmas", "halloween", "thanksgiving", "valentine",
+      "summer", "winter", "spring", "birthday", "4th of july", "patriotic",
+      "st patrick", "back to school", "father", "mother",
+      "toddler", "kindergarten", "preschool", "girls", "boys",
+      "baby", "space", "underwater", "food", "history", "robot",
+      "dinosaur", "pirate", "superhero", "unicorn",
+    ];
+    const planNameLower = plan.collectionName.toLowerCase();
+    const isGenuinelyNew = newConceptSignals.some((s) => planNameLower.includes(s));
+
+    if (underfilled.length > 0 && !isGenuinelyNew) {
       const target = underfilled[0];
       console.log(
         `[autopilot] Redirecting: "${plan.collectionName}" → filling underfilled "${target.name}" (${target.pageCount || 0} pages)`
@@ -221,6 +236,10 @@ Return ONLY the JSON, no other text.`,
       plan.existingCategoryId = target.id;
       plan.collectionName = target.name;
       plan.collectionSlug = target.slug;
+    } else if (underfilled.length > 0 && isGenuinelyNew) {
+      console.log(
+        `[autopilot] Allowing new collection "${plan.collectionName}" despite underfilled collections — genuinely distinct concept`
+      );
     }
   }
 
