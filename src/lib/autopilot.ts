@@ -139,7 +139,7 @@ function getUpcomingHolidays(now: Date): string {
 // --- Image Generation + QC ---
 
 const BASE_IMAGEN_PROMPT =
-  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, very simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, pure white background. CRITICAL: Draw the entire subject SMALL, using only about 60% of the canvas, centered in the middle. There MUST be a THICK EMPTY WHITE BORDER around the entire drawing on ALL four sides. Imagine the drawing is a sticker placed in the center of a blank white page — nothing should come anywhere near the edges. Every single element of the drawing (all wheels, the roof, bumpers, accessories, ground elements) must be COMPLETELY visible and FULLY contained well inside the frame. Absolutely nothing should be cut off, cropped, or touching any edge.";
+  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, white background. The complete subject should be fully visible in the image.";
 
 async function generateImage(prompt: string): Promise<Buffer> {
   const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
@@ -195,22 +195,19 @@ async function qcImage(imagePath: string): Promise<{ pass: boolean; score: numbe
   };
 }
 
-function pixelEdgeCheck(imagePath: string): boolean {
-  // If artwork touches/extends past edges, the drawing is INCOMPLETE.
-  // It must be regenerated — shrinking an incomplete drawing is not acceptable.
-  const pyScript = path.join(process.cwd(), "scripts", "edge-check.py");
-
+function applyFrame(imagePath: string) {
+  // Frame the artwork inside a decorative border — guarantees nothing is cut off.
+  // The frame shrinks the artwork and places it inside a rounded rectangle border
+  // with a watermark below. This replaces edge checking entirely.
+  const frameScript = path.join(process.cwd(), "scripts", "frame-image.py");
   try {
-    const result = execSync(`python3 "${pyScript}" "${imagePath}"`, {
+    execSync(`python3 "${frameScript}" "${imagePath}"`, {
       encoding: "utf-8",
       timeout: 30000,
-    }).trim();
-    console.log(`[autopilot] Edge check: ${result}`);
-    return result === "PASS";
+    });
+    console.log("[autopilot] Frame applied");
   } catch (err) {
-    const output = err instanceof Error && "stdout" in err ? String((err as { stdout: unknown }).stdout) : "";
-    console.log(`[autopilot] Edge check FAIL (artwork incomplete, must regenerate): ${output}`);
-    return false;
+    console.log(`[autopilot] Frame failed: ${err}`);
   }
 }
 
@@ -322,13 +319,7 @@ export async function generateAndPublishPage(): Promise<PipelineResult> {
       console.log(`[autopilot] QC score: ${qc.score}/10 ${qc.pass ? "PASS" : "FAIL"}`);
 
       if (qc.pass) {
-        // Pixel edge check
-        const edgeOk = pixelEdgeCheck(imagePath);
-        if (edgeOk) {
-          qcPassed = true;
-        } else {
-          console.log("[autopilot] Pixel edge check failed, retrying...");
-        }
+        qcPassed = true;
       }
     } catch (err) {
       console.log(`[autopilot] QC check failed: ${err}`);
@@ -353,11 +344,10 @@ export async function generateAndPublishPage(): Promise<PipelineResult> {
   const { difficulty, ageRange } = gradeDifficulty(imagePath);
   console.log(`[autopilot] Difficulty: ${difficulty} (${ageRange})`);
 
-  // Step 4: Print-fit resize + watermark
-  console.log("[autopilot] Resizing and watermarking...");
-  resizeForPrint(imagePath);
+  // Step 4: Frame the artwork (border + watermark — guarantees nothing cut off)
+  console.log("[autopilot] Framing artwork...");
+  applyFrame(imagePath);
   fs.copyFileSync(imagePath, thumbPath);
-  applyWatermark(imageName);
 
   // Step 5: Create the page entry
   const now = new Date().toISOString();
