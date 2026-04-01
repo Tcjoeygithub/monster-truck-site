@@ -134,12 +134,24 @@ Upcoming holidays/events: ${upcomingHolidays}
 
 Existing pages (don't duplicate these): ${existingTitles}
 
-Existing collections:
+Existing collections (with current page counts):
 ${categoryList}
 
-You can either:
-A) Add pages to an existing collection that needs more content (look for ones with few pages)
-B) Create a brand new collection
+CRITICAL RULES — READ CAREFULLY:
+
+1. MINIMUM 10 PAGES PER COLLECTION. Look at the page counts above. If ANY existing collection has fewer than 10 pages, you MUST add pages to that collection first. Do NOT create a new collection until all existing ones have at least 10 pages.
+
+2. NO OVERLAPPING COLLECTIONS. Before creating a new collection, check if any existing collection already covers a similar theme. Examples of overlap to avoid:
+   - "Dragon Trucks" overlaps with "Flame & Fire Trucks"
+   - "Skull Monster Trucks" overlaps with "Skeleton & Skull Trucks"
+   - "Racing Monster Trucks" overlaps with "Racing Trucks"
+   If there's overlap, ADD to the existing collection instead.
+
+3. PRIORITY ORDER:
+   a) First: fill any existing collection that has fewer than 10 pages
+   b) Second: if all collections have 10+, create a genuinely NEW collection that doesn't overlap with anything
+
+Based on the page counts above, which collection needs filling? If all have 10+, what new DISTINCT theme should we create?
 
 Respond in this exact JSON format:
 {
@@ -173,7 +185,46 @@ Return ONLY the JSON, no other text.`,
   const jsonMatch = text.match(/\{[\s\S]*\}/);
   if (!jsonMatch) throw new Error("Failed to parse collection plan from Claude");
 
-  return JSON.parse(jsonMatch[0]);
+  const plan: CollectionPlan = JSON.parse(jsonMatch[0]);
+
+  // Safety check: if Claude says "new" but an existing collection has the same slug
+  // or very similar name, force it to use the existing one
+  if (plan.isNewCollection) {
+    const existing = existingCategories.find(
+      (c) =>
+        c.slug === plan.collectionSlug ||
+        c.name.toLowerCase() === plan.collectionName.toLowerCase()
+    );
+    if (existing) {
+      console.log(
+        `[autopilot] Overlap detected: "${plan.collectionName}" matches existing "${existing.name}" — merging`
+      );
+      plan.isNewCollection = false;
+      plan.existingCategoryId = existing.id;
+      plan.collectionName = existing.name;
+      plan.collectionSlug = existing.slug;
+    }
+  }
+
+  // Safety check: if Claude says "new" but any existing collection has < 10 pages,
+  // redirect to the most underfilled collection
+  if (plan.isNewCollection) {
+    const underfilled = existingCategories
+      .filter((c) => (c.pageCount || 0) < 10)
+      .sort((a, b) => (a.pageCount || 0) - (b.pageCount || 0));
+    if (underfilled.length > 0) {
+      const target = underfilled[0];
+      console.log(
+        `[autopilot] Redirecting: "${plan.collectionName}" → filling underfilled "${target.name}" (${target.pageCount || 0} pages)`
+      );
+      plan.isNewCollection = false;
+      plan.existingCategoryId = target.id;
+      plan.collectionName = target.name;
+      plan.collectionSlug = target.slug;
+    }
+  }
+
+  return plan;
 }
 
 function getUpcomingHolidays(now: Date): string {
