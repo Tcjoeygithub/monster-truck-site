@@ -167,7 +167,25 @@ async function qcImage(imagePath: string): Promise<{ pass: boolean; score: numbe
   const imageData = fs.readFileSync(imagePath);
   const base64 = imageData.toString("base64");
 
-  const qcPrompt = `Analyze this coloring page image for children ages 2-8. Score 1-10 on: simplicity, anatomical_correctness, coloring_friendliness, engagement, print_quality, framing. Framing is CRITICAL: is the ENTIRE truck visible with white space margins on all sides? Any cutoff = score 1-3. Respond in JSON only: {"overall": <avg>, "framing": <score>, "pass": <true if all >= 6 and overall >= 7 and framing >= 7>, "issues": ["list"]}`;
+  const qcPrompt = `Analyze this coloring page image for children ages 2-8. Score 1-10 on each criterion:
+
+1. SIMPLICITY: Bold outlines, age-appropriate detail, not too busy
+2. ANATOMICAL_CORRECTNESS: Truck body correct, proportions reasonable, no AI artifacts
+3. COLORING_FRIENDLINESS: Large enclosed areas, thick outlines, no gray shading
+4. ENGAGEMENT: Looks cool/exciting, kids would want to color it
+5. PRINT_QUALITY: Clean white background, no text/watermarks
+6. ARTWORK_COMPLETENESS: This is the MOST IMPORTANT criterion.
+   - Is every part of the truck FULLY DRAWN as a complete illustration?
+   - Are ALL 4 tires/wheels completely drawn with their full circular shape? (not cut off, not partially drawn, not missing the bottom half)
+   - Is the truck body complete from front bumper to rear?
+   - Is the roof/top of the truck fully drawn?
+   - Are all accessories (exhaust pipes, decorations, etc.) complete?
+   - Does the artwork look like a FINISHED illustration, or does it look like parts are missing/cropped?
+   - Score 1-3 if ANY wheel is not a complete circle, or if any major part of the truck appears incomplete
+   - Score 4-6 if minor elements are slightly incomplete
+   - Score 7-10 only if EVERY part of the truck is fully drawn as a complete piece of art
+
+Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass": <true if ALL scores >= 6 AND overall >= 7 AND completeness >= 7>, "issues": ["list"]}`;
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${IMAGEN_API_KEY}`;
   const res = await fetch(url, {
