@@ -232,26 +232,6 @@ function gradeDifficulty(imagePath: string): {
   }
 }
 
-function resizeForPrint(imagePath: string) {
-  try {
-    execSync(`sips --resampleWidth 1200 --resampleHeight 1575 "${imagePath}" 2>/dev/null`);
-    execSync(`sips --padToHeightWidth 1575 1200 --padColor FFFFFF "${imagePath}" 2>/dev/null`);
-  } catch {
-    // sips not available (Vercel), skip resize
-  }
-}
-
-function applyWatermark(imageName: string) {
-  const watermarkScript = path.join(process.cwd(), "scripts", "watermark.py");
-  try {
-    execSync(`python3 "${watermarkScript}" ${imageName}`, {
-      timeout: 30000,
-      cwd: process.cwd(),
-    });
-  } catch {
-    // Watermark not available on Vercel, skip
-  }
-}
 
 // --- Full Pipeline ---
 
