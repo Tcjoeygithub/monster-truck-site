@@ -7,6 +7,10 @@ import {
   getCategoriesByType,
 } from "@/lib/data";
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  "https://freemonstertruckcoloringpages.com";
+
 export default function HomePage() {
   const featured = getFeaturedPages();
   const newToday = getNewTodayPages();
@@ -14,22 +18,37 @@ export default function HomePage() {
   const truckCategories = getCategoriesByType("truck-type");
   const themeCategories = getCategoriesByType("theme");
 
-  const jsonLd = {
+  const collectionSchema = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
+    "@type": "CollectionPage",
     name: "Free Monster Truck Coloring Pages",
-    url:
-      process.env.NEXT_PUBLIC_SITE_URL ||
-      "https://freemonstertruckcoloringpages.com",
     description:
       "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+    url: siteUrl,
+    inLanguage: "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Free Monster Truck Coloring Pages",
+      url: siteUrl,
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: allPages.length,
+      itemListElement: allPages.slice(0, 20).map((page, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: page.title,
+        url: `${siteUrl}/coloring-page/${page.slug}`,
+        image: `${siteUrl}${page.imagePath}`,
+      })),
+    },
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
 
       {/* Hero Section */}

@@ -16,7 +16,18 @@
       "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{:*)",
       "Bash(node:*)",
       "Bash(pkill -f \"next dev\")",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(brew install:*)",
+      "Bash(gh auth:*)",
+      "Bash(git push:*)",
+      "Bash(vercel:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ls -la public/images/coloring-pages/*.png)",
+      "Bash(grep -r \"OpenGraph\\\\|og:\\\\|twitter\" /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src --include=*.tsx --include=*.ts)",
+      "Bash(grep -r \"metadataBase\\\\|images:\\\\|og:\" /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/app --include=*.tsx --include=*.ts)"
     ]
   }
 }

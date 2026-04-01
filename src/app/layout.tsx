@@ -37,17 +37,37 @@ export const metadata: Metadata = {
     "monster truck",
     "coloring pages for boys",
     "truck coloring sheets",
+    "monster truck printables",
+    "coloring pages for toddlers",
+    "free printable coloring sheets",
   ],
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: siteUrl,
     siteName: "Free Monster Truck Coloring Pages",
     title: "Free Monster Truck Coloring Pages | Printable for Kids Ages 2-8",
     description:
       "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+    images: [
+      {
+        url: `${siteUrl}/images/coloring-pages/skull-crusher.png`,
+        width: 1200,
+        height: 1631,
+        alt: "Free Monster Truck Coloring Pages for Kids",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "Free Monster Truck Coloring Pages | Printable for Kids Ages 2-8",
+    description:
+      "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+    images: [`${siteUrl}/images/coloring-pages/skull-crusher.png`],
   },
   robots: {
     index: true,
@@ -57,7 +77,18 @@ export const metadata: Metadata = {
       follow: true,
       "max-image-preview": "large",
       "max-snippet": -1,
+      "max-video-preview": -1,
     },
+  },
+  other: {
+    "theme-color": "#FF6B00",
+    "color-scheme": "light",
+    "msapplication-TileColor": "#FF6B00",
+  },
+  verification: {
+    // Add your verification codes here when ready
+    // google: "your-google-verification-code",
+    // yandex: "your-yandex-verification-code",
   },
 };
 
@@ -68,12 +99,62 @@ export default function RootLayout({
 }>) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Free Monster Truck Coloring Pages",
+    url: siteUrl,
+    logo: `${siteUrl}/images/coloring-pages/skull-crusher.png`,
+    description:
+      "Free printable monster truck coloring pages for kids ages 2-8. Built by a dad for his son.",
+    foundingDate: "2026",
+    sameAs: [],
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Free Monster Truck Coloring Pages",
+    url: siteUrl,
+    description:
+      "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+    inLanguage: "en-US",
+    publisher: {
+      "@type": "Organization",
+      name: "Free Monster Truck Coloring Pages",
+      url: siteUrl,
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${siteUrl}/categories`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <html lang="en">
+      <head>
+        <link rel="canonical" href={siteUrl} />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body
         className={`${fredoka.variable} ${nunito.variable} font-[var(--font-body)] antialiased min-h-screen flex flex-col`}
       >
-        {/* GTM noscript */}
         {gtmId && (
           <noscript>
             <iframe

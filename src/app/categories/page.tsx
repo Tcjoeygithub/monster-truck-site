@@ -3,10 +3,33 @@ import Link from "next/link";
 import { getCategoriesByType } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  "https://freemonstertruckcoloringpages.com";
+
 export const metadata: Metadata = {
-  title: "All Categories",
+  title: "All Categories - Monster Truck Coloring Pages",
   description:
-    "Browse all monster truck coloring page categories. Find pages by truck type, theme, difficulty level, and age range.",
+    "Browse all monster truck coloring page categories. Find free printable pages by truck type, theme, difficulty level, and age range.",
+  alternates: {
+    canonical: `${siteUrl}/categories`,
+  },
+  openGraph: {
+    title: "All Categories - Free Monster Truck Coloring Pages",
+    description:
+      "Browse all monster truck coloring page categories. Find pages by truck type, theme, difficulty level, and age range.",
+    url: `${siteUrl}/categories`,
+    siteName: "Free Monster Truck Coloring Pages",
+    type: "website",
+    images: [
+      {
+        url: `${siteUrl}/images/coloring-pages/skull-crusher.png`,
+        width: 1200,
+        height: 1631,
+        alt: "Monster Truck Coloring Page Categories",
+      },
+    ],
+  },
 };
 
 export default function CategoriesPage() {

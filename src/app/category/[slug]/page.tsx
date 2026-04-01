@@ -8,6 +8,10 @@ import {
 import ColoringPageCard from "@/components/ColoringPageCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  "https://freemonstertruckcoloringpages.com";
+
 interface Props {
   params: { slug: string };
 }
@@ -21,11 +25,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategoryBySlug(params.slug);
   if (!category) return {};
 
+  const pageUrl = `${siteUrl}/category/${category.slug}`;
+
   return {
     title: `${category.name} - Free Monster Truck Coloring Pages`,
     description: category.description,
+    keywords: [
+      category.name.toLowerCase(),
+      "monster truck coloring pages",
+      "free printable",
+      "coloring pages for kids",
+    ],
+    alternates: {
+      canonical: pageUrl,
+    },
     openGraph: {
       title: `${category.name} - Free Monster Truck Coloring Pages`,
+      description: category.description,
+      url: pageUrl,
+      siteName: "Free Monster Truck Coloring Pages",
+      locale: "en_US",
+      type: "website",
+      images: [
+        {
+          url: `${siteUrl}/images/coloring-pages/skull-crusher.png`,
+          width: 1200,
+          height: 1631,
+          alt: `${category.name} Monster Truck Coloring Pages`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${category.name} - Free Coloring Pages`,
       description: category.description,
     },
   };
@@ -36,42 +68,80 @@ export default function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const pages = getPagesByCategorySlug(params.slug);
+  const pageUrl = `${siteUrl}/category/${category.slug}`;
+
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: category.name,
+    description: category.description,
+    url: pageUrl,
+    inLanguage: "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Free Monster Truck Coloring Pages",
+      url: siteUrl,
+    },
+    about: {
+      "@type": "Thing",
+      name: category.name,
+    },
+    numberOfItems: pages.length,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: pages.length,
+      itemListElement: pages.map((page, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: page.title,
+        url: `${siteUrl}/coloring-page/${page.slug}`,
+        image: `${siteUrl}${page.imagePath}`,
+      })),
+    },
+  };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
-      <Breadcrumbs
-        crumbs={[
-          { label: "Home", href: "/" },
-          { label: "Categories", href: "/categories" },
-          { label: category.name },
-        ]}
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionPageSchema),
+        }}
       />
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        <Breadcrumbs
+          crumbs={[
+            { label: "Home", href: "/" },
+            { label: "Categories", href: "/categories" },
+            { label: category.name },
+          ]}
+        />
 
-      <h1 className="font-[var(--font-display)] text-3xl md:text-4xl font-bold text-brand-black mb-3">
-        {category.name}
-      </h1>
-      <p className="text-gray-600 text-lg mb-8 max-w-3xl">
-        {category.description}
-      </p>
+        <h1 className="font-[var(--font-display)] text-3xl md:text-4xl font-bold text-brand-black mb-3">
+          {category.name}
+        </h1>
+        <p className="text-gray-600 text-lg mb-8 max-w-3xl">
+          {category.description}
+        </p>
 
-      {pages.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {pages.map((page, i) => (
-            <ColoringPageCard key={page.id} page={page} priority={i < 2} />
-          ))}
-        </div>
-      ) : (
-        <div className="text-center py-16">
-          <span className="text-6xl block mb-4">🛻</span>
-          <h2 className="text-xl font-bold text-gray-500 mb-2">
-            No pages yet in this category
-          </h2>
-          <p className="text-gray-400">
-            Check back soon — we add new coloring pages every day!
-          </p>
-        </div>
-      )}
-
-    </div>
+        {pages.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {pages.map((page, i) => (
+              <ColoringPageCard key={page.id} page={page} priority={i < 2} />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16">
+            <span className="text-6xl block mb-4">🛻</span>
+            <h2 className="text-xl font-bold text-gray-500 mb-2">
+              No pages yet in this category
+            </h2>
+            <p className="text-gray-400">
+              Check back soon — we add new coloring pages every day!
+            </p>
+          </div>
+        )}
+      </div>
+    </>
   );
 }
