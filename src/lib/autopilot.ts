@@ -13,27 +13,40 @@ const IMAGES_DIR = path.join(process.cwd(), "public/images/coloring-pages");
 const IMAGEN_API_KEY = process.env.GOOGLE_IMAGEN_API_KEY || "";
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || "";
 
-// --- Topic Ideation via Claude ---
+// =====================================================
+// COLLECTION STRATEGY
+// =====================================================
+// The autopilot rotates between 3 strategies daily:
+// Day 1: SEO-targeted (autocomplete/keyword inspired collections)
+// Day 2: Demographic-targeted (age/audience specific)
+// Day 3: Novel creative (original mashup ideas)
 
-const TOPIC_SYSTEM_PROMPT = `You are a creative director for a children's monster truck coloring page website. Your audience is kids ages 2-8 and their parents.
+type Strategy = "seo" | "demographic" | "creative";
 
-Your job is to come up with fresh, exciting coloring page ideas that kids will love. Mix monster trucks with:
-- Seasonal themes (Halloween, Christmas, Easter, summer, etc.)
-- Kid favorites (dinosaurs, robots, sharks, dragons, space, pirates, superheroes)
-- Action scenes (jumping, crushing, racing, mud bogs, freestyle tricks)
-- Fun mashups (ice cream truck monster truck, fire truck monster truck, unicorn monster truck)
-- Fan-inspired themes (skull trucks, flame trucks, graveyard trucks — inspired by famous trucks but ORIGINAL designs)
-- Trending kid interests
+function getTodayStrategy(): Strategy {
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) /
+      (1000 * 60 * 60 * 24)
+  );
+  const strategies: Strategy[] = ["seo", "demographic", "creative"];
+  return strategies[dayOfYear % 3];
+}
 
-Rules:
-- Every idea must be an ORIGINAL monster truck design — never copy real trademarked trucks
-- Names must be creative and original (e.g. "Skull Smasher" not "Grave Digger")
-- If inspired by a real truck, note it but create something new
-- Think about what would make a great Pinterest pin
-- Consider seasonal timing (suggest holiday themes 4-6 weeks early)
-- Vary difficulty levels (easy/medium/hard) across suggestions`;
+// =====================================================
+// COLLECTION BRAINSTORMING
+// =====================================================
 
-export interface GeneratedTopic {
+interface CollectionPlan {
+  collectionName: string;
+  collectionSlug: string;
+  collectionDescription: string;
+  collectionType: "truck-type" | "difficulty" | "age-range" | "theme";
+  isNewCollection: boolean;
+  existingCategoryId?: string;
+  pages: GeneratedTopic[];
+}
+
+interface GeneratedTopic {
   title: string;
   slug: string;
   description: string;
@@ -42,66 +55,123 @@ export interface GeneratedTopic {
   imagenPrompt: string;
   difficulty: "easy" | "medium" | "hard";
   ageRange: "2-4" | "4-6" | "6-8";
-  categoryIds: string[];
-  inspiration: string;
 }
 
-export async function brainstormTopics(count: number): Promise<GeneratedTopic[]> {
+const COLLECTION_SYSTEM_PROMPT = `You are a creative director for a children's monster truck coloring page website targeting kids ages 2-8 and their parents.
+
+Your job is to plan a THEMED COLLECTION of coloring pages. A collection is a group of 10 related coloring pages that share a theme and will live on one category page.
+
+Rules:
+- Every coloring page must feature a MONSTER TRUCK as the primary subject
+- All designs must be ORIGINAL — never copy real trademarked trucks
+- If inspired by real trucks (Grave Digger, El Toro Loco), create original designs with creative names
+- Mix difficulty levels across the 10 pages: aim for ~3 easy, ~4 medium, ~3 hard
+- Easy = very simple shapes, 5-8 large areas to color, thick outlines, minimal detail
+- Medium = moderate detail, 10-20 areas, some accessories
+- Hard = lots of detail, patterns, many small areas, complex scenes
+- For easy pages, describe VERY SIMPLE trucks with minimal elements
+- Think about what makes a great Pinterest collection`;
+
+export async function brainstormCollection(
+  strategy: Strategy,
+  count: number = 10
+): Promise<CollectionPlan> {
   const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
 
   const existingPages = getAllPublishedPages();
   const existingTitles = existingPages.map((p) => p.title).join(", ");
-  const categories = getAllCategories();
-  const categoryList = categories
-    .map((c) => `${c.id}: ${c.name} (${c.type})`)
+  const existingCategories = getAllCategories();
+  const categoryList = existingCategories
+    .map((c) => `${c.id}: ${c.name} (${c.type}) — ${c.pageCount || 0} pages`)
     .join("\n");
 
   const today = new Date();
   const month = today.toLocaleString("en-US", { month: "long" });
   const upcomingHolidays = getUpcomingHolidays(today);
 
+  const strategyInstructions = {
+    seo: `TODAY'S STRATEGY: SEO-TARGETED COLLECTION
+Pick a collection theme based on what parents would actually search for on Google. Think about Google autocomplete phrases like:
+- "[animal] monster truck coloring pages" (alligator, shark, dinosaur, dragon)
+- "[theme] monster truck coloring pages" (fire, ice, jungle, ocean, space)
+- "monster truck [action] coloring pages" (jumping, crushing, racing, mud)
+- "[holiday] monster truck coloring pages" (if a holiday is coming up)
+The collection name should read naturally as a search query. For example: "Dinosaur Monster Truck Coloring Pages" or "Monster Truck Racing Coloring Pages".`,
+
+    demographic: `TODAY'S STRATEGY: DEMOGRAPHIC-TARGETED COLLECTION
+Pick a collection theme targeting a specific age group or audience. Examples:
+- "Easy Monster Truck Coloring Pages for Toddlers" (ages 2-3, VERY simple)
+- "Monster Truck Coloring Pages for Kindergarten" (ages 4-5, moderate)
+- "Detailed Monster Truck Coloring Pages for Big Kids" (ages 6-8, complex)
+- "Monster Truck Coloring Pages for Girls" (fun colors, flowers + trucks, unicorn trucks)
+- "Simple Monster Truck Coloring Pages for Preschool"
+The collection should have ALL pages at the appropriate difficulty for that audience.`,
+
+    creative: `TODAY'S STRATEGY: NOVEL CREATIVE COLLECTION
+Come up with something totally unique and fun that no keyword research would surface:
+- "Monster Trucks in Space" (trucks on the moon, Mars, floating in zero-G)
+- "Monster Truck Food Trucks" (taco truck, ice cream truck, pizza truck — all monster-sized)
+- "Baby Monster Trucks" (cute small trucks with big eyes)
+- "Monster Trucks Through History" (medieval, pirate ship, wild west)
+- "Monster Truck Mashups" (half truck half animal combos)
+- Seasonal: if a holiday is within 6 weeks, do a themed collection
+Think about what would make a kid say "WHOA COOL!" and a parent share on Pinterest.`,
+  };
+
   const response = await anthropic.messages.create({
     model: "claude-sonnet-4-20250514",
-    max_tokens: 4096,
-    system: TOPIC_SYSTEM_PROMPT,
+    max_tokens: 8192,
+    system: COLLECTION_SYSTEM_PROMPT,
     messages: [
       {
         role: "user",
-        content: `Generate ${count} new monster truck coloring page ideas.
+        content: `Plan a collection of ${count} monster truck coloring pages.
+
+${strategyInstructions[strategy]}
 
 Current month: ${month}
 Upcoming holidays/events: ${upcomingHolidays}
 
-We already have these pages (don't repeat): ${existingTitles}
+Existing pages (don't duplicate these): ${existingTitles}
 
-Available categories:
+Existing collections:
 ${categoryList}
 
-For each idea, respond in this exact JSON array format:
-[
-  {
-    "title": "Creative Page Title",
-    "slug": "creative-page-title",
-    "description": "2-3 sentence fun description for kids/parents. Mention what makes this truck special and why kids will love coloring it.",
-    "metaDescription": "SEO meta description under 160 chars with 'free printable' and 'coloring page'",
-    "altText": "Descriptive alt text for the black and white coloring page image",
-    "imagenPrompt": "Detailed prompt for image generation (the monster truck design, pose, any accessories — but NOT the style instructions, those get added automatically)",
-    "difficulty": "easy|medium|hard",
-    "ageRange": "2-4|4-6|6-8",
-    "categoryIds": ["cat-id-1", "cat-id-2"],
-    "inspiration": "What inspired this idea (seasonal trend, kid trope mashup, fan-inspired, etc.)"
-  }
-]
+You can either:
+A) Add pages to an existing collection that needs more content (look for ones with few pages)
+B) Create a brand new collection
 
-Return ONLY the JSON array, no other text.`,
+Respond in this exact JSON format:
+{
+  "collectionName": "Name for the collection page (should include 'coloring pages' if it doesn't already — this becomes the H1)",
+  "collectionSlug": "url-slug-for-collection",
+  "collectionDescription": "SEO-rich description for the collection page. 2-3 sentences explaining what these coloring pages are, who they're for, and why kids love them. Must mention 'free printable coloring pages' and 'monster truck'.",
+  "collectionType": "truck-type|difficulty|age-range|theme",
+  "isNewCollection": true/false,
+  "existingCategoryId": "cat-id if adding to existing, omit if new",
+  "pages": [
+    {
+      "title": "Creative Page Title",
+      "slug": "url-slug",
+      "description": "2-3 sentence fun description for kids/parents.",
+      "metaDescription": "SEO meta description under 160 chars with 'free printable' and 'coloring page'",
+      "altText": "Descriptive alt text for the black and white coloring page image",
+      "imagenPrompt": "Detailed prompt for the monster truck design, pose, accessories. For EASY pages say: very simple monster truck, only 5-6 large shapes, extra thick outlines, no small details. For MEDIUM: moderate detail monster truck. For HARD: detailed monster truck with patterns and accessories.",
+      "difficulty": "easy|medium|hard",
+      "ageRange": "2-4|4-6|6-8"
+    }
+  ]
+}
+
+Return ONLY the JSON, no other text.`,
       },
     ],
   });
 
   const text =
     response.content[0].type === "text" ? response.content[0].text : "";
-  const jsonMatch = text.match(/\[[\s\S]*\]/);
-  if (!jsonMatch) throw new Error("Failed to parse topic ideas from Claude");
+  const jsonMatch = text.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) throw new Error("Failed to parse collection plan from Claude");
 
   return JSON.parse(jsonMatch[0]);
 }
@@ -136,7 +206,9 @@ function getUpcomingHolidays(now: Date): string {
   return upcoming.length > 0 ? upcoming.join(", ") : "None within 60 days";
 }
 
-// --- Image Generation + QC ---
+// =====================================================
+// IMAGE GENERATION + QC
+// =====================================================
 
 const BASE_IMAGEN_PROMPT =
   "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, white background. The complete subject should be fully visible in the image.";
@@ -163,7 +235,9 @@ async function generateImage(prompt: string): Promise<Buffer> {
   return Buffer.from(data.predictions[0].bytesBase64Encoded, "base64");
 }
 
-async function qcImage(imagePath: string): Promise<{ pass: boolean; score: number; issues: string[] }> {
+async function qcImage(
+  imagePath: string
+): Promise<{ pass: boolean; score: number; issues: string[] }> {
   const imageData = fs.readFileSync(imagePath);
   const base64 = imageData.toString("base64");
 
@@ -192,7 +266,14 @@ Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: qcPrompt }, { inlineData: { mimeType: "image/png", data: base64 } }] }],
+      contents: [
+        {
+          parts: [
+            { text: qcPrompt },
+            { inlineData: { mimeType: "image/png", data: base64 } },
+          ],
+        },
+      ],
       generationConfig: { temperature: 0.1, maxOutputTokens: 1024 },
     }),
   });
@@ -200,10 +281,13 @@ Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass
   if (!res.ok) throw new Error(`QC API error: ${res.status}`);
 
   const data = await res.json();
-  const text = data.candidates[0].content.parts.map((p: { text?: string }) => p.text || "").join("");
+  const text = data.candidates[0].content.parts
+    .map((p: { text?: string }) => p.text || "")
+    .join("");
   const cleaned = text.replace(/```json\s*/g, "").replace(/```\s*/g, "");
   const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) return { pass: false, score: 0, issues: ["Could not parse QC"] };
+  if (!jsonMatch)
+    return { pass: false, score: 0, issues: ["Could not parse QC"] };
 
   const result = JSON.parse(jsonMatch[0]);
   return {
@@ -214,16 +298,12 @@ Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass
 }
 
 function applyFrame(imagePath: string) {
-  // Frame the artwork inside a decorative border — guarantees nothing is cut off.
-  // The frame shrinks the artwork and places it inside a rounded rectangle border
-  // with a watermark below. This replaces edge checking entirely.
   const frameScript = path.join(process.cwd(), "scripts", "frame-image.py");
   try {
     execSync(`python3 "${frameScript}" "${imagePath}"`, {
       encoding: "utf-8",
       timeout: 30000,
     });
-    console.log("[autopilot] Frame applied");
   } catch (err) {
     console.log(`[autopilot] Frame failed: ${err}`);
   }
@@ -245,179 +325,212 @@ function gradeDifficulty(imagePath: string): {
       ageRange: data.ageRange as "2-4" | "4-6" | "6-8",
     };
   } catch {
-    // Default to medium if grading fails
     return { difficulty: "medium", ageRange: "4-6" };
   }
 }
 
-
-// --- Full Pipeline ---
+// =====================================================
+// COLLECTION PUBLISHING PIPELINE
+// =====================================================
 
 export interface PipelineResult {
   success: boolean;
-  page?: ColoringPage;
-  topic?: GeneratedTopic;
+  collectionName?: string;
+  collectionSlug?: string;
+  isNewCollection?: boolean;
+  strategy?: Strategy;
+  pagesPublished: number;
+  pagesFailed: number;
+  pages: {
+    title: string;
+    slug: string;
+    success: boolean;
+    qcAttempts?: number;
+    qcScore?: number;
+    difficulty?: string;
+    error?: string;
+  }[];
   error?: string;
-  qcAttempts?: number;
-  qcScore?: number;
 }
 
-export async function generateAndPublishPage(): Promise<PipelineResult> {
-  // Step 1: Brainstorm a topic
-  console.log("[autopilot] Brainstorming topic...");
-  let topics: GeneratedTopic[];
+export async function runDailyPipeline(
+  pageCount: number = 10
+): Promise<PipelineResult> {
+  const strategy = getTodayStrategy();
+  console.log(
+    `[autopilot] === Daily Pipeline: strategy=${strategy}, pages=${pageCount} ===`
+  );
+
+  // Step 1: Brainstorm collection
+  console.log("[autopilot] Brainstorming collection...");
+  let plan: CollectionPlan;
   try {
-    topics = await brainstormTopics(3); // Generate 3, pick the best
+    plan = await brainstormCollection(strategy, pageCount);
   } catch (err) {
-    return { success: false, error: `Topic brainstorm failed: ${err}` };
-  }
-
-  if (topics.length === 0) {
-    return { success: false, error: "No topics generated" };
-  }
-
-  // Pick the first viable topic
-  const existingSlugs = new Set(getAllPublishedPages().map((p) => p.slug));
-  const topic = topics.find((t) => !existingSlugs.has(t.slug)) || topics[0];
-
-  // Dedupe slug if needed
-  if (existingSlugs.has(topic.slug)) {
-    topic.slug = `${topic.slug}-${Date.now().toString(36)}`;
-  }
-
-  console.log(`[autopilot] Topic: ${topic.title}`);
-
-  // Step 2: Generate image with QC loop
-  const imageName = topic.slug;
-  const imagePath = path.join(IMAGES_DIR, `${imageName}.png`);
-  const thumbPath = path.join(IMAGES_DIR, `${imageName}-thumb.png`);
-
-  let qcPassed = false;
-  let attempts = 0;
-  let lastScore = 0;
-  const maxAttempts = 5;
-
-  while (!qcPassed && attempts < maxAttempts) {
-    attempts++;
-    console.log(`[autopilot] Generating image (attempt ${attempts})...`);
-
-    try {
-      const imageBuffer = await generateImage(topic.imagenPrompt);
-      fs.writeFileSync(imagePath, imageBuffer);
-      fs.writeFileSync(thumbPath, imageBuffer);
-    } catch (err) {
-      console.log(`[autopilot] Image generation failed: ${err}`);
-      continue;
-    }
-
-    // QC check
-    try {
-      const qc = await qcImage(imagePath);
-      lastScore = qc.score;
-      console.log(`[autopilot] QC score: ${qc.score}/10 ${qc.pass ? "PASS" : "FAIL"}`);
-
-      if (qc.pass) {
-        qcPassed = true;
-      }
-    } catch (err) {
-      console.log(`[autopilot] QC check failed: ${err}`);
-    }
-  }
-
-  if (!qcPassed) {
-    // Clean up failed images
-    try { fs.unlinkSync(imagePath); } catch {}
-    try { fs.unlinkSync(thumbPath); } catch {}
     return {
       success: false,
-      topic,
-      error: `Image QC failed after ${maxAttempts} attempts (best score: ${lastScore})`,
-      qcAttempts: attempts,
-      qcScore: lastScore,
+      strategy,
+      pagesPublished: 0,
+      pagesFailed: 0,
+      pages: [],
+      error: `Brainstorm failed: ${err}`,
     };
   }
 
-  // Step 3: Grade difficulty from actual image (not Claude's guess)
-  console.log("[autopilot] Grading difficulty...");
-  const { difficulty, ageRange } = gradeDifficulty(imagePath);
-  console.log(`[autopilot] Difficulty: ${difficulty} (${ageRange})`);
+  console.log(
+    `[autopilot] Collection: "${plan.collectionName}" (${plan.isNewCollection ? "NEW" : "existing"})`
+  );
+  console.log(`[autopilot] Pages planned: ${plan.pages.length}`);
 
-  // Step 4: Frame the artwork (border + watermark — guarantees nothing cut off)
-  console.log("[autopilot] Framing artwork...");
-  applyFrame(imagePath);
-  fs.copyFileSync(imagePath, thumbPath);
+  // Step 2: Create or find the category
+  let categoryId: string;
+  if (plan.isNewCollection || !plan.existingCategoryId) {
+    categoryId = `cat-${plan.collectionSlug}`;
+    const newCategory: Category = {
+      id: categoryId,
+      slug: plan.collectionSlug,
+      name: plan.collectionName,
+      description: plan.collectionDescription,
+      type: plan.collectionType || "theme",
+    };
 
-  // Step 5: Create the page entry
-  const now = new Date().toISOString();
-  const today = now.split("T")[0];
-  const pageId = `page-${uuid().slice(0, 8)}`;
+    const catRaw = fs.readFileSync(CATEGORIES_FILE, "utf-8");
+    const cats: Category[] = JSON.parse(catRaw);
+    if (!cats.find((c) => c.id === categoryId)) {
+      cats.push(newCategory);
+      fs.writeFileSync(CATEGORIES_FILE, JSON.stringify(cats, null, 2));
+      console.log(`[autopilot] Created new category: ${plan.collectionName}`);
+    }
+  } else {
+    categoryId = plan.existingCategoryId;
+  }
 
-  const newPage: ColoringPage = {
-    id: pageId,
-    slug: topic.slug,
-    title: topic.title,
-    description: topic.description,
-    metaDescription: topic.metaDescription,
-    altText: topic.altText,
-    imagePath: `/images/coloring-pages/${imageName}.png`,
-    thumbnailPath: `/images/coloring-pages/${imageName}-thumb.png`,
-    categoryIds: topic.categoryIds,
-    difficulty,
-    ageRange,
-    status: "published",
-    featured: false,
-    publishDate: today,
-    createdAt: now,
-    updatedAt: now,
-  };
+  // Step 3: Generate each page
+  const results: PipelineResult["pages"] = [];
+  const existingSlugs = new Set(getAllPublishedPages().map((p) => p.slug));
 
-  // Step 5: Add any new categories if needed
-  ensureCategoriesExist(topic.categoryIds);
+  for (let i = 0; i < plan.pages.length; i++) {
+    const topic = plan.pages[i];
+    console.log(
+      `\n[autopilot] Page ${i + 1}/${plan.pages.length}: ${topic.title}`
+    );
 
-  // Step 6: Save to data file
-  const pagesRaw = fs.readFileSync(PAGES_FILE, "utf-8");
-  const pages = JSON.parse(pagesRaw);
-  pages.push(newPage);
-  fs.writeFileSync(PAGES_FILE, JSON.stringify(pages, null, 2));
+    // Dedupe slug
+    let slug = topic.slug;
+    if (existingSlugs.has(slug)) {
+      slug = `${slug}-${Date.now().toString(36)}`;
+    }
+    existingSlugs.add(slug);
 
-  console.log(`[autopilot] Published: ${topic.title} (${topic.slug})`);
+    const imagePath = path.join(IMAGES_DIR, `${slug}.png`);
+    const thumbPath = path.join(IMAGES_DIR, `${slug}-thumb.png`);
+
+    // Generate image with QC
+    let qcPassed = false;
+    let attempts = 0;
+    let lastScore = 0;
+    const maxAttempts = 5;
+
+    while (!qcPassed && attempts < maxAttempts) {
+      attempts++;
+      try {
+        const imageBuffer = await generateImage(topic.imagenPrompt);
+        fs.writeFileSync(imagePath, imageBuffer);
+      } catch (err) {
+        console.log(`[autopilot] Image gen failed: ${err}`);
+        continue;
+      }
+
+      try {
+        const qc = await qcImage(imagePath);
+        lastScore = qc.score;
+        console.log(
+          `[autopilot]   QC attempt ${attempts}: ${qc.score}/10 ${qc.pass ? "PASS" : "FAIL"}`
+        );
+        if (qc.pass) qcPassed = true;
+      } catch (err) {
+        console.log(`[autopilot]   QC error: ${err}`);
+      }
+    }
+
+    if (!qcPassed) {
+      try { fs.unlinkSync(imagePath); } catch {}
+      results.push({
+        title: topic.title,
+        slug,
+        success: false,
+        qcAttempts: attempts,
+        qcScore: lastScore,
+        error: `QC failed after ${maxAttempts} attempts`,
+      });
+      continue;
+    }
+
+    // Grade difficulty from actual image
+    const { difficulty, ageRange } = gradeDifficulty(imagePath);
+
+    // Apply frame (border + watermark)
+    applyFrame(imagePath);
+    fs.copyFileSync(imagePath, thumbPath);
+
+    // Save page entry
+    const now = new Date().toISOString();
+    const today = now.split("T")[0];
+    const pageId = `page-${uuid().slice(0, 8)}`;
+
+    const newPage: ColoringPage = {
+      id: pageId,
+      slug,
+      title: topic.title,
+      description: topic.description,
+      metaDescription: topic.metaDescription,
+      altText: topic.altText,
+      imagePath: `/images/coloring-pages/${slug}.png`,
+      thumbnailPath: `/images/coloring-pages/${slug}-thumb.png`,
+      categoryIds: [categoryId],
+      difficulty,
+      ageRange,
+      status: "published",
+      featured: false,
+      publishDate: today,
+      createdAt: now,
+      updatedAt: now,
+    };
+
+    const pagesRaw = fs.readFileSync(PAGES_FILE, "utf-8");
+    const pages = JSON.parse(pagesRaw);
+    pages.push(newPage);
+    fs.writeFileSync(PAGES_FILE, JSON.stringify(pages, null, 2));
+
+    console.log(
+      `[autopilot]   Published: ${topic.title} (${difficulty}, ${ageRange})`
+    );
+
+    results.push({
+      title: topic.title,
+      slug,
+      success: true,
+      qcAttempts: attempts,
+      qcScore: lastScore,
+      difficulty,
+    });
+  }
+
+  const published = results.filter((r) => r.success).length;
+  const failed = results.filter((r) => !r.success).length;
+
+  console.log(
+    `\n[autopilot] === Done: ${published} published, ${failed} failed ===`
+  );
 
   return {
-    success: true,
-    page: newPage,
-    topic,
-    qcAttempts: attempts,
-    qcScore: lastScore,
+    success: published > 0,
+    collectionName: plan.collectionName,
+    collectionSlug: plan.collectionSlug,
+    isNewCollection: plan.isNewCollection,
+    strategy,
+    pagesPublished: published,
+    pagesFailed: failed,
+    pages: results,
   };
-}
-
-function ensureCategoriesExist(categoryIds: string[]) {
-  const raw = fs.readFileSync(CATEGORIES_FILE, "utf-8");
-  const categories: Category[] = JSON.parse(raw);
-  const existingIds = new Set(categories.map((c) => c.id));
-
-  // Only existing categories are allowed — don't create phantom ones
-  const valid = categoryIds.filter((id) => existingIds.has(id));
-  if (valid.length < categoryIds.length) {
-    console.log(
-      `[autopilot] Warning: some category IDs don't exist: ${categoryIds.filter((id) => !existingIds.has(id)).join(", ")}`
-    );
-  }
-}
-
-// Run N pages in sequence
-export async function runPipeline(count: number = 1): Promise<PipelineResult[]> {
-  const results: PipelineResult[] = [];
-
-  for (let i = 0; i < count; i++) {
-    console.log(`\n[autopilot] === Generating page ${i + 1}/${count} ===`);
-    const result = await generateAndPublishPage();
-    results.push(result);
-
-    if (!result.success) {
-      console.log(`[autopilot] Failed: ${result.error}`);
-    }
-  }
-
-  return results;
 }

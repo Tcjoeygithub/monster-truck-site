@@ -26,22 +26,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!category) return {};
 
   const pageUrl = `${siteUrl}/category/${category.slug}`;
+  const seoName = category.name.toLowerCase().includes("coloring")
+    ? category.name
+    : `${category.name} Coloring Pages`;
 
   return {
-    title: `${category.name} - Free Monster Truck Coloring Pages`,
-    description: category.description,
+    title: `Free ${seoName} for Kids | Printable Monster Truck Coloring Sheets`,
+    description: `Free printable ${category.name.toLowerCase()} coloring pages for kids ages 2-8. ${category.description} Download and print for free!`,
     keywords: [
-      category.name.toLowerCase(),
+      `${category.name.toLowerCase()} coloring pages`,
+      `free ${category.name.toLowerCase()} coloring pages`,
       "monster truck coloring pages",
-      "free printable",
+      "free printable coloring pages",
       "coloring pages for kids",
+      "monster truck coloring sheets",
     ],
     alternates: {
       canonical: pageUrl,
     },
     openGraph: {
-      title: `${category.name} - Free Monster Truck Coloring Pages`,
-      description: category.description,
+      title: `Free ${seoName} for Kids - Monster Truck Coloring Sheets`,
+      description: `Free printable ${category.name.toLowerCase()} coloring pages for kids ages 2-8. ${category.description}`,
       url: pageUrl,
       siteName: "Free Monster Truck Coloring Pages",
       locale: "en_US",
@@ -118,11 +123,30 @@ export default function CategoryPage({ params }: Props) {
         />
 
         <h1 className="font-[var(--font-display)] text-3xl md:text-4xl font-bold text-brand-black mb-3">
-          {category.name}
+          {category.name.toLowerCase().includes("coloring")
+            ? category.name
+            : `${category.name} Coloring Pages`}
         </h1>
-        <p className="text-gray-600 text-lg mb-8 max-w-3xl">
+        <p className="text-gray-600 text-lg mb-4 max-w-3xl">
           {category.description}
         </p>
+        <div className="text-gray-500 text-sm mb-8 max-w-3xl leading-relaxed">
+          <p>
+            Browse our free printable {category.name.toLowerCase()} coloring
+            pages for kids. Every coloring page features bold, clean outlines
+            designed for children ages 2&ndash;8. Click any image to print or
+            download for free &mdash; no signup required. We add new{" "}
+            {category.name.toLowerCase()} coloring pages regularly, so check
+            back often!
+          </p>
+          {pages.length > 0 && (
+            <p className="mt-2">
+              This collection currently has{" "}
+              <strong>{pages.length} free coloring page{pages.length !== 1 ? "s" : ""}</strong>{" "}
+              ready to print.
+            </p>
+          )}
+        </div>
 
         {pages.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
