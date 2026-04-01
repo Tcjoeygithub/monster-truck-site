@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ColoringPage {
   id: string;
@@ -120,6 +121,12 @@ export default function AdminPage() {
           Admin Dashboard
         </h1>
         <div className="flex gap-3">
+          <Link
+            href="/admin/topics"
+            className="bg-brand-orange hover:bg-brand-orange-dark text-white font-medium py-2 px-4 rounded-lg transition-colors text-sm"
+          >
+            Keyword Research
+          </Link>
           <button
             onClick={loadPages}
             className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium py-2 px-4 rounded-lg transition-colors text-sm"
