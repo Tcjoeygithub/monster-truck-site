@@ -8,7 +8,11 @@
     "altText": "Black and white coloring page of Skull Crusher monster truck with skull design on hood and large spiked tires",
     "imagePath": "/images/coloring-pages/skull-crusher.png",
     "thumbnailPath": "/images/coloring-pages/skull-crusher-thumb.png",
-    "categoryIds": ["cat-crusher", "cat-skeleton", "cat-easy"],
+    "categoryIds": [
+      "cat-crusher",
+      "cat-skeleton",
+      "cat-easy"
+    ],
     "difficulty": "easy",
     "ageRange": "2-4",
     "status": "published",
@@ -26,7 +30,11 @@
     "altText": "Black and white coloring page of Dirt Rampage monster truck racing through mud with dirt flying",
     "imagePath": "/images/coloring-pages/dirt-rampage.png",
     "thumbnailPath": "/images/coloring-pages/dirt-rampage-thumb.png",
-    "categoryIds": ["cat-mud", "cat-racing", "cat-medium"],
+    "categoryIds": [
+      "cat-mud",
+      "cat-racing",
+      "cat-medium"
+    ],
     "difficulty": "medium",
     "ageRange": "4-6",
     "status": "published",
@@ -44,7 +52,11 @@
     "altText": "Black and white coloring page of Bone Rattler monster truck doing a backflip in the air with bone-themed design",
     "imagePath": "/images/coloring-pages/bone-rattler.png",
     "thumbnailPath": "/images/coloring-pages/bone-rattler-thumb.png",
-    "categoryIds": ["cat-freestyle", "cat-skeleton", "cat-hard"],
+    "categoryIds": [
+      "cat-freestyle",
+      "cat-skeleton",
+      "cat-hard"
+    ],
     "difficulty": "hard",
     "ageRange": "6-8",
     "status": "published",
@@ -62,7 +74,11 @@
     "altText": "Black and white coloring page of Thunder Flame monster truck with flame designs racing on a track",
     "imagePath": "/images/coloring-pages/thunder-flame.png",
     "thumbnailPath": "/images/coloring-pages/thunder-flame-thumb.png",
-    "categoryIds": ["cat-racing", "cat-flame", "cat-medium"],
+    "categoryIds": [
+      "cat-racing",
+      "cat-flame",
+      "cat-medium"
+    ],
     "difficulty": "medium",
     "ageRange": "4-6",
     "status": "published",
@@ -80,7 +96,11 @@
     "altText": "Black and white coloring page of Mega Stomp Bigfoot-style monster truck with enormous tires crushing a car",
     "imagePath": "/images/coloring-pages/mega-stomp.png",
     "thumbnailPath": "/images/coloring-pages/mega-stomp-thumb.png",
-    "categoryIds": ["cat-bigfoot", "cat-crusher", "cat-easy"],
+    "categoryIds": [
+      "cat-bigfoot",
+      "cat-crusher",
+      "cat-easy"
+    ],
     "difficulty": "easy",
     "ageRange": "2-4",
     "status": "published",
@@ -98,7 +118,11 @@
     "altText": "Black and white coloring page of Night Terror monster truck with glowing eyes and menacing design",
     "imagePath": "/images/coloring-pages/night-terror.png",
     "thumbnailPath": "/images/coloring-pages/night-terror-thumb.png",
-    "categoryIds": ["cat-freestyle", "cat-skeleton", "cat-medium"],
+    "categoryIds": [
+      "cat-freestyle",
+      "cat-skeleton",
+      "cat-medium"
+    ],
     "difficulty": "medium",
     "ageRange": "4-6",
     "status": "published",
@@ -106,5 +130,26 @@
     "publishDate": "2026-03-30",
     "createdAt": "2026-03-30T00:00:00Z",
     "updatedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "page-407e7e93",
+    "slug": "easter-egg-hunter-monster-truck",
+    "title": "Easter Egg Hunter Monster Truck",
+    "description": "This adorable monster truck is ready for the ultimate Easter egg hunt! With a giant basket on top and colorful Easter eggs scattered around its massive wheels, kids will love adding bright spring colors to this festive truck. Perfect for celebrating Easter with high-octane fun!",
+    "metaDescription": "Free printable Easter monster truck coloring page! Kids love this egg-hunting truck with basket and Easter eggs. Download now!",
+    "altText": "Black and white coloring page of a monster truck with Easter basket on top, surrounded by Easter eggs and spring flowers",
+    "imagePath": "/images/coloring-pages/easter-egg-hunter-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easter-egg-hunter-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy",
+      "cat-bigfoot"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-01",
+    "createdAt": "2026-04-01T11:46:52.581Z",
+    "updatedAt": "2026-04-01T11:46:52.581Z"
   }
 ]
