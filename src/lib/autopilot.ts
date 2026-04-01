@@ -214,6 +214,27 @@ function pixelEdgeCheck(imagePath: string): boolean {
   }
 }
 
+function gradeDifficulty(imagePath: string): {
+  difficulty: "easy" | "medium" | "hard";
+  ageRange: "2-4" | "4-6" | "6-8";
+} {
+  const gradeScript = path.join(process.cwd(), "scripts", "grade-difficulty.py");
+  try {
+    const result = execSync(`python3 "${gradeScript}" "${imagePath}"`, {
+      encoding: "utf-8",
+      timeout: 30000,
+    }).trim();
+    const data = JSON.parse(result);
+    return {
+      difficulty: data.grade as "easy" | "medium" | "hard",
+      ageRange: data.ageRange as "2-4" | "4-6" | "6-8",
+    };
+  } catch {
+    // Default to medium if grading fails
+    return { difficulty: "medium", ageRange: "4-6" };
+  }
+}
+
 function resizeForPrint(imagePath: string) {
   try {
     execSync(`sips --resampleWidth 1200 --resampleHeight 1575 "${imagePath}" 2>/dev/null`);
@@ -327,13 +348,18 @@ export async function generateAndPublishPage(): Promise<PipelineResult> {
     };
   }
 
-  // Step 3: Print-fit resize + watermark
+  // Step 3: Grade difficulty from actual image (not Claude's guess)
+  console.log("[autopilot] Grading difficulty...");
+  const { difficulty, ageRange } = gradeDifficulty(imagePath);
+  console.log(`[autopilot] Difficulty: ${difficulty} (${ageRange})`);
+
+  // Step 4: Print-fit resize + watermark
   console.log("[autopilot] Resizing and watermarking...");
   resizeForPrint(imagePath);
   fs.copyFileSync(imagePath, thumbPath);
   applyWatermark(imageName);
 
-  // Step 4: Create the page entry
+  // Step 5: Create the page entry
   const now = new Date().toISOString();
   const today = now.split("T")[0];
   const pageId = `page-${uuid().slice(0, 8)}`;
@@ -348,8 +374,8 @@ export async function generateAndPublishPage(): Promise<PipelineResult> {
     imagePath: `/images/coloring-pages/${imageName}.png`,
     thumbnailPath: `/images/coloring-pages/${imageName}-thumb.png`,
     categoryIds: topic.categoryIds,
-    difficulty: topic.difficulty,
-    ageRange: topic.ageRange,
+    difficulty,
+    ageRange,
     status: "published",
     featured: false,
     publishDate: today,
