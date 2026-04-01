@@ -198,40 +198,19 @@ async function qcImage(imagePath: string): Promise<{ pass: boolean; score: numbe
 function pixelEdgeCheck(imagePath: string): boolean {
   const pyScript = path.join(process.cwd(), "scripts", "edge-check.py");
 
-  // Create a minimal edge check script if it doesn't exist
-  if (!fs.existsSync(pyScript)) {
-    fs.writeFileSync(pyScript, `
-import sys, json
-from PIL import Image
-
-img = Image.open(sys.argv[1]).convert("L")
-w, h = img.size
-# Downscale for speed
-img = img.resize((200, int(200 * h / w)))
-w, h = img.size
-mx, my = max(int(w * 0.05), 3), max(int(h * 0.05), 3)
-edges = {
-    "top": [(x, y) for y in range(my) for x in range(w)],
-    "bottom": [(x, y) for y in range(h - my, h) for x in range(w)],
-    "left": [(x, y) for x in range(mx) for y in range(h)],
-    "right": [(x, y) for x in range(w - mx, w) for y in range(h)],
-}
-for name, pixels in edges.items():
-    dark = sum(1 for x, y in pixels if img.getpixel((x, y)) < 128)
-    if dark / len(pixels) > 0.03:
-        print(f"FAIL:{name}")
-        sys.exit(1)
-print("PASS")
-`);
-  }
-
   try {
-    const result = execSync(`python3 "${pyScript}" "${imagePath}"`, {
+    // Run with --fix: if edges have content, auto-shrink to 75% with white padding
+    const result = execSync(`python3 "${pyScript}" "${imagePath}" --fix`, {
       encoding: "utf-8",
-      timeout: 15000,
+      timeout: 30000,
     }).trim();
-    return result === "PASS";
-  } catch {
+    const lines = result.split("\n");
+    const lastLine = lines[lines.length - 1];
+    console.log(`[autopilot] Edge check: ${result.replace(/\n/g, " | ")}`);
+    return lastLine === "PASS" || lastLine === "PASS_AFTER_FIX";
+  } catch (err) {
+    const output = err instanceof Error && "stdout" in err ? String((err as { stdout: unknown }).stdout) : "";
+    console.log(`[autopilot] Edge check failed: ${output}`);
     return false;
   }
 }
@@ -301,7 +280,7 @@ export async function generateAndPublishPage(): Promise<PipelineResult> {
   let qcPassed = false;
   let attempts = 0;
   let lastScore = 0;
-  const maxAttempts = 3;
+  const maxAttempts = 5;
 
   while (!qcPassed && attempts < maxAttempts) {
     attempts++;
