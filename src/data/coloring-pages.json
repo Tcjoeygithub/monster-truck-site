@@ -132,24 +132,24 @@
     "updatedAt": "2026-03-30T00:00:00Z"
   },
   {
-    "id": "page-407e7e93",
-    "slug": "easter-egg-hunter-monster-truck",
-    "title": "Easter Egg Hunter Monster Truck",
-    "description": "This adorable monster truck is ready for the ultimate Easter egg hunt! With a giant basket on top and colorful Easter eggs scattered around its massive wheels, kids will love adding bright spring colors to this festive truck. Perfect for celebrating Easter with high-octane fun!",
-    "metaDescription": "Free printable Easter monster truck coloring page! Kids love this egg-hunting truck with basket and Easter eggs. Download now!",
-    "altText": "Black and white coloring page of a monster truck with Easter basket on top, surrounded by Easter eggs and spring flowers",
-    "imagePath": "/images/coloring-pages/easter-egg-hunter-monster-truck.png",
-    "thumbnailPath": "/images/coloring-pages/easter-egg-hunter-monster-truck-thumb.png",
+    "id": "page-4f06002b",
+    "slug": "easter-bunny-hop-monster-truck",
+    "title": "Easter Bunny Hop Monster Truck",
+    "description": "This adorable monster truck has fluffy bunny ears on top and is decorated with Easter eggs and carrots! Watch it hop over obstacles just like a real bunny. Kids will love adding bright spring colors to make this the cutest truck on the track.",
+    "metaDescription": "Free printable Easter Bunny Hop Monster Truck coloring page! Perfect spring activity for kids with bunny ears and Easter decorations.",
+    "altText": "Black and white coloring page of a monster truck with bunny ears, Easter egg decorations, and carrot details jumping over an obstacle",
+    "imagePath": "/images/coloring-pages/easter-bunny-hop-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easter-bunny-hop-monster-truck-thumb.png",
     "categoryIds": [
-      "cat-easy",
-      "cat-bigfoot"
+      "cat-freestyle",
+      "cat-medium"
     ],
-    "difficulty": "easy",
-    "ageRange": "2-4",
+    "difficulty": "medium",
+    "ageRange": "4-6",
     "status": "published",
     "featured": false,
     "publishDate": "2026-04-01",
-    "createdAt": "2026-04-01T11:46:52.581Z",
-    "updatedAt": "2026-04-01T11:46:52.581Z"
+    "createdAt": "2026-04-01T12:07:27.833Z",
+    "updatedAt": "2026-04-01T12:07:27.833Z"
   }
 ]

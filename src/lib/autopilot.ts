@@ -139,7 +139,7 @@ function getUpcomingHolidays(now: Date): string {
 // --- Image Generation + QC ---
 
 const BASE_IMAGEN_PROMPT =
-  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, very simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, pure white background, minimal background elements, large colorable areas. CRITICAL FRAMING RULE: The ENTIRE truck must be fully visible inside the image with generous white space margins on ALL four sides. Nothing should be cut off or touch any edge of the image. Leave at least 10% white space padding between the truck and every edge. The truck should be centered in the frame.";
+  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, very simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, pure white background. CRITICAL: Draw the entire subject SMALL, using only about 60% of the canvas, centered in the middle. There MUST be a THICK EMPTY WHITE BORDER around the entire drawing on ALL four sides. Imagine the drawing is a sticker placed in the center of a blank white page — nothing should come anywhere near the edges. Every single element of the drawing (all wheels, the roof, bumpers, accessories, ground elements) must be COMPLETELY visible and FULLY contained well inside the frame. Absolutely nothing should be cut off, cropped, or touching any edge.";
 
 async function generateImage(prompt: string): Promise<Buffer> {
   const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
@@ -196,21 +196,20 @@ async function qcImage(imagePath: string): Promise<{ pass: boolean; score: numbe
 }
 
 function pixelEdgeCheck(imagePath: string): boolean {
+  // If artwork touches/extends past edges, the drawing is INCOMPLETE.
+  // It must be regenerated — shrinking an incomplete drawing is not acceptable.
   const pyScript = path.join(process.cwd(), "scripts", "edge-check.py");
 
   try {
-    // Run with --fix: if edges have content, auto-shrink to 75% with white padding
-    const result = execSync(`python3 "${pyScript}" "${imagePath}" --fix`, {
+    const result = execSync(`python3 "${pyScript}" "${imagePath}"`, {
       encoding: "utf-8",
       timeout: 30000,
     }).trim();
-    const lines = result.split("\n");
-    const lastLine = lines[lines.length - 1];
-    console.log(`[autopilot] Edge check: ${result.replace(/\n/g, " | ")}`);
-    return lastLine === "PASS" || lastLine === "PASS_AFTER_FIX";
+    console.log(`[autopilot] Edge check: ${result}`);
+    return result === "PASS";
   } catch (err) {
     const output = err instanceof Error && "stdout" in err ? String((err as { stdout: unknown }).stdout) : "";
-    console.log(`[autopilot] Edge check failed: ${output}`);
+    console.log(`[autopilot] Edge check FAIL (artwork incomplete, must regenerate): ${output}`);
     return false;
   }
 }

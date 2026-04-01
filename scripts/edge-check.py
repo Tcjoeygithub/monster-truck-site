@@ -1,18 +1,21 @@
 """
-Pixel-level edge cutoff detector + auto-fix.
-Checks outer border strips for dark content.
-If --fix is passed, shrinks the image and adds white padding.
+Pixel-level edge cutoff detector for coloring page artwork.
 
-Usage:
-  python3 scripts/edge-check.py image.png          # check only
-  python3 scripts/edge-check.py image.png --fix     # check + auto-fix if failing
+If dark content is found at ANY edge, the artwork is INCOMPLETE —
+the AI drew something that extends beyond the canvas. This image
+must be REGENERATED, not shrunk.
+
+Exit code 0 = PASS (artwork fully contained with margins)
+Exit code 1 = FAIL (artwork is cut off — MUST regenerate)
+
+Usage: python3 scripts/edge-check.py image.png
 """
 import sys
 from PIL import Image
 
-MARGIN_PERCENT = 8   # Check outer 8% on each side
+MARGIN_PERCENT = 8   # Check outer 8% border strip on each side
 DARK_THRESHOLD = 128
-MAX_DARK_RATIO = 0.02  # 2% tolerance
+MAX_DARK_RATIO = 0.01  # 1% tolerance — very strict
 
 
 def check_edges(img_path):
@@ -42,31 +45,12 @@ def check_edges(img_path):
     return failures
 
 
-def fix_image(img_path):
-    """Shrink image to 75% and center on white canvas — guarantees margins."""
-    img = Image.open(img_path).convert("RGB")
-    w, h = img.size
-
-    new_w = int(w * 0.75)
-    new_h = int(h * 0.75)
-    shrunk = img.resize((new_w, new_h), Image.LANCZOS)
-
-    canvas = Image.new("RGB", (w, h), (255, 255, 255))
-    offset_x = (w - new_w) // 2
-    offset_y = (h - new_h) // 2
-    canvas.paste(shrunk, (offset_x, offset_y))
-    canvas.save(img_path, "PNG")
-
-
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python3 edge-check.py <image.png> [--fix]")
+        print("Usage: python3 edge-check.py <image.png>")
         sys.exit(2)
 
-    img_path = sys.argv[1]
-    do_fix = "--fix" in sys.argv
-
-    failures = check_edges(img_path)
+    failures = check_edges(sys.argv[1])
 
     if not failures:
         print("PASS")
@@ -74,18 +58,4 @@ if __name__ == "__main__":
 
     for name, ratio in failures:
         print(f"FAIL:{name}:{ratio*100:.1f}%")
-
-    if do_fix:
-        print("FIX:shrinking to 75% with white padding")
-        fix_image(img_path)
-        # Re-check after fix
-        failures2 = check_edges(img_path)
-        if not failures2:
-            print("PASS_AFTER_FIX")
-            sys.exit(0)
-        else:
-            for name, ratio in failures2:
-                print(f"STILL_FAIL:{name}:{ratio*100:.1f}%")
-            sys.exit(1)
-
     sys.exit(1)
