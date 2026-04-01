@@ -35,27 +35,6 @@
     "type": "truck-type"
   },
   {
-    "id": "cat-easy",
-    "slug": "easy",
-    "name": "Easy (Ages 2-4)",
-    "description": "Simple designs with thick outlines, perfect for toddlers and preschoolers just learning to color.",
-    "type": "difficulty"
-  },
-  {
-    "id": "cat-medium",
-    "slug": "medium",
-    "name": "Medium (Ages 4-6)",
-    "description": "Moderate detail with fun designs. Great for kids who are getting better at staying in the lines.",
-    "type": "difficulty"
-  },
-  {
-    "id": "cat-hard",
-    "slug": "hard",
-    "name": "Detailed (Ages 6-8)",
-    "description": "More detailed designs for older kids who love a coloring challenge.",
-    "type": "difficulty"
-  },
-  {
     "id": "cat-skeleton",
     "slug": "skeleton-trucks",
     "name": "Skeleton & Skull Trucks",

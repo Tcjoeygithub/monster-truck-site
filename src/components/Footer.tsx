@@ -1,6 +1,19 @@
 import Link from "next/link";
 
-export default function Footer() {
+interface CategoryLink {
+  name: string;
+  slug: string;
+}
+
+interface Props {
+  collections: CategoryLink[];
+}
+
+export default function Footer({ collections }: Props) {
+  // Split collections into columns for display
+  const col1 = collections.slice(0, Math.ceil(collections.length / 2));
+  const col2 = collections.slice(Math.ceil(collections.length / 2));
+
   return (
     <footer className="no-print bg-brand-black text-white mt-16">
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -17,91 +30,47 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Collections - Column 1 */}
           <div>
             <h3 className="text-brand-green font-bold text-lg mb-3">
-              Quick Links
+              Collections
             </h3>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link
-                  href="/"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/categories"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  All Categories
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/easy"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Easy Pages (Ages 2-4)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/medium"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Medium Pages (Ages 4-6)
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/hard"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Detailed Pages (Ages 6-8)
-                </Link>
-              </li>
+              {col1.map((cat) => (
+                <li key={cat.slug}>
+                  <Link
+                    href={`/category/${cat.slug}`}
+                    className="text-gray-400 hover:text-brand-orange transition-colors"
+                  >
+                    {cat.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Categories */}
+          {/* Collections - Column 2 */}
           <div>
             <h3 className="text-brand-green font-bold text-lg mb-3">
-              Popular Categories
+              More Collections
             </h3>
             <ul className="space-y-2 text-sm">
+              {col2.map((cat) => (
+                <li key={cat.slug}>
+                  <Link
+                    href={`/category/${cat.slug}`}
+                    className="text-gray-400 hover:text-brand-orange transition-colors"
+                  >
+                    {cat.name}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <Link
-                  href="/category/bigfoot-style"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
+                  href="/categories"
+                  className="text-brand-orange hover:text-brand-orange-light transition-colors font-semibold"
                 >
-                  Bigfoot Style Trucks
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/car-crushers"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Car Crushers
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/skeleton-trucks"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Skeleton & Skull Trucks
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/category/flame-trucks"
-                  className="text-gray-400 hover:text-brand-orange transition-colors"
-                >
-                  Flame & Fire Trucks
+                  View All Collections →
                 </Link>
               </li>
             </ul>

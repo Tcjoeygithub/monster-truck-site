@@ -181,45 +181,14 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Difficulty Links */}
-        <section className="mt-12 mb-8">
-          <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
-            By Difficulty Level
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Link
-              href="/category/easy"
-              className="bg-brand-green text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
-            >
-              <span className="text-4xl block mb-2">🖍️</span>
-              <span className="font-bold text-lg block">Easy (Ages 2-4)</span>
-              <span className="text-sm text-green-100">
-                Big shapes, simple outlines
-              </span>
-            </Link>
-            <Link
-              href="/category/medium"
-              className="bg-brand-orange text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
-            >
-              <span className="text-4xl block mb-2">✏️</span>
-              <span className="font-bold text-lg block">
-                Medium (Ages 4-6)
-              </span>
-              <span className="text-sm text-orange-100">
-                More detail, more fun
-              </span>
-            </Link>
-            <Link
-              href="/category/hard"
-              className="bg-red-500 text-white rounded-xl p-6 text-center hover:scale-105 transition-transform shadow-md"
-            >
-              <span className="text-4xl block mb-2">🎨</span>
-              <span className="font-bold text-lg block">
-                Detailed (Ages 6-8)
-              </span>
-              <span className="text-sm text-red-100">Challenge accepted!</span>
-            </Link>
-          </div>
+        {/* Browse All Collections CTA */}
+        <section className="mt-12 mb-8 text-center">
+          <Link
+            href="/categories"
+            className="inline-block bg-brand-orange hover:bg-brand-orange-dark text-white font-bold py-4 px-10 rounded-xl text-lg transition-colors shadow-lg"
+          >
+            Browse All Collections →
+          </Link>
         </section>
       </div>
     </>

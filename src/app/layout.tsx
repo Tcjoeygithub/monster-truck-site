@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Analytics from "@/components/Analytics";
+import { getAllCategories } from "@/lib/data";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -99,6 +100,12 @@ export default function RootLayout({
 }>) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
+  // Dynamic collections for nav — auto-updates as new collections are created
+  const collections = getAllCategories().map((c) => ({
+    name: c.name,
+    slug: c.slug,
+  }));
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -166,9 +173,9 @@ export default function RootLayout({
           </noscript>
         )}
         <Analytics />
-        <Header />
+        <Header collections={collections} />
         <main className="flex-1">{children}</main>
-        <Footer />
+        <Footer collections={collections} />
       </body>
     </html>
   );

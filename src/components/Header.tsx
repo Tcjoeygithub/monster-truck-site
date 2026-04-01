@@ -3,23 +3,16 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const categories = [
-  { name: "Bigfoot Style", slug: "bigfoot-style" },
-  { name: "Car Crushers", slug: "car-crushers" },
-  { name: "Racing Trucks", slug: "racing-trucks" },
-  { name: "Freestyle Tricks", slug: "freestyle-tricks" },
-  { name: "Mud Bog Trucks", slug: "mud-bog-trucks" },
-  { name: "Skeleton & Skull", slug: "skeleton-trucks" },
-  { name: "Flame & Fire", slug: "flame-trucks" },
-];
+interface CategoryLink {
+  name: string;
+  slug: string;
+}
 
-const difficultyLinks = [
-  { name: "Easy (Ages 2-4)", slug: "easy" },
-  { name: "Medium (Ages 4-6)", slug: "medium" },
-  { name: "Detailed (Ages 6-8)", slug: "hard" },
-];
+interface Props {
+  collections: CategoryLink[];
+}
 
-export default function Header() {
+export default function Header({ collections }: Props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -39,7 +32,7 @@ export default function Header() {
             </div>
           </Link>
 
-          {/* Desktop Nav */}
+          {/* Desktop Nav - Mega Menu */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
             <Link
               href="/"
@@ -50,7 +43,7 @@ export default function Header() {
 
             <div className="relative group">
               <button className="hover:text-brand-orange transition-colors flex items-center gap-1">
-                By Truck Type
+                Collections
                 <svg
                   className="w-3 h-3"
                   fill="none"
@@ -65,46 +58,28 @@ export default function Header() {
                   />
                 </svg>
               </button>
-              <div className="absolute top-full left-0 mt-1 bg-white text-brand-black rounded-lg shadow-xl py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                {categories.map((cat) => (
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 bg-white text-brand-black rounded-lg shadow-xl py-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50"
+                style={{ minWidth: collections.length > 8 ? "500px" : "240px" }}
+              >
+                <div className={`${collections.length > 8 ? "grid grid-cols-2 gap-x-2" : ""} px-2`}>
+                  {collections.map((cat) => (
+                    <Link
+                      key={cat.slug}
+                      href={`/category/${cat.slug}`}
+                      className="block px-3 py-2 hover:bg-brand-orange hover:text-white transition-colors text-sm rounded"
+                    >
+                      {cat.name}
+                    </Link>
+                  ))}
+                </div>
+                <div className="border-t mt-2 pt-2 px-2">
                   <Link
-                    key={cat.slug}
-                    href={`/category/${cat.slug}`}
-                    className="block px-4 py-2 hover:bg-brand-orange hover:text-white transition-colors text-sm"
+                    href="/categories"
+                    className="block px-3 py-2 text-brand-orange hover:bg-brand-orange hover:text-white transition-colors text-sm rounded font-semibold"
                   >
-                    {cat.name}
+                    View All Collections →
                   </Link>
-                ))}
-              </div>
-            </div>
-
-            <div className="relative group">
-              <button className="hover:text-brand-orange transition-colors flex items-center gap-1">
-                By Age
-                <svg
-                  className="w-3 h-3"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </button>
-              <div className="absolute top-full left-0 mt-1 bg-white text-brand-black rounded-lg shadow-xl py-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
-                {difficultyLinks.map((d) => (
-                  <Link
-                    key={d.slug}
-                    href={`/category/${d.slug}`}
-                    className="block px-4 py-2 hover:bg-brand-orange hover:text-white transition-colors text-sm"
-                  >
-                    {d.name}
-                  </Link>
-                ))}
+                </div>
               </div>
             </div>
 
@@ -112,7 +87,7 @@ export default function Header() {
               href="/categories"
               className="hover:text-brand-orange transition-colors"
             >
-              All Categories
+              All Collections
             </Link>
           </nav>
 
@@ -156,7 +131,7 @@ export default function Header() {
 
         {/* Mobile Nav */}
         {mobileMenuOpen && (
-          <nav className="md:hidden pb-4 border-t border-brand-dark pt-4 space-y-2">
+          <nav className="md:hidden pb-4 border-t border-brand-dark pt-4 space-y-1">
             <Link
               href="/"
               className="block py-2 px-3 rounded hover:bg-brand-dark"
@@ -164,10 +139,10 @@ export default function Header() {
             >
               Home
             </Link>
-            <p className="text-brand-orange font-semibold text-xs uppercase px-3 pt-2">
-              By Truck Type
+            <p className="text-brand-orange font-semibold text-xs uppercase px-3 pt-3 pb-1">
+              Collections
             </p>
-            {categories.map((cat) => (
+            {collections.map((cat) => (
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
@@ -177,25 +152,12 @@ export default function Header() {
                 {cat.name}
               </Link>
             ))}
-            <p className="text-brand-orange font-semibold text-xs uppercase px-3 pt-2">
-              By Age / Difficulty
-            </p>
-            {difficultyLinks.map((d) => (
-              <Link
-                key={d.slug}
-                href={`/category/${d.slug}`}
-                className="block py-2 px-3 rounded hover:bg-brand-dark text-sm"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {d.name}
-              </Link>
-            ))}
             <Link
               href="/categories"
-              className="block py-2 px-3 rounded hover:bg-brand-dark"
+              className="block py-2 px-3 rounded hover:bg-brand-dark text-brand-orange font-semibold text-sm"
               onClick={() => setMobileMenuOpen(false)}
             >
-              All Categories
+              View All Collections →
             </Link>
           </nav>
         )}
