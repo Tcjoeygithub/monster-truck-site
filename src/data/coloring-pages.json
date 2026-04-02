@@ -3,7 +3,7 @@
     "id": "page-001",
     "slug": "skull-crusher-monster-truck",
     "title": "Skull Crusher Monster Truck",
-    "description": "Meet Skull Crusher \u2014 a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
+    "description": "Meet Skull Crusher — a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
     "metaDescription": "Free printable Skull Crusher monster truck coloring page for kids ages 2-8. Bold outlines, easy to color. Download and print for free!",
     "altText": "Black and white coloring page of Skull Crusher monster truck with skull design on hood and large spiked tires",
     "imagePath": "/images/coloring-pages/skull-crusher.png",
@@ -664,5 +664,705 @@
     "publishDate": "2026-04-01",
     "createdAt": "2026-04-01T13:30:12.286Z",
     "updatedAt": "2026-04-01T13:30:12.286Z"
+  },
+  {
+    "id": "page-8c979673",
+    "slug": "swamp-splasher-monster-truck",
+    "title": "Swamp Splasher Monster Truck",
+    "description": "This mighty monster truck is making a huge splash in the swamp! Watch the mud and water fly as this powerful truck charges through the boggy terrain with its giant wheels spinning.",
+    "metaDescription": "Free printable Swamp Splasher monster truck coloring page - perfect for kids who love muddy adventures!",
+    "altText": "Coloring page of a monster truck splashing through a swamp with mud and water spraying around it",
+    "imagePath": "/images/coloring-pages/swamp-splasher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/swamp-splasher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:00:53.913Z",
+    "updatedAt": "2026-04-02T12:00:53.913Z"
+  },
+  {
+    "id": "page-c4787709",
+    "slug": "mud-mountain-climber",
+    "title": "Mud Mountain Climber",
+    "description": "This tough monster truck is climbing up a steep muddy mountain! Its massive tires grip the slippery slope as it powers its way to the top of the muddy hill.",
+    "metaDescription": "Free printable Mud Mountain Climber monster truck coloring page - exciting uphill mud bog adventure!",
+    "altText": "Coloring page of a monster truck climbing up a steep muddy hill with large tires gripping the slope",
+    "imagePath": "/images/coloring-pages/mud-mountain-climber.png",
+    "thumbnailPath": "/images/coloring-pages/mud-mountain-climber-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:01:19.597Z",
+    "updatedAt": "2026-04-02T12:01:19.597Z"
+  },
+  {
+    "id": "page-d67a198d",
+    "slug": "boggy-beast-mudder",
+    "title": "Boggy Beast Mudder",
+    "description": "The Boggy Beast is the king of the mud bog! This awesome monster truck loves getting messy as it charges through deep puddles and sticky mud with its powerful engine roaring.",
+    "metaDescription": "Free printable Boggy Beast monster truck coloring page - muddy bog racing fun for kids!",
+    "altText": "Coloring page of a fierce monster truck called Boggy Beast driving through a muddy bog with splashes",
+    "imagePath": "/images/coloring-pages/boggy-beast-mudder.png",
+    "thumbnailPath": "/images/coloring-pages/boggy-beast-mudder-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:01:34.427Z",
+    "updatedAt": "2026-04-02T12:01:34.427Z"
+  },
+  {
+    "id": "page-4a069180",
+    "slug": "muddy-waters-champion",
+    "title": "Muddy Waters Champion",
+    "description": "This champion monster truck dominates the muddy waters! With its lifted suspension and aggressive tires, it powers through the deepest, muddiest water holes like a true champion.",
+    "metaDescription": "Free printable Muddy Waters Champion monster truck coloring page - championship mud bog action!",
+    "altText": "Coloring page of a champion monster truck driving through muddy water with victory details",
+    "imagePath": "/images/coloring-pages/muddy-waters-champion.png",
+    "thumbnailPath": "/images/coloring-pages/muddy-waters-champion-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:01:48.005Z",
+    "updatedAt": "2026-04-02T12:01:48.005Z"
+  },
+  {
+    "id": "page-14d9a407",
+    "slug": "swamp-king-truck",
+    "title": "Swamp King Truck",
+    "description": "The Swamp King rules all the muddy marshlands! This powerful monster truck has special swamp tires and a snorkel exhaust to help it conquer the wettest, muddiest terrain around.",
+    "metaDescription": "Free printable Swamp King monster truck coloring page - ultimate swamp adventure coloring fun!",
+    "altText": "Coloring page of the Swamp King monster truck with special swamp equipment driving through marshland",
+    "imagePath": "/images/coloring-pages/swamp-king-truck.png",
+    "thumbnailPath": "/images/coloring-pages/swamp-king-truck-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:02:55.607Z",
+    "updatedAt": "2026-04-02T12:02:55.607Z"
+  },
+  {
+    "id": "page-69b87d60",
+    "slug": "bog-hopper-mudslinger",
+    "title": "Bog Hopper Mudslinger",
+    "description": "Watch the Bog Hopper jump and splash through every muddy obstacle! This amazing monster truck can hop over logs and sling mud everywhere with its super-powered wheels.",
+    "metaDescription": "Free printable Bog Hopper monster truck coloring page - jumping through mud bog obstacles!",
+    "altText": "Coloring page of a monster truck jumping over a log in a mud bog with mud flying everywhere",
+    "imagePath": "/images/coloring-pages/bog-hopper-mudslinger.png",
+    "thumbnailPath": "/images/coloring-pages/bog-hopper-mudslinger-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:03:08.406Z",
+    "updatedAt": "2026-04-02T12:03:08.406Z"
+  },
+  {
+    "id": "page-55ae577a",
+    "slug": "quicksand-escape-truck",
+    "title": "Quicksand Escape Truck",
+    "description": "This brave monster truck is making a daring escape from quicksand! Its powerful engine and special tires help it climb out of the sticky, sandy mud trap in this exciting adventure.",
+    "metaDescription": "Free printable Quicksand Escape monster truck coloring page - thrilling mud bog rescue adventure!",
+    "altText": "Coloring page of a monster truck escaping from quicksand with dramatic action and mud effects",
+    "imagePath": "/images/coloring-pages/quicksand-escape-truck.png",
+    "thumbnailPath": "/images/coloring-pages/quicksand-escape-truck-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:03:35.085Z",
+    "updatedAt": "2026-04-02T12:03:35.085Z"
+  },
+  {
+    "id": "page-788f889c",
+    "slug": "ultimate-mud-bog-destroyer",
+    "title": "Ultimate Mud Bog Destroyer",
+    "description": "The Ultimate Mud Bog Destroyer is the most powerful truck in the swamp! With its massive engine, giant wheels, and heavy-duty frame, it can conquer any muddy challenge that comes its way.",
+    "metaDescription": "Free printable Ultimate Mud Bog Destroyer monster truck coloring page - extreme muddy action!",
+    "altText": "Coloring page of an ultimate monster truck with detailed features destroying through a complex mud bog scene",
+    "imagePath": "/images/coloring-pages/ultimate-mud-bog-destroyer.png",
+    "thumbnailPath": "/images/coloring-pages/ultimate-mud-bog-destroyer-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:03:49.782Z",
+    "updatedAt": "2026-04-02T12:03:49.782Z"
+  },
+  {
+    "id": "page-6ba00f15",
+    "slug": "prehistoric-swamp-explorer",
+    "title": "Prehistoric Swamp Explorer",
+    "description": "This amazing monster truck is exploring an ancient prehistoric swamp! It's driving past dinosaur fossils and prehistoric plants while splashing through million-year-old muddy waters.",
+    "metaDescription": "Free printable Prehistoric Swamp Explorer monster truck coloring page - dinosaur mud bog adventure!",
+    "altText": "Coloring page of a monster truck exploring a prehistoric swamp with dinosaur fossils and ancient plants",
+    "imagePath": "/images/coloring-pages/prehistoric-swamp-explorer.png",
+    "thumbnailPath": "/images/coloring-pages/prehistoric-swamp-explorer-thumb.png",
+    "categoryIds": [
+      "cat-mud"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:04:54.594Z",
+    "updatedAt": "2026-04-02T12:04:54.594Z"
+  },
+  {
+    "id": "page-c47a1091",
+    "slug": "sky-walker-jumping-monster-truck",
+    "title": "Sky Walker Jumping Monster Truck",
+    "description": "Watch Sky Walker soar through the air with all four wheels off the ground! This amazing monster truck is performing an incredible jump that will inspire young artists to color this thrilling scene.",
+    "metaDescription": "Free printable Sky Walker jumping monster truck coloring page featuring an epic mid-air stunt perfect for kids who love action.",
+    "altText": "Black and white coloring page of a monster truck called Sky Walker jumping through the air with all four wheels visible and dirt flying behind it",
+    "imagePath": "/images/coloring-pages/sky-walker-jumping-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sky-walker-jumping-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:06:25.353Z",
+    "updatedAt": "2026-04-02T12:06:25.353Z"
+  },
+  {
+    "id": "page-16ccdf8a",
+    "slug": "wheelie-wonder-monster-truck",
+    "title": "Wheelie Wonder Monster Truck",
+    "description": "Wheelie Wonder is showing off by balancing on just its back wheels! This classic freestyle move is perfect for little ones who love seeing monster trucks perform amazing tricks.",
+    "metaDescription": "Free printable Wheelie Wonder monster truck coloring page showing an awesome wheelie stunt that kids will love to color.",
+    "altText": "Black and white coloring page of a monster truck performing a wheelie with front wheels raised high in the air",
+    "imagePath": "/images/coloring-pages/wheelie-wonder-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wheelie-wonder-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:06:54.712Z",
+    "updatedAt": "2026-04-02T12:06:54.712Z"
+  },
+  {
+    "id": "page-a3400e9b",
+    "slug": "backflip-beast-monster-truck",
+    "title": "Backflip Beast Monster Truck",
+    "description": "The incredible Backflip Beast is performing the ultimate freestyle stunt - a complete backflip in mid-air! This challenging design will keep older kids engaged as they color this death-defying trick.",
+    "metaDescription": "Free printable Backflip Beast monster truck coloring page featuring an amazing backflip stunt with lots of exciting details to color.",
+    "altText": "Black and white coloring page of a monster truck performing a backflip in mid-air with detailed mechanical parts and action lines",
+    "imagePath": "/images/coloring-pages/backflip-beast-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/backflip-beast-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:07:08.005Z",
+    "updatedAt": "2026-04-02T12:07:08.005Z"
+  },
+  {
+    "id": "page-d8f788b1",
+    "slug": "stunt-stack-crusher",
+    "title": "Stunt Stack Crusher",
+    "description": "Stunt Stack Crusher is flying over a pile of crushed cars in this epic freestyle jump! The higher the stack, the more exciting the jump for this fearless monster truck.",
+    "metaDescription": "Free printable Stunt Stack Crusher monster truck coloring page showing an epic jump over crushed cars.",
+    "altText": "Black and white coloring page of a monster truck jumping over a stack of crushed cars with detailed scene elements",
+    "imagePath": "/images/coloring-pages/stunt-stack-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/stunt-stack-crusher-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:07:22.349Z",
+    "updatedAt": "2026-04-02T12:07:22.349Z"
+  },
+  {
+    "id": "page-312f304c",
+    "slug": "easy-jumper-monster-truck",
+    "title": "Easy Jumper Monster Truck",
+    "description": "This friendly monster truck is taking a fun little hop! Perfect for toddlers and preschoolers, Easy Jumper shows that even simple jumps can be exciting to color.",
+    "metaDescription": "Free printable Easy Jumper monster truck coloring page with simple jumping action perfect for toddlers and young kids.",
+    "altText": "Black and white coloring page of a simple monster truck with a happy face making a small jump with thick outlines",
+    "imagePath": "/images/coloring-pages/easy-jumper-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easy-jumper-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:07:35.377Z",
+    "updatedAt": "2026-04-02T12:07:35.377Z"
+  },
+  {
+    "id": "page-df64a889",
+    "slug": "ramp-rider-freestyle-truck",
+    "title": "Ramp Rider Freestyle Truck",
+    "description": "Ramp Rider is launching off a massive ramp to perform an amazing freestyle stunt! Kids will love coloring this exciting scene of airborne monster truck action.",
+    "metaDescription": "Free printable Ramp Rider monster truck coloring page featuring a dramatic ramp jump with exciting freestyle action.",
+    "altText": "Black and white coloring page of a monster truck launching off a ramp with detailed stunt action and motion effects",
+    "imagePath": "/images/coloring-pages/ramp-rider-freestyle-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ramp-rider-freestyle-truck-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:07:47.539Z",
+    "updatedAt": "2026-04-02T12:07:47.539Z"
+  },
+  {
+    "id": "page-6028b1bf",
+    "slug": "spinning-thunder-freestyle",
+    "title": "Spinning Thunder Freestyle",
+    "description": "Spinning Thunder is performing a wild spinning jump that will make kids dizzy just looking at it! This advanced freestyle move shows the incredible skills of monster truck drivers.",
+    "metaDescription": "Free printable Spinning Thunder monster truck coloring page with a complex spinning jump stunt full of exciting details.",
+    "altText": "Black and white coloring page of a monster truck performing a spinning aerial maneuver with motion lines and detailed mechanical features",
+    "imagePath": "/images/coloring-pages/spinning-thunder-freestyle.png",
+    "thumbnailPath": "/images/coloring-pages/spinning-thunder-freestyle-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:08:39.233Z",
+    "updatedAt": "2026-04-02T12:08:39.233Z"
+  },
+  {
+    "id": "page-eb0008d5",
+    "slug": "double-jump-master",
+    "title": "Double Jump Master",
+    "description": "Double Jump Master is soaring over two obstacles in one incredible leap! This moderate difficulty page shows an impressive but colorable freestyle stunt that's perfect for elementary school kids.",
+    "metaDescription": "Free printable Double Jump Master monster truck coloring page showing an impressive double obstacle jump perfect for kids.",
+    "altText": "Black and white coloring page of a monster truck jumping over two obstacles with moderate detail and clear outlines",
+    "imagePath": "/images/coloring-pages/double-jump-master.png",
+    "thumbnailPath": "/images/coloring-pages/double-jump-master-thumb.png",
+    "categoryIds": [
+      "cat-freestyle"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:08:52.913Z",
+    "updatedAt": "2026-04-02T12:08:52.913Z"
+  },
+  {
+    "id": "page-816e3481",
+    "slug": "fire-breather-monster-truck",
+    "title": "Fire Breather Monster Truck",
+    "description": "This awesome monster truck has flames shooting from its exhaust pipes! Color the blazing flames red, orange, and yellow to make this truck look super hot and powerful.",
+    "metaDescription": "Free printable Fire Breather Monster Truck coloring page with flames and exhaust. Perfect for kids who love hot rod designs!",
+    "altText": "Black and white coloring page of a monster truck with large flames coming from exhaust pipes and flame decals on the sides",
+    "imagePath": "/images/coloring-pages/fire-breather-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/fire-breather-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:09:48.179Z",
+    "updatedAt": "2026-04-02T12:09:48.179Z"
+  },
+  {
+    "id": "page-ea8e3288",
+    "slug": "simple-flame-truck",
+    "title": "Simple Flame Truck",
+    "description": "A friendly monster truck with simple flame designs perfect for little hands! This easy coloring page has big shapes and thick lines that are perfect for toddlers.",
+    "metaDescription": "Free printable Simple Flame Truck coloring page. Easy monster truck design perfect for toddlers and preschoolers to color!",
+    "altText": "Black and white coloring page of a very simple monster truck with basic flame shapes on the sides and large wheels",
+    "imagePath": "/images/coloring-pages/simple-flame-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-flame-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:10:16.018Z",
+    "updatedAt": "2026-04-02T12:10:16.018Z"
+  },
+  {
+    "id": "page-91a38d07",
+    "slug": "inferno-racing-monster",
+    "title": "Inferno Racing Monster",
+    "description": "This racing monster truck is covered in detailed flame patterns and racing stripes! With lots of cool details to color, it's perfect for kids who love intricate designs.",
+    "metaDescription": "Free printable Inferno Racing Monster coloring page with detailed flames and racing elements. Complex design for older kids!",
+    "altText": "Black and white coloring page of a detailed monster truck with intricate flame patterns, racing number, and complex wheel designs",
+    "imagePath": "/images/coloring-pages/inferno-racing-monster.png",
+    "thumbnailPath": "/images/coloring-pages/inferno-racing-monster-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:11:05.991Z",
+    "updatedAt": "2026-04-02T12:11:05.991Z"
+  },
+  {
+    "id": "page-8fdbfaf2",
+    "slug": "phoenix-fire-monster-truck",
+    "title": "Phoenix Fire Monster Truck",
+    "description": "Like a phoenix rising from flames, this monster truck has beautiful fire designs spreading across its body! Color the flames to make this truck look like it's glowing with magical fire.",
+    "metaDescription": "Free printable Phoenix Fire Monster Truck coloring page with spreading flame designs. Beautiful fire-themed monster truck!",
+    "altText": "Black and white coloring page of a monster truck with phoenix-like flame patterns spreading upward from the wheels and body",
+    "imagePath": "/images/coloring-pages/phoenix-fire-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/phoenix-fire-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:11:19.213Z",
+    "updatedAt": "2026-04-02T12:11:19.213Z"
+  },
+  {
+    "id": "page-26472de7",
+    "slug": "lava-blast-monster-truck",
+    "title": "Lava Blast Monster Truck",
+    "description": "This powerful monster truck looks like it just drove through a volcano! With lava-inspired flame patterns and molten designs, it's ready for an epic coloring adventure.",
+    "metaDescription": "Free printable Lava Blast Monster Truck coloring page with volcano-inspired flame designs. Hot and exciting monster truck!",
+    "altText": "Black and white coloring page of a monster truck with lava-like flame patterns and volcanic rock texture details",
+    "imagePath": "/images/coloring-pages/lava-blast-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/lava-blast-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:11:32.119Z",
+    "updatedAt": "2026-04-02T12:11:32.119Z"
+  },
+  {
+    "id": "page-d84ce452",
+    "slug": "hot-rod-flame-crusher",
+    "title": "Hot Rod Flame Crusher",
+    "description": "This classic hot rod style monster truck has cool retro flames painted along its sides! Perfect for kids who love vintage car designs with a monster truck twist.",
+    "metaDescription": "Free printable Hot Rod Flame Crusher coloring page with retro flame designs. Classic hot rod monster truck style!",
+    "altText": "Black and white coloring page of a monster truck with classic hot rod flame patterns along the sides and vintage styling",
+    "imagePath": "/images/coloring-pages/hot-rod-flame-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/hot-rod-flame-crusher-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:11:45.991Z",
+    "updatedAt": "2026-04-02T12:11:45.991Z"
+  },
+  {
+    "id": "page-cd42e0d9",
+    "slug": "easy-fire-wheels-truck",
+    "title": "Easy Fire Wheels Truck",
+    "description": "A super simple monster truck with easy flame designs on its big wheels! This coloring page is perfect for the youngest artists who want to color something cool and fiery.",
+    "metaDescription": "Free printable Easy Fire Wheels Truck coloring page. Simple flame designs perfect for toddlers and young children!",
+    "altText": "Black and white coloring page of a very simple monster truck with basic flame designs on large wheels",
+    "imagePath": "/images/coloring-pages/easy-fire-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easy-fire-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:11:59.942Z",
+    "updatedAt": "2026-04-02T12:11:59.942Z"
+  },
+  {
+    "id": "page-02a6167d",
+    "slug": "blazing-trail-monster-truck",
+    "title": "Blazing Trail Monster Truck",
+    "description": "This amazing monster truck leaves a trail of flames wherever it goes! With flames streaming behind it and fire designs all over, it's ready for an exciting coloring session.",
+    "metaDescription": "Free printable Blazing Trail Monster Truck coloring page with streaming flame trail. Dynamic fire-themed monster truck!",
+    "altText": "Black and white coloring page of a monster truck with flame trails streaming behind it and fire patterns on the body",
+    "imagePath": "/images/coloring-pages/blazing-trail-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/blazing-trail-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:12:13.048Z",
+    "updatedAt": "2026-04-02T12:12:13.048Z"
+  },
+  {
+    "id": "page-7c753225",
+    "slug": "campfire-monster-truck",
+    "title": "Campfire Monster Truck",
+    "description": "This friendly monster truck has cozy campfire flame designs that look warm and inviting! Perfect for kids who love camping and outdoor adventures with their monster trucks.",
+    "metaDescription": "Free printable Campfire Monster Truck coloring page with cozy flame designs. Family-friendly fire-themed monster truck!",
+    "altText": "Black and white coloring page of a monster truck with friendly campfire-style flame patterns and outdoor adventure theme",
+    "imagePath": "/images/coloring-pages/campfire-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/campfire-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-flame"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:12:26.719Z",
+    "updatedAt": "2026-04-02T12:12:26.719Z"
+  },
+  {
+    "id": "page-48541e0f",
+    "slug": "lightning-speed-racer",
+    "title": "Lightning Speed Racer",
+    "description": "This super-fast monster truck is built for speed! With lightning bolt designs on its sides and a sleek racing body, it's ready to zoom past the competition.",
+    "metaDescription": "Free printable Lightning Speed Racer monster truck coloring page with lightning bolt designs for kids.",
+    "altText": "Monster truck coloring page showing a racing truck with lightning bolt decorations and racing stripes",
+    "imagePath": "/images/coloring-pages/lightning-speed-racer.png",
+    "thumbnailPath": "/images/coloring-pages/lightning-speed-racer-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:13:07.905Z",
+    "updatedAt": "2026-04-02T12:13:07.905Z"
+  },
+  {
+    "id": "page-f0af6fcd",
+    "slug": "checkered-flag-champion",
+    "title": "Checkered Flag Champion",
+    "description": "This winning monster truck just crossed the finish line! Look at those big checkered flags waving as this champion celebrates victory.",
+    "metaDescription": "Free printable Checkered Flag Champion monster truck coloring page with victory flags for kids.",
+    "altText": "Monster truck coloring page with a racing truck holding checkered flags in victory pose",
+    "imagePath": "/images/coloring-pages/checkered-flag-champion.png",
+    "thumbnailPath": "/images/coloring-pages/checkered-flag-champion-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:13:20.587Z",
+    "updatedAt": "2026-04-02T12:13:20.587Z"
+  },
+  {
+    "id": "page-f3ed2073",
+    "slug": "simple-speed-truck",
+    "title": "Simple Speed Truck",
+    "description": "A basic racing monster truck perfect for little racers! This truck has big wheels and a simple racing design that's easy to color.",
+    "metaDescription": "Free printable Simple Speed Truck coloring page - easy monster truck design for toddlers and preschoolers.",
+    "altText": "Simple monster truck coloring page with basic racing design and large wheels for young children",
+    "imagePath": "/images/coloring-pages/simple-speed-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-speed-truck-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:13:33.526Z",
+    "updatedAt": "2026-04-02T12:13:33.526Z"
+  },
+  {
+    "id": "page-d8181dc9",
+    "slug": "track-master-racer",
+    "title": "Track Master Racer",
+    "description": "This monster truck knows every turn and straight-away on the racing track. With special racing tires and aerodynamic design, it's built to win!",
+    "metaDescription": "Free printable Track Master Racer monster truck coloring page with detailed racing features for kids.",
+    "altText": "Detailed monster truck coloring page showing a racing truck with aerodynamic features and racing track elements",
+    "imagePath": "/images/coloring-pages/track-master-racer.png",
+    "thumbnailPath": "/images/coloring-pages/track-master-racer-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:14:13.196Z",
+    "updatedAt": "2026-04-02T12:14:13.196Z"
+  },
+  {
+    "id": "page-6fc08851",
+    "slug": "finish-line-flyer",
+    "title": "Finish Line Flyer",
+    "description": "Watch this monster truck fly across the finish line! With its racing stripes and victory pose, this truck is a true champion.",
+    "metaDescription": "Free printable Finish Line Flyer monster truck coloring page with racing stripes and victory theme.",
+    "altText": "Monster truck coloring page showing a racing truck crossing the finish line with racing stripes",
+    "imagePath": "/images/coloring-pages/finish-line-flyer.png",
+    "thumbnailPath": "/images/coloring-pages/finish-line-flyer-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:15:05.117Z",
+    "updatedAt": "2026-04-02T12:15:05.117Z"
+  },
+  {
+    "id": "page-7e145d7a",
+    "slug": "easy-racing-winner",
+    "title": "Easy Racing Winner",
+    "description": "A simple racing monster truck that's perfect for young colorists! This happy truck just won first place with its big smile and racing number.",
+    "metaDescription": "Free printable Easy Racing Winner monster truck coloring page - simple design perfect for toddlers.",
+    "altText": "Simple monster truck coloring page with happy face, racing number, and basic winner design for young children",
+    "imagePath": "/images/coloring-pages/easy-racing-winner.png",
+    "thumbnailPath": "/images/coloring-pages/easy-racing-winner-thumb.png",
+    "categoryIds": [
+      "cat-racing"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:15:30.912Z",
+    "updatedAt": "2026-04-02T12:15:30.912Z"
+  },
+  {
+    "id": "page-86a00bda",
+    "slug": "simple-smiley-monster-truck",
+    "title": "Simple Smiley Monster Truck",
+    "description": "This cheerful monster truck has a big happy face and huge wheels perfect for tiny hands to color. The extra thick lines and simple shapes make it super easy for toddlers to stay inside the lines.",
+    "metaDescription": "Free printable Simple Smiley Monster Truck coloring page for toddlers with thick lines and happy face design.",
+    "altText": "Simple monster truck coloring page with smiley face, large wheels, and thick outlines for toddlers",
+    "imagePath": "/images/coloring-pages/simple-smiley-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-smiley-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easy-monster-truck-toddlers"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:16:00.788Z",
+    "updatedAt": "2026-04-02T12:16:00.788Z"
+  },
+  {
+    "id": "page-7ceb7470",
+    "slug": "pirate-skull-monster-truck",
+    "title": "Pirate Skull Monster Truck",
+    "description": "Ahoy matey! This monster truck sports a pirate skull with an eye patch and crossbones on its hood. Perfect for little pirates who love big wheels and treasure hunts.",
+    "metaDescription": "Free printable pirate skull monster truck coloring page with crossbones design for kids ages 4-8.",
+    "altText": "Black and white coloring page of a monster truck decorated with pirate skull and crossbones design",
+    "imagePath": "/images/coloring-pages/pirate-skull-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pirate-skull-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:17:11.792Z",
+    "updatedAt": "2026-04-02T12:17:11.792Z"
+  },
+  {
+    "id": "page-c1dfa689",
+    "slug": "dancing-skeleton-monster-truck",
+    "title": "Dancing Skeleton Monster Truck",
+    "description": "This fun monster truck has a happy dancing skeleton painted on its side! The skeleton looks like it's having a party while the truck rolls over cars.",
+    "metaDescription": "Free printable dancing skeleton monster truck coloring page featuring a cheerful skeletal design for kids.",
+    "altText": "Black and white coloring page of a monster truck with a dancing skeleton character painted on its side",
+    "imagePath": "/images/coloring-pages/dancing-skeleton-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dancing-skeleton-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-02",
+    "createdAt": "2026-04-02T12:17:24.248Z",
+    "updatedAt": "2026-04-02T12:17:24.248Z"
   }
 ]
