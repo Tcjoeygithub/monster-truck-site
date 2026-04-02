@@ -7,18 +7,6 @@ interface Props {
   priority?: boolean;
 }
 
-const difficultyColors = {
-  easy: "bg-brand-green text-white",
-  medium: "bg-brand-orange text-white",
-  hard: "bg-red-500 text-white",
-};
-
-const difficultyLabels = {
-  easy: "Easy",
-  medium: "Medium",
-  hard: "Detailed",
-};
-
 export default function ColoringPageCard({ page, priority = false }: Props) {
   return (
     <Link
@@ -34,11 +22,6 @@ export default function ColoringPageCard({ page, priority = false }: Props) {
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           priority={priority}
         />
-        <span
-          className={`absolute top-2 right-2 text-xs font-bold px-2 py-1 rounded-full ${difficultyColors[page.difficulty]}`}
-        >
-          {difficultyLabels[page.difficulty]}
-        </span>
       </div>
       <div className="p-4">
         <h3 className="font-bold text-brand-black group-hover:text-brand-orange transition-colors text-lg leading-tight">

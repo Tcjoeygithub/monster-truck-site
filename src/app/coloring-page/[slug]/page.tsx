@@ -82,22 +82,6 @@ export default function ColoringPageDetail({ params }: Props) {
   const pageUrl = `${siteUrl}/coloring-page/${page.slug}`;
   const imageUrl = `${siteUrl}${page.imagePath}`;
 
-  const difficultyLabel =
-    page.difficulty === "easy"
-      ? "Easy"
-      : page.difficulty === "medium"
-        ? "Medium"
-        : "Detailed";
-
-  const ageLabel =
-    page.ageRange === "2-4"
-      ? "Ages 2-4"
-      : page.ageRange === "4-6"
-        ? "Ages 4-6"
-        : page.ageRange === "6-8"
-          ? "Ages 6-8"
-          : "All Ages";
-
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -227,29 +211,19 @@ export default function ColoringPageDetail({ params }: Props) {
             {page.title}
           </h1>
 
-          <div className="flex flex-wrap gap-2 mb-4">
-            <Link
-              href={`/category/${page.difficulty === "easy" ? "easy" : page.difficulty === "medium" ? "medium" : "hard"}`}
-              className="bg-brand-orange/10 text-brand-orange text-xs font-bold px-3 py-1 rounded-full hover:bg-brand-orange hover:text-white transition-colors"
-            >
-              {difficultyLabel}
-            </Link>
-            <Link
-              href={`/category/${page.difficulty === "easy" ? "easy" : page.difficulty === "medium" ? "medium" : "hard"}`}
-              className="bg-brand-green/10 text-brand-green-dark text-xs font-bold px-3 py-1 rounded-full hover:bg-brand-green hover:text-white transition-colors"
-            >
-              {ageLabel}
-            </Link>
-            {pageCategories.map((cat) => (
-              <Link
-                key={cat.id}
-                href={`/category/${cat.slug}`}
-                className="bg-gray-100 text-gray-600 text-xs font-medium px-3 py-1 rounded-full hover:bg-brand-orange hover:text-white transition-colors"
-              >
-                {cat.name}
-              </Link>
-            ))}
-          </div>
+          {pageCategories.length > 0 && (
+            <div className="flex flex-wrap gap-2 mb-4">
+              {pageCategories.map((cat) => (
+                <Link
+                  key={cat.id}
+                  href={`/category/${cat.slug}`}
+                  className="bg-brand-orange/10 text-brand-orange text-xs font-bold px-3 py-1 rounded-full hover:bg-brand-orange hover:text-white transition-colors"
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
+          )}
 
           <time
             dateTime={page.publishDate}
@@ -287,8 +261,7 @@ export default function ColoringPageDetail({ params }: Props) {
               <li>Grab crayons, markers, or colored pencils and color away!</li>
             </ol>
             <p className="text-gray-500 text-sm mt-4">
-              This free printable coloring page is perfect for{" "}
-              {ageLabel.toLowerCase()}. Difficulty level: {difficultyLabel.toLowerCase()}.
+              This free printable coloring page is perfect for kids ages 2&ndash;8.
             </p>
           </div>
         </article>
