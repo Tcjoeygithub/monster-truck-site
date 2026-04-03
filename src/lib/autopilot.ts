@@ -281,7 +281,7 @@ function getUpcomingHolidays(now: Date): string {
 // =====================================================
 
 const BASE_IMAGEN_PROMPT =
-  "Black and white line art, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO shading, NO gray fill, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, white background. The complete subject should be fully visible in the image.";
+  "Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, NO colored fills, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete subject should be fully visible in the image.";
 
 async function generateImage(prompt: string): Promise<Buffer> {
   const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
@@ -376,6 +376,21 @@ function applyFrame(imagePath: string) {
     });
   } catch (err) {
     console.log(`[autopilot] Frame failed: ${err}`);
+  }
+}
+
+function checkBlackAndWhite(imagePath: string): boolean {
+  const colorScript = path.join(process.cwd(), "scripts", "check-color.py");
+  try {
+    const result = execSync(`python3 "${colorScript}" "${imagePath}"`, {
+      encoding: "utf-8",
+      timeout: 15000,
+    }).trim();
+    console.log(`[autopilot] Color check: ${result}`);
+    return result.startsWith("PASS");
+  } catch {
+    console.log("[autopilot] Color check FAIL: image has color, must regenerate");
+    return false;
   }
 }
 
@@ -517,7 +532,15 @@ export async function runDailyPipeline(
         console.log(
           `[autopilot]   QC attempt ${attempts}: ${qc.score}/10 ${qc.pass ? "PASS" : "FAIL"}`
         );
-        if (qc.pass) qcPassed = true;
+        if (qc.pass) {
+          // Check for color — coloring pages must be black and white only
+          const isBW = checkBlackAndWhite(imagePath);
+          if (isBW) {
+            qcPassed = true;
+          } else {
+            console.log("[autopilot]   Image has color, regenerating...");
+          }
+        }
       } catch (err) {
         console.log(`[autopilot]   QC error: ${err}`);
       }
