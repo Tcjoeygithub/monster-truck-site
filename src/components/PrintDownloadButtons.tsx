@@ -7,53 +7,9 @@ interface Props {
 
 export default function PrintDownloadButtons({ imagePath, title }: Props) {
   const handlePrint = () => {
-    // Open a clean window with just the image — guaranteed single page on all devices
-    const printWindow = window.open("", "_blank");
-    if (!printWindow) {
-      // Fallback if popup blocked
-      window.print();
-      return;
-    }
-
-    const safeTitle = title.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-
-    printWindow.document.write(`
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <title>${safeTitle} - Coloring Page</title>
-          <style>
-            * { margin: 0; padding: 0; box-sizing: border-box; }
-            @page { size: letter portrait; margin: 0.25in; }
-            html, body {
-              width: 100%;
-              height: 100%;
-              background: white;
-            }
-            body {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              padding: 0.25in;
-            }
-            img {
-              max-width: 100%;
-              max-height: 100%;
-              object-fit: contain;
-            }
-          </style>
-        </head>
-        <body>
-          <img
-            src="${imagePath}"
-            alt="${safeTitle}"
-            onload="window.print(); window.close();"
-            onerror="document.body.innerText='Image failed to load. Please try again.'"
-          />
-        </body>
-      </html>
-    `);
-    printWindow.document.close();
+    // Open the raw image directly in a new tab — works with all printer apps
+    // The image itself is already sized for US Letter (1200x1575)
+    window.open(imagePath, "_blank");
   };
 
   const handleDownload = async () => {
