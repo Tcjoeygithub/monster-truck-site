@@ -61,5 +61,12 @@
     "name": "Easy Monster Truck Coloring Pages for Toddlers",
     "description": "These free printable coloring pages feature super simple monster truck designs perfect for toddlers and preschoolers ages 2-4. Each monster truck has extra thick outlines and just a few large shapes to color, making them ideal for little hands learning to stay within the lines. Kids will love these fun, easy-to-color monster truck adventures!",
     "type": "age-range"
+  },
+  {
+    "id": "cat-dinosaur-monster-truck-coloring-pages",
+    "slug": "dinosaur-monster-truck-coloring-pages",
+    "name": "Dinosaur Monster Truck Coloring Pages",
+    "description": "Roar into adventure with our free printable dinosaur monster truck coloring pages! These prehistoric-themed monster truck designs combine the thrill of big wheels with the excitement of dinosaurs, perfect for kids ages 2-8. From simple T-Rex trucks for toddlers to detailed triceratops crushers for older children, these coloring pages bring Jurassic fun to your monster truck adventures.",
+    "type": "theme"
   }
 ]

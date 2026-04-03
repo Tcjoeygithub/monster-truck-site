@@ -1364,5 +1364,545 @@
     "publishDate": "2026-04-02",
     "createdAt": "2026-04-02T12:17:24.248Z",
     "updatedAt": "2026-04-02T12:17:24.248Z"
+  },
+  {
+    "id": "page-e90d7faa",
+    "slug": "bone-yard-basher-monster-truck",
+    "title": "Bone Yard Basher Monster Truck",
+    "description": "This spooky monster truck is decorated with bone patterns and cruises through a creepy graveyard. Perfect for kids who love a little scary fun with their coloring adventures.",
+    "metaDescription": "Free printable Bone Yard Basher monster truck coloring page with skeleton theme for kids",
+    "altText": "Black and white coloring page of a monster truck with bone decorations driving through a graveyard scene",
+    "imagePath": "/images/coloring-pages/bone-yard-basher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bone-yard-basher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:31:44.444Z",
+    "updatedAt": "2026-04-03T15:31:44.444Z"
+  },
+  {
+    "id": "page-68942dff",
+    "slug": "simple-skull-wheels-truck",
+    "title": "Simple Skull Wheels Truck",
+    "description": "A friendly monster truck with big skull-patterned wheels that's perfect for little hands to color. The simple design makes it easy and fun for toddlers to fill in.",
+    "metaDescription": "Free printable simple skull monster truck coloring page perfect for toddlers and young kids",
+    "altText": "Black and white coloring page of a very simple monster truck with skull patterns on large wheels",
+    "imagePath": "/images/coloring-pages/simple-skull-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-skull-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:32:21.090Z",
+    "updatedAt": "2026-04-03T15:32:21.090Z"
+  },
+  {
+    "id": "page-c3e0e12b",
+    "slug": "ghostly-phantom-crusher",
+    "title": "Ghostly Phantom Crusher",
+    "description": "This mysterious monster truck has ghostly flames and phantom decorations. Kids will love adding their own spooky colors to this supernatural speedster.",
+    "metaDescription": "Free printable ghostly phantom monster truck coloring page with supernatural theme for kids",
+    "altText": "Black and white coloring page of a monster truck with ghost flames and phantom decorations",
+    "imagePath": "/images/coloring-pages/ghostly-phantom-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/ghostly-phantom-crusher-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:32:33.119Z",
+    "updatedAt": "2026-04-03T15:32:33.119Z"
+  },
+  {
+    "id": "page-9d525591",
+    "slug": "skeleton-racer-speedster",
+    "title": "Skeleton Racer Speedster",
+    "description": "Race to the finish line with this skeleton-themed racing monster truck! Complete with racing stripes and bone decorations for an exciting coloring experience.",
+    "metaDescription": "Free printable skeleton racing monster truck coloring page with bone decorations for kids",
+    "altText": "Black and white coloring page of a racing monster truck with skeleton decorations and racing stripes",
+    "imagePath": "/images/coloring-pages/skeleton-racer-speedster.png",
+    "thumbnailPath": "/images/coloring-pages/skeleton-racer-speedster-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:32:45.950Z",
+    "updatedAt": "2026-04-03T15:32:45.950Z"
+  },
+  {
+    "id": "page-6d15ff47",
+    "slug": "friendly-skull-face-truck",
+    "title": "Friendly Skull Face Truck",
+    "description": "Don't worry, this skull-faced monster truck is more silly than scary! With a big friendly grin and simple design, it's perfect for young artists just learning to color.",
+    "metaDescription": "Free printable friendly skull face monster truck coloring page designed for young children",
+    "altText": "Black and white coloring page of a simple monster truck with a friendly smiling skull face design",
+    "imagePath": "/images/coloring-pages/friendly-skull-face-truck.png",
+    "thumbnailPath": "/images/coloring-pages/friendly-skull-face-truck-thumb.png",
+    "categoryIds": [
+      "cat-skeleton"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:33:21.872Z",
+    "updatedAt": "2026-04-03T15:33:21.872Z"
+  },
+  {
+    "id": "page-8fde8dfe",
+    "slug": "easter-egg-hunter-monster-truck",
+    "title": "Easter Egg Hunter Monster Truck",
+    "description": "This mighty monster truck is on an Easter egg hunt adventure! The truck bed is filled with colorful Easter eggs, and there are more hidden eggs scattered around the scene for you to discover and color.",
+    "metaDescription": "Free printable Easter Egg Hunter Monster Truck coloring page with hidden eggs to find and color",
+    "altText": "Monster truck coloring page with Easter eggs in truck bed and scattered around",
+    "imagePath": "/images/coloring-pages/easter-egg-hunter-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easter-egg-hunter-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:34:18.762Z",
+    "updatedAt": "2026-04-03T15:34:18.762Z"
+  },
+  {
+    "id": "page-8b85695f",
+    "slug": "bunny-ears-monster-truck",
+    "title": "Bunny Ears Monster Truck",
+    "description": "This adorable monster truck is ready for Easter with giant bunny ears on top! The friendly truck has a cute bunny nose and whiskers painted on the front, making it the most lovable crusher on the track.",
+    "metaDescription": "Free printable Bunny Ears Monster Truck coloring page perfect for Easter celebrations",
+    "altText": "Monster truck coloring page with bunny ears, nose and whiskers for Easter",
+    "imagePath": "/images/coloring-pages/bunny-ears-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bunny-ears-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:34:32.097Z",
+    "updatedAt": "2026-04-03T15:34:32.097Z"
+  },
+  {
+    "id": "page-fd64bd85",
+    "slug": "easter-basket-crusher",
+    "title": "Easter Basket Crusher",
+    "description": "This special Easter monster truck looks just like a giant wicker basket! Complete with a big handle over the top and decorated with Easter ribbons and bows, it's ready to deliver eggs to all the good kids.",
+    "metaDescription": "Free printable Easter Basket Crusher monster truck coloring page with basket weave design",
+    "altText": "Monster truck coloring page designed like an Easter basket with handle and ribbons",
+    "imagePath": "/images/coloring-pages/easter-basket-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/easter-basket-crusher-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:34:44.434Z",
+    "updatedAt": "2026-04-03T15:34:44.434Z"
+  },
+  {
+    "id": "page-714b6b9f",
+    "slug": "carrot-cruncher-monster-truck",
+    "title": "Carrot Cruncher Monster Truck",
+    "description": "This orange monster truck is shaped like a giant carrot! With leafy green decorations on top and orange stripes along the sides, it's the Easter Bunny's favorite vegetable crusher.",
+    "metaDescription": "Free printable Carrot Cruncher Monster Truck coloring page shaped like Easter bunny's favorite food",
+    "altText": "Monster truck coloring page shaped like a carrot with green leafy top",
+    "imagePath": "/images/coloring-pages/carrot-cruncher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/carrot-cruncher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:35:09.071Z",
+    "updatedAt": "2026-04-03T15:35:09.071Z"
+  },
+  {
+    "id": "page-528dfec1",
+    "slug": "simple-easter-chick-truck",
+    "title": "Simple Easter Chick Truck",
+    "description": "This cute yellow monster truck looks just like a baby chick! With a simple orange beak and tiny wings on the sides, it's perfect for little ones learning to color inside the lines.",
+    "metaDescription": "Free printable Simple Easter Chick Monster Truck coloring page perfect for toddlers",
+    "altText": "Simple monster truck coloring page designed like a yellow Easter chick with beak and wings",
+    "imagePath": "/images/coloring-pages/simple-easter-chick-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-easter-chick-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:36:23.410Z",
+    "updatedAt": "2026-04-03T15:36:23.410Z"
+  },
+  {
+    "id": "page-0b252503",
+    "slug": "easter-parade-champion",
+    "title": "Easter Parade Champion",
+    "description": "This festive monster truck is all dressed up for the Easter parade! With banners, streamers, and Easter decorations flowing behind it, this truck knows how to celebrate in style.",
+    "metaDescription": "Free printable Easter Parade Champion monster truck coloring page with festive decorations",
+    "altText": "Monster truck coloring page decorated for Easter parade with banners and streamers",
+    "imagePath": "/images/coloring-pages/easter-parade-champion.png",
+    "thumbnailPath": "/images/coloring-pages/easter-parade-champion-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:36:35.954Z",
+    "updatedAt": "2026-04-03T15:36:35.954Z"
+  },
+  {
+    "id": "page-7345f011",
+    "slug": "jelly-bean-jumper",
+    "title": "Jelly Bean Jumper",
+    "description": "This colorful monster truck is covered in jelly bean patterns! Big oval shapes like giant jelly beans decorate every surface of this sweet Easter truck that's ready for some candy-crushing action.",
+    "metaDescription": "Free printable Jelly Bean Jumper monster truck coloring page covered in candy patterns",
+    "altText": "Monster truck coloring page decorated with jelly bean oval patterns all over",
+    "imagePath": "/images/coloring-pages/jelly-bean-jumper.png",
+    "thumbnailPath": "/images/coloring-pages/jelly-bean-jumper-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:37:28.955Z",
+    "updatedAt": "2026-04-03T15:37:28.955Z"
+  },
+  {
+    "id": "page-3c5a9cab",
+    "slug": "easter-bunny-tail-truck",
+    "title": "Easter Bunny Tail Truck",
+    "description": "This playful monster truck has a big fluffy bunny tail attached to the back! The simple, friendly design makes it perfect for young artists who want to color their own Easter bunny monster truck.",
+    "metaDescription": "Free printable Easter Bunny Tail Monster Truck coloring page with fluffy tail decoration",
+    "altText": "Simple monster truck coloring page with fluffy bunny tail attached to the back",
+    "imagePath": "/images/coloring-pages/easter-bunny-tail-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easter-bunny-tail-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:37:41.240Z",
+    "updatedAt": "2026-04-03T15:37:41.240Z"
+  },
+  {
+    "id": "page-3a56c4c7",
+    "slug": "spring-flower-monster-truck",
+    "title": "Spring Flower Monster Truck",
+    "description": "This cheerful monster truck is decorated with beautiful spring flowers and ready for Easter adventures. The truck's body blooms with daisies and tulips while rolling on flower-power wheels.",
+    "metaDescription": "Free printable Spring Flower Monster Truck coloring page with Easter blooms and big wheels for kids to color.",
+    "altText": "Black and white coloring page of a monster truck decorated with spring flowers including daisies and tulips",
+    "imagePath": "/images/coloring-pages/spring-flower-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/spring-flower-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:38:14.168Z",
+    "updatedAt": "2026-04-03T15:38:14.168Z"
+  },
+  {
+    "id": "page-b73d21c9",
+    "slug": "easter-parade-float-truck",
+    "title": "Easter Parade Float Truck",
+    "description": "Join the Easter parade with this festive monster truck that's been transformed into a colorful parade float. Complete with ribbons, balloons, and Easter decorations all around.",
+    "metaDescription": "Free printable Easter Parade Float Monster Truck coloring page with festive decorations and big wheels.",
+    "altText": "Black and white coloring page of a monster truck decorated as an Easter parade float with ribbons and balloons",
+    "imagePath": "/images/coloring-pages/easter-parade-float-truck.png",
+    "thumbnailPath": "/images/coloring-pages/easter-parade-float-truck-thumb.png",
+    "categoryIds": [
+      "cat-easter"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T15:38:27.166Z",
+    "updatedAt": "2026-04-03T15:38:27.166Z"
+  },
+  {
+    "id": "page-b75d5cf7",
+    "slug": "simple-t-rex-monster-truck",
+    "title": "Simple T-Rex Monster Truck",
+    "description": "This friendly T-Rex monster truck has big teeth and even bigger wheels! Perfect for little hands to color with simple shapes and thick lines.",
+    "metaDescription": "Free printable T-Rex monster truck coloring page with simple design perfect for toddlers and preschoolers.",
+    "altText": "Simple black and white coloring page of a monster truck with T-Rex head design and large wheels",
+    "imagePath": "/images/coloring-pages/simple-t-rex-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-t-rex-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:01:35.582Z",
+    "updatedAt": "2026-04-03T16:01:35.582Z"
+  },
+  {
+    "id": "page-87c949a9",
+    "slug": "triceratops-crusher-monster-truck",
+    "title": "Triceratops Crusher Monster Truck",
+    "description": "Three horns and four giant wheels make this triceratops monster truck ready to crush anything in its path! Color the spikes and horns your favorite colors.",
+    "metaDescription": "Free printable triceratops monster truck coloring page featuring three horns and detailed dinosaur design.",
+    "altText": "Black and white coloring page of a monster truck designed like a triceratops with three horns and spikes",
+    "imagePath": "/images/coloring-pages/triceratops-crusher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/triceratops-crusher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:01:47.730Z",
+    "updatedAt": "2026-04-03T16:01:47.730Z"
+  },
+  {
+    "id": "page-0809e53c",
+    "slug": "stegosaurus-spike-monster-truck",
+    "title": "Stegosaurus Spike Monster Truck",
+    "description": "This awesome monster truck is covered in spiky armor just like a Stegosaurus dinosaur! The truck has big bumpy tires and colorful spikes along its back and sides that kids can color however they want.",
+    "metaDescription": "Free printable Stegosaurus monster truck coloring page with spiky armor and big wheels for kids to color.",
+    "altText": "Black and white coloring page of a monster truck decorated with Stegosaurus-style spikes along the body and roof",
+    "imagePath": "/images/coloring-pages/stegosaurus-spike-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/stegosaurus-spike-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:02:39.882Z",
+    "updatedAt": "2026-04-03T16:02:39.882Z"
+  },
+  {
+    "id": "page-5086f087",
+    "slug": "simple-dino-chomper-truck",
+    "title": "Simple Dino Chomper Truck",
+    "description": "A friendly dinosaur monster truck with a big smiling mouth full of teeth! This easy-to-color truck has simple shapes and thick lines, perfect for little hands learning to color.",
+    "metaDescription": "Easy free printable dinosaur monster truck coloring page with simple shapes for toddlers and young kids.",
+    "altText": "Simple black and white coloring page of a monster truck with a friendly dinosaur face and big teeth",
+    "imagePath": "/images/coloring-pages/simple-dino-chomper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-dino-chomper-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:02:51.654Z",
+    "updatedAt": "2026-04-03T16:02:51.654Z"
+  },
+  {
+    "id": "page-fb7c9c02",
+    "slug": "pterodactyl-wings-monster-truck",
+    "title": "Pterodactyl Wings Monster Truck",
+    "description": "Soar through the arena with this flying dinosaur monster truck! It has awesome pterodactyl wings spread wide and a long pointed beak on the front bumper.",
+    "metaDescription": "Free printable pterodactyl monster truck coloring page with wings and prehistoric flying dinosaur theme.",
+    "altText": "Black and white coloring page of a monster truck with large pterodactyl wings and a pointed beak design",
+    "imagePath": "/images/coloring-pages/pterodactyl-wings-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pterodactyl-wings-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:03:04.350Z",
+    "updatedAt": "2026-04-03T16:03:04.350Z"
+  },
+  {
+    "id": "page-5f050565",
+    "slug": "raptor-claw-crusher-truck",
+    "title": "Raptor Claw Crusher Truck",
+    "description": "This fierce monster truck has sharp raptor claws on its wheels and a sleek hunting design! Perfect for kids who love the fast and smart dinosaurs from their favorite movies.",
+    "metaDescription": "Free printable raptor dinosaur monster truck coloring page with claw details and prehistoric predator theme.",
+    "altText": "Black and white coloring page of a monster truck with raptor claw attachments on wheels and predator-style design",
+    "imagePath": "/images/coloring-pages/raptor-claw-crusher-truck.png",
+    "thumbnailPath": "/images/coloring-pages/raptor-claw-crusher-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:03:18.682Z",
+    "updatedAt": "2026-04-03T16:03:18.682Z"
+  },
+  {
+    "id": "page-a2813d4d",
+    "slug": "brontosaurus-neck-stretcher",
+    "title": "Brontosaurus Neck Stretcher",
+    "description": "Look at the super long neck on this gentle giant monster truck! Based on the friendly plant-eating Brontosaurus, this truck has a really long front end and peaceful expression.",
+    "metaDescription": "Free printable Brontosaurus monster truck coloring page with extra long neck design for dinosaur loving kids.",
+    "altText": "Black and white coloring page of a monster truck with an extremely long front section resembling a Brontosaurus neck",
+    "imagePath": "/images/coloring-pages/brontosaurus-neck-stretcher.png",
+    "thumbnailPath": "/images/coloring-pages/brontosaurus-neck-stretcher-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:03:41.463Z",
+    "updatedAt": "2026-04-03T16:03:41.463Z"
+  },
+  {
+    "id": "page-aa89fb3a",
+    "slug": "ankylosaurus-armor-defender",
+    "title": "Ankylosaurus Armor Defender",
+    "description": "This heavily armored monster truck looks just like an Ankylosaurus dinosaur! It's covered in protective bumps and has a big club on the back for smashing through obstacles.",
+    "metaDescription": "Free printable Ankylosaurus armored monster truck coloring page with club tail and protective armor design.",
+    "altText": "Black and white coloring page of a monster truck covered in armor plating with a large club attachment on the rear",
+    "imagePath": "/images/coloring-pages/ankylosaurus-armor-defender.png",
+    "thumbnailPath": "/images/coloring-pages/ankylosaurus-armor-defender-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:03:54.554Z",
+    "updatedAt": "2026-04-03T16:03:54.554Z"
+  },
+  {
+    "id": "page-3cab3989",
+    "slug": "dino-fossil-digger-truck",
+    "title": "Dino Fossil Digger Truck",
+    "description": "This archaeological monster truck is ready to dig up dinosaur bones! It has special digging equipment and fossil patterns all over its body, perfect for future paleontologists.",
+    "metaDescription": "Free printable fossil digger monster truck coloring page with archaeological theme and dinosaur bone patterns.",
+    "altText": "Black and white coloring page of a monster truck with digging equipment and fossil bone patterns decorating the body",
+    "imagePath": "/images/coloring-pages/dino-fossil-digger-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dino-fossil-digger-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:04:18.863Z",
+    "updatedAt": "2026-04-03T16:04:18.863Z"
+  },
+  {
+    "id": "page-ecbaaba7",
+    "slug": "simple-baby-dino-truck",
+    "title": "Simple Baby Dino Truck",
+    "description": "Aww, look at this adorable baby dinosaur monster truck! It has big cute eyes and tiny spikes, perfect for the youngest colorers to practice with crayons.",
+    "metaDescription": "Easy free printable baby dinosaur monster truck coloring page with simple cute design for toddlers.",
+    "altText": "Simple black and white coloring page of a small cute monster truck with baby dinosaur features and big eyes",
+    "imagePath": "/images/coloring-pages/simple-baby-dino-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-baby-dino-truck-thumb.png",
+    "categoryIds": [
+      "cat-dinosaur-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:04:30.374Z",
+    "updatedAt": "2026-04-03T16:04:30.374Z"
+  },
+  {
+    "id": "page-c4e41e5e",
+    "slug": "colossal-king-bigfoot-monster-truck",
+    "title": "Colossal King Bigfoot Monster Truck",
+    "description": "Meet the Colossal King, a massive Bigfoot monster truck with wheels taller than trees! This giant truck rules the arena with its towering height and powerful engine.",
+    "metaDescription": "Free printable Colossal King Bigfoot monster truck coloring page with giant wheels and detailed design for kids.",
+    "altText": "Black and white coloring page of a large Bigfoot monster truck with enormous oversized wheels, detailed chassis, and tall suspension",
+    "imagePath": "/images/coloring-pages/colossal-king-bigfoot-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/colossal-king-bigfoot-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:05:12.975Z",
+    "updatedAt": "2026-04-03T16:05:12.975Z"
+  },
+  {
+    "id": "page-ef80b3d6",
+    "slug": "simple-giant-wheels-monster-truck",
+    "title": "Simple Giant Wheels Monster Truck",
+    "description": "This friendly giant has the biggest wheels you've ever seen! Perfect for little hands to color with its simple shapes and big spaces.",
+    "metaDescription": "Free printable simple giant wheels monster truck coloring page with easy design perfect for toddlers and preschoolers.",
+    "altText": "Black and white coloring page of a very simple monster truck with oversized round wheels and basic rectangular body shape",
+    "imagePath": "/images/coloring-pages/simple-giant-wheels-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-giant-wheels-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-bigfoot"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-03",
+    "createdAt": "2026-04-03T16:05:24.528Z",
+    "updatedAt": "2026-04-03T16:05:24.528Z"
   }
 ]
