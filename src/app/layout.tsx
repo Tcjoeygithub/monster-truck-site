@@ -24,6 +24,10 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   title: {
     default: "Free Monster Truck Coloring Pages | Printable for Kids Ages 2-8",
     template: "%s | Free Monster Truck Coloring Pages",

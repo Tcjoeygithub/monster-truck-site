@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 interface CategoryLink {
@@ -21,7 +22,13 @@ export default function Header({ collections }: Props) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <span className="text-3xl">🛻</span>
+            <Image
+              src="/images/logo.png"
+              alt="Monster Truck Coloring Pages"
+              width={36}
+              height={36}
+              className="invert"
+            />
             <div className="leading-tight">
               <span className="text-brand-orange font-bold text-lg block">
                 Monster Truck

@@ -4,7 +4,7 @@ import {
   getFeaturedPages,
   getNewTodayPages,
   getAllPublishedPages,
-  getCategoriesByType,
+  getAllCategories,
 } from "@/lib/data";
 
 const siteUrl =
@@ -15,8 +15,7 @@ export default function HomePage() {
   const featured = getFeaturedPages();
   const newToday = getNewTodayPages();
   const allPages = getAllPublishedPages();
-  const truckCategories = getCategoriesByType("truck-type");
-  const themeCategories = getCategoriesByType("theme");
+  const allCollections = getAllCategories();
 
   const collectionSchema = {
     "@context": "https://schema.org",
@@ -118,56 +117,34 @@ export default function HomePage() {
           </section>
         )}
 
-        {/* Category Grid */}
+        {/* Collections */}
         <section className="mt-12">
           <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
-            Browse by Truck Type
+            Browse Collections
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-            {truckCategories.map((cat) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {allCollections.map((cat) => (
               <Link
                 key={cat.id}
                 href={`/category/${cat.slug}`}
-                className="group bg-gradient-to-br from-brand-orange to-brand-orange-dark text-white rounded-xl p-4 text-center hover:scale-105 transition-transform shadow-md"
+                className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-6 transition-all hover:shadow-lg group"
               >
-                <span className="text-3xl block mb-2">🛻</span>
-                <span className="font-bold text-sm">{cat.name}</span>
+                <h3 className="font-bold text-lg text-brand-black group-hover:text-brand-orange transition-colors">
+                  {cat.name}
+                </h3>
+                <p className="text-gray-500 text-sm mt-1 line-clamp-2">
+                  {cat.description}
+                </p>
                 {cat.pageCount !== undefined && cat.pageCount > 0 && (
-                  <span className="block text-xs text-orange-200 mt-1">
-                    {cat.pageCount} page{cat.pageCount !== 1 ? "s" : ""}
+                  <span className="inline-block mt-3 text-brand-orange text-sm font-semibold">
+                    {cat.pageCount} coloring page
+                    {cat.pageCount !== 1 ? "s" : ""} →
                   </span>
                 )}
               </Link>
             ))}
           </div>
         </section>
-
-        {themeCategories.length > 0 && (
-          <section className="mt-8">
-            <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-6">
-              Browse by Theme
-            </h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              {themeCategories.map((cat) => (
-                <Link
-                  key={cat.id}
-                  href={`/category/${cat.slug}`}
-                  className="group bg-gradient-to-br from-brand-black to-brand-dark text-white rounded-xl p-4 text-center hover:scale-105 transition-transform shadow-md"
-                >
-                  <span className="text-3xl block mb-2">
-                    {cat.slug.includes("skeleton") ? "💀" : "🔥"}
-                  </span>
-                  <span className="font-bold text-sm">{cat.name}</span>
-                  {cat.pageCount !== undefined && cat.pageCount > 0 && (
-                    <span className="block text-xs text-gray-400 mt-1">
-                      {cat.pageCount} page{cat.pageCount !== 1 ? "s" : ""}
-                    </span>
-                  )}
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* All Pages */}
         <section className="mt-12">
