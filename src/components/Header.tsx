@@ -25,8 +25,8 @@ export default function Header({ collections }: Props) {
             <Image
               src="/images/logo.png"
               alt="Monster Truck Coloring Pages"
-              width={36}
-              height={36}
+              width={56}
+              height={24}
               className="invert"
             />
             <div className="leading-tight">

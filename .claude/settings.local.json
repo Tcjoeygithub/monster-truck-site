@@ -27,7 +27,17 @@
       "Bash(pip3 install:*)",
       "Bash(ls -la public/images/coloring-pages/*.png)",
       "Bash(grep -r \"OpenGraph\\\\|og:\\\\|twitter\" /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src --include=*.tsx --include=*.ts)",
-      "Bash(grep -r \"metadataBase\\\\|images:\\\\|og:\" /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/app --include=*.tsx --include=*.ts)"
+      "Bash(grep -r \"metadataBase\\\\|images:\\\\|og:\" /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/app --include=*.tsx --include=*.ts)",
+      "Bash(curl -sI \"https://freemonstertruckcoloringpages.com/images/coloring-pages/easter-egg-hunter-monster-truck.png\")",
+      "Bash(curl:*)",
+      "WebFetch(domain:freecozycoloringpages.com)",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"simple monster truck line art\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"simple monster truck line art coloring page\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(chmod:*)",
+      "Bash(crontab:*)",
+      "Bash(curl -s -X POST \"https://api.pinterest.com/v5/boards\" -H \"Authorization: Bearer $PINTEREST_ACCESS_TOKEN\" -H \"Content-Type: application/json\" -d '{:*)",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A simple bold monster truck icon logo, front-facing, minimal design, solid black silhouette on white background, thick clean lines, suitable for a favicon and website logo, no text\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A bold monster truck icon logo, side profile view showing big oversized tires and lifted truck body, minimal clean design, solid black silhouette on white background, thick clean lines, horizontal layout wider than tall, suitable for a website header logo, no text\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')"
     ]
   }
 }
