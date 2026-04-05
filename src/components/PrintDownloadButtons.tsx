@@ -7,9 +7,34 @@ interface Props {
 
 export default function PrintDownloadButtons({ imagePath, title }: Props) {
   const handlePrint = () => {
-    // Open the raw image directly in a new tab — works with all printer apps
-    // The image itself is already sized for US Letter (1200x1575)
-    window.open(imagePath, "_blank");
+    const printWindow = window.open("", "_blank");
+    if (!printWindow) {
+      window.open(imagePath, "_blank");
+      return;
+    }
+
+    const safeTitle = title.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    // Use the direct PNG path (not Next.js optimized) so it's always a real PNG
+    printWindow.document.write(`<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${safeTitle} - Coloring Page</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: letter portrait; margin: 0; }
+  html, body { width: 100%; height: 100%; background: white; overflow: hidden; }
+  body { display: flex; align-items: center; justify-content: center; }
+  img { width: 100vw; height: 100vh; object-fit: contain; }
+</style>
+</head>
+<body>
+<img src="${imagePath}" alt="${safeTitle}" onload="setTimeout(function(){window.print();},500);" onerror="document.body.innerText='Image failed to load. Please try the Download button instead.';" />
+</body>
+</html>`);
+    printWindow.document.close();
   };
 
   const handleDownload = async () => {
@@ -25,7 +50,6 @@ export default function PrintDownloadButtons({ imagePath, title }: Props) {
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
     } catch {
-      // Fallback: open image in new tab for manual save
       window.open(imagePath, "_blank");
     }
   };
