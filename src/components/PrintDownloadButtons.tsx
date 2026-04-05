@@ -24,10 +24,10 @@ export default function PrintDownloadButtons({ imagePath, title }: Props) {
 <title>${safeTitle} - Coloring Page</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  @page { size: letter portrait; margin: 0; }
-  html, body { width: 100%; height: 100%; background: white; overflow: hidden; }
-  body { display: flex; align-items: center; justify-content: center; }
-  img { width: 100vw; height: 100vh; object-fit: contain; }
+  @page { size: letter portrait; margin: 0.25in; }
+  html, body { width: 100%; height: 100%; background: white; }
+  body { display: flex; align-items: flex-start; justify-content: center; }
+  img { width: 100%; max-height: 100vh; object-fit: contain; }
 </style>
 </head>
 <body>
