@@ -1,15 +1,17 @@
 import Link from "next/link";
-import Image from "next/image";
 import SearchBox from "./SearchBox";
 import AdSlot from "./AdSlot";
-import { getAllCategories, getFeaturedPages } from "@/lib/data";
+import { getAllCategories } from "@/lib/data";
 
 export default function Sidebar() {
   const categories = getAllCategories();
-  const featuredPool = getFeaturedPages();
-  const featured = featuredPool.slice(0, 3);
 
-  const topCollections = [...categories]
+  const featured = [...categories]
+    .filter((c) => (c.pageCount ?? 0) > 0)
+    .sort((a, b) => (b.pageCount ?? 0) - (a.pageCount ?? 0))
+    .slice(0, 3);
+
+  const popular = [...categories]
     .sort((a, b) => (b.pageCount ?? 0) - (a.pageCount ?? 0))
     .slice(0, 6);
 
@@ -29,41 +31,34 @@ export default function Sidebar() {
           About Us
         </h2>
         <p className="text-gray-600 text-sm leading-relaxed">
-          We&rsquo;re a small team that loves big trucks. Every page on this site
-          is a free, printable monster truck coloring page designed for kids
-          ages 2&ndash;8 &mdash; bold outlines, clean art, no signup. Grab your
-          crayons and let&rsquo;s roll.
+          We&rsquo;re a small team that loves big trucks. Every collection on
+          this site is a free, printable monster truck coloring page set
+          designed for kids ages 2&ndash;8 &mdash; bold outlines, clean art, no
+          signup. Grab your crayons and let&rsquo;s roll.
         </p>
       </section>
 
-      {/* Featured This Month */}
+      {/* Featured Collections */}
       {featured.length > 0 && (
         <section className="bg-white border-2 border-gray-100 rounded-xl p-5">
           <h2 className="font-bold text-brand-black text-sm uppercase tracking-wide mb-3">
             Featured This Month
           </h2>
-          <ul className="space-y-4">
-            {featured.map((page) => (
-              <li key={page.id}>
-                <a
-                  href={`/pdfs/${page.slug}.pdf`}
-                  target="_blank"
-                  rel="noopener"
-                  className="flex gap-3 items-center group"
+          <ul className="space-y-2">
+            {featured.map((cat) => (
+              <li key={cat.id}>
+                <Link
+                  href={`/${cat.slug}`}
+                  className="block text-sm font-semibold text-brand-black hover:text-brand-orange transition-colors"
                 >
-                  <div className="relative w-16 h-16 shrink-0 bg-gray-50 rounded-md overflow-hidden border border-gray-100">
-                    <Image
-                      src={page.thumbnailPath}
-                      alt={page.altText}
-                      fill
-                      sizes="64px"
-                      className="object-contain p-1"
-                    />
-                  </div>
-                  <span className="text-sm font-semibold text-brand-black group-hover:text-brand-orange transition-colors leading-snug">
-                    {page.title}
-                  </span>
-                </a>
+                  {cat.name}
+                  {cat.pageCount ? (
+                    <span className="block text-xs text-gray-400 font-normal">
+                      {cat.pageCount} coloring page
+                      {cat.pageCount === 1 ? "" : "s"}
+                    </span>
+                  ) : null}
+                </Link>
               </li>
             ))}
           </ul>
@@ -71,13 +66,13 @@ export default function Sidebar() {
       )}
 
       {/* Popular Collections */}
-      {topCollections.length > 0 && (
+      {popular.length > 0 && (
         <section className="bg-white border-2 border-gray-100 rounded-xl p-5">
           <h2 className="font-bold text-brand-black text-sm uppercase tracking-wide mb-3">
             Popular Collections
           </h2>
           <ul className="space-y-2">
-            {topCollections.map((cat) => (
+            {popular.map((cat) => (
               <li key={cat.id}>
                 <Link
                   href={`/${cat.slug}`}
@@ -96,7 +91,6 @@ export default function Sidebar() {
         </section>
       )}
 
-      {/* Ad slot */}
       <AdSlot position="sidebar" />
     </aside>
   );

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import {
   getCategoryBySlug,
@@ -138,12 +139,24 @@ export default function CategoryPage({ params }: Props) {
             {pages.length > 0 ? `${pages.length} ` : ""}
             {seoName} (Free PDF Printables)
           </h1>
+          {pages.length > 0 && (
+            <div className="relative w-full aspect-[16/9] bg-gray-50 rounded-xl overflow-hidden border-2 border-gray-100 mb-6">
+              <Image
+                src={pages[0].imagePath}
+                alt={`${seoName} — featured image`}
+                fill
+                sizes="(max-width: 1024px) 100vw, 760px"
+                className="object-contain p-6"
+                priority
+              />
+            </div>
+          )}
           <div className="text-gray-700 text-base leading-relaxed max-w-3xl space-y-3">
             <p>{category.description}</p>
             <p>
-              To start coloring, click on any of the images or titles below to
-              open the printable page. Every sheet is free &mdash; no signup,
-              no watermark mess, just print and color.
+              To start coloring, click the Print or Download PDF button on any
+              page below. Every sheet is free &mdash; no signup, no watermark
+              mess, just print and color.
             </p>
           </div>
         </header>
