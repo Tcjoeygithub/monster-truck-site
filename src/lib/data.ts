@@ -13,13 +13,35 @@ export function getAllCategories(): Category[] {
       (p) => p.status === "published" && p.categoryIds.includes(cat.id)
     );
     const thumb = catPages[0];
+    const lastUpdatedAt = catPages
+      .map((p) => p.updatedAt || p.publishDate)
+      .filter(Boolean)
+      .sort()
+      .pop();
     return {
       ...cat,
       pageCount: catPages.length,
       thumbnailPath: thumb?.thumbnailPath ?? thumb?.imagePath,
       thumbnailAlt: thumb ? `${cat.name} — ${thumb.title}` : cat.name,
+      lastUpdatedAt,
     };
   });
+}
+
+export function getRecentlyUpdatedCategories(limit = 6): Category[] {
+  return [...getAllCategories()]
+    .filter((c) => (c.pageCount ?? 0) > 0)
+    .sort((a, b) =>
+      (b.lastUpdatedAt ?? "").localeCompare(a.lastUpdatedAt ?? "")
+    )
+    .slice(0, limit);
+}
+
+export function getPopularCategories(limit = 6): Category[] {
+  return [...getAllCategories()]
+    .filter((c) => (c.pageCount ?? 0) > 0)
+    .sort((a, b) => (b.pageCount ?? 0) - (a.pageCount ?? 0))
+    .slice(0, limit);
 }
 
 export function getCategoryBySlug(slug: string): Category | undefined {
@@ -34,6 +56,11 @@ export function getCategoryBySlug(slug: string): Category | undefined {
     pageCount: catPages.length,
     thumbnailPath: thumb?.thumbnailPath ?? thumb?.imagePath,
     thumbnailAlt: thumb ? `${cat.name} — ${thumb.title}` : cat.name,
+    lastUpdatedAt: catPages
+      .map((p) => p.updatedAt || p.publishDate)
+      .filter(Boolean)
+      .sort()
+      .pop(),
   };
 }
 

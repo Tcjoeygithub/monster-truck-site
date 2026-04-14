@@ -1,7 +1,12 @@
 import Link from "next/link";
 import TwoColumnLayout from "@/components/TwoColumnLayout";
 import CollectionCard from "@/components/CollectionCard";
-import { getAllCategories, getAllPublishedPages } from "@/lib/data";
+import {
+  getAllCategories,
+  getAllPublishedPages,
+  getRecentlyUpdatedCategories,
+  getPopularCategories,
+} from "@/lib/data";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
@@ -10,17 +15,15 @@ const siteUrl =
 export default function HomePage() {
   const allCollections = getAllCategories();
   const allPages = getAllPublishedPages();
-
-  const trending = [...allCollections]
-    .sort((a, b) => (b.pageCount ?? 0) - (a.pageCount ?? 0))
-    .slice(0, 9);
+  const latest = getRecentlyUpdatedCategories(6);
+  const popular = getPopularCategories(6);
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Free Monster Truck Coloring Pages",
     description:
-      "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
+      "Free printable monster truck coloring pages for kids ages 2-8. New collections added regularly!",
     url: siteUrl,
     inLanguage: "en-US",
     mainEntity: {
@@ -64,32 +67,50 @@ export default function HomePage() {
       </section>
 
       <TwoColumnLayout>
-        {/* Trending collections */}
+        {/* Latest Updates — 6 most recently added/updated listicles */}
         <Section
-          title="Trending Collections"
+          title="Latest Updates"
           viewAllHref="/categories"
           viewAllLabel="View all"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {trending.map((cat, i) => (
+            {latest.map((cat, i) => (
               <CollectionCard
                 key={cat.id}
                 collection={cat}
-                variant="compact"
                 priority={i < 3}
               />
             ))}
           </div>
         </Section>
 
-        {/* All collections */}
-        <Section title="All Collections">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {allCollections.map((cat) => (
-              <CollectionCard key={cat.id} collection={cat} />
-            ))}
-          </div>
-        </Section>
+        {/* Popular Collections — list below */}
+        {popular.length > 0 && (
+          <Section title="Popular Collections">
+            <ul className="divide-y divide-gray-100 border-2 border-gray-100 rounded-xl bg-white overflow-hidden">
+              {popular.map((cat, i) => (
+                <li key={cat.id}>
+                  <Link
+                    href={`/${cat.slug}`}
+                    className="flex items-center justify-between gap-3 px-5 py-3 hover:bg-brand-cream/40 transition-colors group"
+                  >
+                    <span className="flex items-center gap-3 min-w-0">
+                      <span className="text-gray-400 text-sm w-6 shrink-0">
+                        {i + 1}.
+                      </span>
+                      <span className="font-semibold text-brand-black group-hover:text-brand-orange transition-colors truncate">
+                        {cat.name}
+                      </span>
+                    </span>
+                    <span className="text-brand-orange text-sm font-semibold shrink-0">
+                      {cat.pageCount} page{cat.pageCount === 1 ? "" : "s"} →
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
       </TwoColumnLayout>
     </>
   );

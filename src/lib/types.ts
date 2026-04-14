@@ -26,6 +26,7 @@ export interface Category {
   pageCount?: number;
   thumbnailPath?: string;
   thumbnailAlt?: string;
+  lastUpdatedAt?: string;
 }
 
 export interface SiteConfig {
