@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ColoringPage } from "@/lib/types";
+import ListicleItemActions from "./ListicleItemActions";
 
 interface Props {
   page: ColoringPage;
@@ -8,18 +9,23 @@ interface Props {
 }
 
 export default function ListicleItem({ page, index, priority = false }: Props) {
+  const pdfHref = `/pdfs/${page.slug}.pdf`;
+
   return (
-    <article className="border-b border-gray-200 pb-10 mb-10 last:border-b-0">
+    <article
+      id={page.slug}
+      className="border-b border-gray-200 pb-10 mb-10 last:border-b-0"
+    >
+      <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black mb-4">
+        {index}. {page.title}
+      </h2>
       <a
-        href={`/pdfs/${page.slug}.pdf`}
+        href={pdfHref}
         target="_blank"
         rel="noopener"
-        className="block group"
         aria-label={`${page.title} — open free printable PDF`}
+        className="block group"
       >
-        <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black group-hover:text-brand-orange transition-colors mb-4">
-          {index}. {page.title}
-        </h2>
         <div className="relative w-full aspect-[4/5] max-h-[820px] bg-gray-50 rounded-xl overflow-hidden border-2 border-gray-100 group-hover:border-brand-orange transition-colors">
           <Image
             src={page.imagePath}
@@ -30,15 +36,20 @@ export default function ListicleItem({ page, index, priority = false }: Props) {
             priority={priority}
           />
         </div>
-        {page.description && (
-          <p className="text-gray-600 mt-4 leading-relaxed max-w-3xl">
-            {page.description}
-          </p>
-        )}
-        <span className="inline-block mt-4 text-brand-orange font-bold group-hover:underline">
-          Open free printable PDF →
-        </span>
       </a>
+      {page.description && (
+        <p className="text-gray-600 mt-4 leading-relaxed max-w-3xl">
+          {page.description}
+        </p>
+      )}
+      <div className="mt-5">
+        <ListicleItemActions
+          imagePath={page.imagePath}
+          pdfPath={pdfHref}
+          title={page.title}
+          slug={page.slug}
+        />
+      </div>
     </article>
   );
 }

@@ -23,7 +23,7 @@ export async function GET() {
         )
         .join("\n");
       return `  <url>
-    <loc>${siteUrl}/category/${cat.slug}</loc>
+    <loc>${siteUrl}/${cat.slug}</loc>
 ${images}
   </url>`;
     })

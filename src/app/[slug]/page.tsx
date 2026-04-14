@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategoryBySlug(params.slug);
   if (!category) return {};
 
-  const pageUrl = `${siteUrl}/category/${category.slug}`;
+  const pageUrl = `${siteUrl}/${category.slug}`;
   const seoName = displayName(category.name);
   const count = category.pageCount ?? 0;
   const title = `${count > 0 ? `${count} ` : ""}${seoName} (Free PDF Printables)`;
@@ -79,7 +79,7 @@ export default function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const pages = getPagesByCategorySlug(params.slug);
-  const pageUrl = `${siteUrl}/category/${category.slug}`;
+  const pageUrl = `${siteUrl}/${category.slug}`;
   const seoName = displayName(category.name);
 
   const allCats = getAllCategories().filter((c) => c.id !== category.id);

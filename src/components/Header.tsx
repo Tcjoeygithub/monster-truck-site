@@ -72,7 +72,7 @@ export default function Header({ collections }: Props) {
                   {collections.map((cat) => (
                     <Link
                       key={cat.slug}
-                      href={`/category/${cat.slug}`}
+                      href={`/${cat.slug}`}
                       className="block px-3 py-2 hover:bg-brand-orange hover:text-white transition-colors text-sm rounded"
                     >
                       {cat.name}
@@ -152,7 +152,7 @@ export default function Header({ collections }: Props) {
             {collections.map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/category/${cat.slug}`}
+                href={`/${cat.slug}`}
                 className="block py-2 px-3 rounded hover:bg-brand-dark text-sm"
                 onClick={() => setMobileMenuOpen(false)}
               >

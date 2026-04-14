@@ -29,7 +29,7 @@ export default function HomePage() {
         "@type": "ListItem",
         position: i + 1,
         name: cat.name,
-        url: `${siteUrl}/category/${cat.slug}`,
+        url: `${siteUrl}/${cat.slug}`,
       })),
     },
   };
@@ -73,7 +73,7 @@ export default function HomePage() {
             {trending.map((cat) => (
               <Link
                 key={cat.id}
-                href={`/category/${cat.slug}`}
+                href={`/${cat.slug}`}
                 className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-lg px-4 py-3 text-sm font-semibold text-brand-black hover:text-brand-orange transition-colors"
               >
                 {cat.name}
@@ -93,7 +93,7 @@ export default function HomePage() {
             {allCollections.map((cat) => (
               <Link
                 key={cat.id}
-                href={`/category/${cat.slug}`}
+                href={`/${cat.slug}`}
                 className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-4 transition-all hover:shadow-md group"
               >
                 <h3 className="font-bold text-base text-brand-black group-hover:text-brand-orange transition-colors">

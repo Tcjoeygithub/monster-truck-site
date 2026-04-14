@@ -20,7 +20,7 @@ export default function RelatedCollectionsRow({
         {collections.map((cat) => (
           <li key={cat.id}>
             <Link
-              href={`/category/${cat.slug}`}
+              href={`/${cat.slug}`}
               className="inline-block bg-white border border-gray-200 hover:border-brand-orange hover:text-brand-orange text-sm font-semibold px-3 py-1.5 rounded-full transition-colors"
             >
               {cat.name}

@@ -39,7 +39,7 @@ export default function Footer({ collections }: Props) {
               {col1.map((cat) => (
                 <li key={cat.slug}>
                   <Link
-                    href={`/category/${cat.slug}`}
+                    href={`/${cat.slug}`}
                     className="text-gray-400 hover:text-brand-orange transition-colors"
                   >
                     {cat.name}
@@ -58,7 +58,7 @@ export default function Footer({ collections }: Props) {
               {col2.map((cat) => (
                 <li key={cat.slug}>
                   <Link
-                    href={`/category/${cat.slug}`}
+                    href={`/${cat.slug}`}
                     className="text-gray-400 hover:text-brand-orange transition-colors"
                   >
                     {cat.name}

@@ -80,7 +80,7 @@ export default function Sidebar() {
             {topCollections.map((cat) => (
               <li key={cat.id}>
                 <Link
-                  href={`/category/${cat.slug}`}
+                  href={`/${cat.slug}`}
                   className="text-sm text-gray-700 hover:text-brand-orange transition-colors flex justify-between items-center"
                 >
                   <span>{cat.name}</span>

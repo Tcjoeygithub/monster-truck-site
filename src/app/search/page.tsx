@@ -57,7 +57,7 @@ export default function SearchPage({ searchParams }: Props) {
           {cats.map((c) => (
             <Link
               key={c.id}
-              href={`/category/${c.slug}`}
+              href={`/${c.slug}`}
               className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-4 transition-all hover:shadow-md group"
             >
               <h3 className="font-bold text-base text-brand-black group-hover:text-brand-orange transition-colors">

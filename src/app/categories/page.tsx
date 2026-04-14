@@ -54,7 +54,7 @@ export default function CategoriesPage() {
         {allCollections.map((cat) => (
           <Link
             key={cat.id}
-            href={`/category/${cat.slug}`}
+            href={`/${cat.slug}`}
             className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-6 transition-all hover:shadow-lg group"
           >
             <h2 className="font-bold text-lg text-brand-black group-hover:text-brand-orange transition-colors">

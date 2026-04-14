@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const categories = getAllCategories();
 
   const categoryEntries = categories.map((cat) => ({
-    url: `${siteUrl}/category/${cat.slug}`,
+    url: `${siteUrl}/${cat.slug}`,
     lastModified: new Date(),
     changeFrequency: "daily" as const,
     priority: 0.8,
