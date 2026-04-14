@@ -71,6 +71,10 @@ const pinnedPath = path.join(DATA, "pinned.json");
 const pinned = fs.existsSync(pinnedPath)
   ? JSON.parse(fs.readFileSync(pinnedPath, "utf8"))
   : {};
+const descPath = path.join(DATA, "pin-descriptions.json");
+const descCache = fs.existsSync(descPath)
+  ? JSON.parse(fs.readFileSync(descPath, "utf8"))
+  : {};
 
 const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
 
@@ -91,20 +95,13 @@ function buildPin(page, categoryId) {
   if (!boardId) return null;
 
   const collectionUrl = `${SITE_URL}/${cat.slug}`;
-  const tags = [
-    "#monstertruck",
-    "#coloringpages",
-    "#kidscrafts",
-    "#freeprintable",
-    "#printablesforkids",
-    hashtag(cat.name),
-  ].join(" ");
 
   // Pinterest: title <=100, description <=500
   const title = page.title.slice(0, 100);
-  const base = page.description ? page.description + "\n\n" : "";
-  const cta = `🎨 Free printable monster truck coloring page for kids ages 2–8. Download free at ${SITE_URL}\n\n${tags}`;
-  const description = (base + cta).slice(0, 500);
+  // Prefer Claude-generated unique description; fall back to a simple template.
+  const cached = descCache[page.id]?.description;
+  const fallback = `${page.description}\n\n#monstertruck #coloringpages ${hashtag(cat.name)}`;
+  const description = (cached ?? fallback).slice(0, 500);
 
   return {
     account_id: boardMap.account_id,

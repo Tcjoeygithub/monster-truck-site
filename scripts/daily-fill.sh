@@ -56,11 +56,14 @@ Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
   # Wait for deployment to propagate so Pinterest fetches the live image.
   sleep 60
 
+  echo "Generating unique pin descriptions via Claude..." | tee -a "$LOG"
+  node scripts/generate-pin-descriptions.mjs 2>&1 | tail -20 | tee -a "$LOG"
+
   echo "Scheduling Pinterest pins via Zippy..." | tee -a "$LOG"
   node scripts/schedule-pins.mjs --days=1 2>&1 | tee -a "$LOG"
 
-  if ! git diff --quiet src/data/pinned.json 2>/dev/null; then
-    git add src/data/pinned.json
+  if ! git diff --quiet src/data/pinned.json src/data/pin-descriptions.json 2>/dev/null; then
+    git add src/data/pinned.json src/data/pin-descriptions.json
     git commit -m "Autopilot: schedule $PUBLISHED new pins ($(date +%Y-%m-%d))
 
 Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
