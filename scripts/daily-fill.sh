@@ -41,14 +41,31 @@ kill $DEV_PID 2>/dev/null
 PUBLISHED=$(echo "$RESULT" | python3 -c "import sys,json; print(json.load(sys.stdin).get('pagesPublished',0))" 2>/dev/null || echo "0")
 
 if [ "$PUBLISHED" -gt "0" ]; then
+  echo "Generating PDFs for new pages..." | tee -a "$LOG"
+  python3 scripts/generate-pdfs.py | tail -5 | tee -a "$LOG"
+
   echo "Pushing $PUBLISHED new pages..." | tee -a "$LOG"
-  git add src/data/ public/images/coloring-pages/
+  git add src/data/ public/images/coloring-pages/ public/pdfs/
   git commit -m "Autopilot: $PUBLISHED new coloring pages ($(date +%Y-%m-%d))
 
 Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
   git push origin main
   vercel --prod --yes
   echo "$(date): Deployed $PUBLISHED pages" | tee -a "$LOG"
+
+  # Wait for deployment to propagate so Pinterest fetches the live image.
+  sleep 60
+
+  echo "Scheduling Pinterest pins via Zippy..." | tee -a "$LOG"
+  node scripts/schedule-pins.mjs --days=1 2>&1 | tee -a "$LOG"
+
+  if ! git diff --quiet src/data/pinned.json 2>/dev/null; then
+    git add src/data/pinned.json
+    git commit -m "Autopilot: schedule $PUBLISHED new pins ($(date +%Y-%m-%d))
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+    git push origin main
+  fi
 else
   echo "$(date): No pages published (quota or errors)" | tee -a "$LOG"
 fi
