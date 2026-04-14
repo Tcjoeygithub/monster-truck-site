@@ -1,4 +1,4 @@
-import { getAllPublishedPages } from "@/lib/data";
+import { getAllCategories, getPagesByCategorySlug } from "@/lib/data";
 import { NextResponse } from "next/server";
 
 export async function GET() {
@@ -6,24 +6,34 @@ export async function GET() {
     process.env.NEXT_PUBLIC_SITE_URL ||
     "https://freemonstertruckcoloringpages.com";
 
-  const pages = getAllPublishedPages();
+  const categories = getAllCategories();
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${pages
-  .map(
-    (page) => `  <url>
-    <loc>${siteUrl}/coloring-page/${page.slug}</loc>
-    <image:image>
+  const urls = categories
+    .map((cat) => {
+      const pages = getPagesByCategorySlug(cat.slug);
+      if (pages.length === 0) return "";
+      const images = pages
+        .map(
+          (page) => `    <image:image>
       <image:loc>${siteUrl}${page.imagePath}</image:loc>
       <image:title>${escapeXml(page.title)} - Free Monster Truck Coloring Page</image:title>
       <image:caption>${escapeXml(page.altText)}</image:caption>
       <image:license>${siteUrl}/terms</image:license>
-    </image:image>
-  </url>`
-  )
-  .join("\n")}
+    </image:image>`
+        )
+        .join("\n");
+      return `  <url>
+    <loc>${siteUrl}/category/${cat.slug}</loc>
+${images}
+  </url>`;
+    })
+    .filter(Boolean)
+    .join("\n");
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${urls}
 </urlset>`;
 
   return new NextResponse(xml, {

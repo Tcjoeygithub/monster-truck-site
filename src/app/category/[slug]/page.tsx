@@ -110,7 +110,7 @@ export default function CategoryPage({ params }: Props) {
         "@type": "ListItem",
         position: index + 1,
         name: page.title,
-        url: `${siteUrl}/coloring-page/${page.slug}`,
+        url: `${siteUrl}/pdfs/${page.slug}.pdf`,
         image: `${siteUrl}${page.imagePath}`,
       })),
     },

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { ColoringPage } from "@/lib/types";
 
@@ -11,10 +10,12 @@ interface Props {
 export default function ListicleItem({ page, index, priority = false }: Props) {
   return (
     <article className="border-b border-gray-200 pb-10 mb-10 last:border-b-0">
-      <Link
-        href={`/coloring-page/${page.slug}`}
+      <a
+        href={`/pdfs/${page.slug}.pdf`}
+        target="_blank"
+        rel="noopener"
         className="block group"
-        aria-label={`${page.title} — print free`}
+        aria-label={`${page.title} — open free printable PDF`}
       >
         <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black group-hover:text-brand-orange transition-colors mb-4">
           {index}. {page.title}
@@ -35,9 +36,9 @@ export default function ListicleItem({ page, index, priority = false }: Props) {
           </p>
         )}
         <span className="inline-block mt-4 text-brand-orange font-bold group-hover:underline">
-          Print this coloring page →
+          Open free printable PDF →
         </span>
-      </Link>
+      </a>
     </article>
   );
 }

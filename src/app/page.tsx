@@ -1,48 +1,35 @@
-import ColoringPageCard from "@/components/ColoringPageCard";
 import Link from "next/link";
 import TwoColumnLayout from "@/components/TwoColumnLayout";
-import {
-  getFeaturedPages,
-  getNewTodayPages,
-  getAllPublishedPages,
-  getAllCategories,
-} from "@/lib/data";
+import { getAllCategories, getAllPublishedPages } from "@/lib/data";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
   "https://freemonstertruckcoloringpages.com";
 
 export default function HomePage() {
-  const featured = getFeaturedPages();
-  const newToday = getNewTodayPages();
-  const allPages = getAllPublishedPages();
   const allCollections = getAllCategories();
+  const allPages = getAllPublishedPages();
 
-  const trending = (featured.length ? featured : allPages).slice(0, 6);
-  const recent = allPages.slice(0, 6);
+  const trending = [...allCollections]
+    .sort((a, b) => (b.pageCount ?? 0) - (a.pageCount ?? 0))
+    .slice(0, 9);
 
-  const collectionSchema = {
+  const websiteSchema = {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
+    "@type": "WebSite",
     name: "Free Monster Truck Coloring Pages",
     description:
       "Free printable monster truck coloring pages for kids ages 2-8. New pages added daily!",
     url: siteUrl,
     inLanguage: "en-US",
-    isPartOf: {
-      "@type": "WebSite",
-      name: "Free Monster Truck Coloring Pages",
-      url: siteUrl,
-    },
     mainEntity: {
       "@type": "ItemList",
-      numberOfItems: allPages.length,
-      itemListElement: allPages.slice(0, 20).map((page, index) => ({
+      numberOfItems: allCollections.length,
+      itemListElement: allCollections.map((cat, i) => ({
         "@type": "ListItem",
-        position: index + 1,
-        name: page.title,
-        url: `${siteUrl}/coloring-page/${page.slug}`,
-        image: `${siteUrl}${page.imagePath}`,
+        position: i + 1,
+        name: cat.name,
+        url: `${siteUrl}/category/${cat.slug}`,
       })),
     },
   };
@@ -51,7 +38,7 @@ export default function HomePage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
 
       {/* Hero */}
@@ -61,29 +48,29 @@ export default function HomePage() {
             Free Monster Truck Coloring Pages
           </h1>
           <p className="text-lg md:text-xl text-orange-100 max-w-2xl mx-auto mb-6">
-            A growing catalog of printable monster truck coloring pages for kids
-            ages 2&ndash;8. 100% free, no signup.
+            {allPages.length}+ printable monster truck coloring pages across{" "}
+            {allCollections.length} collections. 100% free, no signup.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/categories"
               className="bg-white/15 hover:bg-white/25 text-white font-bold py-3 px-8 rounded-xl text-lg transition-colors backdrop-blur"
             >
-              Browse Collections
+              Browse All Collections
             </Link>
           </div>
         </div>
       </section>
 
       <TwoColumnLayout>
-        {/* Trending Collections (Monday Mandala pattern) */}
+        {/* Trending collections */}
         <Section
-          title="Trending Coloring Pages"
+          title="Trending Collections"
           viewAllHref="/categories"
-          viewAllLabel="View all collections"
+          viewAllLabel="View all"
         >
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {allCollections.slice(0, 9).map((cat) => (
+            {trending.map((cat) => (
               <Link
                 key={cat.id}
                 href={`/category/${cat.slug}`}
@@ -100,37 +87,7 @@ export default function HomePage() {
           </div>
         </Section>
 
-        {/* New Today */}
-        {newToday.length > 0 && (
-          <Section title="New Today" badge="New">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {newToday.map((page, i) => (
-                <ColoringPageCard key={page.id} page={page} priority={i < 2} />
-              ))}
-            </div>
-          </Section>
-        )}
-
-        {/* Featured */}
-        {trending.length > 0 && (
-          <Section
-            title="Featured Coloring Pages"
-            viewAllHref="/categories"
-            viewAllLabel="View all"
-          >
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {trending.map((page, i) => (
-                <ColoringPageCard
-                  key={page.id}
-                  page={page}
-                  priority={newToday.length === 0 && i < 2}
-                />
-              ))}
-            </div>
-          </Section>
-        )}
-
-        {/* All Collections */}
+        {/* All collections */}
         <Section title="All Collections">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {allCollections.map((cat) => (
@@ -155,17 +112,6 @@ export default function HomePage() {
             ))}
           </div>
         </Section>
-
-        {/* Recent additions */}
-        {recent.length > 0 && (
-          <Section title="Recently Added">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {recent.map((page) => (
-                <ColoringPageCard key={page.id} page={page} />
-              ))}
-            </div>
-          </Section>
-        )}
       </TwoColumnLayout>
     </>
   );
@@ -173,13 +119,11 @@ export default function HomePage() {
 
 function Section({
   title,
-  badge,
   viewAllHref,
   viewAllLabel,
   children,
 }: {
   title: string;
-  badge?: string;
   viewAllHref?: string;
   viewAllLabel?: string;
   children: React.ReactNode;
@@ -187,16 +131,9 @@ function Section({
   return (
     <section className="mt-10 first:mt-0">
       <div className="flex items-end justify-between gap-3 mb-5 border-b-2 border-gray-100 pb-2">
-        <div className="flex items-center gap-3">
-          {badge && (
-            <span className="bg-brand-green text-white text-xs font-bold px-2 py-1 rounded-full uppercase tracking-wide">
-              {badge}
-            </span>
-          )}
-          <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black">
-            {title}
-          </h2>
-        </div>
+        <h2 className="font-[var(--font-display)] text-2xl md:text-3xl font-bold text-brand-black">
+          {title}
+        </h2>
         {viewAllHref && (
           <Link
             href={viewAllHref}

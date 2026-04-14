@@ -45,8 +45,10 @@ export default function Sidebar() {
           <ul className="space-y-4">
             {featured.map((page) => (
               <li key={page.id}>
-                <Link
-                  href={`/coloring-page/${page.slug}`}
+                <a
+                  href={`/pdfs/${page.slug}.pdf`}
+                  target="_blank"
+                  rel="noopener"
                   className="flex gap-3 items-center group"
                 >
                   <div className="relative w-16 h-16 shrink-0 bg-gray-50 rounded-md overflow-hidden border border-gray-100">
@@ -61,7 +63,7 @@ export default function Sidebar() {
                   <span className="text-sm font-semibold text-brand-black group-hover:text-brand-orange transition-colors leading-snug">
                     {page.title}
                   </span>
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
