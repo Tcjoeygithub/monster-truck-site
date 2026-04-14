@@ -56,10 +56,15 @@ Analyze this image and score it on the following criteria. Each score is 1-10.
 
 5. **PRINT_QUALITY** (1=won't print well, 10=perfect for printing)
    - Clean white background?
-   - No text or watermarks in the image?
    - Would this look good printed on a standard 8.5x11 page?
 
-6. **FRAMING** (1=badly cut off, 10=perfectly framed) — THIS IS CRITICAL
+6. **NO_COLORED_FILL** (10=pure black lines on white, 1=clearly colored regions) — HARD FAIL IF < 9
+   - Coloring pages must be pure black line art. Any colored beak, body panel, flame, decoration, or gray shading is an immediate failure.
+
+7. **NO_TEXT_ARTIFACTS** (10=zero text, 1=garbled AI text baked into the art) — HARD FAIL IF < 9
+   - The image is delivered bare (no legitimate watermark present at QC time). Any letters, numbers, fake words, scribbled writing, logos, signatures, or garbled AI text-like squiggles drawn onto the art is a failure.
+
+8. **FRAMING** (1=badly cut off, 10=perfectly framed) — THIS IS CRITICAL
    - Is the ENTIRE truck visible within the image? Check ALL of these:
      - Are all 4 tires/wheels FULLY visible and not cut off at the edges?
      - Is the top of the truck (roof, exhaust pipes, any decorations) FULLY visible and not cropped?
@@ -79,9 +84,11 @@ Respond in EXACTLY this JSON format and nothing else:
   "coloring_friendliness": <score>,
   "engagement": <score>,
   "print_quality": <score>,
+  "no_colored_fill": <score>,
+  "no_text_artifacts": <score>,
   "framing": <score>,
-  "overall": <average of all 6 scores rounded to 1 decimal>,
-  "pass": <true if ALL individual scores >= 6 AND overall >= 7>,
+  "overall": <average of all 8 scores rounded to 1 decimal>,
+  "pass": <true if ALL individual scores >= 6 AND overall >= 7 AND no_colored_fill >= 9 AND no_text_artifacts >= 9>,
   "issues": ["list of specific problems found"],
   "suggestions": ["specific prompt improvements to fix the issues"]
 }`;
@@ -368,9 +375,12 @@ async function main() {
       console.log(`  Color-friendly: ${qc.coloring_friendliness}/10`);
       console.log(`  Engagement:     ${qc.engagement}/10`);
       console.log(`  Print quality:  ${qc.print_quality}/10`);
+      console.log(`  No color fill:  ${qc.no_colored_fill ?? "?"}/10`);
+      console.log(`  No text:        ${qc.no_text_artifacts ?? "?"}/10`);
       console.log(`  Framing:        ${qc.framing}/10`);
       console.log(`  OVERALL:        ${qc.overall}/10 ${qc.pass ? "PASS" : "FAIL"}`);
 
+      qc.issues = qc.issues || [];
       if (qc.issues.length > 0) {
         console.log(`  Issues: ${qc.issues.join("; ")}`);
       }
@@ -380,17 +390,42 @@ async function main() {
       const edgeResult = checkEdgeCutoff(imagePath);
       console.log(`    ${edgeResult.details}`);
 
-      // Override AI framing score if pixel scan detects cutoff
-      const framingOverride = !edgeResult.pass;
-      if (framingOverride) {
+      if (!edgeResult.pass) {
         console.log(`    HARD FAIL: Pixel scan detected content at image edges — overriding AI framing score`);
         qc.pass = false;
         qc.framing = Math.min(qc.framing, 3);
-        qc.issues = qc.issues || [];
         qc.issues.push(`Pixel-level edge scan: ${edgeResult.details}`);
       }
 
-      if (qc.pass && qc.overall >= MIN_SCORE && qc.framing >= 7) {
+      // Hard pixel-level color scan — catches colored fills the AI might miss.
+      console.log(`  Color purity scan...`);
+      let colorOk = true;
+      try {
+        execSync(`python3 "${path.join(ROOT, "scripts", "check-color.py")}" "${imagePath}"`, {
+          encoding: "utf-8",
+          timeout: 15000,
+        });
+        console.log(`    Color purity PASS`);
+      } catch (err) {
+        colorOk = false;
+        const out = (err.stdout || "").trim() || "colored pixels detected";
+        console.log(`    HARD FAIL: ${out}`);
+        qc.pass = false;
+        qc.no_colored_fill = Math.min(qc.no_colored_fill ?? 10, 2);
+        qc.issues.push(`Color scan: ${out}`);
+      }
+
+      // Hard-fail the AI criteria too.
+      if ((qc.no_colored_fill ?? 10) < 9) {
+        qc.pass = false;
+        qc.issues.push(`AI flagged colored fill (score ${qc.no_colored_fill}/10)`);
+      }
+      if ((qc.no_text_artifacts ?? 10) < 9) {
+        qc.pass = false;
+        qc.issues.push(`AI flagged text/letter artifacts (score ${qc.no_text_artifacts}/10)`);
+      }
+
+      if (qc.pass && qc.overall >= MIN_SCORE && qc.framing >= 7 && colorOk) {
         // Print-fit check: resize to US Letter portrait
         console.log(`  Print-fit check...`);
         resizeForPrint(imagePath);

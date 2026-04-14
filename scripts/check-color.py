@@ -10,8 +10,8 @@ Usage: python3 scripts/check-color.py image.png
 import sys
 from PIL import Image
 
-COLOR_THRESHOLD = 30  # Max saturation for "grayscale" pixels
-MAX_COLOR_RATIO = 0.02  # If more than 2% of pixels have color, it fails
+COLOR_THRESHOLD = 25  # Max saturation for "grayscale" pixels
+MAX_COLOR_RATIO = 0.003  # If more than 0.3% of pixels have color, it fails
 
 
 def check_color(img_path):

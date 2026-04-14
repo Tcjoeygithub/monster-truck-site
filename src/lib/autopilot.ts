@@ -317,19 +317,25 @@ async function qcImage(
 2. ANATOMICAL_CORRECTNESS: Truck body correct, proportions reasonable, no AI artifacts
 3. COLORING_FRIENDLINESS: Large enclosed areas, thick outlines, no gray shading
 4. ENGAGEMENT: Looks cool/exciting, kids would want to color it
-5. PRINT_QUALITY: Clean white background, no text/watermarks
-6. ARTWORK_COMPLETENESS: This is the MOST IMPORTANT criterion.
-   - Is every part of the truck FULLY DRAWN as a complete illustration?
+5. PRINT_QUALITY: Clean white background, no unrelated marks
+6. ARTWORK_COMPLETENESS: Is every part of the truck FULLY DRAWN as a complete illustration?
    - Are ALL 4 tires/wheels completely drawn with their full circular shape? (not cut off, not partially drawn, not missing the bottom half)
    - Is the truck body complete from front bumper to rear?
    - Is the roof/top of the truck fully drawn?
    - Are all accessories (exhaust pipes, decorations, etc.) complete?
-   - Does the artwork look like a FINISHED illustration, or does it look like parts are missing/cropped?
    - Score 1-3 if ANY wheel is not a complete circle, or if any major part of the truck appears incomplete
    - Score 4-6 if minor elements are slightly incomplete
    - Score 7-10 only if EVERY part of the truck is fully drawn as a complete piece of art
+7. NO_COLORED_FILL: The entire image must be pure black line art on white. Are there ANY colored fills (orange beak, yellow body, red flames filled with color, etc.)? Gray shading also counts as fill.
+   - Score 10 = perfectly black outlines on pure white, nothing filled
+   - Score 6 = small patches of gray shading or faint color tint
+   - Score 1-4 = any region is clearly colored in (solid orange, yellow, red, etc.)
+8. NO_TEXT_ARTIFACTS: Is there ANY text, letters, numbers, fake words, logos, signatures, scribbled writing, or garbled AI-generated text-like squiggles drawn into the image? (The image is delivered as bare art — there is NO legitimate watermark or label present at QC time, so any text-shaped marks are failures.)
+   - Score 10 = zero text anywhere in the image
+   - Score 6 = one small ambiguous shape that might be a letter
+   - Score 1-4 = any visible letters, numbers, or garbled AI text
 
-Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass": <true if ALL scores >= 6 AND overall >= 7 AND completeness >= 7>, "issues": ["list"]}`;
+Respond in JSON only: {"overall": <avg of all 8>, "completeness": <score>, "no_color": <score>, "no_text": <score>, "pass": <true if ALL scores >= 6 AND overall >= 7 AND completeness >= 7 AND no_color >= 9 AND no_text >= 9>, "issues": ["list"]}`;
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${IMAGEN_API_KEY}`;
   const res = await fetch(url, {
@@ -360,10 +366,18 @@ Respond in JSON only: {"overall": <avg of all 6>, "completeness": <score>, "pass
     return { pass: false, score: 0, issues: ["Could not parse QC"] };
 
   const result = JSON.parse(jsonMatch[0]);
+  const noColor = result.no_color ?? 10;
+  const noText = result.no_text ?? 10;
+  // Hard-fail any image where the AI sees colored fills or text artifacts,
+  // even if the overall score would otherwise pass.
+  const hardFail = noColor < 9 || noText < 9;
+  const issues = result.issues || [];
+  if (noColor < 9) issues.push(`Colored fill detected (no_color=${noColor})`);
+  if (noText < 9) issues.push(`Text/letter artifacts detected (no_text=${noText})`);
   return {
-    pass: result.pass || false,
+    pass: (result.pass || false) && !hardFail,
     score: result.overall || 0,
-    issues: result.issues || [],
+    issues,
   };
 }
 
