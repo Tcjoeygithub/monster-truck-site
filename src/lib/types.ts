@@ -24,6 +24,8 @@ export interface Category {
   description: string;
   type: "truck-type" | "difficulty" | "age-range" | "theme";
   pageCount?: number;
+  thumbnailPath?: string;
+  thumbnailAlt?: string;
 }
 
 export interface SiteConfig {

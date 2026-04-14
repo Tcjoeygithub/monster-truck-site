@@ -8,22 +8,32 @@ const coloringPages: ColoringPage[] = pagesData as ColoringPage[];
 // --- Categories ---
 
 export function getAllCategories(): Category[] {
-  return categories.map((cat) => ({
-    ...cat,
-    pageCount: coloringPages.filter(
+  return categories.map((cat) => {
+    const catPages = coloringPages.filter(
       (p) => p.status === "published" && p.categoryIds.includes(cat.id)
-    ).length,
-  }));
+    );
+    const thumb = catPages[0];
+    return {
+      ...cat,
+      pageCount: catPages.length,
+      thumbnailPath: thumb?.thumbnailPath ?? thumb?.imagePath,
+      thumbnailAlt: thumb ? `${cat.name} — ${thumb.title}` : cat.name,
+    };
+  });
 }
 
 export function getCategoryBySlug(slug: string): Category | undefined {
   const cat = categories.find((c) => c.slug === slug);
   if (!cat) return undefined;
+  const catPages = coloringPages.filter(
+    (p) => p.status === "published" && p.categoryIds.includes(cat.id)
+  );
+  const thumb = catPages[0];
   return {
     ...cat,
-    pageCount: coloringPages.filter(
-      (p) => p.status === "published" && p.categoryIds.includes(cat.id)
-    ).length,
+    pageCount: catPages.length,
+    thumbnailPath: thumb?.thumbnailPath ?? thumb?.imagePath,
+    thumbnailAlt: thumb ? `${cat.name} — ${thumb.title}` : cat.name,
   };
 }
 

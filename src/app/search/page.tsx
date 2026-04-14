@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import TwoColumnLayout from "@/components/TwoColumnLayout";
+import CollectionCard from "@/components/CollectionCard";
 import { getAllCategories, getPagesByCategory } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -55,23 +56,7 @@ export default function SearchPage({ searchParams }: Props) {
       {cats.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {cats.map((c) => (
-            <Link
-              key={c.id}
-              href={`/${c.slug}`}
-              className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-4 transition-all hover:shadow-md group"
-            >
-              <h3 className="font-bold text-base text-brand-black group-hover:text-brand-orange transition-colors">
-                {c.name}
-              </h3>
-              <p className="text-gray-500 text-sm mt-1 line-clamp-2">
-                {c.description}
-              </p>
-              {c.pageCount ? (
-                <span className="inline-block mt-2 text-brand-orange text-xs font-semibold">
-                  {c.pageCount} coloring page{c.pageCount === 1 ? "" : "s"} →
-                </span>
-              ) : null}
-            </Link>
+            <CollectionCard key={c.id} collection={c} />
           ))}
         </div>
       ) : q ? (

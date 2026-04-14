@@ -1,5 +1,6 @@
 import Link from "next/link";
 import TwoColumnLayout from "@/components/TwoColumnLayout";
+import CollectionCard from "@/components/CollectionCard";
 import { getAllCategories, getAllPublishedPages } from "@/lib/data";
 
 const siteUrl =
@@ -69,20 +70,14 @@ export default function HomePage() {
           viewAllHref="/categories"
           viewAllLabel="View all"
         >
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {trending.map((cat) => (
-              <Link
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {trending.map((cat, i) => (
+              <CollectionCard
                 key={cat.id}
-                href={`/${cat.slug}`}
-                className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-lg px-4 py-3 text-sm font-semibold text-brand-black hover:text-brand-orange transition-colors"
-              >
-                {cat.name}
-                {cat.pageCount ? (
-                  <span className="block text-xs text-gray-400 font-normal mt-0.5">
-                    {cat.pageCount} page{cat.pageCount === 1 ? "" : "s"}
-                  </span>
-                ) : null}
-              </Link>
+                collection={cat}
+                variant="compact"
+                priority={i < 3}
+              />
             ))}
           </div>
         </Section>
@@ -91,24 +86,7 @@ export default function HomePage() {
         <Section title="All Collections">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {allCollections.map((cat) => (
-              <Link
-                key={cat.id}
-                href={`/${cat.slug}`}
-                className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-4 transition-all hover:shadow-md group"
-              >
-                <h3 className="font-bold text-base text-brand-black group-hover:text-brand-orange transition-colors">
-                  {cat.name}
-                </h3>
-                <p className="text-gray-500 text-sm mt-1 line-clamp-2">
-                  {cat.description}
-                </p>
-                {cat.pageCount !== undefined && cat.pageCount > 0 && (
-                  <span className="inline-block mt-2 text-brand-orange text-xs font-semibold">
-                    {cat.pageCount} coloring page
-                    {cat.pageCount !== 1 ? "s" : ""} →
-                  </span>
-                )}
-              </Link>
+              <CollectionCard key={cat.id} collection={cat} />
             ))}
           </div>
         </Section>

@@ -1,7 +1,7 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import { getAllCategories } from "@/lib/data";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import CollectionCard from "@/components/CollectionCard";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
@@ -51,24 +51,12 @@ export default function CategoriesPage() {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {allCollections.map((cat) => (
-          <Link
+        {allCollections.map((cat, i) => (
+          <CollectionCard
             key={cat.id}
-            href={`/${cat.slug}`}
-            className="bg-white border-2 border-gray-100 hover:border-brand-orange rounded-xl p-6 transition-all hover:shadow-lg group"
-          >
-            <h2 className="font-bold text-lg text-brand-black group-hover:text-brand-orange transition-colors">
-              {cat.name}
-            </h2>
-            <p className="text-gray-500 text-sm mt-1 line-clamp-2">
-              {cat.description}
-            </p>
-            {cat.pageCount !== undefined && (
-              <span className="inline-block mt-3 text-brand-orange text-sm font-semibold">
-                {cat.pageCount} coloring page{cat.pageCount !== 1 ? "s" : ""} →
-              </span>
-            )}
-          </Link>
+            collection={cat}
+            priority={i < 3}
+          />
         ))}
       </div>
     </div>
