@@ -1,72 +1,72 @@
 [
   {
     "id": "cat-bigfoot",
-    "slug": "bigfoot-style-coloring-pages",
-    "name": "Bigfoot Style Trucks",
-    "description": "Coloring pages featuring massive Bigfoot-style monster trucks with giant tires and powerful engines.",
+    "slug": "bigfoot-monster-truck-coloring-pages",
+    "name": "Bigfoot Monster Truck Coloring Pages",
+    "description": "Free printable Bigfoot monster truck coloring pages featuring massive trucks with giant tires and powerful engines. Bold outlines for kids ages 2-8.",
     "type": "truck-type"
   },
   {
     "id": "cat-crusher",
-    "slug": "car-crushers-coloring-pages",
-    "name": "Car Crushers",
-    "description": "Monster trucks crushing cars and jumping over obstacles. Bold action scenes for young artists.",
+    "slug": "car-crushing-monster-truck-coloring-pages",
+    "name": "Car Crushing Monster Truck Coloring Pages",
+    "description": "Free printable car crushing monster truck coloring pages. Bold action scenes of monster trucks smashing cars and jumping obstacles, perfect for kids ages 2-8.",
     "type": "truck-type"
   },
   {
     "id": "cat-racing",
-    "slug": "racing-trucks-coloring-pages",
-    "name": "Racing Trucks",
-    "description": "Fast monster trucks racing on dirt tracks. Speed and excitement in every coloring page.",
+    "slug": "racing-monster-truck-coloring-pages",
+    "name": "Racing Monster Truck Coloring Pages",
+    "description": "Free printable racing monster truck coloring pages. Fast trucks tearing down dirt tracks with speed lines and action, for kids ages 2-8.",
     "type": "truck-type"
   },
   {
     "id": "cat-freestyle",
-    "slug": "freestyle-tricks-coloring-pages",
-    "name": "Freestyle Tricks",
-    "description": "Monster trucks doing backflips, donuts, and amazing freestyle tricks in the arena.",
+    "slug": "freestyle-monster-truck-coloring-pages",
+    "name": "Freestyle Monster Truck Coloring Pages",
+    "description": "Free printable freestyle monster truck coloring pages. Backflips, donuts, and big-air tricks in the arena, perfect for kids ages 2-8.",
     "type": "truck-type"
   },
   {
     "id": "cat-mud",
-    "slug": "mud-bog-trucks-coloring-pages",
-    "name": "Mud Bog Trucks",
-    "description": "Trucks plowing through mud and dirt. Messy, muddy fun for kids who love getting dirty.",
+    "slug": "mud-bog-monster-truck-coloring-pages",
+    "name": "Mud Bog Monster Truck Coloring Pages",
+    "description": "Free printable mud bog monster truck coloring pages. Trucks plowing through deep mud and dirt, messy muddy fun for kids ages 2-8.",
     "type": "truck-type"
   },
   {
     "id": "cat-skeleton",
-    "slug": "skeleton-trucks-coloring-pages",
-    "name": "Skeleton & Skull Trucks",
-    "description": "Spooky skeleton-themed monster trucks with skull designs and bone decorations.",
+    "slug": "skeleton-monster-truck-coloring-pages",
+    "name": "Skeleton Monster Truck Coloring Pages",
+    "description": "Free printable skeleton monster truck coloring pages with skull designs and bone decorations. Spooky but kid-friendly, for ages 2-8.",
     "type": "theme"
   },
   {
     "id": "cat-flame",
-    "slug": "flame-trucks-coloring-pages",
-    "name": "Flame & Fire Trucks",
-    "description": "Monster trucks covered in flames and fire designs. Hot wheels for cool kids.",
+    "slug": "flame-monster-truck-coloring-pages",
+    "name": "Flame Monster Truck Coloring Pages",
+    "description": "Free printable flame monster truck coloring pages covered in fire and flame designs. Hot wheels for cool kids ages 2-8.",
     "type": "theme"
   },
   {
     "id": "cat-easter",
     "slug": "easter-monster-truck-coloring-pages",
     "name": "Easter Monster Truck Coloring Pages",
-    "description": "Free printable Easter-themed monster truck coloring pages for kids ages 2-8. Monster trucks with bunny ears, Easter eggs, baskets, and springtime fun! Perfect for Easter activities and basket stuffers.",
+    "description": "Free printable Easter monster truck coloring pages for kids ages 2-8. Monster trucks with bunny ears, Easter eggs, baskets, and springtime fun. Perfect for Easter activities and basket stuffers.",
     "type": "theme"
   },
   {
     "id": "cat-easy-monster-truck-toddlers",
-    "slug": "easy-monster-truck-toddlers-coloring-pages",
+    "slug": "easy-monster-truck-coloring-pages-for-toddlers",
     "name": "Easy Monster Truck Coloring Pages for Toddlers",
-    "description": "These free printable coloring pages feature super simple monster truck designs perfect for toddlers and preschoolers ages 2-4. Each monster truck has extra thick outlines and just a few large shapes to color, making them ideal for little hands learning to stay within the lines. Kids will love these fun, easy-to-color monster truck adventures!",
+    "description": "Free printable easy monster truck coloring pages for toddlers and preschoolers ages 2-4. Extra-thick outlines and simple shapes designed for little hands learning to stay in the lines.",
     "type": "age-range"
   },
   {
     "id": "cat-dinosaur-monster-truck-coloring-pages",
     "slug": "dinosaur-monster-truck-coloring-pages",
     "name": "Dinosaur Monster Truck Coloring Pages",
-    "description": "Roar into adventure with our free printable dinosaur monster truck coloring pages! These prehistoric-themed monster truck designs combine the thrill of big wheels with the excitement of dinosaurs, perfect for kids ages 2-8. From simple T-Rex trucks for toddlers to detailed triceratops crushers for older children, these coloring pages bring Jurassic fun to your monster truck adventures.",
+    "description": "Free printable dinosaur monster truck coloring pages. Prehistoric-themed designs combining big wheels with dinosaurs, from simple T-Rex trucks for toddlers to detailed triceratops crushers for older kids ages 2-8.",
     "type": "theme"
   }
 ]
