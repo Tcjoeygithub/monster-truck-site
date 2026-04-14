@@ -5,8 +5,10 @@ import {
   getPagesByCategorySlug,
   getAllCategories,
 } from "@/lib/data";
-import ColoringPageCard from "@/components/ColoringPageCard";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import TwoColumnLayout from "@/components/TwoColumnLayout";
+import ListicleItem from "@/components/ListicleItem";
+import RelatedCollectionsRow from "@/components/RelatedCollectionsRow";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
@@ -21,17 +23,23 @@ export async function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }
 
+function displayName(name: string) {
+  return name.toLowerCase().includes("coloring")
+    ? name
+    : `${name} Coloring Pages`;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const category = getCategoryBySlug(params.slug);
   if (!category) return {};
 
   const pageUrl = `${siteUrl}/category/${category.slug}`;
-  const seoName = category.name.toLowerCase().includes("coloring")
-    ? category.name
-    : `${category.name} Coloring Pages`;
+  const seoName = displayName(category.name);
+  const count = category.pageCount ?? 0;
+  const title = `${count > 0 ? `${count} ` : ""}${seoName} (Free PDF Printables)`;
 
   return {
-    title: `Free ${seoName} for Kids | Printable Monster Truck Coloring Sheets`,
+    title: `${title} | Free Monster Truck Coloring Pages`,
     description: `Free printable ${category.name.toLowerCase()} coloring pages for kids ages 2-8. ${category.description} Download and print for free!`,
     keywords: [
       `${category.name.toLowerCase()} coloring pages`,
@@ -41,28 +49,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "coloring pages for kids",
       "monster truck coloring sheets",
     ],
-    alternates: {
-      canonical: pageUrl,
-    },
+    alternates: { canonical: pageUrl },
     openGraph: {
-      title: `Free ${seoName} for Kids - Monster Truck Coloring Sheets`,
-      description: `Free printable ${category.name.toLowerCase()} coloring pages for kids ages 2-8. ${category.description}`,
+      title,
+      description: category.description,
       url: pageUrl,
       siteName: "Free Monster Truck Coloring Pages",
       locale: "en_US",
-      type: "website",
+      type: "article",
       images: [
         {
           url: `${siteUrl}/images/coloring-pages/skull-crusher.png`,
           width: 1200,
           height: 1631,
-          alt: `${category.name} Monster Truck Coloring Pages`,
+          alt: `${seoName}`,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${category.name} - Free Coloring Pages`,
+      title,
       description: category.description,
     },
   };
@@ -74,11 +80,19 @@ export default function CategoryPage({ params }: Props) {
 
   const pages = getPagesByCategorySlug(params.slug);
   const pageUrl = `${siteUrl}/category/${category.slug}`;
+  const seoName = displayName(category.name);
+
+  const allCats = getAllCategories().filter((c) => c.id !== category.id);
+  const sameType = allCats.filter((c) => c.type === category.type);
+  const preRelated = (sameType.length ? sameType : allCats).slice(0, 4);
+  const postRelated = allCats
+    .filter((c) => !preRelated.find((p) => p.id === c.id))
+    .slice(0, 5);
 
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: category.name,
+    name: seoName,
     description: category.description,
     url: pageUrl,
     inLanguage: "en-US",
@@ -87,10 +101,7 @@ export default function CategoryPage({ params }: Props) {
       name: "Free Monster Truck Coloring Pages",
       url: siteUrl,
     },
-    about: {
-      "@type": "Thing",
-      name: category.name,
-    },
+    about: { "@type": "Thing", name: category.name },
     numberOfItems: pages.length,
     mainEntity: {
       "@type": "ItemList",
@@ -113,59 +124,67 @@ export default function CategoryPage({ params }: Props) {
           __html: JSON.stringify(collectionPageSchema),
         }}
       />
-      <div className="max-w-7xl mx-auto px-4 py-6">
+      <TwoColumnLayout>
         <Breadcrumbs
           crumbs={[
             { label: "Home", href: "/" },
-            { label: "Categories", href: "/categories" },
-            { label: category.name },
+            { label: "Collections", href: "/categories" },
+            { label: seoName },
           ]}
         />
 
-        <h1 className="font-[var(--font-display)] text-3xl md:text-4xl font-bold text-brand-black mb-3">
-          {category.name.toLowerCase().includes("coloring")
-            ? category.name
-            : `${category.name} Coloring Pages`}
-        </h1>
-        <p className="text-gray-600 text-lg mb-4 max-w-3xl">
-          {category.description}
-        </p>
-        <div className="text-gray-500 text-sm mb-8 max-w-3xl leading-relaxed">
-          <p>
-            Browse our free printable {category.name.toLowerCase()} coloring
-            pages for kids. Every coloring page features bold, clean outlines
-            designed for children ages 2&ndash;8. Click any image to print or
-            download for free &mdash; no signup required. We add new{" "}
-            {category.name.toLowerCase()} coloring pages regularly, so check
-            back often!
-          </p>
-          {pages.length > 0 && (
-            <p className="mt-2">
-              This collection currently has{" "}
-              <strong>{pages.length} free coloring page{pages.length !== 1 ? "s" : ""}</strong>{" "}
-              ready to print.
+        <header className="mb-8">
+          <h1 className="font-[var(--font-display)] text-3xl md:text-4xl font-bold text-brand-black mb-4">
+            {pages.length > 0 ? `${pages.length} ` : ""}
+            {seoName} (Free PDF Printables)
+          </h1>
+          <div className="text-gray-700 text-base leading-relaxed max-w-3xl space-y-3">
+            <p>{category.description}</p>
+            <p>
+              To start coloring, click on any of the images or titles below to
+              open the printable page. Every sheet is free &mdash; no signup,
+              no watermark mess, just print and color.
             </p>
-          )}
-        </div>
+          </div>
+        </header>
+
+        {preRelated.length > 0 && (
+          <RelatedCollectionsRow
+            heading="Related Collections"
+            collections={preRelated}
+          />
+        )}
 
         {pages.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="mt-8">
             {pages.map((page, i) => (
-              <ColoringPageCard key={page.id} page={page} priority={i < 2} />
+              <ListicleItem
+                key={page.id}
+                page={page}
+                index={i + 1}
+                priority={i === 0}
+              />
             ))}
           </div>
         ) : (
           <div className="text-center py-16">
             <span className="text-6xl block mb-4">🛻</span>
             <h2 className="text-xl font-bold text-gray-500 mb-2">
-              No pages yet in this category
+              No pages yet in this collection
             </h2>
             <p className="text-gray-400">
               Check back soon — we add new coloring pages every day!
             </p>
           </div>
         )}
-      </div>
+
+        {postRelated.length > 0 && (
+          <RelatedCollectionsRow
+            heading="More Free Printable Coloring Pages"
+            collections={postRelated}
+          />
+        )}
+      </TwoColumnLayout>
     </>
   );
 }

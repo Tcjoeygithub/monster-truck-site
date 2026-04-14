@@ -37,7 +37,20 @@
       "Bash(crontab:*)",
       "Bash(curl -s -X POST \"https://api.pinterest.com/v5/boards\" -H \"Authorization: Bearer $PINTEREST_ACCESS_TOKEN\" -H \"Content-Type: application/json\" -d '{:*)",
       "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A simple bold monster truck icon logo, front-facing, minimal design, solid black silhouette on white background, thick clean lines, suitable for a favicon and website logo, no text\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
-      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A bold monster truck icon logo, side profile view showing big oversized tires and lifted truck body, minimal clean design, solid black silhouette on white background, thick clean lines, horizontal layout wider than tall, suitable for a website header logo, no text\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')"
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A bold monster truck icon logo, side profile view showing big oversized tires and lifted truck body, minimal clean design, solid black silhouette on white background, thick clean lines, horizontal layout wider than tall, suitable for a website header logo, no text\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(curl -s -X POST \"https://api.pinterest.com/v5/pins\" -H \"Authorization: Bearer $PINTEREST_ACCESS_TOKEN\" -H \"Content-Type: application/json\" -d '{:*)",
+      "Bash(curl -s -X POST \"https://api-sandbox.pinterest.com/v5/pins\" -H \"Authorization: Bearer $PINTEREST_ACCESS_TOKEN\" -H \"Content-Type: application/json\" -d '{:*)",
+      "Bash(mkdir -p /Users/josephbrusca/sites/zippyscheduler)",
+      "Read(//Users/josephbrusca/sites/**)",
+      "WebFetch(domain:developers.pinterest.com)",
+      "WebSearch",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"A clean minimal app icon design, a bold white lightning bolt symbol centered on a solid red background \\(#E60023 Pinterest red\\), modern flat design, square aspect ratio, no text, no gradient, simple and recognizable at small sizes\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=$GOOGLE_IMAGEN_API_KEY\" -H \"Content-Type: application/json\" -d '{\"\"\"\"instances\"\"\"\": [{\"\"\"\"prompt\"\"\"\": \"\"\"\"App icon, white lightning bolt centered on solid bright red square background, flat design, no text anywhere in image, no labels, no hex codes, nothing but the lightning bolt on red, rounded corners, filling the entire square\"\"\"\"}], \"\"\"\"parameters\"\"\"\": {\"\"\"\"sampleCount\"\"\"\": 1}}')",
+      "Bash(mkdir:*)",
+      "Bash(printf \"zippy-cron-secret-2026\")",
+      "Bash(printf \"1559295\")",
+      "Bash(printf \"b118935c7d10aac59e8124e6bd0a1ab7058aab0f\")",
+      "Bash(printf \"https://zippyscheduler.com/api/pinterest/callback\")"
     ]
   }
 }
