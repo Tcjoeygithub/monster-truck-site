@@ -1,12 +1,17 @@
 {
-  "cat-bigfoot": "1090645303450697855",
-  "cat-crusher": "1090645303450697856",
-  "cat-racing": "1090645303450697857",
-  "cat-freestyle": "1090645303450697858",
-  "cat-mud": "1090645303450697859",
-  "cat-skeleton": "1090645303450697860",
-  "cat-flame": "1090645303450697861",
-  "cat-easter": "1090645303450697862",
-  "cat-easy-monster-truck-toddlers": "1090645303450697863",
-  "cat-dinosaur-monster-truck-coloring-pages": "1090645303450697864"
+  "account_id": "0d697670-9c73-47a2-b2c8-7595958c9d6b",
+  "account_username": "MonsterTruckColoringPages",
+  "catchall_board_id": "7da43bec-e068-415c-9588-4b79b752d44d",
+  "boards": {
+    "cat-bigfoot": "c97d40bc-40ec-481e-b8bc-0c02bb018584",
+    "cat-crusher": "6125f031-6584-4a4c-beb4-6049a48455c0",
+    "cat-racing": "9fbeaeee-7f54-46af-84c1-9d203c9a67cf",
+    "cat-freestyle": "e2713b48-be80-4e0a-89f9-99ffc7882598",
+    "cat-mud": "c11050f3-0494-46c6-a55f-56402c213d9d",
+    "cat-skeleton": "f16c6f14-de57-4e45-b644-1aa1dffbff0b",
+    "cat-flame": "c70dbc90-e16a-42e3-92ff-f3e0b698e985",
+    "cat-easter": "73627ead-1d25-451b-a732-5bb6bcfb28b0",
+    "cat-easy-monster-truck-toddlers": "d8bb1e17-97b1-43a7-b239-9d493d553c51",
+    "cat-dinosaur-monster-truck-coloring-pages": "54fcfdb6-987d-4266-b5eb-a74d93d89ce6"
+  }
 }
