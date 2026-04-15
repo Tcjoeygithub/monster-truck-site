@@ -54,23 +54,25 @@ jobs:
       - name: Install Node deps
         run: npm ci --prefer-offline --no-audit
 
-      - name: Write .env.local
+      - name: Write .env.local (trimmed, no heredoc whitespace)
         run: |
-          cat > .env.local <<EOF
-          ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-          GOOGLE_IMAGEN_API_KEY=${GOOGLE_IMAGEN_API_KEY}
-          ZIPPY_SCHEDULER_API_KEY=${ZIPPY_SCHEDULER_API_KEY}
-          CRON_SECRET=${CRON_SECRET}
-          NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
-          EOF
+          {
+            printf 'ANTHROPIC_API_KEY=%s\n' "$(printf '%s' "$ANTHROPIC_API_KEY" | tr -d '[:space:]')"
+            printf 'GOOGLE_IMAGEN_API_KEY=%s\n' "$(printf '%s' "$GOOGLE_IMAGEN_API_KEY" | tr -d '[:space:]')"
+            printf 'ZIPPY_SCHEDULER_API_KEY=%s\n' "$(printf '%s' "$ZIPPY_SCHEDULER_API_KEY" | tr -d '[:space:]')"
+            printf 'CRON_SECRET=%s\n' "$(printf '%s' "$CRON_SECRET" | tr -d '[:space:]')"
+            printf 'NEXT_PUBLIC_SITE_URL=%s\n' "$NEXT_PUBLIC_SITE_URL"
+          } > .env.local
+          echo "ANTHROPIC length: $(grep -c '^ANTHROPIC_API_KEY=' .env.local) line(s), key=$(awk -F= '/^ANTHROPIC_API_KEY/{print length($2)}' .env.local) chars"
+          echo "IMAGEN  length: key=$(awk -F= '/^GOOGLE_IMAGEN_API_KEY/{print length($2)}' .env.local) chars"
+          echo "ZIPPY   length: key=$(awk -F= '/^ZIPPY_SCHEDULER_API_KEY/{print length($2)}' .env.local) chars"
 
       - name: Start Next dev server
         run: |
-          npm run dev &
+          npm run dev > /tmp/next.log 2>&1 &
           echo "DEV_PID=$!" >> $GITHUB_ENV
-          # Wait for server to be ready
           for i in {1..30}; do
-            if curl -sf http://localhost:3000/api/admin/pages > /dev/null 2>&1 || curl -sf http://localhost:3000 > /dev/null 2>&1; then
+            if curl -sf http://localhost:3000 > /dev/null 2>&1; then
               echo "Next is up"
               break
             fi
@@ -86,6 +88,12 @@ jobs:
           echo "$RESULT"
           PUBLISHED=$(echo "$RESULT" | python -c "import sys,json;print(json.load(sys.stdin).get('pagesPublished',0))" 2>/dev/null || echo 0)
           echo "published=${PUBLISHED}" >> $GITHUB_OUTPUT
+
+      - name: Dump Next dev server log
+        if: always()
+        run: |
+          echo "=== /tmp/next.log (last 200 lines) ==="
+          tail -200 /tmp/next.log || true
 
       - name: Stop dev server
         if: always()
