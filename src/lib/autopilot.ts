@@ -8,28 +8,22 @@ import { v4 as uuid } from "uuid";
 
 const PAGES_FILE = path.join(process.cwd(), "src/data/coloring-pages.json");
 const CATEGORIES_FILE = path.join(process.cwd(), "src/data/categories.json");
+const BOARDS_FILE = path.join(process.cwd(), "src/data/pinterest-boards.json");
 const IMAGES_DIR = path.join(process.cwd(), "public/images/coloring-pages");
 
 const IMAGEN_API_KEY = process.env.GOOGLE_IMAGEN_API_KEY || "";
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || "";
 
 // =====================================================
-// COLLECTION STRATEGY
+// COLLECTION STRATEGY — simplified
 // =====================================================
-// The autopilot rotates between 3 strategies daily:
-// Day 1: SEO-targeted (autocomplete/keyword inspired collections)
-// Day 2: Demographic-targeted (age/audience specific)
-// Day 3: Novel creative (original mashup ideas)
+// One brand-new creative listicle every day. Consider upcoming major
+// holidays. No SEO research rotation. No "fill existing" priority.
 
-type Strategy = "seo" | "demographic" | "creative";
+type Strategy = "creative";
 
 function getTodayStrategy(): Strategy {
-  const dayOfYear = Math.floor(
-    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) /
-      (1000 * 60 * 60 * 24)
-  );
-  const strategies: Strategy[] = ["seo", "demographic", "creative"];
-  return strategies[dayOfYear % 3];
+  return "creative";
 }
 
 // =====================================================
@@ -59,21 +53,23 @@ interface GeneratedTopic {
 
 const COLLECTION_SYSTEM_PROMPT = `You are a creative director for a children's monster truck coloring page website targeting kids ages 2-8 and their parents.
 
-Your job is to plan a THEMED COLLECTION of coloring pages. A collection is a group of 10 related coloring pages that share a theme and will live on one category page.
+Your job is to invent ONE brand-new themed listicle of 10 coloring pages. Every day is a fresh theme — be genuinely creative.
 
-Rules:
-- Every coloring page must feature a MONSTER TRUCK as the primary subject
-- All designs must be ORIGINAL — never copy real trademarked trucks
-- If inspired by real trucks (Grave Digger, El Toro Loco), create original designs with creative names
-- Mix difficulty levels across the 10 pages: aim for ~3 easy, ~4 medium, ~3 hard
-- Easy = very simple shapes, 5-8 large areas to color, thick outlines, minimal detail
-- Medium = moderate detail, 10-20 areas, some accessories
-- Hard = lots of detail, patterns, many small areas, complex scenes
-- For easy pages, describe VERY SIMPLE trucks with minimal elements
-- Think about what makes a great Pinterest collection`;
+Hard rules:
+- Every page features a MONSTER TRUCK as the primary subject.
+- All designs are ORIGINAL. Never use trademarked names (Grave Digger, El Toro Loco, Monster Jam, Max-D, Bigfoot-the-brand, Hot Wheels, etc). If inspired by a real truck, invent a new creative name.
+- Collection NAME must end in exactly "Monster Truck Coloring Pages" (e.g. "Pirate Monster Truck Coloring Pages", "Hanukkah Monster Truck Coloring Pages", "Outer Space Monster Truck Coloring Pages").
+- Collection SLUG must end in exactly "-monster-truck-coloring-pages" (e.g. "pirate-monster-truck-coloring-pages").
+- The theme must NOT overlap meaningfully with any existing collection on the site.
+- Mix difficulty across the 10 pages: ~3 easy / ~4 medium / ~3 hard.
+  - Easy = 5–8 large shapes, very thick outlines, minimal detail, for 2–4 year olds.
+  - Medium = moderate detail, 10–20 areas, a few accessories.
+  - Hard = lots of detail, patterns, complex scenes.
+- If a major holiday is within 6 weeks, feel free to theme around it (Christmas, Hanukkah, Easter, Halloween, Thanksgiving, Valentine's, Fourth of July, Father's Day, Mother's Day, Back to School, New Year's) — but don't force it every day.
+- Think Pinterest: pick themes parents/teachers will actually want to save and print.`;
 
 export async function brainstormCollection(
-  strategy: Strategy,
+  _strategy: Strategy,
   count: number = 10
 ): Promise<CollectionPlan> {
   const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
@@ -82,7 +78,7 @@ export async function brainstormCollection(
   const existingTitles = existingPages.map((p) => p.title).join(", ");
   const existingCategories = getAllCategories();
   const categoryList = existingCategories
-    .map((c) => `${c.id}: ${c.name} (${c.type}) — ${c.pageCount || 0} pages`)
+    .map((c) => `- ${c.name}`)
     .join("\n");
 
   const today = new Date();
@@ -90,32 +86,18 @@ export async function brainstormCollection(
   const upcomingHolidays = getUpcomingHolidays(today);
 
   const strategyInstructions = {
-    seo: `TODAY'S STRATEGY: SEO-TARGETED COLLECTION
-Pick a collection theme based on what parents would actually search for on Google. Think about Google autocomplete phrases like:
-- "[animal] monster truck coloring pages" (alligator, shark, dinosaur, dragon)
-- "[theme] monster truck coloring pages" (fire, ice, jungle, ocean, space)
-- "monster truck [action] coloring pages" (jumping, crushing, racing, mud)
-- "[holiday] monster truck coloring pages" (if a holiday is coming up)
-The collection name should read naturally as a search query. For example: "Dinosaur Monster Truck Coloring Pages" or "Monster Truck Racing Coloring Pages".`,
+    creative: `Invent ONE brand-new themed listicle of ${count} monster truck coloring pages. Theme must be genuinely original and visually distinctive from every existing collection.
 
-    demographic: `TODAY'S STRATEGY: DEMOGRAPHIC-TARGETED COLLECTION
-Pick a collection theme targeting a specific age group or audience. Examples:
-- "Easy Monster Truck Coloring Pages for Toddlers" (ages 2-3, VERY simple)
-- "Monster Truck Coloring Pages for Kindergarten" (ages 4-5, moderate)
-- "Detailed Monster Truck Coloring Pages for Big Kids" (ages 6-8, complex)
-- "Monster Truck Coloring Pages for Girls" (fun colors, flowers + trucks, unicorn trucks)
-- "Simple Monster Truck Coloring Pages for Preschool"
-The collection should have ALL pages at the appropriate difficulty for that audience.`,
+Good example directions (don't pick one of these unless it's missing):
+- Holiday-themed (only if the holiday is within 6 weeks)
+- Seasonal (winter, summer, spring, fall)
+- Location/setting mashups (underwater, outer space, medieval, pirate, wild west, jungle, arctic)
+- Animal mashups (shark, dragon, tiger, elephant, octopus, robot, dinosaur varieties we haven't covered)
+- Job/occupation mashups (firefighter, astronaut, chef, doctor)
+- Emotion/personality (happy, superhero, sleepy, party)
+- Materials/finishes (crystal, gold, patchwork, rainbow stripes)
 
-    creative: `TODAY'S STRATEGY: NOVEL CREATIVE COLLECTION
-Come up with something totally unique and fun that no keyword research would surface:
-- "Monster Trucks in Space" (trucks on the moon, Mars, floating in zero-G)
-- "Monster Truck Food Trucks" (taco truck, ice cream truck, pizza truck — all monster-sized)
-- "Baby Monster Trucks" (cute small trucks with big eyes)
-- "Monster Trucks Through History" (medieval, pirate ship, wild west)
-- "Monster Truck Mashups" (half truck half animal combos)
-- Seasonal: if a holiday is within 6 weeks, do a themed collection
-Think about what would make a kid say "WHOA COOL!" and a parent share on Pinterest.`,
+The collection should make a parent say "oh cool, my kid will love that" and be instantly pinnable.`,
   };
 
   const response = await anthropic.messages.create({
@@ -125,57 +107,39 @@ Think about what would make a kid say "WHOA COOL!" and a parent share on Pintere
     messages: [
       {
         role: "user",
-        content: `Plan a collection of ${count} monster truck coloring pages.
-
-${strategyInstructions[strategy]}
+        content: `${strategyInstructions.creative}
 
 Current month: ${month}
-Upcoming holidays/events: ${upcomingHolidays}
+Upcoming holidays within 6 weeks: ${upcomingHolidays}
 
-Existing pages (don't duplicate these): ${existingTitles}
-
-Existing collections (with current page counts):
+Existing collection themes (DON'T overlap with any of these):
 ${categoryList}
 
-CRITICAL RULES — READ CAREFULLY:
-
-1. MINIMUM 10 PAGES PER COLLECTION. Look at the page counts above. If ANY existing collection has fewer than 10 pages, you MUST add pages to that collection first. Do NOT create a new collection until all existing ones have at least 10 pages.
-
-2. NO OVERLAPPING COLLECTIONS. Before creating a new collection, check if any existing collection already covers a similar theme. Examples of overlap to avoid:
-   - "Dragon Trucks" overlaps with "Flame & Fire Trucks"
-   - "Skull Monster Trucks" overlaps with "Skeleton & Skull Trucks"
-   - "Racing Monster Trucks" overlaps with "Racing Trucks"
-   If there's overlap, ADD to the existing collection instead.
-
-3. PRIORITY ORDER:
-   a) First: fill any existing collection that has fewer than 10 pages
-   b) Second: if all collections have 10+, create a genuinely NEW collection that doesn't overlap with anything
-
-Based on the page counts above, which collection needs filling? If all have 10+, what new DISTINCT theme should we create?
+Recent page titles to avoid duplicating: ${existingTitles}
 
 Respond in this exact JSON format:
 {
-  "collectionName": "Name for the collection page (should include 'coloring pages' if it doesn't already — this becomes the H1)",
-  "collectionSlug": "url-slug-for-collection",
-  "collectionDescription": "SEO-rich description for the collection page. 2-3 sentences explaining what these coloring pages are, who they're for, and why kids love them. Must mention 'free printable coloring pages' and 'monster truck'.",
-  "collectionType": "truck-type|difficulty|age-range|theme",
-  "isNewCollection": true/false,
-  "existingCategoryId": "cat-id if adding to existing, omit if new",
+  "collectionName": "{Theme} Monster Truck Coloring Pages",
+  "collectionSlug": "{theme}-monster-truck-coloring-pages",
+  "collectionDescription": "2-3 sentence description. Lead with 'Free printable {theme} monster truck coloring pages for kids ages 2-8.' Then describe what makes this set fun.",
+  "collectionType": "theme",
+  "isNewCollection": true,
   "pages": [
     {
-      "title": "Creative Page Title",
-      "slug": "url-slug",
-      "description": "2-3 sentence fun description for kids/parents.",
-      "metaDescription": "SEO meta description under 160 chars with 'free printable' and 'coloring page'",
-      "altText": "Descriptive alt text for the black and white coloring page image",
-      "imagenPrompt": "Detailed prompt for the monster truck design, pose, accessories. For EASY pages say: very simple monster truck, only 5-6 large shapes, extra thick outlines, no small details. For MEDIUM: moderate detail monster truck. For HARD: detailed monster truck with patterns and accessories.",
+      "title": "Creative Page Title (no brand names)",
+      "slug": "url-slug-without-collection-prefix",
+      "description": "2-3 fun sentences about this specific truck, for kids and parents.",
+      "metaDescription": "SEO meta under 160 chars, mentions 'free printable' and 'coloring page'",
+      "altText": "Describe the black and white coloring page image for accessibility",
+      "imagenPrompt": "Detailed prompt describing this specific monster truck, its pose, decorations. For EASY: 'very simple monster truck, only 5-6 large shapes, extra thick outlines, no small details'. For MEDIUM: moderate detail. For HARD: detailed with patterns. ALWAYS specify the truck as the only subject on a white background.",
       "difficulty": "easy|medium|hard",
       "ageRange": "2-4|4-6|6-8"
     }
+    // ... ${count} total pages
   ]
 }
 
-Return ONLY the JSON, no other text.`,
+Return ONLY the JSON.`,
       },
     ],
   });
@@ -187,62 +151,28 @@ Return ONLY the JSON, no other text.`,
 
   const plan: CollectionPlan = JSON.parse(jsonMatch[0]);
 
-  // Safety check 1: if Claude says "new" but an existing collection has the same slug
-  // or very similar name, force it to use the existing one (true overlap)
-  if (plan.isNewCollection) {
-    const existing = existingCategories.find(
-      (c) =>
-        c.slug === plan.collectionSlug ||
-        c.name.toLowerCase() === plan.collectionName.toLowerCase()
+  // Enforce naming convention: "{Theme} Monster Truck Coloring Pages"
+  if (!/monster truck coloring pages$/i.test(plan.collectionName)) {
+    plan.collectionName = `${plan.collectionName.replace(/\s*coloring pages?$/i, "").trim()} Monster Truck Coloring Pages`;
+  }
+  if (!/-monster-truck-coloring-pages$/.test(plan.collectionSlug)) {
+    plan.collectionSlug = `${plan.collectionSlug.replace(/-coloring-pages?$/, "").replace(/-monster-trucks?$/, "")}-monster-truck-coloring-pages`;
+  }
+
+  // If an existing collection already has this slug/name, bail — ask for a fresh one next run.
+  const overlap = existingCategories.find(
+    (c) =>
+      c.slug === plan.collectionSlug ||
+      c.name.toLowerCase() === plan.collectionName.toLowerCase()
+  );
+  if (overlap) {
+    throw new Error(
+      `Collection "${plan.collectionName}" overlaps with existing "${overlap.name}". Rerun for a fresh theme.`
     );
-    if (existing) {
-      console.log(
-        `[autopilot] Overlap detected: "${plan.collectionName}" matches existing "${existing.name}" — merging`
-      );
-      plan.isNewCollection = false;
-      plan.existingCategoryId = existing.id;
-      plan.collectionName = existing.name;
-      plan.collectionSlug = existing.slug;
-    }
   }
 
-  // Safety check 2: if Claude says "new" but existing collections need filling,
-  // ONLY redirect if the new collection isn't a genuinely distinct concept.
-  // Seasonal, event, and clearly unique themes should be allowed as new collections
-  // even when existing ones are underfilled — they're time-sensitive.
-  if (plan.isNewCollection) {
-    const underfilled = existingCategories
-      .filter((c) => (c.pageCount || 0) < 10)
-      .sort((a, b) => (a.pageCount || 0) - (b.pageCount || 0));
-
-    // Check if this is a genuinely new concept (seasonal, demographic, unique mashup)
-    const newConceptSignals = [
-      "easter", "christmas", "halloween", "thanksgiving", "valentine",
-      "summer", "winter", "spring", "birthday", "4th of july", "patriotic",
-      "st patrick", "back to school", "father", "mother",
-      "toddler", "kindergarten", "preschool", "girls", "boys",
-      "baby", "space", "underwater", "food", "history", "robot",
-      "dinosaur", "pirate", "superhero", "unicorn",
-    ];
-    const planNameLower = plan.collectionName.toLowerCase();
-    const isGenuinelyNew = newConceptSignals.some((s) => planNameLower.includes(s));
-
-    if (underfilled.length > 0 && !isGenuinelyNew) {
-      const target = underfilled[0];
-      console.log(
-        `[autopilot] Redirecting: "${plan.collectionName}" → filling underfilled "${target.name}" (${target.pageCount || 0} pages)`
-      );
-      plan.isNewCollection = false;
-      plan.existingCategoryId = target.id;
-      plan.collectionName = target.name;
-      plan.collectionSlug = target.slug;
-    } else if (underfilled.length > 0 && isGenuinelyNew) {
-      console.log(
-        `[autopilot] Allowing new collection "${plan.collectionName}" despite underfilled collections — genuinely distinct concept`
-      );
-    }
-  }
-
+  plan.isNewCollection = true;
+  plan.existingCategoryId = undefined;
   return plan;
 }
 
@@ -391,6 +321,54 @@ function applyFrame(imagePath: string) {
   } catch (err) {
     console.log(`[autopilot] Frame failed: ${err}`);
   }
+}
+
+// =====================================================
+// PINTEREST BOARD PROVISIONING (via Zippy)
+// =====================================================
+async function ensurePinterestBoard(
+  categoryId: string,
+  plan: CollectionPlan
+): Promise<void> {
+  if (!fs.existsSync(BOARDS_FILE)) return;
+  const boardsMap = JSON.parse(fs.readFileSync(BOARDS_FILE, "utf-8"));
+  if (boardsMap.boards?.[categoryId]) {
+    return; // already have a board for this category
+  }
+  const zippyKey = process.env.ZIPPY_SCHEDULER_API_KEY;
+  const accountId = boardsMap.account_id;
+  if (!zippyKey || !accountId) {
+    console.log(
+      "[autopilot] Missing ZIPPY_SCHEDULER_API_KEY or account_id, skipping board creation"
+    );
+    return;
+  }
+  console.log(`[autopilot] Creating Pinterest board: ${plan.collectionName}`);
+  const res = await fetch("https://www.zippyscheduler.com/api/v1/boards", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${zippyKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      account_id: accountId,
+      name: plan.collectionName,
+      description: `${plan.collectionDescription} Free printable at FreeMonsterTruckColoringPages.com`,
+      privacy: "PUBLIC",
+    }),
+  });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error(`Zippy board create failed: ${res.status} ${txt}`);
+  }
+  const body = await res.json();
+  const zippyBoardId = body.board?.id;
+  if (!zippyBoardId) throw new Error("No board id in Zippy response");
+
+  boardsMap.boards ||= {};
+  boardsMap.boards[categoryId] = zippyBoardId;
+  fs.writeFileSync(BOARDS_FILE, JSON.stringify(boardsMap, null, 2));
+  console.log(`[autopilot] Board created → ${zippyBoardId}`);
 }
 
 function checkBlackAndWhite(imagePath: string): boolean {
@@ -625,6 +603,16 @@ export async function runDailyPipeline(
 
   const published = results.filter((r) => r.success).length;
   const failed = results.filter((r) => !r.success).length;
+
+  // Step 4: If this is a new collection and at least one page published,
+  // create a matching Pinterest board via Zippy and persist the mapping.
+  if (published > 0) {
+    try {
+      await ensurePinterestBoard(categoryId, plan);
+    } catch (err) {
+      console.log(`[autopilot] Pinterest board creation failed: ${err}`);
+    }
+  }
 
   console.log(
     `\n[autopilot] === Done: ${published} published, ${failed} failed ===`
