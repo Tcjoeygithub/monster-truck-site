@@ -17,21 +17,7 @@ export default function Analytics() {
         </Script>
       )}
 
-      {/* Google Analytics 4 */}
-      {gaId && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-            strategy="afterInteractive"
-          />
-          <Script id="ga4" strategy="afterInteractive">
-            {`window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gaId}');`}
-          </Script>
-        </>
-      )}
+      {/* GA4 is rendered directly in <head> in layout.tsx so GSC can verify */}
     </>
   );
 }
