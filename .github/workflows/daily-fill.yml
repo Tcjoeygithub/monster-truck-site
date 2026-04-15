@@ -116,7 +116,16 @@ jobs:
           git commit -m "Autopilot: ${{ steps.autopilot.outputs.published }} new coloring pages ($(date +%Y-%m-%d))
 
           Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
-          git push origin main
+          # Pull any remote changes with rebase before pushing
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main || git rebase --abort || true
+            if git push origin main; then
+              echo "Pushed on attempt ${attempt}"
+              break
+            fi
+            echo "Push attempt ${attempt} failed, retrying..."
+            sleep 5
+          done
 
       - name: Wait for Vercel deploy to propagate
         if: steps.autopilot.outputs.published != '0'
