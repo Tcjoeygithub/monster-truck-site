@@ -11,8 +11,8 @@ const CATEGORIES_FILE = path.join(process.cwd(), "src/data/categories.json");
 const BOARDS_FILE = path.join(process.cwd(), "src/data/pinterest-boards.json");
 const IMAGES_DIR = path.join(process.cwd(), "public/images/coloring-pages");
 
-const IMAGEN_API_KEY = process.env.GOOGLE_IMAGEN_API_KEY || "";
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || "";
+const IMAGEN_API_KEY = (process.env.GOOGLE_IMAGEN_API_KEY || "").trim();
+const ANTHROPIC_API_KEY = (process.env.ANTHROPIC_API_KEY || "").trim();
 
 // =====================================================
 // COLLECTION STRATEGY — simplified
