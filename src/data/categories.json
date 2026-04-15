@@ -89,5 +89,152 @@
     "name": "Candy Shop Monster Truck Coloring Pages",
     "description": "Free printable candy shop monster truck coloring pages for kids ages 2-8. These sweet monster trucks are decorated with colorful candies, desserts, and treats that will make any child's mouth water. Perfect for combining love of vehicles with favorite sweets!",
     "type": "theme"
+  },
+  {
+    "id": "cat-crystal-monster-truck-coloring-pages",
+    "slug": "crystal-monster-truck-coloring-pages",
+    "name": "Crystal Monster Truck Coloring Pages",
+    "description": "Free printable crystal monster truck coloring pages for kids ages 2-8. These magical trucks are made from sparkling gemstones and crystals, perfect for kids who love shiny, mystical vehicles. Each page features unique crystal formations and geometric patterns that create stunning monster trucks.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-weather-monster-truck-coloring-pages",
+    "slug": "weather-monster-truck-coloring-pages",
+    "name": "Weather Monster Truck Coloring Pages",
+    "description": "Free printable weather monster truck coloring pages for kids ages 2-8. These awesome trucks are equipped with weather-themed features like snowplow blades, lightning bolt designs, and tornado swirls. Perfect for teaching kids about different weather patterns while enjoying their favorite monster trucks!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-flower-garden-monster-truck-coloring-pages",
+    "slug": "flower-garden-monster-truck-coloring-pages",
+    "name": "Flower Garden Monster Truck Coloring Pages",
+    "description": "Free printable flower garden monster truck coloring pages for kids ages 2-8. These blooming monster trucks are decorated with beautiful flowers, petals, and garden themes that combine the excitement of big wheels with the beauty of nature. Perfect for spring coloring fun!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-robot-monster-truck-coloring-pages",
+    "slug": "robot-monster-truck-coloring-pages",
+    "name": "Robot Monster Truck Coloring Pages",
+    "description": "Free printable robot monster truck coloring pages for kids ages 2-8. These awesome mechanical monster trucks feature cool robot parts, antenna, gears, and futuristic designs that combine two of kids' favorite things - robots and monster trucks!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-bakery-monster-truck-coloring-pages",
+    "slug": "bakery-monster-truck-coloring-pages",
+    "name": "Bakery Monster Truck Coloring Pages",
+    "description": "Free printable bakery monster truck coloring pages for kids ages 2-8. These delicious trucks are rolling straight out of the bakery with bread, pastries, and sweet treats decorating their giant wheels and bodies. Perfect for little ones who love both monster trucks and yummy baked goods!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-music-band-monster-truck-coloring-pages",
+    "slug": "music-band-monster-truck-coloring-pages",
+    "name": "Music Band Monster Truck Coloring Pages",
+    "description": "Free printable music band monster truck coloring pages for kids ages 2-8. These rockin' monster trucks are ready to jam with guitars, drums, microphones, and musical notes decorating their massive wheels and bodies. Perfect for little music lovers who want to combine their passion for monster trucks with their favorite tunes!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-medieval-castle-monster-truck-coloring-pages",
+    "slug": "medieval-castle-monster-truck-coloring-pages",
+    "name": "Medieval Castle Monster Truck Coloring Pages",
+    "description": "Free printable medieval castle monster truck coloring pages for kids ages 2-8. These mighty monster trucks are transformed into knights, dragons, and castle defenders with turrets, flags, and medieval armor. Perfect for young artists who love both monster trucks and knights in shining armor!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-farm-animal-monster-truck-coloring-pages",
+    "slug": "farm-animal-monster-truck-coloring-pages",
+    "name": "Farm Animal Monster Truck Coloring Pages",
+    "description": "Free printable farm animal monster truck coloring pages for kids ages 2-8. These adorable monster trucks are decorated like barnyard friends with cow spots, pig snouts, sheep wool, and more! Perfect for kids who love both farming and big wheels.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-wizard-magic-monster-truck-coloring-pages",
+    "slug": "wizard-magic-monster-truck-coloring-pages",
+    "name": "Wizard Magic Monster Truck Coloring Pages",
+    "description": "Free printable wizard magic monster truck coloring pages for kids ages 2-8. These enchanting monster trucks feature magical spells, wizard hats, crystal balls, and mystical powers that will spark imagination and creativity. Perfect for young fantasy fans who love both trucks and magic!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-ocean-adventure-monster-truck-coloring-pages",
+    "slug": "ocean-adventure-monster-truck-coloring-pages",
+    "name": "Ocean Adventure Monster Truck Coloring Pages",
+    "description": "Free printable ocean adventure monster truck coloring pages for kids ages 2-8. These underwater-themed monster trucks feature sea creature decorations, ocean waves, and nautical adventures that combine the excitement of big wheels with the wonders of the deep blue sea.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-insect-monster-truck-coloring-pages",
+    "slug": "insect-monster-truck-coloring-pages",
+    "name": "Insect Monster Truck Coloring Pages",
+    "description": "Free printable insect monster truck coloring pages for kids ages 2-8. These bug-themed monster trucks feature amazing creatures like beetles, butterflies, and bees with giant wheels ready to crawl, fly, and buzz through coloring adventures. Perfect for kids who love both creepy crawlies and big trucks!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-jungle-adventure-monster-truck-coloring-pages",
+    "slug": "jungle-adventure-monster-truck-coloring-pages",
+    "name": "Jungle Adventure Monster Truck Coloring Pages",
+    "description": "Free printable jungle adventure monster truck coloring pages for kids ages 2-8. These wild monster trucks are ready to explore dense rainforests, swing through vines, and discover hidden jungle treasures. Each truck features unique jungle-themed decorations like animal prints, tropical plants, and adventurous gear perfect for young explorers to color.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-superhero-monster-truck-coloring-pages",
+    "slug": "superhero-monster-truck-coloring-pages",
+    "name": "Superhero Monster Truck Coloring Pages",
+    "description": "Free printable superhero monster truck coloring pages for kids ages 2-8. These mighty monster trucks are ready to save the day with their super powers, capes, and heroic designs. Perfect for little ones who love both monster trucks and superheroes!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-space-explorer-monster-truck-coloring-pages",
+    "slug": "space-explorer-monster-truck-coloring-pages",
+    "name": "Space Explorer Monster Truck Coloring Pages",
+    "description": "Free printable space explorer monster truck coloring pages for kids ages 2-8. These cosmic crusaders are ready for interstellar adventures with rocket boosters, satellite dishes, and alien-inspired designs. Perfect for little astronauts who dream of monster trucks zooming through the galaxy!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-gemstone-monster-truck-coloring-pages",
+    "slug": "gemstone-monster-truck-coloring-pages",
+    "name": "Gemstone Monster Truck Coloring Pages",
+    "description": "Free printable gemstone monster truck coloring pages for kids ages 2-8. These sparkling trucks are decorated with beautiful gems, crystals, and precious stones that shimmer and shine! Perfect for kids who love both monster trucks and sparkly treasures.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-volcano-monster-truck-coloring-pages",
+    "slug": "volcano-monster-truck-coloring-pages",
+    "name": "Volcano Monster Truck Coloring Pages",
+    "description": "Free printable volcano monster truck coloring pages for kids ages 2-8. These fiery mountain-themed monster trucks feature lava flows, volcanic rocks, and explosive adventures! Perfect for young geology enthusiasts and adventure-loving kids.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-detective-mystery-monster-truck-coloring-pages",
+    "slug": "detective-mystery-monster-truck-coloring-pages",
+    "name": "Detective Mystery Monster Truck Coloring Pages",
+    "description": "Free printable detective mystery monster truck coloring pages for kids ages 2-8. These mystery-solving monster trucks are equipped with magnifying glasses, detective hats, and clue-finding gear. Perfect for kids who love solving puzzles and mystery adventures!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-fairy-tale-monster-truck-coloring-pages",
+    "slug": "fairy-tale-monster-truck-coloring-pages",
+    "name": "Fairy Tale Monster Truck Coloring Pages",
+    "description": "Free printable fairy tale monster truck coloring pages for kids ages 2-8. These magical monster trucks bring beloved storybook characters to life with giant wheels and fairy tale flair. Perfect for little ones who love both monster trucks and classic fairy tales!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-dream-monster-truck-coloring-pages",
+    "slug": "dream-monster-truck-coloring-pages",
+    "name": "Dream Monster Truck Coloring Pages",
+    "description": "Free printable dream monster truck coloring pages for kids ages 2-8. These magical trucks feature dreamy elements like clouds, stars, rainbows, and moons. Perfect for bedtime coloring sessions or quiet naptime activities.",
+    "type": "theme"
+  },
+  {
+    "id": "cat-kitchen-chef-monster-truck-coloring-pages",
+    "slug": "kitchen-chef-monster-truck-coloring-pages",
+    "name": "Kitchen Chef Monster Truck Coloring Pages",
+    "description": "Free printable kitchen chef monster truck coloring pages for kids ages 2-8. These culinary-themed monster trucks feature chef hats, cooking utensils, and delicious kitchen adventures that will cook up hours of coloring fun!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-toy-store-monster-truck-coloring-pages",
+    "slug": "toy-store-monster-truck-coloring-pages",
+    "name": "Toy Store Monster Truck Coloring Pages",
+    "description": "Free printable toy store monster truck coloring pages for kids ages 2-8. These fun monster trucks are inspired by classic toys like building blocks, teddy bears, and toy trains. Perfect for kids who love both monster trucks and their favorite toys!",
+    "type": "theme"
   }
 ]
