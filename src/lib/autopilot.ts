@@ -280,22 +280,45 @@ Respond in JSON only: {"overall": <avg of all 8>, "completeness": <score>, "no_c
           ],
         },
       ],
-      generationConfig: { temperature: 0.1, maxOutputTokens: 1024 },
+      generationConfig: { temperature: 0.1, maxOutputTokens: 2048 },
     }),
   });
 
-  if (!res.ok) throw new Error(`QC API error: ${res.status}`);
+  if (!res.ok) {
+    const errText = await res.text();
+    console.log(`[autopilot]   QC HTTP ${res.status}: ${errText.slice(0, 300)}`);
+    return { pass: false, score: 0, issues: [`QC HTTP ${res.status}`] };
+  }
 
   const data = await res.json();
-  const text = data.candidates[0].content.parts
-    .map((p: { text?: string }) => p.text || "")
-    .join("");
+  const text = data.candidates?.[0]?.content?.parts
+    ?.map((p: { text?: string }) => p.text || "")
+    .join("") ?? "";
+  if (!text) {
+    console.log(`[autopilot]   QC empty response: ${JSON.stringify(data).slice(0, 300)}`);
+    return { pass: false, score: 0, issues: ["Empty QC response"] };
+  }
   const cleaned = text.replace(/```json\s*/g, "").replace(/```\s*/g, "");
   const jsonMatch = cleaned.match(/\{[\s\S]*\}/);
-  if (!jsonMatch)
+  if (!jsonMatch) {
+    console.log(`[autopilot]   QC unparseable: ${text.slice(0, 300)}`);
     return { pass: false, score: 0, issues: ["Could not parse QC"] };
+  }
 
-  const result = JSON.parse(jsonMatch[0]);
+  let result: {
+    overall?: number;
+    completeness?: number;
+    no_color?: number;
+    no_text?: number;
+    pass?: boolean;
+    issues?: string[];
+  };
+  try {
+    result = JSON.parse(jsonMatch[0]);
+  } catch (e) {
+    console.log(`[autopilot]   QC JSON parse fail: ${jsonMatch[0].slice(0, 300)}`);
+    return { pass: false, score: 0, issues: [`JSON parse fail: ${e}`] };
+  }
   const noColor = result.no_color ?? 10;
   const noText = result.no_text ?? 10;
   // Hard-fail any image where the AI sees colored fills or text artifacts,
