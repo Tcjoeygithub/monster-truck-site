@@ -1,0 +1,135 @@
+name: Daily fill
+
+# Runs every day at 08:00 UTC (04:00 ET). Also triggerable manually
+# from the Actions tab (workflow_dispatch).
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Pages to generate"
+        required: false
+        default: "10"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-fill
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      COUNT: ${{ inputs.count || '10' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GOOGLE_IMAGEN_API_KEY: ${{ secrets.GOOGLE_IMAGEN_API_KEY }}
+      ZIPPY_SCHEDULER_API_KEY: ${{ secrets.ZIPPY_SCHEDULER_API_KEY }}
+      CRON_SECRET: ${{ secrets.CRON_SECRET }}
+      NEXT_PUBLIC_SITE_URL: https://freemonstertruckcoloringpages.com
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python deps
+        run: python -m pip install --quiet Pillow
+
+      - name: Install Node deps
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Write .env.local
+        run: |
+          cat > .env.local <<EOF
+          ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+          GOOGLE_IMAGEN_API_KEY=${GOOGLE_IMAGEN_API_KEY}
+          ZIPPY_SCHEDULER_API_KEY=${ZIPPY_SCHEDULER_API_KEY}
+          CRON_SECRET=${CRON_SECRET}
+          NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+          EOF
+
+      - name: Start Next dev server
+        run: |
+          npm run dev &
+          echo "DEV_PID=$!" >> $GITHUB_ENV
+          # Wait for server to be ready
+          for i in {1..30}; do
+            if curl -sf http://localhost:3000/api/admin/pages > /dev/null 2>&1 || curl -sf http://localhost:3000 > /dev/null 2>&1; then
+              echo "Next is up"
+              break
+            fi
+            sleep 2
+          done
+
+      - name: Run autopilot (generate + QC + publish pages)
+        id: autopilot
+        run: |
+          RESULT=$(curl -sS -m 1500 \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            "http://localhost:3000/api/cron?count=${COUNT}")
+          echo "$RESULT"
+          PUBLISHED=$(echo "$RESULT" | python -c "import sys,json;print(json.load(sys.stdin).get('pagesPublished',0))" 2>/dev/null || echo 0)
+          echo "published=${PUBLISHED}" >> $GITHUB_OUTPUT
+
+      - name: Stop dev server
+        if: always()
+        run: kill $DEV_PID 2>/dev/null || true
+
+      - name: Generate PDFs for new pages
+        if: steps.autopilot.outputs.published != '0'
+        run: python scripts/generate-pdfs.py
+
+      - name: Commit + push pages and PDFs
+        if: steps.autopilot.outputs.published != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/ public/images/coloring-pages/ public/pdfs/
+          git commit -m "Autopilot: ${{ steps.autopilot.outputs.published }} new coloring pages ($(date +%Y-%m-%d))
+
+          Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+          git push origin main
+
+      - name: Wait for Vercel deploy to propagate
+        if: steps.autopilot.outputs.published != '0'
+        run: sleep 120
+
+      - name: Generate unique Pinterest pin descriptions
+        if: steps.autopilot.outputs.published != '0'
+        run: node scripts/generate-pin-descriptions.mjs
+
+      - name: Schedule pins via Zippy (staggered across 24h)
+        if: steps.autopilot.outputs.published != '0'
+        run: node scripts/schedule-pins.mjs --days=1
+
+      - name: Commit + push pin state
+        if: steps.autopilot.outputs.published != '0'
+        run: |
+          git pull --rebase origin main
+          if ! git diff --quiet src/data/pinned.json src/data/pin-descriptions.json 2>/dev/null; then
+            git add src/data/pinned.json src/data/pin-descriptions.json
+            git commit -m "Autopilot: schedule ${{ steps.autopilot.outputs.published }} new pins ($(date +%Y-%m-%d))
+
+            Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+            git push origin main
+          fi
+
+      - name: No-op summary
+        if: steps.autopilot.outputs.published == '0'
+        run: echo "No pages published — skipping PDF/pin steps."
