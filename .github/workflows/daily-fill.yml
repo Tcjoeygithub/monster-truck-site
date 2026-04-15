@@ -11,6 +11,10 @@ on:
         description: "Pages to generate"
         required: false
         default: "10"
+      days:
+        description: "Spread pin schedule over N days"
+        required: false
+        default: "1"
 
 permissions:
   contents: write
@@ -135,9 +139,9 @@ jobs:
         if: steps.autopilot.outputs.published != '0'
         run: node scripts/generate-pin-descriptions.mjs
 
-      - name: Schedule pins via Zippy (staggered across 24h)
+      - name: Schedule pins via Zippy (staggered)
         if: steps.autopilot.outputs.published != '0'
-        run: node scripts/schedule-pins.mjs --days=1
+        run: node scripts/schedule-pins.mjs --days=${{ inputs.days || 1 }}
 
       - name: Commit + push pin state
         if: steps.autopilot.outputs.published != '0'
