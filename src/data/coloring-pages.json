@@ -2184,5 +2184,65 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T18:34:35.908Z",
     "updatedAt": "2026-04-15T18:34:35.908Z"
+  },
+  {
+    "id": "page-22325716",
+    "slug": "banana-boost-monster-truck",
+    "title": "Banana Boost Monster Truck",
+    "description": "This cheerful monster truck is covered in bright yellow bananas! The big wheels are ready to roll over any obstacle while carrying a load of healthy bananas.",
+    "metaDescription": "Free printable Banana Boost Monster Truck coloring page for kids. Fun fruit-themed monster truck with bananas perfect for ages 2-8.",
+    "altText": "Black and white coloring page of a monster truck decorated with banana designs and large wheels",
+    "imagePath": "/images/coloring-pages/banana-boost-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/banana-boost-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:49:58.982Z",
+    "updatedAt": "2026-04-15T18:49:58.982Z"
+  },
+  {
+    "id": "page-dd0daa2e",
+    "slug": "watermelon-warrior-truck",
+    "title": "Watermelon Warrior Truck",
+    "description": "Get ready for summer fun with this watermelon-themed monster truck! Its green body with pink watermelon slices will crush through any summer adventure.",
+    "metaDescription": "Free printable Watermelon Warrior Monster Truck coloring page. Cool summer fruit truck design for kids ages 4-6 to color and enjoy.",
+    "altText": "Black and white coloring page of a monster truck with watermelon slice decorations and medium-sized details",
+    "imagePath": "/images/coloring-pages/watermelon-warrior-truck.png",
+    "thumbnailPath": "/images/coloring-pages/watermelon-warrior-truck-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:50:12.279Z",
+    "updatedAt": "2026-04-15T18:50:12.279Z"
+  },
+  {
+    "id": "page-1fb45aec",
+    "slug": "orange-crusher-mega-truck",
+    "title": "Orange Crusher Mega Truck",
+    "description": "This powerful orange-themed monster truck is packed with vitamin C and crushing power! Watch it roll through obstacles while showing off its citrus style.",
+    "metaDescription": "Free printable Orange Crusher Monster Truck coloring page with detailed orange fruit designs. Perfect advanced coloring for kids 6-8.",
+    "altText": "Black and white coloring page of a detailed monster truck decorated with orange fruit patterns and complex wheel designs",
+    "imagePath": "/images/coloring-pages/orange-crusher-mega-truck.png",
+    "thumbnailPath": "/images/coloring-pages/orange-crusher-mega-truck-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:50:27.277Z",
+    "updatedAt": "2026-04-15T18:50:27.277Z"
   }
 ]
