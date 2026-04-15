@@ -367,7 +367,7 @@ async function ensurePinterestBoard(
     return;
   }
   console.log(`[autopilot] Creating Pinterest board: ${plan.collectionName}`);
-  const res = await fetch("https://www.zippyscheduler.com/api/v1/boards", {
+  const createRes = await fetch("https://www.zippyscheduler.com/api/v1/boards", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${zippyKey}`,
@@ -380,18 +380,40 @@ async function ensurePinterestBoard(
       privacy: "PUBLIC",
     }),
   });
-  if (!res.ok) {
-    const txt = await res.text();
-    throw new Error(`Zippy board create failed: ${res.status} ${txt}`);
+
+  let zippyBoardId: string | undefined;
+  if (createRes.ok) {
+    const body = await createRes.json();
+    zippyBoardId = body.board?.id;
+  } else {
+    // Board probably already exists — fall back to listing and matching by name.
+    const errText = await createRes.text();
+    if (/already have a board with this name/i.test(errText)) {
+      console.log(`[autopilot] Board already exists, looking it up...`);
+      const listRes = await fetch(
+        `https://www.zippyscheduler.com/api/v1/boards?account_id=${accountId}`,
+        { headers: { Authorization: `Bearer ${zippyKey}` } }
+      );
+      if (listRes.ok) {
+        const listed = await listRes.json();
+        const match = (listed.boards || []).find(
+          (b: { name: string }) =>
+            b.name.trim().toLowerCase() ===
+            plan.collectionName.trim().toLowerCase()
+        );
+        zippyBoardId = match?.id;
+      }
+    } else {
+      throw new Error(`Zippy board create failed: ${createRes.status} ${errText}`);
+    }
   }
-  const body = await res.json();
-  const zippyBoardId = body.board?.id;
-  if (!zippyBoardId) throw new Error("No board id in Zippy response");
+
+  if (!zippyBoardId) throw new Error("Could not obtain board id from Zippy");
 
   boardsMap.boards ||= {};
   boardsMap.boards[categoryId] = zippyBoardId;
   fs.writeFileSync(BOARDS_FILE, JSON.stringify(boardsMap, null, 2));
-  console.log(`[autopilot] Board created → ${zippyBoardId}`);
+  console.log(`[autopilot] Board ready → ${zippyBoardId}`);
 }
 
 function checkBlackAndWhite(imagePath: string): boolean {
