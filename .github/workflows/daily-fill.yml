@@ -54,18 +54,22 @@ jobs:
       - name: Install Node deps
         run: npm ci --prefer-offline --no-audit
 
-      - name: Write .env.local (trimmed, no heredoc whitespace)
+      - name: Write .env.local (strip ALL non-printable bytes)
         run: |
+          # Strip anything that's not printable ASCII (32-126) from secrets.
+          clean() { printf '%s' "$1" | LC_ALL=C tr -cd '\40-\176'; }
           {
-            printf 'ANTHROPIC_API_KEY=%s\n' "$(printf '%s' "$ANTHROPIC_API_KEY" | tr -d '[:space:]')"
-            printf 'GOOGLE_IMAGEN_API_KEY=%s\n' "$(printf '%s' "$GOOGLE_IMAGEN_API_KEY" | tr -d '[:space:]')"
-            printf 'ZIPPY_SCHEDULER_API_KEY=%s\n' "$(printf '%s' "$ZIPPY_SCHEDULER_API_KEY" | tr -d '[:space:]')"
-            printf 'CRON_SECRET=%s\n' "$(printf '%s' "$CRON_SECRET" | tr -d '[:space:]')"
+            printf 'ANTHROPIC_API_KEY=%s\n' "$(clean "$ANTHROPIC_API_KEY")"
+            printf 'GOOGLE_IMAGEN_API_KEY=%s\n' "$(clean "$GOOGLE_IMAGEN_API_KEY")"
+            printf 'ZIPPY_SCHEDULER_API_KEY=%s\n' "$(clean "$ZIPPY_SCHEDULER_API_KEY")"
+            printf 'CRON_SECRET=%s\n' "$(clean "$CRON_SECRET")"
             printf 'NEXT_PUBLIC_SITE_URL=%s\n' "$NEXT_PUBLIC_SITE_URL"
           } > .env.local
-          echo "ANTHROPIC length: $(grep -c '^ANTHROPIC_API_KEY=' .env.local) line(s), key=$(awk -F= '/^ANTHROPIC_API_KEY/{print length($2)}' .env.local) chars"
-          echo "IMAGEN  length: key=$(awk -F= '/^GOOGLE_IMAGEN_API_KEY/{print length($2)}' .env.local) chars"
-          echo "ZIPPY   length: key=$(awk -F= '/^ZIPPY_SCHEDULER_API_KEY/{print length($2)}' .env.local) chars"
+          echo "ANTHROPIC chars: $(awk -F= '/^ANTHROPIC_API_KEY/{print length($2)}' .env.local)"
+          # Show first/last 4 chars and hex dump around the boundaries for Anthropic
+          grep '^ANTHROPIC_API_KEY=' .env.local | head -c 40
+          echo "..."
+          grep '^ANTHROPIC_API_KEY=' .env.local | tail -c 20 | od -c | head -2
 
       - name: Start Next dev server
         run: |
