@@ -2344,5 +2344,165 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T20:00:05.830Z",
     "updatedAt": "2026-04-15T20:00:05.830Z"
+  },
+  {
+    "id": "page-2e04233d",
+    "slug": "crane-arm-champion-monster-truck",
+    "title": "Crane Arm Champion Monster Truck",
+    "description": "This super-strong monster truck has a giant crane arm that can lift anything! Watch it pick up building blocks while crushing through mud with its massive wheels.",
+    "metaDescription": "Free printable crane monster truck coloring page for kids. Construction themed coloring fun with big wheels and crane arms!",
+    "altText": "Black and white coloring page of a monster truck with a large crane arm attachment and oversized wheels",
+    "imagePath": "/images/coloring-pages/crane-arm-champion-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/crane-arm-champion-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:06:13.396Z",
+    "updatedAt": "2026-04-15T20:06:13.396Z"
+  },
+  {
+    "id": "page-cf894757",
+    "slug": "excavator-scoop-monster-truck",
+    "title": "Excavator Scoop Monster Truck",
+    "description": "Rev up for digging action with this amazing monster truck that has a giant excavator scoop! It can dig huge holes and jump over construction sites with ease.",
+    "metaDescription": "Free printable excavator monster truck coloring page. Construction vehicle coloring fun with big scoops and monster wheels!",
+    "altText": "Black and white coloring page of a monster truck with an excavator scoop attachment and large tires",
+    "imagePath": "/images/coloring-pages/excavator-scoop-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/excavator-scoop-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:06:27.112Z",
+    "updatedAt": "2026-04-15T20:06:27.112Z"
+  },
+  {
+    "id": "page-af8a6138",
+    "slug": "cement-mixer-monster-truck",
+    "title": "Cement Mixer Monster Truck",
+    "description": "This incredible monster truck carries a spinning cement mixer on its back! It mixes concrete while bouncing over rocks and racing through construction zones.",
+    "metaDescription": "Free printable cement mixer monster truck coloring page for kids ages 2-8. Construction themed coloring with mixing action!",
+    "altText": "Black and white coloring page of a monster truck with a cement mixer drum and oversized wheels",
+    "imagePath": "/images/coloring-pages/cement-mixer-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cement-mixer-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:06:39.923Z",
+    "updatedAt": "2026-04-15T20:06:39.923Z"
+  },
+  {
+    "id": "page-de15c702",
+    "slug": "wrecking-ball-monster-truck",
+    "title": "Wrecking Ball Monster Truck",
+    "description": "Get ready for demolition action with this powerful monster truck that swings a giant wrecking ball! It can knock down old buildings and race through obstacle courses.",
+    "metaDescription": "Free printable wrecking ball monster truck coloring page. Demolition themed construction coloring for kids ages 4-6!",
+    "altText": "Black and white coloring page of a monster truck with a wrecking ball crane attachment and large wheels",
+    "imagePath": "/images/coloring-pages/wrecking-ball-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wrecking-ball-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:06:52.907Z",
+    "updatedAt": "2026-04-15T20:06:52.907Z"
+  },
+  {
+    "id": "page-93a875c6",
+    "slug": "road-roller-monster-truck",
+    "title": "Road Roller Monster Truck",
+    "description": "This amazing monster truck has giant roller wheels that can flatten any bumpy road! Watch it smooth out the toughest terrain while showing off its monster truck power.",
+    "metaDescription": "Free printable road roller monster truck coloring page for kids. Construction steamroller meets monster truck coloring fun!",
+    "altText": "Black and white coloring page of a monster truck with large roller wheels and construction equipment details",
+    "imagePath": "/images/coloring-pages/road-roller-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/road-roller-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:07:19.277Z",
+    "updatedAt": "2026-04-15T20:07:19.277Z"
+  },
+  {
+    "id": "page-639b3de2",
+    "slug": "dump-truck-monster-beast",
+    "title": "Dump Truck Monster Beast",
+    "description": "Load it up and dump it out with this super-sized monster truck dump truck! Its massive bed can carry tons of dirt while its giant wheels crush through any terrain.",
+    "metaDescription": "Free printable dump truck monster truck coloring page. Construction vehicle coloring with big wheels and dumping action!",
+    "altText": "Black and white coloring page of a monster truck with a large dump bed and oversized tires",
+    "imagePath": "/images/coloring-pages/dump-truck-monster-beast.png",
+    "thumbnailPath": "/images/coloring-pages/dump-truck-monster-beast-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:07:29.350Z",
+    "updatedAt": "2026-04-15T20:07:29.350Z"
+  },
+  {
+    "id": "page-e3add36a",
+    "slug": "jackhammer-monster-truck",
+    "title": "Jackhammer Monster Truck",
+    "description": "This tough monster truck breaks up concrete with its powerful jackhammer attachment! It can drill through the hardest surfaces and leap over construction barriers.",
+    "metaDescription": "Free printable jackhammer monster truck coloring page for kids ages 4-6. Construction drilling action coloring fun!",
+    "altText": "Black and white coloring page of a monster truck with a jackhammer drill attachment and large wheels",
+    "imagePath": "/images/coloring-pages/jackhammer-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/jackhammer-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:07:41.648Z",
+    "updatedAt": "2026-04-15T20:07:41.648Z"
+  },
+  {
+    "id": "page-c712b44a",
+    "slug": "multi-tool-construction-monster",
+    "title": "Multi-Tool Construction Monster",
+    "description": "This ultimate construction monster truck has it all - crane arm, bulldozer blade, AND excavator scoop! It's the most powerful construction vehicle on massive monster wheels.",
+    "metaDescription": "Free printable multi-tool monster truck coloring page. Advanced construction vehicle coloring with multiple attachments!",
+    "altText": "Black and white coloring page of a complex monster truck with multiple construction attachments and detailed mechanical features",
+    "imagePath": "/images/coloring-pages/multi-tool-construction-monster.png",
+    "thumbnailPath": "/images/coloring-pages/multi-tool-construction-monster-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:07:55.888Z",
+    "updatedAt": "2026-04-15T20:07:55.888Z"
   }
 ]
