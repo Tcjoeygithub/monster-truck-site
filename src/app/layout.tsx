@@ -92,6 +92,7 @@ export const metadata: Metadata = {
     "theme-color": "#FF6B00",
     "color-scheme": "light",
     "msapplication-TileColor": "#FF6B00",
+    "p:domain_verify": "6738417e7c1a207fc0b2c14cbd0011ba",
   },
   verification: {
     // Add your verification codes here when ready
