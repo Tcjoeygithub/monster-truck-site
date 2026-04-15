@@ -149,8 +149,8 @@ export default function RootLayout({
     },
   };
 
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
-  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const gaId = process.env.NEXT_PUBLIC_GA_ID?.trim();
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID?.trim();
 
   return (
     <html lang="en">
