@@ -1,10 +1,10 @@
 name: Daily fill
 
-# Runs every day at 08:00 UTC (04:00 ET). Also triggerable manually
-# from the Actions tab (workflow_dispatch).
+# Manual trigger only (cron disabled — we batch-generate on demand now).
+# Re-enable the cron by uncommenting the schedule block below.
 on:
-  schedule:
-    - cron: "0 8 * * *"
+  # schedule:
+  #   - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       count:

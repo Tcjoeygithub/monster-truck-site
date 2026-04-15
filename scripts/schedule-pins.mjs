@@ -109,7 +109,9 @@ function buildPin(page, categoryId) {
     title,
     description,
     link: collectionUrl,
-    image_url: `${SITE_URL}${page.imagePath}`,
+    // Serve pin images from GitHub raw so Pinterest's fetcher isn't challenged
+    // by Vercel's DDoS mitigations on the live domain. Images are same PNGs.
+    image_url: `https://raw.githubusercontent.com/Tcjoeygithub/monster-truck-site/main/public${page.imagePath}`,
     alt_text: (page.altText || page.title).slice(0, 500),
   };
 }
