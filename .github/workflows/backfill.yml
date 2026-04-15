@@ -1,0 +1,109 @@
+name: Backfill collection
+
+# Manual workflow to add pages to an EXISTING collection (up to a target
+# count). Runs scripts/fill-collection.mjs, generates PDFs + pin descriptions,
+# commits, and schedules pins via Zippy.
+#
+# Usage (from Actions tab or `gh workflow run`):
+#   slug:   <category-slug> (e.g. fruit-monster-truck-coloring-pages)
+#   count:  number of new pages to generate
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Category slug (must already exist)"
+        required: true
+      count:
+        description: "Number of new pages to generate"
+        required: true
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backfill-${{ inputs.slug }}
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GOOGLE_IMAGEN_API_KEY: ${{ secrets.GOOGLE_IMAGEN_API_KEY }}
+      ZIPPY_SCHEDULER_API_KEY: ${{ secrets.ZIPPY_SCHEDULER_API_KEY }}
+      NEXT_PUBLIC_SITE_URL: https://freemonstertruckcoloringpages.com
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "20", cache: "npm" }
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+
+      - run: python -m pip install --quiet Pillow
+
+      - run: npm ci --prefer-offline --no-audit
+
+      - name: Write .env.local
+        run: |
+          clean() { printf '%s' "$1" | LC_ALL=C tr -cd '\40-\176'; }
+          {
+            printf 'ANTHROPIC_API_KEY=%s\n' "$(clean "$ANTHROPIC_API_KEY")"
+            printf 'GOOGLE_IMAGEN_API_KEY=%s\n' "$(clean "$GOOGLE_IMAGEN_API_KEY")"
+            printf 'ZIPPY_SCHEDULER_API_KEY=%s\n' "$(clean "$ZIPPY_SCHEDULER_API_KEY")"
+            printf 'NEXT_PUBLIC_SITE_URL=%s\n' "$NEXT_PUBLIC_SITE_URL"
+          } > .env.local
+
+      - name: Generate pages for "${{ inputs.slug }}"
+        run: node scripts/fill-collection.mjs --slug='${{ inputs.slug }}' --count=${{ inputs.count }}
+
+      - name: Count new pages
+        id: count
+        run: |
+          echo "added=$(git diff --name-only public/images/coloring-pages/ | grep -v thumb | grep -c '\.png$' || echo 0)" >> $GITHUB_OUTPUT
+
+      - name: Generate PDFs
+        if: steps.count.outputs.added != '0'
+        run: python scripts/generate-pdfs.py
+
+      - name: Commit pages + PDFs
+        if: steps.count.outputs.added != '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/ public/images/coloring-pages/ public/pdfs/
+          git commit -m "Backfill ${{ inputs.slug }}: +${{ steps.count.outputs.added }} pages"
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main || git rebase --abort || true
+            if git push origin main; then break; fi
+            sleep 5
+          done
+
+      - name: Wait for deploy
+        if: steps.count.outputs.added != '0'
+        run: sleep 120
+
+      - name: Generate pin descriptions
+        if: steps.count.outputs.added != '0'
+        run: node scripts/generate-pin-descriptions.mjs
+
+      - name: Schedule pins (2-day spread)
+        if: steps.count.outputs.added != '0'
+        run: node scripts/schedule-pins.mjs --days=2
+
+      - name: Commit pin state
+        if: steps.count.outputs.added != '0'
+        run: |
+          git add src/data/pinned.json src/data/pin-descriptions.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Backfill ${{ inputs.slug }}: schedule pins"
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin main || git rebase --abort || true
+              if git push origin main; then break; fi
+              sleep 5
+            done
+          fi
