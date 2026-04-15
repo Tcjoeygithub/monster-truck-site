@@ -150,6 +150,7 @@ export default function RootLayout({
   };
 
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const adsenseId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 
   return (
     <html lang="en">
@@ -169,6 +170,13 @@ gtag('config', '${gaId}');`,
               }}
             />
           </>
+        )}
+        {adsenseId && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
+            crossOrigin="anonymous"
+          />
         )}
         <link rel="canonical" href={siteUrl} />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
