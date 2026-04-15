@@ -215,9 +215,35 @@ const BASE_IMAGEN_PROMPT =
 
 async function generateImage(prompt: string): Promise<Buffer> {
   const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${IMAGEN_API_KEY}`;
+  // Use Nano Banana (gemini-2.5-flash-image): 2,000/day, 500 RPM — vs
+  // Imagen 4's 70/day. Falls back to Imagen if Nano Banana errors.
+  const nanoUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent?key=${IMAGEN_API_KEY}`;
+  const nanoRes = await fetch(nanoUrl, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: fullPrompt }] }],
+      generationConfig: { responseModalities: ["IMAGE", "TEXT"] },
+    }),
+  });
 
-  const res = await fetch(url, {
+  if (nanoRes.ok) {
+    const data = await nanoRes.json();
+    const parts: Array<{ inlineData?: { data: string } }> =
+      data.candidates?.[0]?.content?.parts ?? [];
+    for (const p of parts) {
+      if (p.inlineData?.data) {
+        return Buffer.from(p.inlineData.data, "base64");
+      }
+    }
+    throw new Error("Nano Banana returned no image in response");
+  }
+
+  // Fall back to Imagen 4 on Nano Banana failure
+  const errText = await nanoRes.text();
+  console.log(`[autopilot] Nano Banana ${nanoRes.status}, falling back to Imagen: ${errText.slice(0, 150)}`);
+  const imagenUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${IMAGEN_API_KEY}`;
+  const res = await fetch(imagenUrl, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -225,12 +251,9 @@ async function generateImage(prompt: string): Promise<Buffer> {
       parameters: { sampleCount: 1 },
     }),
   });
-
   if (!res.ok) {
-    const err = await res.text();
-    throw new Error(`Imagen error ${res.status}: ${err}`);
+    throw new Error(`Both generators failed. Imagen: ${res.status} ${await res.text()}`);
   }
-
   const data = await res.json();
   return Buffer.from(data.predictions[0].bytesBase64Encoded, "base64");
 }

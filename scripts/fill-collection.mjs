@@ -110,16 +110,40 @@ Return ONLY a JSON array of ${COUNT} objects:
 }
 
 async function generateImage(prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${IMAGEN}`;
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      instances: [{ prompt: `${prompt} ${BASE_IMAGEN_PROMPT}` }],
-      parameters: { sampleCount: 1 },
-    }),
-  });
-  if (!res.ok) throw new Error(`Imagen: ${res.status} ${await res.text()}`);
+  const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
+  // Try Nano Banana first (28x more daily quota than Imagen)
+  const nanoRes = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent?key=${IMAGEN}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: fullPrompt }] }],
+        generationConfig: { responseModalities: ["IMAGE", "TEXT"] },
+      }),
+    }
+  );
+  if (nanoRes.ok) {
+    const data = await nanoRes.json();
+    const parts = data.candidates?.[0]?.content?.parts ?? [];
+    for (const p of parts) {
+      if (p.inlineData?.data) return Buffer.from(p.inlineData.data, "base64");
+    }
+    throw new Error("Nano Banana returned no image");
+  }
+  // Fall back to Imagen
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${IMAGEN}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        instances: [{ prompt: fullPrompt }],
+        parameters: { sampleCount: 1 },
+      }),
+    }
+  );
+  if (!res.ok) throw new Error(`Both generators failed: ${res.status}`);
   const data = await res.json();
   return Buffer.from(data.predictions[0].bytesBase64Encoded, "base64");
 }
