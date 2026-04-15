@@ -61,22 +61,26 @@ jobs:
       - name: Generate pages for "${{ inputs.slug }}"
         run: node scripts/fill-collection.mjs --slug='${{ inputs.slug }}' --count=${{ inputs.count }}
 
-      - name: Count new pages
-        id: count
+      - name: Detect changes
+        id: changes
         run: |
-          echo "added=$(git diff --name-only public/images/coloring-pages/ | grep -v thumb | grep -c '\.png$' || echo 0)" >> $GITHUB_OUTPUT
+          # Untracked PNGs in coloring-pages dir = new pages
+          ADDED=$(git ls-files --others --exclude-standard public/images/coloring-pages/ 2>/dev/null | grep -v thumb | grep -c "\.png$" 2>/dev/null) || ADDED=0
+          ADDED=${ADDED:-0}
+          echo "added=$ADDED" >> "$GITHUB_OUTPUT"
+          echo "Detected $ADDED new pages"
 
       - name: Generate PDFs
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: python scripts/generate-pdfs.py
 
       - name: Commit pages + PDFs
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/ public/images/coloring-pages/ public/pdfs/
-          git commit -m "Backfill ${{ inputs.slug }}: +${{ steps.count.outputs.added }} pages"
+          git commit -m "Backfill ${{ inputs.slug }}: +${{ steps.changes.outputs.added }} pages"
           for attempt in 1 2 3; do
             git pull --rebase --autostash origin main || git rebase --abort || true
             if git push origin main; then break; fi
@@ -84,19 +88,19 @@ jobs:
           done
 
       - name: Wait for deploy
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: sleep 120
 
       - name: Generate pin descriptions
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: node scripts/generate-pin-descriptions.mjs
 
       - name: Schedule pins (2-day spread)
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: node scripts/schedule-pins.mjs --days=2
 
       - name: Commit pin state
-        if: steps.count.outputs.added != '0'
+        if: steps.changes.outputs.added != '0'
         run: |
           git add src/data/pinned.json src/data/pin-descriptions.json || true
           if ! git diff --cached --quiet; then
