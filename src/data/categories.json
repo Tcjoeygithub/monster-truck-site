@@ -68,5 +68,12 @@
     "name": "Dinosaur Monster Truck Coloring Pages",
     "description": "Free printable dinosaur monster truck coloring pages. Prehistoric-themed designs combining big wheels with dinosaurs, from simple T-Rex trucks for toddlers to detailed triceratops crushers for older kids ages 2-8.",
     "type": "theme"
+  },
+  {
+    "id": "cat-construction-monster-truck-coloring-pages",
+    "slug": "construction-monster-truck-coloring-pages",
+    "name": "Construction Monster Truck Coloring Pages",
+    "description": "Free printable construction monster truck coloring pages for kids ages 2-8. These mighty trucks combine the power of heavy machinery with monster truck action, featuring bulldozer blades, crane arms, and hard hats. Perfect for little builders who love both construction sites and big wheels!",
+    "type": "theme"
   }
 ]

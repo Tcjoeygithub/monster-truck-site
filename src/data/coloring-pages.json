@@ -1904,5 +1904,45 @@
     "publishDate": "2026-04-03",
     "createdAt": "2026-04-03T16:05:24.528Z",
     "updatedAt": "2026-04-03T16:05:24.528Z"
+  },
+  {
+    "id": "page-d12cce55",
+    "slug": "hard-hat-hero-monster-truck",
+    "title": "Hard Hat Hero Monster Truck",
+    "description": "This friendly construction monster truck wears a bright yellow hard hat and has a big smile. With its enormous tires and safety-first attitude, it's ready to build anything kids can imagine!",
+    "metaDescription": "Free printable Hard Hat Hero monster truck coloring page for kids. Construction-themed truck with hard hat and big wheels.",
+    "altText": "Black and white coloring page of a smiling monster truck wearing a construction hard hat with large wheels",
+    "imagePath": "/images/coloring-pages/hard-hat-hero-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/hard-hat-hero-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T15:27:38.253Z",
+    "updatedAt": "2026-04-15T15:27:38.253Z"
+  },
+  {
+    "id": "page-bd39c289",
+    "slug": "bulldozer-blade-beast-monster-truck",
+    "title": "Bulldozer Blade Beast Monster Truck",
+    "description": "Watch out! This powerful monster truck has a massive bulldozer blade attached to its front, ready to push through any obstacle. Its detailed construction equipment and rugged design make it perfect for big construction jobs.",
+    "metaDescription": "Free printable Bulldozer Blade Beast monster truck coloring page with construction equipment and detailed design for kids.",
+    "altText": "Black and white coloring page of a monster truck with a large bulldozer blade attachment, construction details, and oversized tires",
+    "imagePath": "/images/coloring-pages/bulldozer-blade-beast-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bulldozer-blade-beast-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-construction-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T15:29:12.220Z",
+    "updatedAt": "2026-04-15T15:29:12.220Z"
   }
 ]
