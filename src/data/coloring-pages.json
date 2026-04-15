@@ -2244,5 +2244,105 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T18:50:27.277Z",
     "updatedAt": "2026-04-15T18:50:27.277Z"
+  },
+  {
+    "id": "page-c2ab76ba",
+    "slug": "grape-crusher-monster-truck-coloring-page",
+    "title": "Grape Crusher Monster Truck",
+    "description": "This purple powerhouse is loaded with bunches of juicy grapes! Color the giant wheels and grape decorations in your favorite shades of purple and green.",
+    "metaDescription": "Free printable Grape Crusher Monster Truck coloring page for kids. Fun fruit-themed monster truck with grapes perfect for ages 2-8.",
+    "altText": "Black and white coloring page of a monster truck decorated with grape bunches on the sides and roof",
+    "imagePath": "/images/coloring-pages/grape-crusher-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/grape-crusher-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T19:59:17.534Z",
+    "updatedAt": "2026-04-15T19:59:17.534Z"
+  },
+  {
+    "id": "page-32255deb",
+    "slug": "pineapple-power-monster-truck-coloring-page",
+    "title": "Pineapple Power Monster Truck",
+    "description": "Get ready to rumble with this tropical monster truck! This spiky pineapple-themed truck is perfect for kids who love exotic fruits and big wheels.",
+    "metaDescription": "Free printable Pineapple Power Monster Truck coloring page. Tropical fruit-themed monster truck coloring fun for kids ages 4-6.",
+    "altText": "Black and white coloring page of a monster truck with pineapple decorations and spiky details on the body",
+    "imagePath": "/images/coloring-pages/pineapple-power-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/pineapple-power-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T19:59:28.901Z",
+    "updatedAt": "2026-04-15T19:59:28.901Z"
+  },
+  {
+    "id": "page-c827f6f8",
+    "slug": "cherry-bomb-monster-truck-coloring-page",
+    "title": "Cherry Bomb Monster Truck",
+    "description": "This cherry-powered monster truck is bursting with sweet energy! Color the twin cherries and racing flames as this truck speeds through the orchard.",
+    "metaDescription": "Free printable Cherry Bomb Monster Truck coloring page with detailed cherry decorations. Perfect monster truck coloring fun for kids 6-8.",
+    "altText": "Black and white coloring page of a detailed monster truck decorated with cherries, stems, and racing flames",
+    "imagePath": "/images/coloring-pages/cherry-bomb-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/cherry-bomb-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T19:59:41.877Z",
+    "updatedAt": "2026-04-15T19:59:41.877Z"
+  },
+  {
+    "id": "page-f402d210",
+    "slug": "lemon-lightning-monster-truck-coloring-page",
+    "title": "Lemon Lightning Monster Truck",
+    "description": "Zoom into citrus fun with this lemon-themed speed demon! The bright yellow lemons and lightning bolts make this truck perfect for sunny day coloring.",
+    "metaDescription": "Free printable Lemon Lightning Monster Truck coloring page featuring citrus fruit decorations and lightning designs for kids.",
+    "altText": "Black and white coloring page of a monster truck with lemon decorations and lightning bolt designs on the sides",
+    "imagePath": "/images/coloring-pages/lemon-lightning-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/lemon-lightning-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T19:59:55.066Z",
+    "updatedAt": "2026-04-15T19:59:55.066Z"
+  },
+  {
+    "id": "page-7d63a0a9",
+    "slug": "simple-peach-cruiser-monster-truck-coloring-page",
+    "title": "Simple Peach Cruiser Truck",
+    "description": "This sweet peach monster truck is perfect for little hands! Big, simple shapes and fuzzy peach decorations make coloring easy and fun.",
+    "metaDescription": "Free printable Simple Peach Cruiser monster truck coloring page with large shapes perfect for toddlers and preschoolers ages 2-4.",
+    "altText": "Black and white coloring page of a simple monster truck decorated with large peach shapes and basic designs",
+    "imagePath": "/images/coloring-pages/simple-peach-cruiser-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/simple-peach-cruiser-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T20:00:05.830Z",
+    "updatedAt": "2026-04-15T20:00:05.830Z"
   }
 ]
