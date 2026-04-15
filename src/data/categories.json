@@ -75,5 +75,12 @@
     "name": "Construction Monster Truck Coloring Pages",
     "description": "Free printable construction monster truck coloring pages for kids ages 2-8. These mighty trucks combine the power of heavy machinery with monster truck action, featuring bulldozer blades, crane arms, and hard hats. Perfect for little builders who love both construction sites and big wheels!",
     "type": "theme"
+  },
+  {
+    "id": "cat-fruit-monster-truck-coloring-pages",
+    "slug": "fruit-monster-truck-coloring-pages",
+    "name": "Fruit Monster Truck Coloring Pages",
+    "description": "Free printable fruit monster truck coloring pages for kids ages 2-8. These delicious monster trucks are decorated with colorful fruits like strawberries, watermelons, and bananas. Perfect for combining healthy eating lessons with monster truck fun!",
+    "type": "theme"
   }
 ]

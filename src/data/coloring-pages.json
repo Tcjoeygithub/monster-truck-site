@@ -1944,5 +1944,45 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T15:29:12.220Z",
     "updatedAt": "2026-04-15T15:29:12.220Z"
+  },
+  {
+    "id": "page-1cc4ef8e",
+    "slug": "strawberry-smash-monster-truck",
+    "title": "Strawberry Smash Monster Truck",
+    "description": "This sweet monster truck is covered in juicy strawberries and has berry-themed decorations all over its body. Kids will love coloring the red strawberries and green leaves while learning about healthy fruits!",
+    "metaDescription": "Free printable strawberry monster truck coloring page for kids. Fun fruit-themed truck with strawberry decorations to color and enjoy.",
+    "altText": "Black and white coloring page of a monster truck decorated with strawberries, seeds, and leafy patterns on its body and wheels",
+    "imagePath": "/images/coloring-pages/strawberry-smash-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/strawberry-smash-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T15:37:29.481Z",
+    "updatedAt": "2026-04-15T15:37:29.481Z"
+  },
+  {
+    "id": "page-a8307c71",
+    "slug": "simple-apple-chomper-truck",
+    "title": "Simple Apple Chomper Truck",
+    "description": "A friendly monster truck shaped like a big red apple with simple, chunky wheels. This easy-to-color truck is perfect for little hands just learning to stay inside the lines!",
+    "metaDescription": "Free printable simple apple monster truck coloring page for toddlers. Easy fruit truck design with thick outlines for young kids.",
+    "altText": "Simple black and white coloring page of a round apple-shaped monster truck with large wheels, apple stem on top, and basic details",
+    "imagePath": "/images/coloring-pages/simple-apple-chomper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-apple-chomper-truck-thumb.png",
+    "categoryIds": [
+      "cat-fruit-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T15:37:44.826Z",
+    "updatedAt": "2026-04-15T15:37:44.826Z"
   }
 ]
