@@ -82,5 +82,12 @@
     "name": "Fruit Monster Truck Coloring Pages",
     "description": "Free printable fruit monster truck coloring pages for kids ages 2-8. These delicious monster trucks are decorated with colorful fruits like strawberries, watermelons, and bananas. Perfect for combining healthy eating lessons with monster truck fun!",
     "type": "theme"
+  },
+  {
+    "id": "cat-candy-shop-monster-truck-coloring-pages",
+    "slug": "candy-shop-monster-truck-coloring-pages",
+    "name": "Candy Shop Monster Truck Coloring Pages",
+    "description": "Free printable candy shop monster truck coloring pages for kids ages 2-8. These sweet monster trucks are decorated with colorful candies, desserts, and treats that will make any child's mouth water. Perfect for combining love of vehicles with favorite sweets!",
+    "type": "theme"
   }
 ]

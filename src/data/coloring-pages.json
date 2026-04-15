@@ -1984,5 +1984,205 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T15:37:44.826Z",
     "updatedAt": "2026-04-15T15:37:44.826Z"
+  },
+  {
+    "id": "page-fbc5a6ca",
+    "slug": "gummy-bear-crusher-monster-truck",
+    "title": "Gummy Bear Crusher Monster Truck",
+    "description": "This adorable monster truck is covered in giant gummy bears! The colorful bears bounce and dance as this sweet truck rolls through candy land.",
+    "metaDescription": "Free printable Gummy Bear Crusher Monster Truck coloring page with bouncing candy decorations for kids",
+    "altText": "Coloring page of a monster truck decorated with large gummy bear shapes on its body and wheels",
+    "imagePath": "/images/coloring-pages/gummy-bear-crusher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/gummy-bear-crusher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:30:52.672Z",
+    "updatedAt": "2026-04-15T18:30:52.672Z"
+  },
+  {
+    "id": "page-ab2311a9",
+    "slug": "simple-lollipop-wheels-truck",
+    "title": "Simple Lollipop Wheels Truck",
+    "description": "The sweetest ride around! This easy-to-color monster truck has big round lollipops for wheels and candy decorations.",
+    "metaDescription": "Free printable simple lollipop monster truck coloring page with candy wheels, perfect for toddlers",
+    "altText": "Simple coloring page of a monster truck with large circular lollipop-shaped wheels and basic candy decorations",
+    "imagePath": "/images/coloring-pages/simple-lollipop-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-lollipop-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:31:09.365Z",
+    "updatedAt": "2026-04-15T18:31:09.365Z"
+  },
+  {
+    "id": "page-ae997843",
+    "slug": "ice-cream-sundae-monster-truck",
+    "title": "Ice Cream Sundae Monster Truck",
+    "description": "This cool monster truck looks like a giant ice cream sundae with whipped cream, cherries, and sprinkles decorating every surface!",
+    "metaDescription": "Free printable Ice Cream Sundae Monster Truck coloring page with sweet dessert decorations for kids",
+    "altText": "Coloring page of a monster truck designed to look like an ice cream sundae with whipped cream swirls and cherry decorations",
+    "imagePath": "/images/coloring-pages/ice-cream-sundae-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ice-cream-sundae-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:31:27.691Z",
+    "updatedAt": "2026-04-15T18:31:27.691Z"
+  },
+  {
+    "id": "page-b6b216fb",
+    "slug": "chocolate-chip-cookie-crusher",
+    "title": "Chocolate Chip Cookie Crusher",
+    "description": "Fresh from the bakery! This monster truck looks like a giant chocolate chip cookie with chips scattered all over its body.",
+    "metaDescription": "Free printable Chocolate Chip Cookie Monster Truck coloring page with cookie and chocolate decorations",
+    "altText": "Coloring page of a monster truck decorated to look like a chocolate chip cookie with scattered chocolate chips",
+    "imagePath": "/images/coloring-pages/chocolate-chip-cookie-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/chocolate-chip-cookie-crusher-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:32:03.639Z",
+    "updatedAt": "2026-04-15T18:32:03.639Z"
+  },
+  {
+    "id": "page-04d26b38",
+    "slug": "rainbow-candy-cane-racer",
+    "title": "Rainbow Candy Cane Racer",
+    "description": "Zoom through the holidays any time of year! This festive monster truck features colorful candy cane stripes and peppermint decorations.",
+    "metaDescription": "Free printable Rainbow Candy Cane Monster Truck coloring page with striped candy decorations for kids",
+    "altText": "Coloring page of a monster truck with candy cane stripe patterns and peppermint candy wheel designs",
+    "imagePath": "/images/coloring-pages/rainbow-candy-cane-racer.png",
+    "thumbnailPath": "/images/coloring-pages/rainbow-candy-cane-racer-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:32:45.076Z",
+    "updatedAt": "2026-04-15T18:32:45.076Z"
+  },
+  {
+    "id": "page-361a3e2e",
+    "slug": "simple-cupcake-monster-truck",
+    "title": "Simple Cupcake Monster Truck",
+    "description": "Sweet and simple! This monster truck looks like a giant cupcake with frosting swirls and a cherry on top.",
+    "metaDescription": "Free printable simple cupcake monster truck coloring page with frosting decorations, perfect for young kids",
+    "altText": "Simple coloring page of a monster truck shaped like a cupcake with frosting swirls and a cherry decoration",
+    "imagePath": "/images/coloring-pages/simple-cupcake-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-cupcake-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:33:02.585Z",
+    "updatedAt": "2026-04-15T18:33:02.585Z"
+  },
+  {
+    "id": "page-81db3b5b",
+    "slug": "donut-shop-champion-truck",
+    "title": "Donut Shop Champion Truck",
+    "description": "This delicious monster truck is covered in colorful donuts with different frosting flavors and rainbow sprinkles everywhere!",
+    "metaDescription": "Free printable Donut Shop Monster Truck coloring page with frosted donut decorations and sprinkles",
+    "altText": "Coloring page of a monster truck decorated with various donut shapes, frosting patterns, and sprinkle details",
+    "imagePath": "/images/coloring-pages/donut-shop-champion-truck.png",
+    "thumbnailPath": "/images/coloring-pages/donut-shop-champion-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:33:22.676Z",
+    "updatedAt": "2026-04-15T18:33:22.676Z"
+  },
+  {
+    "id": "page-16f28916",
+    "slug": "cotton-candy-cloud-cruiser",
+    "title": "Cotton Candy Cloud Cruiser",
+    "description": "Fluffy and sweet! This magical monster truck rides on clouds of cotton candy with swirls of pink and blue goodness.",
+    "metaDescription": "Free printable Cotton Candy Monster Truck coloring page with fluffy cloud decorations for kids",
+    "altText": "Coloring page of a monster truck surrounded by cotton candy cloud shapes with swirl patterns",
+    "imagePath": "/images/coloring-pages/cotton-candy-cloud-cruiser.png",
+    "thumbnailPath": "/images/coloring-pages/cotton-candy-cloud-cruiser-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:33:57.011Z",
+    "updatedAt": "2026-04-15T18:33:57.011Z"
+  },
+  {
+    "id": "page-582c7d1e",
+    "slug": "jelly-bean-jumper-truck",
+    "title": "Jelly Bean Jumper Truck",
+    "description": "Taste the rainbow with this colorful monster truck! It's decorated with jelly beans in every color imaginable.",
+    "metaDescription": "Free printable Jelly Bean Monster Truck coloring page with colorful candy bean decorations for kids",
+    "altText": "Coloring page of a monster truck covered in oval jelly bean shapes of various sizes",
+    "imagePath": "/images/coloring-pages/jelly-bean-jumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/jelly-bean-jumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:34:15.214Z",
+    "updatedAt": "2026-04-15T18:34:15.214Z"
+  },
+  {
+    "id": "page-2266c7a6",
+    "slug": "big-candy-wheels-truck",
+    "title": "Big Candy Wheels Truck",
+    "description": "Perfect for little hands! This simple monster truck has big candy-shaped wheels and sweet decorations that are easy to color.",
+    "metaDescription": "Free printable simple candy monster truck coloring page with big wheels, perfect for toddlers and preschoolers",
+    "altText": "Simple coloring page of a monster truck with large candy-shaped wheels and basic sweet decorations",
+    "imagePath": "/images/coloring-pages/big-candy-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/big-candy-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-candy-shop-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-15",
+    "createdAt": "2026-04-15T18:34:35.908Z",
+    "updatedAt": "2026-04-15T18:34:35.908Z"
   }
 ]
