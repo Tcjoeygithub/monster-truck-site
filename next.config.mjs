@@ -6,6 +6,16 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: true,
   },
+  // Keep the massive public/images and public/pdfs out of serverless
+  // function bundles. They're served as static assets anyway.
+  outputFileTracingExcludes: {
+    "*": [
+      "public/images/**",
+      "public/pdfs/**",
+      "scripts/**",
+      "node_modules/@anthropic-ai/sdk/**",
+    ],
+  },
   async redirects() {
     // Legacy /category/<slug> and intermediate slugs both redirect to the
     // current canonical /<slug> form.

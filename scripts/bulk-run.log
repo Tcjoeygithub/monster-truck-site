@@ -1,0 +1,285 @@
+=== bulk-run start: 2026-04-15T21:37:19Z (count=100, days=100) ===
+Starting dev server...
+Dev server up
+[1/100] starting at 21:37:20 UTC
+  ✗ failed (0s): unknown
+[2/100] starting at 21:37:20 UTC
+  ✗ failed (0s): unknown
+[3/100] starting at 21:37:20 UTC
+  ✗ failed (1s): unknown
+[4/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[5/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[6/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[7/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[8/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[9/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[10/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[11/100] starting at 21:37:21 UTC
+  ✗ failed (0s): unknown
+[12/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[13/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[14/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[15/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[16/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[17/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[18/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[19/100] starting at 21:37:22 UTC
+  ✗ failed (0s): unknown
+[20/100] starting at 21:37:22 UTC
+  ✗ failed (1s): unknown
+[21/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[22/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[23/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[24/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[25/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[26/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[27/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[28/100] starting at 21:37:23 UTC
+  ✗ failed (0s): unknown
+[29/100] starting at 21:37:23 UTC
+  ✗ failed (1s): unknown
+[30/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[31/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[32/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[33/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[34/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[35/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[36/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[37/100] starting at 21:37:24 UTC
+  ✗ failed (0s): unknown
+[38/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[39/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[40/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[41/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[42/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[43/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[44/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[45/100] starting at 21:37:25 UTC
+  ✗ failed (0s): unknown
+[46/100] starting at 21:37:25 UTC
+  ✗ failed (1s): unknown
+[47/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[48/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[49/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[50/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[51/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[52/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[53/100] starting at 21:37:26 UTC
+  ✗ failed (0s): unknown
+[54/100] starting at 21:37:26 UTC
+  ✗ failed (1s): unknown
+[55/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[56/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[57/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[58/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[59/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[60/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[61/100] starting at 21:37:27 UTC
+  ✗ failed (0s): unknown
+[62/100] starting at 21:37:27 UTC
+  ✗ failed (1s): unknown
+[63/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[64/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[65/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[66/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[67/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[68/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[69/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[70/100] starting at 21:37:28 UTC
+  ✗ failed (0s): unknown
+[71/100] starting at 21:37:28 UTC
+  ✗ failed (1s): unknown
+[72/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[73/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[74/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[75/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[76/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[77/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[78/100] starting at 21:37:29 UTC
+  ✗ failed (0s): unknown
+[79/100] starting at 21:37:29 UTC
+  ✗ failed (1s): unknown
+[80/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[81/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[82/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[83/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[84/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[85/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[86/100] starting at 21:37:30 UTC
+  ✗ failed (0s): unknown
+[87/100] starting at 21:37:30 UTC
+  ✗ failed (1s): unknown
+[88/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[89/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[90/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[91/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[92/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[93/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[94/100] starting at 21:37:31 UTC
+  ✗ failed (0s): unknown
+[95/100] starting at 21:37:31 UTC
+  ✗ failed (1s): unknown
+[96/100] starting at 21:37:32 UTC
+  ✗ failed (0s): unknown
+[97/100] starting at 21:37:32 UTC
+  ✗ failed (0s): unknown
+[98/100] starting at 21:37:32 UTC
+  ✗ failed (0s): unknown
+[99/100] starting at 21:37:32 UTC
+  ✗ failed (0s): unknown
+[100/100] starting at 21:37:32 UTC
+  ✗ failed (0s): unknown
+
+=== Generation done: 0 succeeded, 100 failed ===
+No successes, skipping deploy
+=== bulk-run start: 2026-04-15T21:40:07Z (count=20, days=20) ===
+Starting dev server...
+Dev server up
+[1/20] starting at 21:40:11 UTC
+  ✓ Weather Monster Truck Coloring Pages (+9 pages, 319s)
+[2/20] starting at 21:45:30 UTC
+  ✓ Flower Garden Monster Truck Coloring Pages (+10 pages, 414s)
+[3/20] starting at 21:52:24 UTC
+  ✓ Robot Monster Truck Coloring Pages (+10 pages, 300s)
+[4/20] starting at 21:57:24 UTC
+  ✓ Bakery Monster Truck Coloring Pages (+5 pages, 191s)
+[5/20] starting at 22:00:35 UTC
+  ✓ Music Band Monster Truck Coloring Pages (+9 pages, 339s)
+[6/20] starting at 22:06:14 UTC
+  ✓ Medieval Castle Monster Truck Coloring Pages (+10 pages, 260s)
+[7/20] starting at 22:10:34 UTC
+  ✓ Farm Animal Monster Truck Coloring Pages (+10 pages, 380s)
+[8/20] starting at 22:16:54 UTC
+  ✓ Wizard Magic Monster Truck Coloring Pages (+9 pages, 307s)
+[9/20] starting at 22:22:01 UTC
+  ✓ Ocean Adventure Monster Truck Coloring Pages (+10 pages, 304s)
+[10/20] starting at 22:27:05 UTC
+  ✓ Insect Monster Truck Coloring Pages (+10 pages, 312s)
+[11/20] starting at 22:32:17 UTC
+  ✓ Jungle Adventure Monster Truck Coloring Pages (+10 pages, 280s)
+[12/20] starting at 22:36:57 UTC
+  ✓ Superhero Monster Truck Coloring Pages (+9 pages, 332s)
+[13/20] starting at 22:42:29 UTC
+  ✓ Space Explorer Monster Truck Coloring Pages (+8 pages, 162s)
+[14/20] starting at 22:45:11 UTC
+  ✓ Gemstone Monster Truck Coloring Pages (+10 pages, 237s)
+[15/20] starting at 22:49:08 UTC
+  ✓ Volcano Monster Truck Coloring Pages (+10 pages, 286s)
+[16/20] starting at 22:53:54 UTC
+  ✓ Detective Mystery Monster Truck Coloring Pages (+8 pages, 549s)
+[17/20] starting at 23:03:03 UTC
+  ✓ Fairy Tale Monster Truck Coloring Pages (+10 pages, 292s)
+[18/20] starting at 23:07:55 UTC
+  ✓ Dream Monster Truck Coloring Pages (+9 pages, 407s)
+[19/20] starting at 23:14:42 UTC
+  ✓ Kitchen Chef Monster Truck Coloring Pages (+10 pages, 280s)
+[20/20] starting at 23:19:22 UTC
+  ✓ Toy Store Monster Truck Coloring Pages (+8 pages, 386s)
+
+=== Generation done: 20 succeeded, 0 failed ===
+Generating PDFs...
+[ok] puzzle-piece-champion-monster-truck
+
+Done. made=184 skipped=125 missing=0
+Committing and deploying...
+ create mode 100644 public/pdfs/wildflower-meadow-monster.pdf
+ create mode 100644 public/pdfs/wind-up-key-monster-truck.pdf
+ create mode 100644 public/pdfs/woolly-sheep-cloud-monster.pdf
+To https://github.com/Tcjoeygithub/monster-truck-site.git
+   80a461c..4d20a0f  main -> main
+Waiting 2min for deploy...
+Generating pin descriptions...
+  ✓ 182/184 simple-ball-pit-monster-truck (351 chars)
+  ✓ 183/184 wind-up-key-monster-truck (404 chars)
+  ✓ 184/184 puzzle-piece-champion-monster-truck (370 chars)
+
+Cached to /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/data/pin-descriptions.json
+Scheduling pins across 20 days...
+  • 01:15  building-block-tower-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 03:51  toy-train-caboose-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 06:27  rubber-ducky-splash-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 09:03  simple-toy-box-champion-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 11:39  action-figure-super-truck → Toy Store Monster Truck Coloring Pages
+  • 14:15  simple-ball-pit-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 16:51  wind-up-key-monster-truck → Toy Store Monster Truck Coloring Pages
+  • 19:27  puzzle-piece-champion-monster-truck → Toy Store Monster Truck Coloring Pages
+
+Updated /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/data/pinned.json
+Committing pin state...
+[main cb5a18b] Bulk: schedule 20 listicles' pins over 20 days
+ 2 files changed, 2024 insertions(+)
+To https://github.com/Tcjoeygithub/monster-truck-site.git
+   4d20a0f..cb5a18b  main -> main
+=== DONE at 2026-04-15T23:34:32Z ===
