@@ -1,0 +1,25 @@
+name: Zippy hourly publish (backup)
+
+# Fires every hour at :05 to trigger Zippy's publish-pins endpoint.
+# This is a backup in case Vercel's scheduled cron doesn't fire.
+# Endpoint idempotently skips already-published pins, safe to double-call.
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Publish due pins
+        run: |
+          RESP=$(curl -sS -w "\nHTTP %{http_code}" \
+            -H "Authorization: Bearer ${{ secrets.ZIPPY_CRON_SECRET }}" \
+            https://www.zippyscheduler.com/api/cron/publish-pins)
+          echo "$RESP"
+          echo "$RESP" | grep -q "HTTP 200" || exit 1
