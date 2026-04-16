@@ -63,29 +63,37 @@ async function check(imagePath) {
   const fullPath = path.join(ROOT, "public", imagePath);
   if (!fs.existsSync(fullPath)) return { error: "missing file" };
   const b64 = fs.readFileSync(fullPath).toString("base64");
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${KEY}`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [
-          { parts: [
-              { text: PROMPT },
-              { inlineData: { mimeType: "image/png", data: b64 } },
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${KEY}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [
+              { parts: [
+                  { text: PROMPT },
+                  { inlineData: { mimeType: "image/png", data: b64 } },
+                ],
+              },
             ],
-          },
-        ],
-        generationConfig: { temperature: 0.0, maxOutputTokens: 512 },
-      }),
+            generationConfig: { temperature: 0.0, maxOutputTokens: 1024 },
+          }),
+        }
+      );
+      if (!res.ok) return { error: `HTTP ${res.status}` };
+      const data = await res.json();
+      const text = data.candidates?.[0]?.content?.parts?.map(p=>p.text||"").join("") || "";
+      const match = text.replace(/```json\s*/g,"").replace(/```\s*/g,"").match(/\{[\s\S]*\}/);
+      if (!match) return { error: "unparseable", raw: text.slice(0,200) };
+      return JSON.parse(match[0]);
+    } catch (e) {
+      if (attempt === 3) return { error: `net: ${e.message || e}` };
+      await new Promise(r => setTimeout(r, 2000 * attempt));
     }
-  );
-  if (!res.ok) return { error: `HTTP ${res.status}` };
-  const data = await res.json();
-  const text = data.candidates?.[0]?.content?.parts?.map(p=>p.text||"").join("") || "";
-  const match = text.replace(/```json\s*/g,"").replace(/```\s*/g,"").match(/\{[\s\S]*\}/);
-  if (!match) return { error: "unparseable", raw: text.slice(0,200) };
-  try { return JSON.parse(match[0]); } catch { return { error: "invalid json" }; }
+  }
+  return { error: "unreachable" };
 }
 
 async function main() {

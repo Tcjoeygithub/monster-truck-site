@@ -3,11 +3,11 @@
     "slug": "skull-crusher-monster-truck",
     "title": "Skull Crusher Monster Truck",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art drawing of a monster truck with a skull design on its front grille.",
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a skull design on the front grille.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:05:46.345Z"
+    "checked_at": "2026-04-16T13:07:05.392Z"
   },
   "page-002": {
     "slug": "dirt-rampage-truck",
@@ -17,24 +17,27 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:05:50.000Z"
+    "checked_at": "2026-04-16T13:19:20.091Z"
   },
   "page-003": {
     "slug": "bone-rattler-freestyle",
     "title": "Bone Rattler Freestyle",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A black-and-white line art coloring page featuring a monster truck with oversized wheels and a truck body, decorated with bones.\",\n  \"has_tr",
-    "checked_at": "2026-04-16T01:05:53.992Z"
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with oversized wheels and a truck body, decorated with bones.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:19:24.350Z"
   },
   "page-004": {
     "slug": "thunder-flame-racer",
     "title": "Thunder Flame Racer",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with flames and speed lines.",
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with flames, speed lines, and dust clouds.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:05:57.345Z"
+    "checked_at": "2026-04-16T13:19:28.725Z"
   },
   "page-005": {
     "slug": "mega-stomp-bigfoot",
@@ -44,21 +47,27 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:01.522Z"
+    "checked_at": "2026-04-16T13:19:32.564Z"
   },
   "page-006": {
     "slug": "night-terror-truck",
     "title": "Night Terror Truck",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A black-and-white line art coloring page of a monster truck with an aggressive, monster-like",
-    "checked_at": "2026-04-16T01:06:05.505Z"
+    "is_monster_truck": true,
+    "primary_subject": "a cartoon-style monster truck with an angry face, seen from the front",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:19:35.966Z"
   },
   "page-210879e7": {
     "slug": "bunny-hop-easter-monster-truck",
     "title": "Bunny Hop Easter Monster Truck",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_",
-    "checked_at": "2026-04-16T01:06:15.085Z"
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck decorated with bunny ears and a tail, carrying a basket of Easter eggs, with more eggs scattered below it.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:19:40.471Z"
   },
   "page-1988e1bc": {
     "slug": "big-wheels-baby-monster-truck",
@@ -68,14 +77,17 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:18.772Z"
+    "checked_at": "2026-04-16T13:19:45.503Z"
   },
   "page-6a40fc3c": {
     "slug": "happy-face-monster-truck",
     "title": "Happy Face Monster Truck",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A cartoon-style monster truck with a smiling face, presented as a coloring page.\",\n  \"has_truck_body\": true",
-    "checked_at": "2026-04-16T01:06:22.856Z"
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck with a smiling face, presented as a coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:19:51.164Z"
   },
   "page-d4de2d6e": {
     "slug": "super-simple-stomper-truck",
@@ -85,27 +97,27 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:27.067Z"
+    "checked_at": "2026-04-16T13:19:54.943Z"
   },
   "page-343640b9": {
     "slug": "little-crusher-truck",
     "title": "Little Crusher Truck",
     "is_monster_truck": true,
-    "primary_subject": "a cartoon-style monster truck coloring page",
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with oversized wheels and a raised truck body.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:30.658Z"
+    "checked_at": "2026-04-16T13:19:58.938Z"
   },
   "page-f1363917": {
     "slug": "baby-bigfoot-truck",
     "title": "Baby Bigfoot Truck",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a pickup truck body and oversized wheels.",
+    "primary_subject": "a black-and-white line art drawing of a monster truck, suitable for coloring",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:34.643Z"
+    "checked_at": "2026-04-16T13:20:02.808Z"
   },
   "page-22ca259a": {
     "slug": "easy-racer-monster-truck",
@@ -115,7 +127,7 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:38.022Z"
+    "checked_at": "2026-04-16T13:20:06.649Z"
   },
   "page-033e568e": {
     "slug": "friendly-monster-truck",
@@ -125,17 +137,17 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:41.494Z"
+    "checked_at": "2026-04-16T13:20:10.816Z"
   },
   "page-68f15e48": {
     "slug": "basic-mudder-truck",
     "title": "Basic Mudder Truck",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art drawing of a monster truck on a coloring page.",
+    "primary_subject": "A cartoon-style monster truck coloring page.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:45.289Z"
+    "checked_at": "2026-04-16T13:20:15.740Z"
   },
   "page-c7c2a1d0": {
     "slug": "simple-stomper-wheels",
@@ -145,7 +157,7 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:48.843Z"
+    "checked_at": "2026-04-16T13:20:19.214Z"
   },
   "page-1fa5849f": {
     "slug": "towering-titan-monster-truck",
@@ -155,27 +167,27 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:53.430Z"
+    "checked_at": "2026-04-16T13:20:24.526Z"
   },
   "page-747e690a": {
     "slug": "giant-stomper-bigfoot-truck",
     "title": "Giant Stomper Bigfoot Truck",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art drawing of a monster truck with a pickup truck body and large, treaded wheels.",
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:06:57.460Z"
+    "checked_at": "2026-04-16T13:20:28.236Z"
   },
   "page-f8616ba2": {
     "slug": "mountain-crusher-bigfoot",
     "title": "Mountain Crusher Bigfoot",
     "is_monster_truck": true,
-    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a pickup truck body, raised suspension, and oversized wheels.",
+    "primary_subject": "black-and-white line art of a monster truck",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:01.197Z"
+    "checked_at": "2026-04-16T13:20:32.320Z"
   },
   "page-a16db184": {
     "slug": "thunder-giant-monster-truck",
@@ -185,24 +197,27 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:04.681Z"
+    "checked_at": "2026-04-16T13:20:36.924Z"
   },
   "page-36e7be87": {
     "slug": "mega-wheel-champion",
     "title": "Mega Wheel Champion",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A black-and-white line art coloring page depicting a monster truck with the number 28 and 'BIGFOOT' on its side.\",\n  \"has_truck_body\": true,",
-    "checked_at": "2026-04-16T01:07:08.620Z"
+    "is_monster_truck": true,
+    "primary_subject": "a black-and-white line art coloring page of a monster truck with the number 28 and 'BIGFOOT' on its side.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:20:41.864Z"
   },
   "page-9d51749f": {
     "slug": "sky-high-bigfoot-racer",
     "title": "Sky High Bigfoot Racer",
     "is_monster_truck": true,
-    "primary_subject": "A monster truck named Bigfoot, with oversized wheels and raised suspension, surrounded by clouds.",
+    "primary_subject": "A monster truck with oversized wheels and raised suspension, depicted in a dynamic pose with clouds.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:12.326Z"
+    "checked_at": "2026-04-16T13:20:46.206Z"
   },
   "page-81b880bb": {
     "slug": "mighty-mountain-bigfoot",
@@ -212,7 +227,7 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:16.413Z"
+    "checked_at": "2026-04-16T13:20:50.478Z"
   },
   "page-5bbe8bc0": {
     "slug": "car-smasher-monster-truck-coloring-page",
@@ -222,7 +237,7 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:20.416Z"
+    "checked_at": "2026-04-16T13:20:55.206Z"
   },
   "page-36bcfa88": {
     "slug": "demolition-king-monster-truck-coloring-page",
@@ -232,31 +247,37 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:24.513Z"
+    "checked_at": "2026-04-16T13:20:59.123Z"
   },
   "page-d9606a94": {
     "slug": "mega-crusher-beast-coloring-page",
     "title": "Mega Crusher Beast",
     "is_monster_truck": true,
-    "primary_subject": "A monster truck with flames on its side, jumping over a line of cars.",
+    "primary_subject": "a monster truck jumping over a line of cars",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:28.498Z"
+    "checked_at": "2026-04-16T13:21:04.017Z"
   },
   "page-165acf17": {
     "slug": "simple-stomper-crusher-coloring-page",
     "title": "Simple Stomper Crusher",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A cartoon monster truck with a smiling face, crushing a smaller car beneath its oversized wheels.\",\n  \"has_truck_body\": true,\n  \"has_oversiz",
-    "checked_at": "2026-04-16T01:07:32.442Z"
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with a smiling face, crushing a smaller car beneath its oversized wheels.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:08.319Z"
   },
   "page-c1fc0778": {
     "slug": "arena-champion-crusher-coloring-page",
     "title": "Arena Champion Crusher",
-    "error": "unparseable",
-    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A monster truck with oversized wheels and a trophy, crushing smaller cars at a race event.\",\n  \"has_truck_body\": true,\n  \"has_oversized_whee",
-    "checked_at": "2026-04-16T01:07:36.709Z"
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with oversized wheels and a trophy, crushing smaller cars at a race event.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:13.344Z"
   },
   "page-7a3b321a": {
     "slug": "junkyard-destroyer-coloring-page",
@@ -266,7 +287,7 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:41.305Z"
+    "checked_at": "2026-04-16T13:21:18.805Z"
   },
   "page-c1f58500": {
     "slug": "happy-car-crusher-coloring-page",
@@ -276,16 +297,860 @@
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:44.882Z"
+    "checked_at": "2026-04-16T13:21:22.951Z"
   },
   "page-7c8fe9ac": {
     "slug": "thunder-crush-champion-coloring-page",
     "title": "Thunder Crush Champion",
     "is_monster_truck": true,
-    "primary_subject": "A monster truck with oversized wheels and a raised suspension, crushing several smaller cars, under storm clouds with lightning and rain.",
+    "primary_subject": "A monster truck crushing several smaller cars under a stormy sky with rain and lightning.",
     "has_truck_body": true,
     "has_oversized_wheels": true,
     "confidence": 10,
-    "checked_at": "2026-04-16T01:07:49.226Z"
+    "checked_at": "2026-04-16T13:21:27.275Z"
+  },
+  "page-56ba0617": {
+    "slug": "speedway-champion-racing-truck",
+    "title": "Speedway Champion Racing Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck on a checkered flag, with a large trophy and stadium seating in the background.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:32.123Z"
+  },
+  "page-1296e595": {
+    "slug": "simple-racing-speedster",
+    "title": "Simple Racing Speedster",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with the number 20 on its side.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:36.424Z"
+  },
+  "page-8c979673": {
+    "slug": "swamp-splasher-monster-truck",
+    "title": "Swamp Splasher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "a monster truck splashing through water or mud",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:40.112Z"
+  },
+  "page-c4787709": {
+    "slug": "mud-mountain-climber",
+    "title": "Mud Mountain Climber",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a pickup truck body, oversized wheels, and raised suspension, depicted on a bumpy surface.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:44.398Z"
+  },
+  "page-d67a198d": {
+    "slug": "boggy-beast-mudder",
+    "title": "Boggy Beast Mudder",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with flames on the hood and side, driving through mud or water with splashes, surrounded by reeds.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:51.159Z"
+  },
+  "page-4a069180": {
+    "slug": "muddy-waters-champion",
+    "title": "Muddy Waters Champion",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page depicting a monster truck with trophies on its hood, driving through water or mud, with trees and small ponds in the background.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:21:56.835Z"
+  },
+  "page-14d9a407": {
+    "slug": "swamp-king-truck",
+    "title": "Swamp King Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with crowns driving through a swamp with alligators.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:02.433Z"
+  },
+  "page-69b87d60": {
+    "slug": "bog-hopper-mudslinger",
+    "title": "Bog Hopper Mudslinger",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck jumping over a large log in a swampy, muddy environment with trees and reeds.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:06.835Z"
+  },
+  "page-55ae577a": {
+    "slug": "quicksand-escape-truck",
+    "title": "Quicksand Escape Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a cartoon monster truck splashing through mud.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:12.092Z"
+  },
+  "page-788f889c": {
+    "slug": "ultimate-mud-bog-destroyer",
+    "title": "Ultimate Mud Bog Destroyer",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with a driver, splashing through mud on an obstacle course.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:17.222Z"
+  },
+  "page-6ba00f15": {
+    "slug": "prehistoric-swamp-explorer",
+    "title": "Prehistoric Swamp Explorer",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck driving through a prehistoric jungle landscape with dinosaur skulls and volcanoes.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:21.658Z"
+  },
+  "page-c47a1091": {
+    "slug": "sky-walker-jumping-monster-truck",
+    "title": "Sky Walker Jumping Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with flame decals, depicted in a jumping or action pose with dust clouds.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:29.462Z"
+  },
+  "page-16ccdf8a": {
+    "slug": "wheelie-wonder-monster-truck",
+    "title": "Wheelie Wonder Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck with a smiling face, depicted as line art for coloring.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:35.617Z"
+  },
+  "page-a3400e9b": {
+    "slug": "backflip-beast-monster-truck",
+    "title": "Backflip Beast Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck in an action pose, possibly jumping or flipping.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:40.693Z"
+  },
+  "page-d8f788b1": {
+    "slug": "stunt-stack-crusher",
+    "title": "Stunt Stack Crusher",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with oversized wheels and a raised suspension, crushing several cars.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:45.391Z"
+  },
+  "page-312f304c": {
+    "slug": "easy-jumper-monster-truck",
+    "title": "Easy Jumper Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck coloring page with a smiling face.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:50.535Z"
+  },
+  "page-df64a889": {
+    "slug": "ramp-rider-freestyle-truck",
+    "title": "Ramp Rider Freestyle Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with the number 23 on its side, jumping off a ramp.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:54.760Z"
+  },
+  "page-6028b1bf": {
+    "slug": "spinning-thunder-freestyle",
+    "title": "Spinning Thunder Freestyle",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with flames coming from its exhaust, appearing to be in motion.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:22:59.672Z"
+  },
+  "page-eb0008d5": {
+    "slug": "double-jump-master",
+    "title": "Double Jump Master",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with the number 28 on its side, jumping over hills.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:04.268Z"
+  },
+  "page-816e3481": {
+    "slug": "fire-breather-monster-truck",
+    "title": "Fire Breather Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with flames on the side, large exhaust pipes emitting flames, and a supercharger on the hood.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:08.892Z"
+  },
+  "page-ea8e3288": {
+    "slug": "simple-flame-truck",
+    "title": "Simple Flame Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a cartoon-style monster truck with flame decals.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:12.862Z"
+  },
+  "page-91a38d07": {
+    "slug": "inferno-racing-monster",
+    "title": "Inferno Racing Monster",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with flames and the number 39.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:17.801Z"
+  },
+  "page-8fdbfaf2": {
+    "slug": "phoenix-fire-monster-truck",
+    "title": "Phoenix Fire Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with wings and flame decals.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:22.203Z"
+  },
+  "page-26472de7": {
+    "slug": "lava-blast-monster-truck",
+    "title": "Lava Blast Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with flame decals and volcanoes in the truck bed.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:27.244Z"
+  },
+  "page-d84ce452": {
+    "slug": "hot-rod-flame-crusher",
+    "title": "Hot Rod Flame Crusher",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a vintage-style monster truck with flame decals.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:31.474Z"
+  },
+  "page-cd42e0d9": {
+    "slug": "easy-fire-wheels-truck",
+    "title": "Easy Fire Wheels Truck",
+    "is_monster_truck": true,
+    "primary_subject": "a cartoon monster truck line art coloring page",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:35.023Z"
+  },
+  "page-02a6167d": {
+    "slug": "blazing-trail-monster-truck",
+    "title": "Blazing Trail Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A line art coloring page of a monster truck with flame details.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:39.817Z"
+  },
+  "page-7c753225": {
+    "slug": "campfire-monster-truck",
+    "title": "Campfire Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck with flame decals, a roof rack, and a smiling face on the bumper.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:45.537Z"
+  },
+  "page-48541e0f": {
+    "slug": "lightning-speed-racer",
+    "title": "Lightning Speed Racer",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with oversized wheels, a truck body, a spoiler, and racing decals, depicted in motion.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:49.647Z"
+  },
+  "page-f0af6fcd": {
+    "slug": "checkered-flag-champion",
+    "title": "Checkered Flag Champion",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with oversized wheels, a truck body, racing flags, and a winner's trophy.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:53.815Z"
+  },
+  "page-f3ed2073": {
+    "slug": "simple-speed-truck",
+    "title": "Simple Speed Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art drawing of a monster truck with the number 03 on its side, suitable for coloring.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:23:58.340Z"
+  },
+  "page-d8181dc9": {
+    "slug": "track-master-racer",
+    "title": "Track Master Racer",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with a large spoiler, number 16, and sponsor decals, on what appears to be a race track.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:02.518Z"
+  },
+  "page-6fc08851": {
+    "slug": "finish-line-flyer",
+    "title": "Finish Line Flyer",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck crossing a finish line with confetti and balloons.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:07.374Z"
+  },
+  "page-7e145d7a": {
+    "slug": "easy-racing-winner",
+    "title": "Easy Racing Winner",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with a smiling face, oversized wheels, and a trophy in its bed.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:11.535Z"
+  },
+  "page-86a00bda": {
+    "slug": "simple-smiley-monster-truck",
+    "title": "Simple Smiley Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck with a smiling face, presented as a black-and-white line art coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:15.445Z"
+  },
+  "page-7ceb7470": {
+    "slug": "pirate-skull-monster-truck",
+    "title": "Pirate Skull Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A pirate-themed monster truck coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:21.512Z"
+  },
+  "page-c1dfa689": {
+    "slug": "dancing-skeleton-monster-truck",
+    "title": "Dancing Skeleton Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with a skeleton riding on its back, surrounded by musical notes.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:24.973Z"
+  },
+  "page-e90d7faa": {
+    "slug": "bone-yard-basher-monster-truck",
+    "title": "Bone Yard Basher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with a skull and crossbones theme, in a graveyard setting.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:29.174Z"
+  },
+  "page-68942dff": {
+    "slug": "simple-skull-wheels-truck",
+    "title": "Simple Skull Wheels Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with skull designs on its oversized wheels.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:33.156Z"
+  },
+  "page-c3e0e12b": {
+    "slug": "ghostly-phantom-crusher",
+    "title": "Ghostly Phantom Crusher",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with flames and a skull on the hood.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:36.628Z"
+  },
+  "page-9d525591": {
+    "slug": "skeleton-racer-speedster",
+    "title": "Skeleton Racer Speedster",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with a skeleton driver and skull decals",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:24:40.599Z"
+  },
+  "page-6d15ff47": {
+    "slug": "friendly-skull-face-truck",
+    "title": "Friendly Skull Face Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with a skull-faced grille.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:06.852Z"
+  },
+  "page-8fde8dfe": {
+    "slug": "easter-egg-hunter-monster-truck",
+    "title": "Easter Egg Hunter Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with oversized wheels and a pickup truck body, carrying Easter eggs in its bed and driving through a grassy field with more eggs.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:10.842Z"
+  },
+  "page-8b85695f": {
+    "slug": "bunny-ears-monster-truck",
+    "title": "Bunny Ears Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "a monster truck decorated with bunny ears and a bunny face",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:15.387Z"
+  },
+  "page-fd64bd85": {
+    "slug": "easter-basket-crusher",
+    "title": "Easter Basket Crusher",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck stylized as a woven basket with bows and a handle, suitable for an Easter theme.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:20.364Z"
+  },
+  "page-714b6b9f": {
+    "slug": "carrot-cruncher-monster-truck",
+    "title": "Carrot Cruncher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck with leaves growing out of its rear, presented as a coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:25.175Z"
+  },
+  "page-528dfec1": {
+    "slug": "simple-easter-chick-truck",
+    "title": "Simple Easter Chick Truck",
+    "is_monster_truck": false,
+    "primary_subject": "A cartoon chicken-shaped car or vehicle.",
+    "has_truck_body": false,
+    "has_oversized_wheels": false,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:30.494Z"
+  },
+  "page-0b252503": {
+    "slug": "easter-parade-champion",
+    "title": "Easter Parade Champion",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck decorated with Easter eggs, flags, and a bunny head.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:34.497Z"
+  },
+  "page-7345f011": {
+    "slug": "jelly-bean-jumper",
+    "title": "Jelly Bean Jumper",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a textured body design.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:39.665Z"
+  },
+  "page-3c5a9cab": {
+    "slug": "easter-bunny-tail-truck",
+    "title": "Easter Bunny Tail Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A line-art monster truck decorated with bunny ears and a tail, suitable for coloring.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:43.227Z"
+  },
+  "page-3a56c4c7": {
+    "slug": "spring-flower-monster-truck",
+    "title": "Spring Flower Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art drawing of an Easter-themed monster truck with bunny ears, flowers, and Easter eggs.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:48.843Z"
+  },
+  "page-b73d21c9": {
+    "slug": "easter-parade-float-truck",
+    "title": "Easter Parade Float Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck decorated for Easter with bunny ears, balloons, and ribbons.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:55.014Z"
+  },
+  "page-b75d5cf7": {
+    "slug": "simple-t-rex-monster-truck",
+    "title": "Simple T-Rex Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with a dinosaur-like face as its front, in line art style.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:29:58.556Z"
+  },
+  "page-87c949a9": {
+    "slug": "triceratops-crusher-monster-truck",
+    "title": "Triceratops Crusher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with a Triceratops dinosaur head as its front body.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:01.690Z"
+  },
+  "page-0809e53c": {
+    "slug": "stegosaurus-spike-monster-truck",
+    "title": "Stegosaurus Spike Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line-art coloring page featuring a dinosaur-themed monster truck.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:06.215Z"
+  },
+  "page-5086f087": {
+    "slug": "simple-dino-chomper-truck",
+    "title": "Simple Dino Chomper Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon-style monster truck with a smiling face and spikes on its roof, presented as a black-and-white line-art coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:11.040Z"
+  },
+  "page-fb7c9c02": {
+    "slug": "pterodactyl-wings-monster-truck",
+    "title": "Pterodactyl Wings Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon Pterodactyl monster truck hybrid",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 9,
+    "checked_at": "2026-04-16T13:30:16.673Z"
+  },
+  "page-5f050565": {
+    "slug": "raptor-claw-crusher-truck",
+    "title": "Raptor Claw Crusher Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a stylized monster truck with dragon-scale details, large exhaust pipes, and aggressive, claw-like tires.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:21.995Z"
+  },
+  "page-a2813d4d": {
+    "slug": "brontosaurus-neck-stretcher",
+    "title": "Brontosaurus Neck Stretcher",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with a dinosaur head and neck as its front section.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:26.885Z"
+  },
+  "page-aa89fb3a": {
+    "slug": "ankylosaurus-armor-defender",
+    "title": "Ankylosaurus Armor Defender",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with oversized wheels, a raised suspension, and a spiked mace attachment on the back.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:31.632Z"
+  },
+  "page-3cab3989": {
+    "slug": "dino-fossil-digger-truck",
+    "title": "Dino Fossil Digger Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck decorated with bones and carrying excavation tools.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:35.611Z"
+  },
+  "page-ecbaaba7": {
+    "slug": "simple-baby-dino-truck",
+    "title": "Simple Baby Dino Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with dinosaur spikes on its back, in line art style.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:39.563Z"
+  },
+  "page-c4e41e5e": {
+    "slug": "colossal-king-bigfoot-monster-truck",
+    "title": "Colossal King Bigfoot Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art drawing of a monster truck with a raised suspension and oversized tires.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:45.766Z"
+  },
+  "page-ef80b3d6": {
+    "slug": "simple-giant-wheels-monster-truck",
+    "title": "Simple Giant Wheels Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line-art drawing of a truck with oversized wheels, resembling a monster truck.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:50.102Z"
+  },
+  "page-d12cce55": {
+    "slug": "hard-hat-hero-monster-truck",
+    "title": "Hard Hat Hero Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck wearing a hard hat, depicted as a coloring page.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:30:56.264Z"
+  },
+  "page-bd39c289": {
+    "slug": "bulldozer-blade-beast-monster-truck",
+    "title": "Bulldozer Blade Beast Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page depicting a monster truck equipped with a large front loader/plow.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:00.080Z"
+  },
+  "page-1cc4ef8e": {
+    "slug": "strawberry-smash-monster-truck",
+    "title": "Strawberry Smash Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck decorated with strawberries and leaves, featuring a face on the windshield.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:04.175Z"
+  },
+  "page-a8307c71": {
+    "slug": "simple-apple-chomper-truck",
+    "title": "Simple Apple Chomper Truck",
+    "error": "unparseable",
+    "raw": "```json\n{\n  \"is_monster_truck\": true,\n  \"primary_subject\": \"A cartoon truck with an apple-shaped cargo bed and oversized wheels.\",\n",
+    "checked_at": "2026-04-16T13:31:12.307Z"
+  },
+  "page-fbc5a6ca": {
+    "slug": "gummy-bear-crusher-monster-truck",
+    "title": "Gummy Bear Crusher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck decorated with gummy bears.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:15.949Z"
+  },
+  "page-ab2311a9": {
+    "slug": "simple-lollipop-wheels-truck",
+    "title": "Simple Lollipop Wheels Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A cartoon monster truck with candy decorations on its side.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:20.277Z"
+  },
+  "page-ae997843": {
+    "slug": "ice-cream-sundae-monster-truck",
+    "title": "Ice Cream Sundae Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "a monster truck decorated like an ice cream sundae with sprinkles, whipped cream, cherries, and an ice cream cone",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:24.986Z"
+  },
+  "page-b6b216fb": {
+    "slug": "chocolate-chip-cookie-crusher",
+    "title": "Chocolate Chip Cookie Crusher",
+    "is_monster_truck": true,
+    "primary_subject": "a black-and-white line art drawing of a monster truck with a spotted body design",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:29.248Z"
+  },
+  "page-04d26b38": {
+    "slug": "rainbow-candy-cane-racer",
+    "title": "Rainbow Candy Cane Racer",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with large wheels and a truck body.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:34.240Z"
+  },
+  "page-361a3e2e": {
+    "slug": "simple-cupcake-monster-truck",
+    "title": "Simple Cupcake Monster Truck",
+    "error": "unparseable",
+    "raw": "```json\n{\n  \"is_monster_truck\": false,\n  \"primary_subject\": \"A cartoon line art drawing of a vehicle that is half monster truck (front cab and oversized",
+    "checked_at": "2026-04-16T13:31:41.140Z"
+  },
+  "page-81db3b5b": {
+    "slug": "donut-shop-champion-truck",
+    "title": "Donut Shop Champion Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line-art coloring page of a monster truck decorated with donuts and sprinkles.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:45.467Z"
+  },
+  "page-16f28916": {
+    "slug": "cotton-candy-cloud-cruiser",
+    "title": "Cotton Candy Cloud Cruiser",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck kicking up smoke/clouds.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:50.003Z"
+  },
+  "page-582c7d1e": {
+    "slug": "jelly-bean-jumper-truck",
+    "title": "Jelly Bean Jumper Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with a body decorated with bean-like shapes.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:54.746Z"
+  },
+  "page-2266c7a6": {
+    "slug": "big-candy-wheels-truck",
+    "title": "Big Candy Wheels Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A line art coloring page featuring a monster truck with a pickup truck body decorated with candies, and oversized wheels shaped like wrapped candies.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:31:58.879Z"
+  },
+  "page-22325716": {
+    "slug": "banana-boost-monster-truck",
+    "title": "Banana Boost Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A line-art coloring page of a monster truck decorated with bananas.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:02.797Z"
+  },
+  "page-dd0daa2e": {
+    "slug": "watermelon-warrior-truck",
+    "title": "Watermelon Warrior Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with watermelon patterns.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:07.158Z"
+  },
+  "page-1fb45aec": {
+    "slug": "orange-crusher-mega-truck",
+    "title": "Orange Crusher Mega Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A monster truck decorated with citrus fruits, on a rocky terrain.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:12.757Z"
+  },
+  "page-c2ab76ba": {
+    "slug": "grape-crusher-monster-truck-coloring-page",
+    "title": "Grape Crusher Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck decorated with grapes.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:16.173Z"
+  },
+  "page-32255deb": {
+    "slug": "pineapple-power-monster-truck-coloring-page",
+    "title": "Pineapple Power Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with pineapple and flame patterns on its body.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:20.298Z"
+  },
+  "page-c827f6f8": {
+    "slug": "cherry-bomb-monster-truck-coloring-page",
+    "title": "Cherry Bomb Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page of a monster truck with flame and cherry decals.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:24.069Z"
+  },
+  "page-f402d210": {
+    "slug": "lemon-lightning-monster-truck-coloring-page",
+    "title": "Lemon Lightning Monster Truck",
+    "is_monster_truck": true,
+    "primary_subject": "A black-and-white line art coloring page featuring a monster truck with citrus fruit and lightning bolt patterns on its body.",
+    "has_truck_body": true,
+    "has_oversized_wheels": true,
+    "confidence": 10,
+    "checked_at": "2026-04-16T13:32:28.580Z"
   }
 }
