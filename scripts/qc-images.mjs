@@ -64,7 +64,10 @@ Analyze this image and score it on the following criteria. Each score is 1-10.
 7. **NO_TEXT_ARTIFACTS** (10=zero text, 1=garbled AI text baked into the art) — HARD FAIL IF < 9
    - The image is delivered bare (no legitimate watermark present at QC time). Any letters, numbers, fake words, scribbled writing, logos, signatures, or garbled AI text-like squiggles drawn onto the art is a failure.
 
-8. **FRAMING** (1=badly cut off, 10=perfectly framed) — THIS IS CRITICAL
+8. **IS_MONSTER_TRUCK** (10=clear monster truck filling frame, 1=image is of other items) — HARD FAIL IF < 8
+   - Is the PRIMARY AND DOMINANT subject a monster truck (truck body on oversized knobby tires with raised suspension)? If the image is mostly of bakery goods, flowers, animals, or scenery WITHOUT a dominant monster truck, or shows a regular car, fail this.
+
+9. **FRAMING** (1=badly cut off, 10=perfectly framed) — THIS IS CRITICAL
    - Is the ENTIRE truck visible within the image? Check ALL of these:
      - Are all 4 tires/wheels FULLY visible and not cut off at the edges?
      - Is the top of the truck (roof, exhaust pipes, any decorations) FULLY visible and not cropped?
@@ -86,9 +89,10 @@ Respond in EXACTLY this JSON format and nothing else:
   "print_quality": <score>,
   "no_colored_fill": <score>,
   "no_text_artifacts": <score>,
+  "is_monster_truck": <score>,
   "framing": <score>,
-  "overall": <average of all 8 scores rounded to 1 decimal>,
-  "pass": <true if ALL individual scores >= 6 AND overall >= 7 AND no_colored_fill >= 9 AND no_text_artifacts >= 9>,
+  "overall": <average of all 9 scores rounded to 1 decimal>,
+  "pass": <true if ALL individual scores >= 6 AND overall >= 7 AND no_colored_fill >= 9 AND no_text_artifacts >= 9 AND is_monster_truck >= 8>,
   "issues": ["list of specific problems found"],
   "suggestions": ["specific prompt improvements to fix the issues"]
 }`;

@@ -211,7 +211,7 @@ function getUpcomingHolidays(now: Date): string {
 // =====================================================
 
 const BASE_IMAGEN_PROMPT =
-  "Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, NO colored fills, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete subject should be fully visible in the image.";
+  "MUST FEATURE A MONSTER TRUCK AS THE PRIMARY AND DOMINANT SUBJECT FILLING MOST OF THE FRAME. A monster truck has an oversized truck body sitting high on huge knobby tires with raised suspension — not a regular car, not a thematic item. The monster truck IS the subject; any theme (food, animals, fantasy) is decoration ON or AROUND the truck. Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, NO colored fills, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete monster truck must be fully visible in the image.";
 
 async function generateImage(prompt: string): Promise<Buffer> {
   const fullPrompt = `${prompt} ${BASE_IMAGEN_PROMPT}`;
@@ -287,8 +287,12 @@ async function qcImage(
    - Score 10 = zero text anywhere in the image
    - Score 6 = one small ambiguous shape that might be a letter
    - Score 1-4 = any visible letters, numbers, or garbled AI text
+9. IS_MONSTER_TRUCK: This is CRITICAL. Is the PRIMARY AND DOMINANT subject of this image a monster truck — meaning a truck body sitting high on oversized knobby tires with raised suspension?
+   - Score 10 = unmistakable monster truck filling most of the frame
+   - Score 7-9 = monster truck present but possibly small or partially themed
+   - Score 1-6 = image is mostly of other items (bakery goods, flowers, animals, people, just a theme element) WITHOUT a clearly dominant monster truck, OR the "truck" is a regular car/non-truck vehicle
 
-Respond in JSON only: {"overall": <avg of all 8>, "completeness": <score>, "no_color": <score>, "no_text": <score>, "pass": <true if ALL scores >= 6 AND overall >= 7 AND completeness >= 7 AND no_color >= 9 AND no_text >= 9>, "issues": ["list"]}`;
+Respond in JSON only: {"overall": <avg of all 9>, "completeness": <score>, "no_color": <score>, "no_text": <score>, "is_truck": <score>, "pass": <true if ALL scores >= 6 AND overall >= 7 AND completeness >= 7 AND no_color >= 9 AND no_text >= 9 AND is_truck >= 8>, "issues": ["list"]}`;
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${IMAGEN_API_KEY}`;
   const res = await fetch(url, {
@@ -333,6 +337,7 @@ Respond in JSON only: {"overall": <avg of all 8>, "completeness": <score>, "no_c
     completeness?: number;
     no_color?: number;
     no_text?: number;
+    is_truck?: number;
     pass?: boolean;
     issues?: string[];
   };

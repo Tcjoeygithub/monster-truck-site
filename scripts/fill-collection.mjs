@@ -58,7 +58,7 @@ if (!cat) {
 }
 
 const BASE_IMAGEN_PROMPT =
-  "Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, NO colored fills, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete subject should be fully visible in the image.";
+  "MUST FEATURE A MONSTER TRUCK AS THE PRIMARY AND DOMINANT SUBJECT FILLING MOST OF THE FRAME. A monster truck has an oversized truck body sitting high on huge knobby tires with raised suspension. The truck IS the subject; any theme is decoration ON or AROUND it. Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete monster truck must be fully visible.";
 
 async function planTopics() {
   const pagesRaw = JSON.parse(
@@ -150,7 +150,7 @@ async function generateImage(prompt) {
 
 async function qcImage(imagePath) {
   const b64 = fs.readFileSync(imagePath).toString("base64");
-  const qcPrompt = `Rate this coloring page for kids 2-8 on 1-10 scales. Respond with ONLY JSON: {"overall": <num>, "completeness": <num>, "no_color": <num>, "no_text": <num>, "pass": <bool>}. Require completeness>=7, no_color>=9, no_text>=9, overall>=7 AND set pass=true only if all hold. no_color = 10 means pure black outlines on white; <9 = any colored fill or gray shading. no_text = 10 means no letters/numbers/text squiggles.`;
+  const qcPrompt = `Rate this coloring page for kids 2-8 on 1-10 scales. Respond with ONLY JSON: {"overall": <num>, "completeness": <num>, "no_color": <num>, "no_text": <num>, "is_truck": <num>, "pass": <bool>}. Require completeness>=7, no_color>=9, no_text>=9, is_truck>=8, overall>=7 AND set pass=true only if all hold. no_color = 10 means pure black outlines on white; <9 = any colored fill or gray shading. no_text = 10 means no letters/numbers/text squiggles. is_truck = 10 means the primary subject is clearly a monster truck (truck body with oversized knobby tires and raised suspension); <8 = image is mostly of other items (bakery goods, animals, flowers) without a dominant monster truck.`;
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${IMAGEN}`;
   const res = await fetch(url, {
     method: "POST",
@@ -176,8 +176,9 @@ async function qcImage(imagePath) {
     const r = JSON.parse(match[0]);
     const noColor = r.no_color ?? 10;
     const noText = r.no_text ?? 10;
-    const hardFail = noColor < 9 || noText < 9 || (r.completeness ?? 10) < 7;
-    return { pass: (r.pass || false) && !hardFail, overall: r.overall ?? 0, no_color: noColor, no_text: noText };
+    const isTruck = r.is_truck ?? 10;
+    const hardFail = noColor < 9 || noText < 9 || isTruck < 8 || (r.completeness ?? 10) < 7;
+    return { pass: (r.pass || false) && !hardFail, overall: r.overall ?? 0, no_color: noColor, no_text: noText, is_truck: isTruck };
   } catch {
     return { pass: false, overall: 0 };
   }
