@@ -6184,5 +6184,505 @@
     "publishDate": "2026-04-15",
     "createdAt": "2026-04-15T23:25:47.111Z",
     "updatedAt": "2026-04-15T23:25:47.111Z"
+  },
+  {
+    "id": "page-9810fd55",
+    "slug": "diamond-crystal-monster-truck",
+    "title": "Diamond Crystal Monster Truck",
+    "description": "This sparkling diamond monster truck is made entirely of brilliant crystals! Color the geometric diamond patterns on the wheels and body to make it shine like a real gem.",
+    "metaDescription": "Free printable diamond crystal monster truck coloring page for kids. Magical truck made of sparkling crystals perfect for coloring.",
+    "altText": "Black and white coloring page of a monster truck made of diamond crystals with geometric patterns",
+    "imagePath": "/images/coloring-pages/diamond-crystal-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/diamond-crystal-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:29:30.549Z",
+    "updatedAt": "2026-04-16T00:29:30.549Z"
+  },
+  {
+    "id": "page-860ba99a",
+    "slug": "rainbow-quartz-monster-truck",
+    "title": "Rainbow Quartz Monster Truck",
+    "description": "Rev up your imagination with this amazing rainbow quartz monster truck! The colorful crystal formations create beautiful patterns that will sparkle when you color them in.",
+    "metaDescription": "Free printable rainbow quartz monster truck coloring page. Crystal truck with colorful geometric patterns for kids to color.",
+    "altText": "Black and white coloring page of a monster truck constructed from rainbow quartz crystals with geometric designs",
+    "imagePath": "/images/coloring-pages/rainbow-quartz-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/rainbow-quartz-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:29:41.134Z",
+    "updatedAt": "2026-04-16T00:29:41.134Z"
+  },
+  {
+    "id": "page-0ec03bac",
+    "slug": "emerald-crystal-racing-truck",
+    "title": "Emerald Crystal Racing Truck",
+    "description": "This magnificent emerald crystal monster truck is ready to race! The intricate crystal patterns and geometric emerald formations make this truck truly magical to color.",
+    "metaDescription": "Free printable emerald crystal racing monster truck coloring page. Detailed crystal truck with complex geometric patterns.",
+    "altText": "Black and white coloring page of a detailed monster truck made from emerald crystals with intricate geometric patterns",
+    "imagePath": "/images/coloring-pages/emerald-crystal-racing-truck.png",
+    "thumbnailPath": "/images/coloring-pages/emerald-crystal-racing-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:30:13.153Z",
+    "updatedAt": "2026-04-16T00:30:13.153Z"
+  },
+  {
+    "id": "page-63ae8bab",
+    "slug": "amethyst-gem-monster-truck",
+    "title": "Amethyst Gem Monster Truck",
+    "description": "Discover the magic of this beautiful amethyst monster truck! The purple crystal gems form simple shapes that are perfect for little hands to color.",
+    "metaDescription": "Free printable amethyst gem monster truck coloring page for toddlers. Simple crystal truck design perfect for young children.",
+    "altText": "Black and white coloring page of a simple monster truck made from large amethyst crystal shapes",
+    "imagePath": "/images/coloring-pages/amethyst-gem-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/amethyst-gem-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:30:23.913Z",
+    "updatedAt": "2026-04-16T00:30:23.913Z"
+  },
+  {
+    "id": "page-320fd790",
+    "slug": "sapphire-crystal-adventure-truck",
+    "title": "Sapphire Crystal Adventure Truck",
+    "description": "Get ready for crystal adventures with this stunning sapphire monster truck! The blue crystal formations create exciting patterns that shimmer and shine.",
+    "metaDescription": "Free printable sapphire crystal adventure monster truck coloring page. Blue crystal truck with geometric patterns for kids.",
+    "altText": "Black and white coloring page of a monster truck made from sapphire crystals with geometric blue crystal patterns",
+    "imagePath": "/images/coloring-pages/sapphire-crystal-adventure-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sapphire-crystal-adventure-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:30:33.791Z",
+    "updatedAt": "2026-04-16T00:30:33.791Z"
+  },
+  {
+    "id": "page-bf15ba75",
+    "slug": "ruby-crystal-power-truck",
+    "title": "Ruby Crystal Power Truck",
+    "description": "Feel the power of this incredible ruby crystal monster truck! The detailed red crystal structures and complex geometric patterns create an amazing coloring challenge.",
+    "metaDescription": "Free printable ruby crystal power monster truck coloring page. Detailed crystal truck with complex ruby formations.",
+    "altText": "Black and white coloring page of an intricate monster truck constructed from ruby crystals with detailed geometric patterns",
+    "imagePath": "/images/coloring-pages/ruby-crystal-power-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ruby-crystal-power-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:30:44.388Z",
+    "updatedAt": "2026-04-16T00:30:44.388Z"
+  },
+  {
+    "id": "page-d1d648a3",
+    "slug": "crystal-cave-monster-truck",
+    "title": "Crystal Cave Monster Truck",
+    "description": "This magical monster truck looks like it came straight from a crystal cave! Simple crystal formations make it easy and fun to color.",
+    "metaDescription": "Free printable crystal cave monster truck coloring page for young kids. Simple cave crystal designs perfect for coloring.",
+    "altText": "Black and white coloring page of a monster truck with simple crystal cave formations and basic geometric shapes",
+    "imagePath": "/images/coloring-pages/crystal-cave-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/crystal-cave-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:30:54.830Z",
+    "updatedAt": "2026-04-16T00:30:54.830Z"
+  },
+  {
+    "id": "page-5e652380",
+    "slug": "topaz-crystal-storm-truck",
+    "title": "Topaz Crystal Storm Truck",
+    "description": "Race through crystal storms with this amazing topaz monster truck! The golden crystal patterns create beautiful geometric designs perfect for creative coloring.",
+    "metaDescription": "Free printable topaz crystal storm monster truck coloring page. Golden crystal truck with geometric storm patterns.",
+    "altText": "Black and white coloring page of a monster truck made from topaz crystals with storm-pattern geometric designs",
+    "imagePath": "/images/coloring-pages/topaz-crystal-storm-truck.png",
+    "thumbnailPath": "/images/coloring-pages/topaz-crystal-storm-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:31:04.773Z",
+    "updatedAt": "2026-04-16T00:31:04.773Z"
+  },
+  {
+    "id": "page-ecc63a6e",
+    "slug": "multi-crystal-mega-truck",
+    "title": "Multi-Crystal Mega Truck",
+    "description": "This incredible mega truck is made from many different types of crystals! The complex crystal combinations and detailed geometric patterns create the ultimate coloring adventure.",
+    "metaDescription": "Free printable multi-crystal mega monster truck coloring page. Complex crystal combinations with detailed geometric patterns.",
+    "altText": "Black and white coloring page of a detailed monster truck made from multiple types of crystals with complex geometric patterns",
+    "imagePath": "/images/coloring-pages/multi-crystal-mega-truck.png",
+    "thumbnailPath": "/images/coloring-pages/multi-crystal-mega-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:31:16.198Z",
+    "updatedAt": "2026-04-16T00:31:16.198Z"
+  },
+  {
+    "id": "page-fdfadf9e",
+    "slug": "magical-crystal-baby-truck",
+    "title": "Magical Crystal Baby Truck",
+    "description": "Meet the sweetest little crystal monster truck! This baby truck has simple, chunky crystal shapes that are perfect for tiny hands to color.",
+    "metaDescription": "Free printable magical crystal baby monster truck coloring page for toddlers. Simple chunky crystal shapes for easy coloring.",
+    "altText": "Black and white coloring page of a simple baby monster truck made from large, chunky crystal shapes",
+    "imagePath": "/images/coloring-pages/magical-crystal-baby-truck.png",
+    "thumbnailPath": "/images/coloring-pages/magical-crystal-baby-truck-thumb.png",
+    "categoryIds": [
+      "cat-crystal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:31:25.206Z",
+    "updatedAt": "2026-04-16T00:31:25.206Z"
+  },
+  {
+    "id": "page-8f6d5b38",
+    "slug": "donut-wheel-monster-truck",
+    "title": "Donut Wheel Monster Truck",
+    "description": "This sweet monster truck has giant donut wheels with sprinkles everywhere! The truck body looks like a frosted donut too. Color the sprinkles in rainbow colors and make this truck extra delicious!",
+    "metaDescription": "Free printable Donut Wheel Monster Truck coloring page for kids. Fun bakery-themed coloring fun with sprinkled donut wheels!",
+    "altText": "Black and white coloring page of a monster truck with large donut-shaped wheels covered in sprinkles",
+    "imagePath": "/images/coloring-pages/donut-wheel-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/donut-wheel-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:31:57.999Z",
+    "updatedAt": "2026-04-16T00:31:57.999Z"
+  },
+  {
+    "id": "page-4d7c655d",
+    "slug": "cupcake-stack-crusher",
+    "title": "Cupcake Stack Crusher",
+    "description": "Watch out! This monster truck is stacked high with cupcakes on its roof and sides. Each cupcake has a cherry on top and frosting swirls. Perfect for kids who love cupcakes and big trucks!",
+    "metaDescription": "Free printable Cupcake Stack Crusher monster truck coloring page. Sweet bakery truck loaded with cupcakes to color!",
+    "altText": "Black and white coloring page of a monster truck decorated with multiple cupcakes stacked on top and around the vehicle",
+    "imagePath": "/images/coloring-pages/cupcake-stack-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/cupcake-stack-crusher-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:32:07.537Z",
+    "updatedAt": "2026-04-16T00:32:07.537Z"
+  },
+  {
+    "id": "page-9708ca5b",
+    "slug": "pretzel-twist-mud-masher",
+    "title": "Pretzel Twist Mud Masher",
+    "description": "This twisted monster truck is shaped like a giant pretzel! The body curves and loops just like a real pretzel, and it's covered in salt crystals. Get ready to color this salty, crunchy crusher!",
+    "metaDescription": "Free printable Pretzel Twist monster truck coloring page. Unique pretzel-shaped bakery truck for creative coloring fun!",
+    "altText": "Black and white coloring page of a monster truck with a pretzel-twisted body shape and salt crystal decorations",
+    "imagePath": "/images/coloring-pages/pretzel-twist-mud-masher.png",
+    "thumbnailPath": "/images/coloring-pages/pretzel-twist-mud-masher-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:32:17.198Z",
+    "updatedAt": "2026-04-16T00:32:17.198Z"
+  },
+  {
+    "id": "page-b7aba4df",
+    "slug": "cookie-crumb-climber",
+    "title": "Cookie Crumb Climber",
+    "description": "Crunch time! This monster truck looks like a giant chocolate chip cookie with cookie crumbs falling off everywhere. The wheels are shaped like cookies too with chocolate chips scattered around!",
+    "metaDescription": "Free printable Cookie Crumb Climber monster truck coloring page. Chocolate chip cookie themed bakery truck to color!",
+    "altText": "Black and white coloring page of a monster truck designed like a chocolate chip cookie with cookie crumb details",
+    "imagePath": "/images/coloring-pages/cookie-crumb-climber.png",
+    "thumbnailPath": "/images/coloring-pages/cookie-crumb-climber-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:32:29.538Z",
+    "updatedAt": "2026-04-16T00:32:29.538Z"
+  },
+  {
+    "id": "page-40ec5270",
+    "slug": "wedding-cake-warrior",
+    "title": "Wedding Cake Warrior",
+    "description": "This elegant monster truck is decorated like a beautiful wedding cake! It has three tiers, fancy frosting decorations, and even little flowers on top. Make this the fanciest monster truck ever with your colors!",
+    "metaDescription": "Free printable Wedding Cake Warrior monster truck coloring page. Elegant tiered cake themed bakery truck for detailed coloring!",
+    "altText": "Black and white coloring page of a monster truck designed as a multi-tiered wedding cake with decorative frosting and flowers",
+    "imagePath": "/images/coloring-pages/wedding-cake-warrior.png",
+    "thumbnailPath": "/images/coloring-pages/wedding-cake-warrior-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:32:41.572Z",
+    "updatedAt": "2026-04-16T00:32:41.572Z"
+  },
+  {
+    "id": "page-86552def",
+    "slug": "blizzard-beast-snow-plow-monster-truck",
+    "title": "Blizzard Beast Snow Plow Monster Truck",
+    "description": "Meet the Blizzard Beast, the ultimate snow-clearing monster truck! This powerful truck has a giant snowplow blade on front and massive tires with snow chains to drive through the deepest winter storms.",
+    "metaDescription": "Free printable Blizzard Beast snow plow monster truck coloring page for kids. Weather-themed coloring fun with snowplow blade design!",
+    "altText": "Black and white coloring page of a monster truck with large snowplow blade, big tires with chains, and winter weather details",
+    "imagePath": "/images/coloring-pages/blizzard-beast-snow-plow-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/blizzard-beast-snow-plow-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-weather-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:33:11.244Z",
+    "updatedAt": "2026-04-16T00:33:11.244Z"
+  },
+  {
+    "id": "page-e021b1e0",
+    "slug": "violin-orchestra-monster-truck",
+    "title": "Violin Orchestra Monster Truck",
+    "description": "This elegant monster truck carries beautiful violins and music stands, ready to perform a classical concert! The truck's body is decorated with violin shapes and musical staffs while bow-shaped details adorn the giant wheels.",
+    "metaDescription": "Free printable violin orchestra monster truck coloring page for kids. Features classical music instruments and elegant musical designs.",
+    "altText": "Black and white coloring page of a monster truck decorated with violins, music stands, and classical music elements",
+    "imagePath": "/images/coloring-pages/violin-orchestra-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/violin-orchestra-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-music-band-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:33:34.020Z",
+    "updatedAt": "2026-04-16T00:33:34.020Z"
+  },
+  {
+    "id": "page-4c843dcd",
+    "slug": "lightning-bolt-wizard-monster-truck",
+    "title": "Lightning Bolt Wizard Monster Truck",
+    "description": "This magical monster truck shoots lightning bolts from its wizard staff! Watch as sparks of electricity dance around the truck while it casts powerful storm spells.",
+    "metaDescription": "Free printable Lightning Bolt Wizard Monster Truck coloring page for kids. Magical truck with lightning and wizard powers!",
+    "altText": "Black and white coloring page of a monster truck with wizard hat shooting lightning bolts from a magical staff",
+    "imagePath": "/images/coloring-pages/lightning-bolt-wizard-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/lightning-bolt-wizard-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-wizard-magic-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:33:49.878Z",
+    "updatedAt": "2026-04-16T00:33:49.878Z"
+  },
+  {
+    "id": "page-4726119c",
+    "slug": "thunder-storm-hero-monster-truck",
+    "title": "Thunder Storm Hero Monster Truck",
+    "description": "This powerful monster truck controls the weather with lightning bolts and storm clouds! Color this heroic vehicle as it uses thunder and rain to save the day.",
+    "metaDescription": "Free printable Thunder Storm Hero Monster Truck coloring page. Weather-powered superhero truck perfect for kids who love storms and heroes!",
+    "altText": "Black and white coloring page of a monster truck with storm cloud decorations, lightning bolt symbols, and weather-themed superhero details",
+    "imagePath": "/images/coloring-pages/thunder-storm-hero-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/thunder-storm-hero-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-superhero-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:34:08.856Z",
+    "updatedAt": "2026-04-16T00:34:08.856Z"
+  },
+  {
+    "id": "page-2a7ca271",
+    "slug": "galaxy-warrior-monster-truck",
+    "title": "Galaxy Warrior Monster Truck",
+    "description": "This mighty monster truck is equipped with laser cannons and cosmic armor for epic space battles! Watch it zoom through asteroid fields and protect the galaxy from space invaders.",
+    "metaDescription": "Free printable Galaxy Warrior Monster Truck coloring page - space-themed monster truck with laser cannons for kids ages 4-6",
+    "altText": "Black and white coloring page of a monster truck with laser cannons, cosmic armor plating, and space battle accessories",
+    "imagePath": "/images/coloring-pages/galaxy-warrior-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/galaxy-warrior-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:34:28.178Z",
+    "updatedAt": "2026-04-16T00:34:28.178Z"
+  },
+  {
+    "id": "page-685c4cb7",
+    "slug": "simple-spaceship-monster-truck",
+    "title": "Simple Spaceship Monster Truck",
+    "description": "This adorable spaceship truck has big round windows and simple rocket fins! Little space explorers will love coloring this friendly cosmic cruiser.",
+    "metaDescription": "Free printable Simple Spaceship Monster Truck coloring page - easy space-themed truck design perfect for toddlers ages 2-4",
+    "altText": "Simple black and white coloring page of a basic monster truck designed like a spaceship with round windows and rocket fins",
+    "imagePath": "/images/coloring-pages/simple-spaceship-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/simple-spaceship-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:34:38.048Z",
+    "updatedAt": "2026-04-16T00:34:38.048Z"
+  },
+  {
+    "id": "page-55119f67",
+    "slug": "clue-collecting-net-monster-truck",
+    "title": "Clue Collecting Net Monster Truck",
+    "description": "This detective monster truck has a special net on top to catch flying clues! Help solve the mystery by coloring this clue-catching champion. Perfect for little detectives who love adventure!",
+    "metaDescription": "Free printable clue collecting net monster truck coloring page for kids. Detective mystery theme with simple design perfect for ages 2-4.",
+    "altText": "Black and white coloring page of a simple monster truck with a large net on top, detective theme, thick outlines",
+    "imagePath": "/images/coloring-pages/clue-collecting-net-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/clue-collecting-net-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-detective-mystery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:34:57.944Z",
+    "updatedAt": "2026-04-16T00:34:57.944Z"
+  },
+  {
+    "id": "page-3cc87fac",
+    "slug": "shooting-star-wish-monster-truck",
+    "title": "Shooting Star Wish Monster Truck",
+    "description": "This magical monster truck catches shooting stars in its special star-collecting net! Watch as colorful stars trail behind this dreamy vehicle on its nighttime adventure through the cosmos.",
+    "metaDescription": "Free printable Shooting Star Wish Monster Truck coloring page! Perfect dream-themed coloring fun for kids with magical stars and cosmic adventure.",
+    "altText": "Black and white coloring page of a monster truck with a star-catching net, surrounded by shooting stars and cosmic trails",
+    "imagePath": "/images/coloring-pages/shooting-star-wish-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/shooting-star-wish-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dream-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:36:21.599Z",
+    "updatedAt": "2026-04-16T00:36:21.599Z"
+  },
+  {
+    "id": "page-f679866c",
+    "slug": "teddy-bear-cuddle-monster-truck",
+    "title": "Teddy Bear Cuddle Monster Truck",
+    "description": "This adorable monster truck is shaped like a giant teddy bear! With a soft, round body and friendly bear face, it's ready for the sweetest monster truck adventures.",
+    "metaDescription": "Free printable Teddy Bear Monster Truck coloring page! Perfect for kids who love cuddly toys and big trucks.",
+    "altText": "Black and white coloring page of a monster truck designed like a teddy bear with round body, bear ears, and friendly face",
+    "imagePath": "/images/coloring-pages/teddy-bear-cuddle-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/teddy-bear-cuddle-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:36:41.444Z",
+    "updatedAt": "2026-04-16T00:36:41.444Z"
+  },
+  {
+    "id": "page-bf837491",
+    "slug": "jack-in-the-box-surprise-monster-truck",
+    "title": "Jack-in-the-Box Surprise Monster Truck",
+    "description": "Pop goes the monster truck! This exciting truck looks like a giant jack-in-the-box with a spring-loaded character ready to surprise everyone at the monster truck rally.",
+    "metaDescription": "Free printable Jack-in-the-Box Monster Truck coloring page featuring a fun surprise toy truck design for kids.",
+    "altText": "Black and white coloring page of a monster truck designed like a jack-in-the-box with cube body, spring character, and large wheels",
+    "imagePath": "/images/coloring-pages/jack-in-the-box-surprise-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/jack-in-the-box-surprise-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T00:36:51.417Z",
+    "updatedAt": "2026-04-16T00:36:51.417Z"
   }
 ]
