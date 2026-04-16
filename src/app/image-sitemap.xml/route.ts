@@ -15,7 +15,7 @@ export async function GET() {
       const images = pages
         .map(
           (page) => `    <image:image>
-      <image:loc>${siteUrl}${page.imagePath}</image:loc>
+      <image:loc>${page.imagePath}</image:loc>
       <image:title>${escapeXml(page.title)} - Free Monster Truck Coloring Page</image:title>
       <image:caption>${escapeXml(page.altText)}</image:caption>
       <image:license>${siteUrl}/terms</image:license>

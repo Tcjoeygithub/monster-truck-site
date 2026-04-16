@@ -110,8 +110,8 @@ export default function CategoryPage({ params }: Props) {
         "@type": "ListItem",
         position: index + 1,
         name: page.title,
-        url: `${siteUrl}/pdfs/${page.slug}.pdf`,
-        image: `${siteUrl}${page.imagePath}`,
+        url: `https://raw.githubusercontent.com/Tcjoeygithub/monster-truck-site/main/public/pdfs/${page.slug}.pdf`,
+        image: page.imagePath,
       })),
     },
   };

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ColoringPage } from "@/lib/types";
+import { rawUrl } from "@/lib/data";
 import ListicleItemActions from "./ListicleItemActions";
 
 interface Props {
@@ -9,7 +10,7 @@ interface Props {
 }
 
 export default function ListicleItem({ page, index, priority = false }: Props) {
-  const pdfHref = `/pdfs/${page.slug}.pdf`;
+  const pdfHref = rawUrl(`/pdfs/${page.slug}.pdf`);
 
   return (
     <article

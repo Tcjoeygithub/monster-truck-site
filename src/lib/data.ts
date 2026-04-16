@@ -2,8 +2,35 @@ import { ColoringPage, Category } from "./types";
 import categoriesData from "@/data/categories.json";
 import pagesData from "@/data/coloring-pages.json";
 
+const RAW_BASE =
+  "https://raw.githubusercontent.com/Tcjoeygithub/monster-truck-site/main/public";
+
+// Public helper: convert a /images/... or /pdfs/... path into a GitHub raw URL.
+// Used so the Vercel deploy can exclude these giant directories.
+export function rawUrl(path: string): string {
+  if (!path) return path;
+  if (path.startsWith("http://") || path.startsWith("https://")) return path;
+  if (path.startsWith("/")) return RAW_BASE + path;
+  return RAW_BASE + "/" + path;
+}
+
+function rewriteImagePath(p: string | undefined): string | undefined {
+  if (!p) return p;
+  if (p.startsWith("http://") || p.startsWith("https://")) return p;
+  if (p.startsWith("/images/") || p.startsWith("/pdfs/")) {
+    return RAW_BASE + p;
+  }
+  return p;
+}
+
 const categories: Category[] = categoriesData as Category[];
-const coloringPages: ColoringPage[] = pagesData as ColoringPage[];
+const coloringPages: ColoringPage[] = (pagesData as ColoringPage[]).map(
+  (p) => ({
+    ...p,
+    imagePath: rewriteImagePath(p.imagePath) ?? p.imagePath,
+    thumbnailPath: rewriteImagePath(p.thumbnailPath) ?? p.thumbnailPath,
+  })
+);
 
 // --- Categories ---
 

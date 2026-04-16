@@ -5,6 +5,13 @@ const nextConfig = {
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
+        pathname: "/Tcjoeygithub/monster-truck-site/**",
+      },
+    ],
   },
   // Keep the massive public/images and public/pdfs out of serverless
   // function bundles. They're served as static assets anyway.
