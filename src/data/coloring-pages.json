@@ -6724,5 +6724,425 @@
     "publishDate": "2026-04-16",
     "createdAt": "2026-04-16T01:00:22.872Z",
     "updatedAt": "2026-04-16T01:00:22.872Z"
+  },
+  {
+    "id": "page-837fc7ef",
+    "slug": "asteroid-crusher-monster-truck",
+    "title": "Asteroid Crusher Monster Truck",
+    "description": "This mighty monster truck is ready to smash through asteroid fields! With its super tough armor and giant wheels, it can roll over space rocks like they're pebbles.",
+    "metaDescription": "Free printable Asteroid Crusher Monster Truck coloring page - space-themed fun for kids ages 2-8 with cosmic adventure designs",
+    "altText": "Black and white coloring page of a monster truck with armor plating and large wheels designed for crushing asteroids in space",
+    "imagePath": "/images/coloring-pages/asteroid-crusher-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/asteroid-crusher-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:57:02.031Z",
+    "updatedAt": "2026-04-16T13:57:02.031Z"
+  },
+  {
+    "id": "page-39e88896",
+    "slug": "rocket-booster-speed-demon",
+    "title": "Rocket Booster Speed Demon",
+    "description": "Zoom through the cosmos with this rocket-powered monster truck! Its twin rocket boosters help it jump from planet to planet in the blink of an eye.",
+    "metaDescription": "Free printable Rocket Booster Speed Demon monster truck coloring page - exciting space adventure coloring fun for young explorers",
+    "altText": "Black and white coloring page of a monster truck with rocket boosters attached, designed for high-speed space travel",
+    "imagePath": "/images/coloring-pages/rocket-booster-speed-demon.png",
+    "thumbnailPath": "/images/coloring-pages/rocket-booster-speed-demon-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:57:13.580Z",
+    "updatedAt": "2026-04-16T13:57:13.580Z"
+  },
+  {
+    "id": "page-058580ae",
+    "slug": "alien-communication-cruiser",
+    "title": "Alien Communication Cruiser",
+    "description": "This special monster truck can talk to friendly aliens across the universe! Its big satellite dish and blinking lights help send messages to faraway planets.",
+    "metaDescription": "Free printable Alien Communication Cruiser coloring page - space monster truck with satellite dish perfect for creative coloring",
+    "altText": "Black and white coloring page of a monster truck equipped with a large satellite dish and communication equipment for alien contact",
+    "imagePath": "/images/coloring-pages/alien-communication-cruiser.png",
+    "thumbnailPath": "/images/coloring-pages/alien-communication-cruiser-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:57:26.166Z",
+    "updatedAt": "2026-04-16T13:57:26.166Z"
+  },
+  {
+    "id": "page-368de907",
+    "slug": "lunar-rover-champion",
+    "title": "Lunar Rover Champion",
+    "description": "Bounce across moon craters with this amazing lunar monster truck! Its special moon tires never get stuck in space dust, making it perfect for exploring the moon's surface.",
+    "metaDescription": "Free printable Lunar Rover Champion monster truck coloring page - moon exploration themed coloring adventure for kids ages 4-6",
+    "altText": "Black and white coloring page of a monster truck designed for lunar exploration with specialized moon rover features",
+    "imagePath": "/images/coloring-pages/lunar-rover-champion.png",
+    "thumbnailPath": "/images/coloring-pages/lunar-rover-champion-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:58:05.417Z",
+    "updatedAt": "2026-04-16T13:58:05.417Z"
+  },
+  {
+    "id": "page-7c6b04b3",
+    "slug": "cosmic-firefighter-rescue-truck",
+    "title": "Cosmic Firefighter Rescue Truck",
+    "description": "When there's trouble in space, this heroic monster truck comes to the rescue! It puts out fires on space stations and helps astronauts in need throughout the galaxy.",
+    "metaDescription": "Free printable Cosmic Firefighter monster truck coloring page - space rescue vehicle coloring fun for heroic young artists",
+    "altText": "Black and white coloring page of a firefighter monster truck designed for space rescues with emergency equipment",
+    "imagePath": "/images/coloring-pages/cosmic-firefighter-rescue-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cosmic-firefighter-rescue-truck-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:58:17.376Z",
+    "updatedAt": "2026-04-16T13:58:17.376Z"
+  },
+  {
+    "id": "page-5f299dc4",
+    "slug": "solar-panel-power-truck",
+    "title": "Solar Panel Power Truck",
+    "description": "This eco-friendly space monster truck runs on pure sunshine! Its giant solar panels collect energy from stars to power its adventures across the universe.",
+    "metaDescription": "Free printable Solar Panel Power Truck coloring page - environmentally themed space monster truck for creative coloring fun",
+    "altText": "Black and white coloring page of a monster truck powered by large solar panels for sustainable space exploration",
+    "imagePath": "/images/coloring-pages/solar-panel-power-truck.png",
+    "thumbnailPath": "/images/coloring-pages/solar-panel-power-truck-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:58:30.821Z",
+    "updatedAt": "2026-04-16T13:58:30.821Z"
+  },
+  {
+    "id": "page-4d5094f4",
+    "slug": "martian-explorer-beast",
+    "title": "Martian Explorer Beast",
+    "description": "Discover the red planet with this incredible Mars exploration monster truck! Its special drill can dig for Martian treasures while its cameras search for signs of alien life.",
+    "metaDescription": "Free printable Martian Explorer Beast coloring page - Mars-themed monster truck adventure perfect for space-loving kids",
+    "altText": "Black and white coloring page of a monster truck designed for Mars exploration with drilling equipment and scientific instruments",
+    "imagePath": "/images/coloring-pages/martian-explorer-beast.png",
+    "thumbnailPath": "/images/coloring-pages/martian-explorer-beast-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:58:42.651Z",
+    "updatedAt": "2026-04-16T13:58:42.651Z"
+  },
+  {
+    "id": "page-0e86f77a",
+    "slug": "interstellar-transport-commander",
+    "title": "Interstellar Transport Commander",
+    "description": "This massive space monster truck can carry cargo between different star systems! With its powerful engines and huge cargo bay, it's the ultimate space delivery vehicle for the galaxy.",
+    "metaDescription": "Free printable Interstellar Transport Commander coloring page - detailed space cargo monster truck for advanced young artists",
+    "altText": "Black and white coloring page of a large monster truck designed for interstellar cargo transport with complex mechanical details",
+    "imagePath": "/images/coloring-pages/interstellar-transport-commander.png",
+    "thumbnailPath": "/images/coloring-pages/interstellar-transport-commander-thumb.png",
+    "categoryIds": [
+      "cat-space-explorer-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:59:02.796Z",
+    "updatedAt": "2026-04-16T13:59:02.796Z"
+  },
+  {
+    "id": "page-f54707c8",
+    "slug": "pie-slice-powerhouse-monster-truck-coloring-page",
+    "title": "Pie Slice Powerhouse",
+    "description": "This mighty monster truck is decorated with delicious pie slices all over its body! Color the apple, cherry, and pumpkin pie designs on this powerful truck as it crushes through the bakery parking lot.",
+    "metaDescription": "Free printable Pie Slice Powerhouse monster truck coloring page. Perfect bakery-themed coloring fun for kids ages 2-8!",
+    "altText": "Black and white coloring page of a monster truck decorated with pie slice designs on its body and wheels",
+    "imagePath": "/images/coloring-pages/pie-slice-powerhouse-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/pie-slice-powerhouse-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:59:35.367Z",
+    "updatedAt": "2026-04-16T13:59:35.367Z"
+  },
+  {
+    "id": "page-4ebb1c50",
+    "slug": "muffin-mountain-masher-monster-truck-coloring-page",
+    "title": "Muffin Mountain Masher",
+    "description": "Watch out for the Muffin Mountain Masher! This awesome truck has giant muffin decorations covering its sides and chocolate chip designs on its massive wheels.",
+    "metaDescription": "Free printable Muffin Mountain Masher monster truck coloring page featuring bakery muffin designs for kids ages 4-6!",
+    "altText": "Black and white coloring page of a monster truck with muffin decorations on its body and chocolate chip patterns on wheels",
+    "imagePath": "/images/coloring-pages/muffin-mountain-masher-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/muffin-mountain-masher-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T13:59:53.308Z",
+    "updatedAt": "2026-04-16T13:59:53.308Z"
+  },
+  {
+    "id": "page-15e2e659",
+    "slug": "croissant-crusher-champion-monster-truck-coloring-page",
+    "title": "Croissant Crusher Champion",
+    "description": "The Croissant Crusher Champion rolls into action with beautiful curved croissant designs wrapping around its body! This fancy French pastry truck is ready for some serious monster truck action.",
+    "metaDescription": "Free printable Croissant Crusher Champion monster truck coloring page with French pastry themes for kids ages 6-8!",
+    "altText": "Black and white coloring page of a detailed monster truck with croissant designs and French bakery decorations",
+    "imagePath": "/images/coloring-pages/croissant-crusher-champion-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/croissant-crusher-champion-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:00:04.822Z",
+    "updatedAt": "2026-04-16T14:00:04.822Z"
+  },
+  {
+    "id": "page-915acdca",
+    "slug": "bagel-bounce-beast-monster-truck-coloring-page",
+    "title": "Bagel Bounce Beast",
+    "description": "The Bagel Bounce Beast is covered in round bagel shapes and sesame seed patterns! This bouncing bakery truck loves to jump over obstacles while showing off its delicious decorations.",
+    "metaDescription": "Free printable Bagel Bounce Beast monster truck coloring page featuring bagel designs perfect for kids ages 4-6!",
+    "altText": "Black and white coloring page of a monster truck decorated with bagel shapes and sesame seed patterns",
+    "imagePath": "/images/coloring-pages/bagel-bounce-beast-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/bagel-bounce-beast-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:00:14.681Z",
+    "updatedAt": "2026-04-16T14:00:14.681Z"
+  },
+  {
+    "id": "page-5d49698e",
+    "slug": "bread-loaf-bouncer-monster-truck-coloring-page",
+    "title": "Bread Loaf Bouncer",
+    "description": "Here comes the Bread Loaf Bouncer with giant bread loaf shapes decorating its sides! This wholesome monster truck is fresh from the bakery and ready to roll.",
+    "metaDescription": "Free printable Bread Loaf Bouncer monster truck coloring page with bread designs for toddlers and kids ages 2-4!",
+    "altText": "Black and white coloring page of a simple monster truck with bread loaf decorations and thick outlines for easy coloring",
+    "imagePath": "/images/coloring-pages/bread-loaf-bouncer-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/bread-loaf-bouncer-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-bakery-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:00:27.701Z",
+    "updatedAt": "2026-04-16T14:00:27.701Z"
+  },
+  {
+    "id": "page-46d02bab",
+    "slug": "three-little-pigs-brick-house-monster-truck-coloring-page",
+    "title": "Three Little Pigs Brick House Monster Truck",
+    "description": "This sturdy monster truck is built like the third little pig's brick house! With a strong brick-patterned body and chimney on top, it's tough enough to keep any big bad wolf away.",
+    "metaDescription": "Free printable Three Little Pigs monster truck coloring page for kids. Fairy tale fun with giant wheels!",
+    "altText": "Coloring page of a monster truck designed like a brick house with chimney, large wheels, and Three Little Pigs theme",
+    "imagePath": "/images/coloring-pages/three-little-pigs-brick-house-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/three-little-pigs-brick-house-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fairy-tale-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:01:14.352Z",
+    "updatedAt": "2026-04-16T14:01:14.352Z"
+  },
+  {
+    "id": "page-a5f00434",
+    "slug": "little-red-riding-hood-basket-monster-truck-coloring-page",
+    "title": "Little Red Riding Hood Basket Delivery Monster Truck",
+    "description": "This cheerful monster truck delivers goodies through the forest just like Little Red Riding Hood! It has a big wicker basket on back and a cozy red hood design perfect for visiting grandma.",
+    "metaDescription": "Free printable Little Red Riding Hood monster truck coloring page. Fairy tale adventure with basket and forest details!",
+    "altText": "Coloring page of a monster truck with Little Red Riding Hood theme, featuring a wicker basket, hood design, and forest elements",
+    "imagePath": "/images/coloring-pages/little-red-riding-hood-basket-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/little-red-riding-hood-basket-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-fairy-tale-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:01:25.400Z",
+    "updatedAt": "2026-04-16T14:01:25.400Z"
+  },
+  {
+    "id": "page-3ca1c0ff",
+    "slug": "toy-train-engine-monster-truck",
+    "title": "Toy Train Engine Monster Truck",
+    "description": "All aboard the Toy Train Engine Monster Truck! This amazing truck looks just like a classic toy train with a smokestack, bell, and locomotive wheels. Choo-choo your way to coloring fun!",
+    "metaDescription": "Free printable Toy Train Engine Monster Truck coloring page for kids. Fun locomotive-inspired monster truck design perfect for train lovers!",
+    "altText": "Black and white coloring page of a monster truck designed like a toy train engine with smokestack, bell, and train details",
+    "imagePath": "/images/coloring-pages/toy-train-engine-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/toy-train-engine-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:02:15.575Z",
+    "updatedAt": "2026-04-16T14:02:15.575Z"
+  },
+  {
+    "id": "page-d2f1d61a",
+    "slug": "jack-in-the-box-pop-monster-truck",
+    "title": "Jack-in-the-Box Pop Monster Truck",
+    "description": "Surprise! The Jack-in-the-Box Pop Monster Truck is ready to spring into action! This playful truck looks like a giant jack-in-the-box toy with a spring and colorful box design.",
+    "metaDescription": "Free printable Jack-in-the-Box Pop Monster Truck coloring page. Fun surprise toy-themed monster truck design for creative kids!",
+    "altText": "Black and white coloring page of a monster truck designed like a jack-in-the-box toy with spring mechanism and box details",
+    "imagePath": "/images/coloring-pages/jack-in-the-box-pop-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/jack-in-the-box-pop-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:02:25.141Z",
+    "updatedAt": "2026-04-16T14:02:25.141Z"
+  },
+  {
+    "id": "page-c9cb02ac",
+    "slug": "solar-panel-power-monster-truck",
+    "title": "Solar Panel Power Monster Truck",
+    "description": "This eco-friendly robot monster truck runs on solar power! Color the big solar panels on its roof and the glowing energy cores that power its massive wheels.",
+    "metaDescription": "Free printable Solar Panel Power Monster Truck coloring page for kids. Robot truck with solar panels and energy cores to color!",
+    "altText": "Black and white coloring page of a robot monster truck with solar panels on roof and energy cores",
+    "imagePath": "/images/coloring-pages/solar-panel-power-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/solar-panel-power-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-robot-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:02:44.462Z",
+    "updatedAt": "2026-04-16T14:02:44.462Z"
+  },
+  {
+    "id": "page-ed16346b",
+    "slug": "electric-bass-guitar-monster-truck",
+    "title": "Electric Bass Guitar Monster Truck",
+    "description": "This awesome monster truck rocks out with a giant electric bass guitar on its roof and musical notes bouncing off its huge wheels! Watch this bass-playing beast cruise through town spreading funky rhythms wherever it goes.",
+    "metaDescription": "Free printable Electric Bass Guitar Monster Truck coloring page for kids. Musical monster truck with bass guitar and notes to color!",
+    "altText": "Black and white coloring page of a monster truck with an electric bass guitar mounted on top, musical notes around the wheels, and rock band decorations",
+    "imagePath": "/images/coloring-pages/electric-bass-guitar-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/electric-bass-guitar-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-music-band-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:03:14.494Z",
+    "updatedAt": "2026-04-16T14:03:14.494Z"
+  },
+  {
+    "id": "page-5ab66046",
+    "slug": "bunny-ear-hopper-truck",
+    "title": "Bunny Ear Hopper Truck",
+    "description": "This adorable monster truck has big floppy bunny ears and a cute cotton tail! Little ones will love coloring this gentle farm friend that's ready to hop over any obstacle.",
+    "metaDescription": "Free printable Bunny Ear Hopper Truck coloring page - adorable farm animal monster truck perfect for kids ages 2-8!",
+    "altText": "Black and white coloring page of a monster truck decorated like a bunny with big ears, cotton tail, and simple farm features",
+    "imagePath": "/images/coloring-pages/bunny-ear-hopper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bunny-ear-hopper-truck-thumb.png",
+    "categoryIds": [
+      "cat-farm-animal-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:03:37.269Z",
+    "updatedAt": "2026-04-16T14:03:37.269Z"
+  },
+  {
+    "id": "page-6d3b96d9",
+    "slug": "spellbook-reading-monster-truck-coloring-page",
+    "title": "Spellbook Reading Monster Truck",
+    "description": "This magical monster truck has discovered an ancient spellbook and is learning powerful spells! Watch as mystical symbols and magic sparkles float all around the wise truck.",
+    "metaDescription": "Free printable Spellbook Reading Monster Truck coloring page! Perfect magical coloring fun for kids with wizard themes.",
+    "altText": "Black and white coloring page of a monster truck reading a large open spellbook with magical symbols floating around",
+    "imagePath": "/images/coloring-pages/spellbook-reading-monster-truck-coloring-page.png",
+    "thumbnailPath": "/images/coloring-pages/spellbook-reading-monster-truck-coloring-page-thumb.png",
+    "categoryIds": [
+      "cat-wizard-magic-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T14:03:54.347Z",
+    "updatedAt": "2026-04-16T14:03:54.347Z"
   }
 ]
