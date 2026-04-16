@@ -70,7 +70,8 @@ Hard rules:
 
 export async function brainstormCollection(
   _strategy: Strategy,
-  count: number = 10
+  count: number = 10,
+  themeHint?: string
 ): Promise<CollectionPlan> {
   const anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
 
@@ -108,6 +109,8 @@ The collection should make a parent say "oh cool, my kid will love that" and be 
       {
         role: "user",
         content: `${strategyInstructions.creative}
+
+${themeHint ? `REQUIRED THEME: "${themeHint}". Build this collection around that exact theme. Every one of the ${count} monster trucks must visibly incorporate the "${themeHint}" theme — decorations, body shape, accessories, paint, or decals. Resulting collection name should lead with this theme (e.g. "${themeHint.replace(/\b\w/g, c=>c.toUpperCase())} Monster Truck Coloring Pages").` : ""}
 
 Current month: ${month}
 Upcoming holidays within 6 weeks: ${upcomingHolidays}
@@ -504,18 +507,19 @@ export interface PipelineResult {
 }
 
 export async function runDailyPipeline(
-  pageCount: number = 10
+  pageCount: number = 10,
+  themeHint?: string
 ): Promise<PipelineResult> {
   const strategy = getTodayStrategy();
   console.log(
-    `[autopilot] === Daily Pipeline: strategy=${strategy}, pages=${pageCount} ===`
+    `[autopilot] === Daily Pipeline: strategy=${strategy}, pages=${pageCount}${themeHint ? `, theme="${themeHint}"` : ""} ===`
   );
 
   // Step 1: Brainstorm collection
   console.log("[autopilot] Brainstorming collection...");
   let plan: CollectionPlan;
   try {
-    plan = await brainstormCollection(strategy, pageCount);
+    plan = await brainstormCollection(strategy, pageCount, themeHint);
   } catch (err) {
     return {
       success: false,

@@ -14,9 +14,10 @@ export async function GET(request: Request) {
   const url = new URL(request.url);
   const count = parseInt(url.searchParams.get("count") || "10", 10);
   const pages = Math.min(Math.max(count, 1), 15);
+  const theme = url.searchParams.get("theme") || undefined;
 
   try {
-    const result = await runDailyPipeline(pages);
+    const result = await runDailyPipeline(pages, theme);
     return NextResponse.json(result);
   } catch (err) {
     const message = err instanceof Error ? err.message : "Unknown error";
