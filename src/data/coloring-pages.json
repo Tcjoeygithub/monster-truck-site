@@ -6684,5 +6684,45 @@
     "publishDate": "2026-04-16",
     "createdAt": "2026-04-16T00:36:51.417Z",
     "updatedAt": "2026-04-16T00:36:51.417Z"
+  },
+  {
+    "id": "page-dcbfe30c",
+    "slug": "rocking-horse-rally-monster-truck",
+    "title": "Rocking Horse Rally Monster Truck",
+    "description": "Saddle up for adventure with this adorable rocking horse monster truck! This gentle giant rocks and rolls over any terrain with its curved wooden base and friendly horse head.",
+    "metaDescription": "Free printable Rocking Horse Rally Monster Truck coloring page. Fun toy-themed monster truck design perfect for kids ages 2-4.",
+    "altText": "Black and white coloring page of a simple monster truck designed like a rocking horse with curved base, horse head front, and large wheels",
+    "imagePath": "/images/coloring-pages/rocking-horse-rally-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/rocking-horse-rally-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T01:00:11.802Z",
+    "updatedAt": "2026-04-16T01:00:11.802Z"
+  },
+  {
+    "id": "page-2a7b6a08",
+    "slug": "robot-toy-commander-monster-truck",
+    "title": "Robot Toy Commander Monster Truck",
+    "description": "Beep beep! This awesome robot monster truck is ready for action with mechanical arms, antenna, and glowing details. Perfect for future engineers and robot fans!",
+    "metaDescription": "Free printable Robot Toy Commander Monster Truck coloring page. Detailed robot-themed monster truck design for kids ages 6-8.",
+    "altText": "Black and white coloring page of a detailed monster truck designed like a robot toy with mechanical arms, antenna, control panels, and large treaded wheels",
+    "imagePath": "/images/coloring-pages/robot-toy-commander-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/robot-toy-commander-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-toy-store-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-16",
+    "createdAt": "2026-04-16T01:00:22.872Z",
+    "updatedAt": "2026-04-16T01:00:22.872Z"
   }
 ]
