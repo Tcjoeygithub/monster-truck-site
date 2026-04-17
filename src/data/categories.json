@@ -264,5 +264,12 @@
     "name": "Tiger Monster Truck Coloring Pages",
     "description": "Free printable tiger monster truck coloring pages for kids ages 2-8. Saber-tooth fangs, tiger claw hood scoops, cage cabs, and pouncing stances — every truck has a unique tiger-inspired design. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-eagle-monster-truck-coloring-pages",
+    "slug": "eagle-monster-truck-coloring-pages",
+    "name": "Eagle Monster Truck Coloring Pages",
+    "description": "Free printable eagle monster truck coloring pages for kids ages 2-8. Beak-shaped bumpers, talon wheels, wing doors, feather spoilers — every truck has a unique eagle-inspired structural design. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
