@@ -285,5 +285,12 @@
     "name": "Bear Monster Truck Coloring Pages",
     "description": "Free printable bear monster truck coloring pages for kids ages 2-8. Grizzly claw bumpers, bear jaw hoods, honey pot exhausts, cave bear cabs — every truck has bear features built right into the design. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-rhino-monster-truck-coloring-pages",
+    "slug": "rhino-monster-truck-coloring-pages",
+    "name": "Rhino Monster Truck Coloring Pages",
+    "description": "Free printable rhino monster truck coloring pages for kids ages 2-8. Rhino horn bumpers, armored hide bodies, tusk exhaust pipes, battering ram fronts — every truck is built like a rhino. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
