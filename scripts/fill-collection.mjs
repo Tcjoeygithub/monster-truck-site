@@ -58,7 +58,7 @@ if (!cat) {
 }
 
 const BASE_IMAGEN_PROMPT =
-  "MUST FEATURE A MONSTER TRUCK AS THE PRIMARY AND DOMINANT SUBJECT FILLING MOST OF THE FRAME. A monster truck has an oversized truck body sitting high on huge knobby tires with raised suspension. The truck IS the subject; any theme is decoration ON or AROUND it. Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image. The complete monster truck must be fully visible.";
+  "MUST FEATURE A MONSTER TRUCK AS THE PRIMARY AND DOMINANT SUBJECT FILLING MOST OF THE FRAME. A monster truck has an oversized truck body sitting high on huge knobby tires with raised suspension. The truck IS the subject; any theme is decoration ON or AROUND it. Black and white line art ONLY, coloring book style for young children ages 2-8, bold thick clean outlines only, simple shapes, NO COLOR, NO shading, NO gray fill, strictly black outlines on white background, NO complex backgrounds, NO crowds, NO tiny details, NO text in image, NO border, NO frame, NO rectangle around the artwork, NO drawn box or outline around the edges. The truck floats on a plain white background. The complete monster truck must be fully visible.";
 
 async function planTopics() {
   const pagesRaw = JSON.parse(
