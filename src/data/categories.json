@@ -271,5 +271,12 @@
     "name": "Eagle Monster Truck Coloring Pages",
     "description": "Free printable eagle monster truck coloring pages for kids ages 2-8. Beak-shaped bumpers, talon wheels, wing doors, feather spoilers — every truck has a unique eagle-inspired structural design. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-gorilla-monster-truck-coloring-pages",
+    "slug": "gorilla-monster-truck-coloring-pages",
+    "name": "Gorilla Monster Truck Coloring Pages",
+    "description": "Free printable gorilla monster truck coloring pages for kids ages 2-8. Gorilla fist bumpers, silverback bodies, king kong cabs, knuckle wheels — every truck is built like a beast. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
