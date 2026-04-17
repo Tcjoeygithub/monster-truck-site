@@ -3,7 +3,7 @@
     "id": "page-001",
     "slug": "skull-crusher-monster-truck",
     "title": "Skull Crusher Monster Truck",
-    "description": "Meet Skull Crusher \u2014 a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
+    "description": "Meet Skull Crusher — a fearsome monster truck with a giant skull on the hood and massive spiked tires! This coloring page features bold, clean outlines that are perfect for little hands. Grab your crayons and bring this beast to life!",
     "metaDescription": "Free printable Skull Crusher monster truck coloring page for kids ages 2-8. Bold outlines, easy to color. Download and print for free!",
     "altText": "Black and white coloring page of Skull Crusher monster truck with skull design on hood and large spiked tires",
     "imagePath": "/images/coloring-pages/skull-crusher.png",
@@ -7144,5 +7144,205 @@
     "publishDate": "2026-04-16",
     "createdAt": "2026-04-16T14:03:54.347Z",
     "updatedAt": "2026-04-16T14:03:54.347Z"
+  },
+  {
+    "id": "page-fire-bre-frox",
+    "slug": "fire-breathing-dragon-truck",
+    "title": "Fire-Breathing Dragon Truck",
+    "description": "This fierce monster truck has a massive dragon head mounted right on the hood — mouth wide open with flames shooting out! Dragon scales cover the sides while huge knobby tires launch it off a dirt ramp. Grab your crayons and bring the fire to life!",
+    "metaDescription": "Free printable Fire-Breathing Dragon Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a dragon head on the hood breathing fire, jumping off a ramp",
+    "imagePath": "/images/coloring-pages/fire-breathing-dragon-truck.png",
+    "thumbnailPath": "/images/coloring-pages/fire-breathing-dragon-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-w-frox",
+    "slug": "dragon-wing-monster-truck",
+    "title": "Dragon Wing Monster Truck",
+    "description": "What if a monster truck could fly? This one has two massive dragon wings spread out from the sides and a dragon tail hanging off the back! It's soaring through the air with all four wheels off the ground. Color in every feather and scale!",
+    "metaDescription": "Free printable Dragon Wing Monster Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with dragon wings spread out, flying through the air",
+    "imagePath": "/images/coloring-pages/dragon-wing-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-wing-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-baby-dra-frox",
+    "slug": "baby-dragon-buddy-truck",
+    "title": "Baby Dragon Buddy Truck",
+    "description": "This adorable little monster truck has tiny dragon horns, big friendly eyes, and a cute curly tail! It's the friendliest dragon truck ever — perfect for little hands to color.",
+    "metaDescription": "Free printable Baby Dragon Buddy Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute cartoon monster truck with small dragon horns and friendly eyes",
+    "imagePath": "/images/coloring-pages/baby-dragon-buddy-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-dragon-buddy-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-c-frox",
+    "slug": "dragon-claw-crusher",
+    "title": "Dragon Claw Crusher",
+    "description": "This beast of a truck has giant dragon claws for a front bumper — and it's crushing a pile of rocks like they're nothing! Dragon scales cover every inch of the body. Can you color all those scales?",
+    "metaDescription": "Free printable Dragon Claw Crusher coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with dragon claw bumper crushing rocks, covered in dragon scales",
+    "imagePath": "/images/coloring-pages/dragon-claw-crusher.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-claw-crusher-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-two-head-frox",
+    "slug": "two-headed-dragon-truck",
+    "title": "Two-Headed Dragon Truck",
+    "description": "Why have one dragon head when you can have TWO? This monster truck has two fierce dragon heads on the hood, each facing a different direction with horns and sharp teeth. Double the dragon, double the fun!",
+    "metaDescription": "Free printable Two-Headed Dragon Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two dragon heads on the hood facing opposite directions",
+    "imagePath": "/images/coloring-pages/two-headed-dragon-truck.png",
+    "thumbnailPath": "/images/coloring-pages/two-headed-dragon-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-e-frox",
+    "slug": "dragon-egg-hauler",
+    "title": "Dragon Egg Hauler",
+    "description": "This monster truck is on a special mission — carrying a giant dragon egg! The egg is cracked and a cute baby dragon is peeking out. What color will you make the baby dragon?",
+    "metaDescription": "Free printable Dragon Egg Hauler coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck carrying a large cracked egg with a baby dragon peeking out",
+    "imagePath": "/images/coloring-pages/dragon-egg-hauler.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-egg-hauler-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-s-frox",
+    "slug": "dragon-scale-armor-truck",
+    "title": "Dragon Scale Armor Truck",
+    "description": "This truck is fully armored in dragon scales from bumper to bumper! Two curved horns sit on top of the cab, and the exhaust pipe is shaped like a dragon tail. It looks like it's ready for battle!",
+    "metaDescription": "Free printable Dragon Scale Armor Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck covered in dragon scale pattern with horns on the roof",
+    "imagePath": "/images/coloring-pages/dragon-scale-armor-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-scale-armor-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-v-frox",
+    "slug": "dragon-vs-monster-truck",
+    "title": "Dragon vs Monster Truck",
+    "description": "It's the ultimate showdown — a giant dragon facing off against a monster truck! They're the same size, staring each other down. Who wins? You decide while you color!",
+    "metaDescription": "Free printable Dragon vs Monster Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a cartoon dragon and a monster truck facing each other in a standoff",
+    "imagePath": "/images/coloring-pages/dragon-vs-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-vs-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-ice-drag-frox",
+    "slug": "ice-dragon-frost-truck",
+    "title": "Ice Dragon Frost Truck",
+    "description": "Not all dragons breathe fire! This monster truck has an ice dragon theme with sharp crystal spikes, hanging icicles, and frost breath shooting from the dragon head on the hood. Cool as ice!",
+    "metaDescription": "Free printable Ice Dragon Frost Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with ice crystal spikes and an ice dragon head on the hood",
+    "imagePath": "/images/coloring-pages/ice-dragon-frost-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ice-dragon-frost-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
+  },
+  {
+    "id": "page-dragon-r-frox",
+    "slug": "dragon-rider-truck",
+    "title": "Dragon Rider Truck",
+    "description": "A friendly little dragon is riding on top of this monster truck, holding on tight with a big smile! The dragon has tiny wings and a curly tail. This one's perfect for the youngest monster truck fans!",
+    "metaDescription": "Free printable Dragon Rider Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a small friendly dragon riding on top of the cab",
+    "imagePath": "/images/coloring-pages/dragon-rider-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dragon-rider-truck-thumb.png",
+    "categoryIds": [
+      "cat-dragon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T11:47:22.736Z",
+    "updatedAt": "2026-04-17T11:47:22.736Z"
   }
 ]
