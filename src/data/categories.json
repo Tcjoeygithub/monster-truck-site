@@ -278,5 +278,12 @@
     "name": "Gorilla Monster Truck Coloring Pages",
     "description": "Free printable gorilla monster truck coloring pages for kids ages 2-8. Gorilla fist bumpers, silverback bodies, king kong cabs, knuckle wheels — every truck is built like a beast. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-bear-monster-truck-coloring-pages",
+    "slug": "bear-monster-truck-coloring-pages",
+    "name": "Bear Monster Truck Coloring Pages",
+    "description": "Free printable bear monster truck coloring pages for kids ages 2-8. Grizzly claw bumpers, bear jaw hoods, honey pot exhausts, cave bear cabs — every truck has bear features built right into the design. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
