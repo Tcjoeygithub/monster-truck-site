@@ -250,5 +250,12 @@
     "name": "Shark Monster Truck Coloring Pages",
     "description": "Free printable shark monster truck coloring pages for kids ages 2-8. Great whites, hammerheads, megalodons, and shark-toothed crushers — all on monster trucks with massive wheels. Bold outlines, ready to print and color!",
     "type": "theme"
+  },
+  {
+    "id": "cat-wolf-monster-truck-coloring-pages",
+    "slug": "wolf-monster-truck-coloring-pages",
+    "name": "Wolf Monster Truck Coloring Pages",
+    "description": "Free printable wolf monster truck coloring pages for kids ages 2-8. Howling wolves, wolf pack crushers, arctic wolves, and werewolf transformations — all on monster trucks with massive wheels. Bold outlines, ready to print and color!",
+    "type": "theme"
   }
 ]
