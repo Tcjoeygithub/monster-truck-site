@@ -1,0 +1,118 @@
+=== bulk-themed start: 2026-04-16T20:25:43Z  themes=20 days=30 ===
+  ✗ failed (7s): unknown
+[2/20] 20:25:43 UTC  theme='Shark'
+  ✗ failed (0s): unknown
+[3/20] 20:25:43 UTC  theme='Wolf'
+  ✗ failed (0s): unknown
+[4/20] 20:25:43 UTC  theme='Tiger'
+  ✗ failed (0s): unknown
+[5/20] 20:25:43 UTC  theme='Eagle Raptor'
+  ✗ failed (0s): unknown
+[6/20] 20:25:43 UTC  theme='Gorilla'
+  ✗ failed (0s): unknown
+[7/20] 20:25:44 UTC  theme='Bear'
+  ✗ failed (0s): unknown
+[8/20] 20:25:44 UTC  theme='Rhino'
+  ✗ failed (0s): unknown
+[9/20] 20:25:44 UTC  theme='Cobra Snake'
+  ✗ failed (0s): unknown
+[10/20] 20:25:44 UTC  theme='Scorpion'
+  ✗ failed (0s): unknown
+[11/20] 20:25:44 UTC  theme='Bull'
+  ✗ failed (0s): unknown
+[12/20] 20:25:44 UTC  theme='Phoenix'
+  ✗ failed (0s): unknown
+[13/20] 20:25:44 UTC  theme='Werewolf'
+  ✗ failed (0s): unknown
+[14/20] 20:25:44 UTC  theme='Ninja'
+  ✗ failed (0s): unknown
+[15/20] 20:25:44 UTC  theme='Samurai'
+  ✗ failed (0s): unknown
+[16/20] 20:25:44 UTC  theme='Viking'
+  ✗ failed (0s): unknown
+[17/20] 20:25:44 UTC  theme='Pirate'
+  ✗ failed (1s): unknown
+[18/20] 20:25:45 UTC  theme='Cowboy Wild West'
+  ✗ failed (0s): unknown
+[19/20] 20:25:45 UTC  theme='Alien UFO'
+  ✗ failed (0s): unknown
+[20/20] 20:25:45 UTC  theme='Zombie'
+  ✗ failed (0s): unknown
+
+=== Generation done: 0 succeeded, 20 failed ===
+No successes, skipping deploy
+Dev server up
+[1/20] 20:25:47 UTC  theme='Dragon'
+  ✗ failed (1843s): unknown
+[2/20] 20:56:30 UTC  theme='Shark'
+  ✓ Shark Monster Truck Coloring Pages (+10 pages, 533s)
+[3/20] 21:05:23 UTC  theme='Wolf'
+  ✓ Wolf Monster Truck Coloring Pages (+10 pages, 604s)
+[4/20] 21:15:27 UTC  theme='Tiger'
+  ✓ Tiger Monster Truck Coloring Pages (+10 pages, 344s)
+[5/20] 21:21:11 UTC  theme='Eagle Raptor'
+  ✓ Eagle Raptor Monster Truck Coloring Pages (+10 pages, 758s)
+[6/20] 21:33:49 UTC  theme='Gorilla'
+  ✓ Gorilla Monster Truck Coloring Pages (+10 pages, 274s)
+[7/20] 21:38:23 UTC  theme='Bear'
+  ✓ Bear Monster Truck Coloring Pages (+10 pages, 251s)
+[8/20] 21:42:34 UTC  theme='Rhino'
+  ✓ Rhino Monster Truck Coloring Pages (+10 pages, 354s)
+[9/20] 21:48:28 UTC  theme='Cobra Snake'
+  ✓ Cobra Snake Monster Truck Coloring Pages (+10 pages, 271s)
+[10/20] 21:52:59 UTC  theme='Scorpion'
+  ✓ Scorpion Monster Truck Coloring Pages (+10 pages, 234s)
+[11/20] 21:56:53 UTC  theme='Bull'
+  ✓ Bull Monster Truck Coloring Pages (+9 pages, 332s)
+[12/20] 22:02:25 UTC  theme='Phoenix'
+  ✓ Phoenix Monster Truck Coloring Pages (+10 pages, 1187s)
+[13/20] 22:22:12 UTC  theme='Werewolf'
+  ✓ Werewolf Monster Truck Coloring Pages (+10 pages, 359s)
+[14/20] 22:28:11 UTC  theme='Ninja'
+  ✓ Ninja Monster Truck Coloring Pages (+8 pages, 1297s)
+[15/20] 22:49:48 UTC  theme='Samurai'
+  ✗ failed (1980s): unknown
+[16/20] 23:22:48 UTC  theme='Viking'
+  ✓ Viking Monster Truck Coloring Pages (+9 pages, 456s)
+[17/20] 23:30:24 UTC  theme='Pirate'
+  ✓ Pirate Monster Truck Coloring Pages (+10 pages, 500s)
+[18/20] 23:38:44 UTC  theme='Cowboy Wild West'
+  ✗ failed (1996s): unknown
+[19/20] 00:12:00 UTC  theme='Alien UFO'
+  ✗ failed (1940s): unknown
+[20/20] 00:44:20 UTC  theme='Zombie'
+  ✓ Zombie Monster Truck Coloring Pages (+10 pages, 1210s)
+
+=== Generation done: 16 succeeded, 4 failed ===
+Generating PDFs...
+[ok] zombie-dance-party-truck
+
+Done. made=175 skipped=333 missing=0
+Committing + deploying...
+ create mode 100644 public/pdfs/zombie-face-grille-monster-truck.pdf
+ create mode 100644 public/pdfs/zombie-hand-grabber-truck.pdf
+ create mode 100644 public/pdfs/zombie-potion-brewing-truck.pdf
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+Waiting 2min for deploy...
+Generating pin descriptions...
+  ✓ 190/192 zombie-apocalypse-survivor-truck (402 chars)
+  ✓ 191/192 zombie-potion-brewing-truck (379 chars)
+  ✓ 192/192 zombie-dance-party-truck (382 chars)
+
+Cached to /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/data/pin-descriptions.json
+Scheduling pins across 30 days...
+  • 08:20  zombie-bite-chomper-truck → Zombie Monster Truck Coloring Pages
+  • 12:26  zombie-brain-laboratory-truck → Zombie Monster Truck Coloring Pages
+  • 16:32  baby-zombie-head-truck → Zombie Monster Truck Coloring Pages
+  • 20:38  zombie-apocalypse-survivor-truck → Zombie Monster Truck Coloring Pages
+  • 00:44  zombie-potion-brewing-truck → Zombie Monster Truck Coloring Pages
+  • 04:50  zombie-dance-party-truck → Zombie Monster Truck Coloring Pages
+
+Updated /Users/josephbrusca/monster-truck-site/monster-truck-site/monster-truck-site/src/data/pinned.json
+[main 7297976] Bulk themed: schedule 16 collections' pins over 30 days
+ 2 files changed, 1985 insertions(+)
+To https://github.com/Tcjoeygithub/monster-truck-site.git
+   5f88802..7297976  main -> main
+=== DONE at 2026-04-17T11:21:39Z ===
