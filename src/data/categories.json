@@ -257,5 +257,12 @@
     "name": "Wolf Monster Truck Coloring Pages",
     "description": "Free printable wolf monster truck coloring pages for kids ages 2-8. Howling wolves, wolf pack crushers, arctic wolves, and werewolf transformations — all on monster trucks with massive wheels. Bold outlines, ready to print and color!",
     "type": "theme"
+  },
+  {
+    "id": "cat-tiger-monster-truck-coloring-pages",
+    "slug": "tiger-monster-truck-coloring-pages",
+    "name": "Tiger Monster Truck Coloring Pages",
+    "description": "Free printable tiger monster truck coloring pages for kids ages 2-8. Saber-tooth fangs, tiger claw hood scoops, cage cabs, and pouncing stances — every truck has a unique tiger-inspired design. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]

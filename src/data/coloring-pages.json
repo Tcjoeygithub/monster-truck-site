@@ -7744,5 +7744,205 @@
     "publishDate": "2026-04-17",
     "createdAt": "2026-04-17T12:30:33.761Z",
     "updatedAt": "2026-04-17T12:30:33.761Z"
+  },
+  {
+    "id": "page-tiger-fa-881d",
+    "slug": "tiger-fang-bumper-truck",
+    "title": "Tiger Fang Bumper Truck",
+    "description": "This mean machine has two massive tiger fangs as its front bumper — curved, sharp, and ready to smash! The hood has a big tiger nose and snarling mouth built right into the metal.",
+    "metaDescription": "Free printable Tiger Fang Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two large curved tiger fang shapes as the front bumper",
+    "imagePath": "/images/coloring-pages/tiger-fang-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-fang-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-cl-881d",
+    "slug": "tiger-claw-hood-scoop-truck",
+    "title": "Tiger Claw Hood Scoop Truck",
+    "description": "Three huge tiger claw shapes rip through the hood of this monster truck like a tiger scratched right through the metal! The cab has a roll cage shaped like a tiger's ribcage.",
+    "metaDescription": "Free printable Tiger Claw Hood Scoop Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with three tiger claw scratch shapes cut through the hood",
+    "imagePath": "/images/coloring-pages/tiger-claw-hood-scoop-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-claw-hood-scoop-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-baby-tig-881d",
+    "slug": "baby-tiger-cub-truck",
+    "title": "Baby Tiger Cub Truck",
+    "description": "A cute little monster truck shaped like a baby tiger cub! It has round tiger ears on the roof, a little nose on the front, and a long curvy tail coming off the back bumper.",
+    "metaDescription": "Free printable Baby Tiger Cub Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck shaped like a baby tiger with round ears and a tail",
+    "imagePath": "/images/coloring-pages/baby-tiger-cub-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-tiger-cub-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-ta-881d",
+    "slug": "tiger-tail-exhaust-truck",
+    "title": "Tiger Tail Exhaust Truck",
+    "description": "The exhaust pipes on this truck are shaped like two curving tiger tails! They stick up from the back of the cab and curl forward. The wheels have claw-shaped lugs instead of normal treads.",
+    "metaDescription": "Free printable Tiger Tail Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with tiger tail shaped exhaust pipes and claw-shaped wheel lugs",
+    "imagePath": "/images/coloring-pages/tiger-tail-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-tail-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-saber-to-881d",
+    "slug": "saber-tooth-monster-truck",
+    "title": "Saber-Tooth Monster Truck",
+    "description": "Inspired by the prehistoric saber-tooth tiger! This truck has two enormous curved tusks coming down from the top of the front bumper, a low aggressive stance, and a massive jaw-shaped front end.",
+    "metaDescription": "Free printable Saber-Tooth Monster Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck designed like a saber-tooth tiger with huge curved tusks",
+    "imagePath": "/images/coloring-pages/saber-tooth-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/saber-tooth-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-ey-881d",
+    "slug": "tiger-eye-headlight-truck",
+    "title": "Tiger Eye Headlight Truck",
+    "description": "This monster truck has big glowing tiger eyes as its headlights! The front grille looks like a tiger's grin, and the hood has a simple tiger nose bump on top. Easy to color and super cool!",
+    "metaDescription": "Free printable Tiger Eye Headlight Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with big tiger eye shaped headlights and a grinning grille",
+    "imagePath": "/images/coloring-pages/tiger-eye-headlight-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-eye-headlight-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-ca-881d",
+    "slug": "tiger-cage-cab-truck",
+    "title": "Tiger Cage Cab Truck",
+    "description": "Wild ride! The cab of this monster truck is built like a tiger cage with thick bars all around. A cartoon tiger is inside the cage, holding the steering wheel and driving! The truck body is muscular and wide.",
+    "metaDescription": "Free printable Tiger Cage Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a cage-style cab and a cartoon tiger driving inside",
+    "imagePath": "/images/coloring-pages/tiger-cage-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-cage-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-ki-881d",
+    "slug": "tiger-king-chrome-truck",
+    "title": "Tiger King Chrome Truck",
+    "description": "The king of all tiger trucks! This one has a crown-shaped roof rack, tiger paw-shaped side mirrors, and a thick tiger tail spoiler across the back. Every detail is built for a champion.",
+    "metaDescription": "Free printable Tiger King Chrome Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a crown roof rack, paw mirrors, and tiger tail spoiler",
+    "imagePath": "/images/coloring-pages/tiger-king-chrome-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-king-chrome-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-pouncing-881d",
+    "slug": "pouncing-tiger-truck",
+    "title": "Pouncing Tiger Truck",
+    "description": "This truck is built to pounce! The front wheels are higher than the rear, the hood slopes down like a tiger about to leap, and the rear fenders flare out like a tiger's haunches ready to spring.",
+    "metaDescription": "Free printable Pouncing Tiger Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck in a pouncing stance with front raised and rear low",
+    "imagePath": "/images/coloring-pages/pouncing-tiger-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pouncing-tiger-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
+  },
+  {
+    "id": "page-tiger-vs-881d",
+    "slug": "tiger-vs-monster-truck",
+    "title": "Tiger vs Monster Truck",
+    "description": "Face-off! A big cartoon tiger stands on one side looking tough with its claws out, while a monster truck revs on the other side. They're the same size — who would you bet on?",
+    "metaDescription": "Free printable Tiger vs Monster Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a cartoon tiger and a monster truck facing each other in a standoff",
+    "imagePath": "/images/coloring-pages/tiger-vs-monster-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tiger-vs-monster-truck-thumb.png",
+    "categoryIds": [
+      "cat-tiger-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-17",
+    "createdAt": "2026-04-17T12:37:29.904Z",
+    "updatedAt": "2026-04-17T12:37:29.904Z"
   }
 ]
