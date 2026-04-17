@@ -243,5 +243,12 @@
     "name": "Dragon Monster Truck Coloring Pages",
     "description": "Free printable dragon monster truck coloring pages for kids ages 2-8. Fire-breathing dragons, dragon wings, dragon scales, and epic dragon battles — all on monster trucks with oversized wheels. Bold outlines, easy to print, ready to color!",
     "type": "theme"
+  },
+  {
+    "id": "cat-shark-monster-truck-coloring-pages",
+    "slug": "shark-monster-truck-coloring-pages",
+    "name": "Shark Monster Truck Coloring Pages",
+    "description": "Free printable shark monster truck coloring pages for kids ages 2-8. Great whites, hammerheads, megalodons, and shark-toothed crushers — all on monster trucks with massive wheels. Bold outlines, ready to print and color!",
+    "type": "theme"
   }
 ]
