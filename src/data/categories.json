@@ -236,5 +236,12 @@
     "name": "Toy Store Monster Truck Coloring Pages",
     "description": "Free printable toy store monster truck coloring pages for kids ages 2-8. These fun monster trucks are inspired by classic toys like building blocks, teddy bears, and toy trains. Perfect for kids who love both monster trucks and their favorite toys!",
     "type": "theme"
+  },
+  {
+    "id": "cat-dragon-monster-truck-coloring-pages",
+    "slug": "dragon-monster-truck-coloring-pages",
+    "name": "Dragon Monster Truck Coloring Pages",
+    "description": "Free printable dragon monster truck coloring pages for kids ages 2-8. Fire-breathing dragons, dragon wings, dragon scales, and epic dragon battles — all on monster trucks with oversized wheels. Bold outlines, easy to print, ready to color!",
+    "type": "theme"
   }
 ]
