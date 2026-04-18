@@ -306,5 +306,19 @@
     "name": "Scorpion Monster Truck Coloring Pages",
     "description": "Free printable scorpion monster truck coloring pages for kids ages 2-8. Scorpion tail cranes, claw bumpers, armor shell cabs, leg suspensions — every truck is built like a scorpion. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-phoenix-monster-truck-coloring-pages",
+    "slug": "phoenix-monster-truck-coloring-pages",
+    "name": "Phoenix Monster Truck Coloring Pages",
+    "description": "Free printable phoenix monster truck coloring pages for kids ages 2-8. Phoenix wing fenders, firebird cabs, talon bumpers, rising ash rebirths — every truck is built like a firebird. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-bull-monster-truck-coloring-pages",
+    "slug": "bull-monster-truck-coloring-pages",
+    "name": "Bull Monster Truck Coloring Pages",
+    "description": "Free printable bull monster truck coloring pages for kids ages 2-8. Bull horn bumpers, charging hood designs, longhorn exhausts, hoof wheels — every truck is built like a bull. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
