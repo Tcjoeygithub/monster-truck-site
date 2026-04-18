@@ -12924,5 +12924,365 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T21:09:11.829Z",
     "updatedAt": "2026-04-18T21:09:11.829Z"
+  },
+  {
+    "id": "page-curling--gqee",
+    "slug": "curling-horn-bumper-truck",
+    "title": "Curling Horn Bumper Truck",
+    "description": "This truck hits hard! Two massive curling bighorn ram horns spiral outward from each side of the front bumper, forming a wide sweeping pair of horns that wrap around the front end. Built to charge!",
+    "metaDescription": "Free printable Curling Horn Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two large curling bighorn ram horns on the front bumper",
+    "imagePath": "/images/coloring-pages/curling-horn-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/curling-horn-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-ram-skul-gqee",
+    "slug": "ram-skull-hood-truck",
+    "title": "Ram Skull Hood Truck",
+    "description": "The hood of this truck is shaped like a ram skull! Two large hollow eye sockets serve as air intakes, and a pair of thick curved horns sweep back along the sides of the hood. Totally fierce!",
+    "metaDescription": "Free printable Ram Skull Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a hood shaped like a ram skull with eye socket air intakes",
+    "imagePath": "/images/coloring-pages/ram-skull-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ram-skull-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-baby-ram-gqee",
+    "slug": "baby-ram-truck",
+    "title": "Baby Ram Truck",
+    "description": "The cutest little monster truck ever! Two small curling horns sit on the cab roof, and fluffy rounded bumps line the fender edges like soft wool. Big round friendly eyes make it totally adorable!",
+    "metaDescription": "Free printable Baby Ram Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with two small curling horns on the roof and fluffy fender edges",
+    "imagePath": "/images/coloring-pages/baby-ram-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-ram-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-batterin-gqee",
+    "slug": "battering-ram-bumper-truck",
+    "title": "Battering Ram Bumper Truck",
+    "description": "The front of this truck IS the weapon! A wide flat reinforced steel battering ram plate covers the entire front end, braced by thick crossbars, with a single ram horn spiral emblem embossed in the center.",
+    "metaDescription": "Free printable Battering Ram Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a wide flat battering ram front plate and a spiral horn emblem",
+    "imagePath": "/images/coloring-pages/battering-ram-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/battering-ram-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-wool-clo-gqee",
+    "slug": "wool-cloud-exhaust-truck",
+    "title": "Wool Cloud Exhaust Truck",
+    "description": "When this truck revs up, the exhaust pipes puff out big fluffy cloud shapes! The exhaust clouds look like puffy wool balls floating behind the cab. Two small curling horns sit on the hood up front.",
+    "metaDescription": "Free printable Wool Cloud Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with cloud shaped exhaust puffs and small curling horns",
+    "imagePath": "/images/coloring-pages/wool-cloud-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wool-cloud-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-mountain-gqee",
+    "slug": "mountain-climber-truck",
+    "title": "Mountain Climber Truck",
+    "description": "This truck is built for the steep stuff! Its body is angled sharply upward like it's scaling a cliff face, with an aggressive forward-leaning stance and a roll bar shaped like a curving horn arc over the cab.",
+    "metaDescription": "Free printable Mountain Climber Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck angled steeply upward in a climbing stance with a horn-shaped roll bar",
+    "imagePath": "/images/coloring-pages/mountain-climber-truck.png",
+    "thumbnailPath": "/images/coloring-pages/mountain-climber-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-ram-char-gqee",
+    "slug": "ram-charge-stance-truck",
+    "title": "Ram Charge Stance Truck",
+    "description": "This truck is charging full speed! The body leans far forward with the hood dropped low like a ram lowering its head before a charge. The rear wheels are lifted slightly, all the weight pushing forward.",
+    "metaDescription": "Free printable Ram Charge Stance Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck leaning far forward with the hood lowered in a charging ram stance",
+    "imagePath": "/images/coloring-pages/ram-charge-stance-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ram-charge-stance-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-horn-spi-gqee",
+    "slug": "horn-spiral-wheels-truck",
+    "title": "Horn Spiral Wheels Truck",
+    "description": "Check out those wild wheels! Every single wheel hub on this truck has a spiral ram horn shape as the center design, with the spiral curling inward from the rim. The whole truck looks ready to spin!",
+    "metaDescription": "Free printable Horn Spiral Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck where each wheel hub has a spiral ram horn shape in the center",
+    "imagePath": "/images/coloring-pages/horn-spiral-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/horn-spiral-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-double-r-gqee",
+    "slug": "double-ram-hood-truck",
+    "title": "Double Ram Hood Truck",
+    "description": "Double the ram power! Two full ram head sculptures are mounted side by side on the hood, each with its own set of thick curling horns sweeping outward in opposite directions. Pure unstoppable force!",
+    "metaDescription": "Free printable Double Ram Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two ram head sculptures on the hood with horns curling outward",
+    "imagePath": "/images/coloring-pages/double-ram-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/double-ram-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-ram-crow-gqee",
+    "slug": "ram-crown-truck",
+    "title": "Ram Crown Truck",
+    "description": "King of the monster trucks! A ring of small pointed horn shapes circles the entire roof edge like a crown of horns. Simple and bold, this truck wears its crown proudly. Easy and fun to color!",
+    "metaDescription": "Free printable Ram Crown Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a ring of small horn shapes around the roof edge like a crown",
+    "imagePath": "/images/coloring-pages/ram-crown-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ram-crown-truck-thumb.png",
+    "categoryIds": [
+      "cat-ram-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:19:39.302Z",
+    "updatedAt": "2026-04-18T22:19:39.302Z"
+  },
+  {
+    "id": "page-horse-he-q2m3",
+    "slug": "horse-head-hood-truck",
+    "title": "Horse Head Hood Truck",
+    "description": "The hood of this truck is shaped like a majestic horse's head and neck! The long mane flows back over the cab roof like a wild spoiler, and the horse's nose forms the front of the hood.",
+    "metaDescription": "Free printable Horse Head Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a hood shaped like a horse head and neck with mane flowing over the cab",
+    "imagePath": "/images/coloring-pages/horse-head-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/horse-head-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-baby-peg-q2m3",
+    "slug": "baby-pegasus-truck",
+    "title": "Baby Pegasus Truck",
+    "description": "This adorable little truck has small feathered wings on each front fender, a cute horse nose on the front bumper, big round friendly eyes as headlights, and a tiny horse tail wagging on the back. Super cute and easy to color!",
+    "metaDescription": "Free printable Baby Pegasus Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with small wings on the fenders and a horse nose on the front",
+    "imagePath": "/images/coloring-pages/baby-pegasus-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-pegasus-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-feathere-q2m3",
+    "slug": "feathered-exhaust-truck",
+    "title": "Feathered Exhaust Truck",
+    "description": "The exhaust pipes on this truck fan out behind the cab like a spread of enormous flight feathers! Each pipe is shaped and sized like a long wing feather, arranged in a dramatic fan pattern behind the driver.",
+    "metaDescription": "Free printable Feathered Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with exhaust pipes shaped like spread flight feathers behind the cab",
+    "imagePath": "/images/coloring-pages/feathered-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/feathered-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-hoof-whe-q2m3",
+    "slug": "hoof-wheel-truck",
+    "title": "Hoof Wheel Truck",
+    "description": "Every wheel on this truck is shaped like a horse hoof with a horseshoe on the hub! The truck has small wings on each side and rolls along on four big hoof-shaped wheels. Fun and easy to color!",
+    "metaDescription": "Free printable Hoof Wheel Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with hoof-shaped wheels each showing a horseshoe on the hub",
+    "imagePath": "/images/coloring-pages/hoof-wheel-truck.png",
+    "thumbnailPath": "/images/coloring-pages/hoof-wheel-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-cloud-ru-q2m3",
+    "slug": "cloud-runner-truck",
+    "title": "Cloud Runner Truck",
+    "description": "This truck is launching off a ramp with all four wheels off the ground! Fixed metal wings are spread wide on each side of the body, making it look like it is flying through the air.",
+    "metaDescription": "Free printable Cloud Runner Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck launching off a ramp with all wheels off the ground and fixed metal wings spread wide",
+    "imagePath": "/images/coloring-pages/cloud-runner-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cloud-runner-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-pegasus--q2m3",
+    "slug": "pegasus-armor-cab-truck",
+    "title": "Pegasus Armor Cab Truck",
+    "description": "The cab of this war machine is completely covered in layered feather-shaped armor plates! Each armor plate is shaped like a large bird feather, overlapping like scales from a bird of war. Intimidating and detailed.",
+    "metaDescription": "Free printable Pegasus Armor Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck cab covered in overlapping feather-shaped armor plates",
+    "imagePath": "/images/coloring-pages/pegasus-armor-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pegasus-armor-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-lightnin-q2m3",
+    "slug": "lightning-hoof-truck",
+    "title": "Lightning Hoof Truck",
+    "description": "The front bumper of this powerhouse is shaped like a giant horseshoe! From each end of the horseshoe, jagged lightning bolt shapes extend forward like battering rams, ready to smash through anything.",
+    "metaDescription": "Free printable Lightning Hoof Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a horseshoe-shaped bumper and lightning bolt battering rams extending from each end",
+    "imagePath": "/images/coloring-pages/lightning-hoof-truck.png",
+    "thumbnailPath": "/images/coloring-pages/lightning-hoof-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-winged-c-q2m3",
+    "slug": "winged-crown-truck",
+    "title": "Winged Crown Truck",
+    "description": "This royal little truck has a simple crown sitting on the roof with tiny wings on each side of the crown! A big star shape on the door makes it fit for a mythical king. Simple and perfect for little kids to color!",
+    "metaDescription": "Free printable Winged Crown Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a winged crown on the roof and a star on the door",
+    "imagePath": "/images/coloring-pages/winged-crown-truck.png",
+    "thumbnailPath": "/images/coloring-pages/winged-crown-truck-thumb.png",
+    "categoryIds": [
+      "cat-pegasus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T22:26:55.035Z",
+    "updatedAt": "2026-04-18T22:26:55.035Z"
   }
 ]

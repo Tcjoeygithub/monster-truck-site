@@ -439,5 +439,19 @@
     "name": "Hydra Monster Truck Coloring Pages",
     "description": "Free printable hydra monster truck coloring pages for kids ages 2-8. Three-headed hoods, serpent neck exhausts, fang bumpers, scale armor cabs, regenerating bodies — every truck is built with mythical hydra features. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-ram-monster-truck-coloring-pages",
+    "slug": "ram-monster-truck-coloring-pages",
+    "name": "Ram Monster Truck Coloring Pages",
+    "description": "Free printable ram monster truck coloring pages for kids ages 2-8. Curling horn bumpers, battering ram front plates, skull hoods, spiral horn wheels — every truck is built like a bighorn beast. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-pegasus-monster-truck-coloring-pages",
+    "slug": "pegasus-monster-truck-coloring-pages",
+    "name": "Pegasus Monster Truck Coloring Pages",
+    "description": "Free printable Pegasus monster truck coloring pages for kids ages 2-8. Wing doors, horse head hoods, feathered exhaust, hoof wheels, mane spoilers — every truck is built with mythical winged horse power. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
