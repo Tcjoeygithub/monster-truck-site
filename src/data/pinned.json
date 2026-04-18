@@ -3232,5 +3232,65 @@
     "board_id": "8b0e8398-bded-4823-b28e-414179b39907",
     "zippy_pin_id": "bb3942f9-2658-4b47-95e7-e13db7b65404",
     "pinned_at": "2026-04-18T14:36:29.520Z"
+  },
+  "page-croc-jaw-whum": {
+    "scheduled_for": "2026-04-18T17:30:52.819Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "ac08f6ce-a5c9-48e7-a4e9-f38ccbcfb2e4",
+    "pinned_at": "2026-04-18T17:25:53.797Z"
+  },
+  "page-tail-whi-whum": {
+    "scheduled_for": "2026-04-21T17:30:53.797Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "ad3d94b4-30e6-41c4-a933-73f205785bdd",
+    "pinned_at": "2026-04-18T17:25:54.275Z"
+  },
+  "page-baby-cro-whum": {
+    "scheduled_for": "2026-04-24T17:30:54.275Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "3ef61aa7-e716-43f9-87bc-55f6a5a811dc",
+    "pinned_at": "2026-04-18T17:25:54.599Z"
+  },
+  "page-armored--whum": {
+    "scheduled_for": "2026-04-27T17:30:54.599Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "44dab0d3-824c-4e2a-b7d2-c30e576d1eed",
+    "pinned_at": "2026-04-18T17:25:54.946Z"
+  },
+  "page-croc-eye-whum": {
+    "scheduled_for": "2026-04-30T17:30:54.946Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "9733eeeb-26c5-4435-aa7e-b918c687d7a8",
+    "pinned_at": "2026-04-18T17:25:55.316Z"
+  },
+  "page-snapping-whum": {
+    "scheduled_for": "2026-05-03T17:30:55.316Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "14368299-57e8-4ddd-a617-0338325e62f2",
+    "pinned_at": "2026-04-18T17:25:55.736Z"
+  },
+  "page-croc-too-whum": {
+    "scheduled_for": "2026-05-06T17:30:55.736Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "f609dc9e-8285-4709-a7db-e5503fe0fda5",
+    "pinned_at": "2026-04-18T17:25:56.038Z"
+  },
+  "page-swamp-sn-whum": {
+    "scheduled_for": "2026-05-09T17:30:56.038Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "d1e537fc-02e9-42e2-8f4d-34ba3a849f78",
+    "pinned_at": "2026-04-18T17:25:56.325Z"
+  },
+  "page-croc-cla-whum": {
+    "scheduled_for": "2026-05-12T17:30:56.326Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "4a32f028-8356-4559-b967-c49623049063",
+    "pinned_at": "2026-04-18T17:25:56.752Z"
+  },
+  "page-log-jaw--whum": {
+    "scheduled_for": "2026-05-15T17:30:56.752Z",
+    "board_id": "25025727-4159-4058-8416-000d0c08841f",
+    "zippy_pin_id": "5e78c5f8-3b1b-48e3-994c-dd27ab4849e9",
+    "pinned_at": "2026-04-18T17:25:57.041Z"
   }
 }
