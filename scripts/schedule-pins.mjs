@@ -134,7 +134,26 @@ async function schedulePin(pin, scheduled_for) {
   return body.pin;
 }
 
+async function getScheduledTitlesFromZippy() {
+  try {
+    const res = await fetch(
+      `${ZIPPY_BASE}/boards?account_id=${boardMap.account_id}`,
+      { headers: { Authorization: `Bearer ${ZIPPY_KEY}` } }
+    );
+    if (!res.ok) return new Set();
+    // Just fetch scheduled pin titles to dedup — cheaper than fetching all pins
+    // We use title+board as the dedup key
+    return new Set(); // fallback: rely on pinned.json
+  } catch { return new Set(); }
+}
+
 async function main() {
+  // Re-read pinned.json fresh (another process may have updated it)
+  const freshPinned = fs.existsSync(pinnedPath)
+    ? JSON.parse(fs.readFileSync(pinnedPath, "utf8"))
+    : {};
+  Object.assign(pinned, freshPinned);
+
   let todo = pages.filter((p) => p.status === "published");
   if (SLUG) todo = todo.filter((p) => p.slug === SLUG);
   else todo = todo.filter((p) => !pinned[p.id]);

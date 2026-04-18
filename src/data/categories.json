@@ -376,5 +376,12 @@
     "name": "Zombie Monster Truck Coloring Pages",
     "description": "Free printable zombie monster truck coloring pages for kids ages 2-8. Zombie hand hoods, jaw grilles, brain dome cabs, coffin truck beds, eyeball wheels — every truck has cartoon zombie features built right into the body. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-crocodile-monster-truck-coloring-pages",
+    "slug": "crocodile-monster-truck-coloring-pages",
+    "name": "Crocodile Monster Truck Coloring Pages",
+    "description": "Free printable crocodile monster truck coloring pages for kids ages 2-8. Croc jaw bumpers, armored spine roofs, claw-spoke wheels, snorkel pipes — every truck has crocodile design features built right into the body. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
