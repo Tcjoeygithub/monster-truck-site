@@ -334,5 +334,19 @@
     "name": "Ninja Monster Truck Coloring Pages",
     "description": "Free printable ninja monster truck coloring pages for kids ages 2-8. Shuriken wheels, katana exhausts, kunai bumpers, ninja mask grilles — every truck is built with ninja weapons and stealth features. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-samurai-monster-truck-coloring-pages",
+    "slug": "samurai-monster-truck-coloring-pages",
+    "name": "Samurai Monster Truck Coloring Pages",
+    "description": "Free printable samurai monster truck coloring pages for kids ages 2-8. Kabuto helmet cabs, katana spoilers, war fan bumpers, samurai mask grilles — every truck is built like an ancient warrior. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-viking-monster-truck-coloring-pages",
+    "slug": "viking-monster-truck-coloring-pages",
+    "name": "Viking Monster Truck Coloring Pages",
+    "description": "Free printable viking monster truck coloring pages for kids ages 2-8. Horned helmet cabs, battle axe bumpers, dragon longship hoods, chainmail armor — every truck is built for viking glory. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
