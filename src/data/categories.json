@@ -348,5 +348,19 @@
     "name": "Viking Monster Truck Coloring Pages",
     "description": "Free printable viking monster truck coloring pages for kids ages 2-8. Horned helmet cabs, battle axe bumpers, dragon longship hoods, chainmail armor — every truck is built for viking glory. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-cowboy-monster-truck-coloring-pages",
+    "slug": "cowboy-monster-truck-coloring-pages",
+    "name": "Cowboy Monster Truck Coloring Pages",
+    "description": "Free printable cowboy monster truck coloring pages for kids ages 2-8. Cowboy hat roofs, lasso bumpers, bull horn hoods, sheriff badge grilles — every truck is built with wild west style. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-pirate-monster-truck-coloring-pages",
+    "slug": "pirate-monster-truck-coloring-pages",
+    "name": "Pirate Monster Truck Coloring Pages",
+    "description": "Free printable pirate monster truck coloring pages for kids ages 2-8. Cannon exhausts, skull grilles, hook bumpers, treasure chest beds — every truck is built like a pirate ship on wheels. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]

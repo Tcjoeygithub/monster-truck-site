@@ -10344,5 +10344,405 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T13:47:51.239Z",
     "updatedAt": "2026-04-18T13:47:51.239Z"
+  },
+  {
+    "id": "page-cowboy-h-f9yi",
+    "slug": "cowboy-hat-roof-truck",
+    "title": "Cowboy Hat Roof Truck",
+    "description": "Yeehaw! This wild monster truck has a giant cowboy hat built right into the cab roof — the wide brim flares out over the sides like a real ten-gallon hat. It's the most stylish truck in the West!",
+    "metaDescription": "Free printable Cowboy Hat Roof Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a large cowboy hat shape built into the cab roof",
+    "imagePath": "/images/coloring-pages/cowboy-hat-roof-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cowboy-hat-roof-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-lasso-bu-f9yi",
+    "slug": "lasso-bumper-truck",
+    "title": "Lasso Bumper Truck",
+    "description": "This truck ropes in the competition! Its front bumper is shaped like a giant coiled lasso with a big loop at the end. The rope detail wraps around the full bumper bar in classic cowboy style.",
+    "metaDescription": "Free printable Lasso Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a front bumper shaped like a coiled lasso rope loop",
+    "imagePath": "/images/coloring-pages/lasso-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/lasso-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-baby-cow-f9yi",
+    "slug": "baby-cowboy-truck",
+    "title": "Baby Cowboy Truck",
+    "description": "Howdy, little partner! This cute little monster truck has a tiny cowboy hat on top of the cab, a big friendly sheriff star on the door, and round happy headlight eyes. The easiest, friendliest cowboy truck around!",
+    "metaDescription": "Free printable Baby Cowboy Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a small cowboy hat on the roof and a sheriff star on the door",
+    "imagePath": "/images/coloring-pages/baby-cowboy-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-cowboy-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-bull-hor-f9yi",
+    "slug": "bull-horn-hood-truck",
+    "title": "Bull Horn Hood Truck",
+    "description": "Everything is bigger in Texas! This monster truck has a massive set of Texas longhorn steer horns mounted across the front of the hood, spreading wide beyond the fenders. Pure western power!",
+    "metaDescription": "Free printable Bull Horn Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with huge Texas longhorn steer horns mounted across the front hood",
+    "imagePath": "/images/coloring-pages/bull-horn-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bull-horn-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-revolver-f9yi",
+    "slug": "revolver-exhaust-truck",
+    "title": "Revolver Exhaust Truck",
+    "description": "Firing on all cylinders! This outlaw truck has two exhaust pipes shaped like old western revolver barrels, pointing straight backward out of the engine bay. The cylinder shapes are detailed and dramatic.",
+    "metaDescription": "Free printable Revolver Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two exhaust pipes shaped like old western revolver barrels",
+    "imagePath": "/images/coloring-pages/revolver-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/revolver-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-horsesho-f9yi",
+    "slug": "horseshoe-wheels-truck",
+    "title": "Horseshoe Wheels Truck",
+    "description": "Lucky as can be! Every wheel hub on this friendly monster truck is shaped like a horseshoe. The truck also has a simple cowboy hat on the roof. Simple, fun, and full of western good luck!",
+    "metaDescription": "Free printable Horseshoe Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with horseshoe shaped wheel hubs and a cowboy hat on the roof",
+    "imagePath": "/images/coloring-pages/horseshoe-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/horseshoe-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-saddle-c-f9yi",
+    "slug": "saddle-cab-truck",
+    "title": "Saddle Cab Truck",
+    "description": "Ride it like you own it! This wild truck has a full western saddle mounted on top of the cab roof — complete with stirrups hanging down the sides. The most rideable monster truck in the rodeo!",
+    "metaDescription": "Free printable Saddle Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a western saddle shape mounted on top of the cab roof",
+    "imagePath": "/images/coloring-pages/saddle-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/saddle-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-sheriff--f9yi",
+    "slug": "sheriff-badge-grille-truck",
+    "title": "Sheriff Badge Grille Truck",
+    "description": "The law has arrived! This truck's entire front grille is shaped like a giant sheriff's star badge — six points, bold lines, and full of authority. The most official monster truck in the county!",
+    "metaDescription": "Free printable Sheriff Badge Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the front grille shaped like a large sheriff star badge",
+    "imagePath": "/images/coloring-pages/sheriff-badge-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sheriff-badge-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-wagon-wh-f9yi",
+    "slug": "wagon-wheel-truck",
+    "title": "Wagon Wheel Truck",
+    "description": "Rolling into the sunset! This simple western monster truck has wheels that look like old wooden wagon wheels with big spokes. A classic western style truck that is easy and fun to color!",
+    "metaDescription": "Free printable Wagon Wheel Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with old wooden wagon wheel spokes on each tire",
+    "imagePath": "/images/coloring-pages/wagon-wheel-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wagon-wheel-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-dynamite-f9yi",
+    "slug": "dynamite-bumper-truck",
+    "title": "Dynamite Bundle Bumper Truck",
+    "description": "Watch out, partner! This wild outlaw truck has a bundle of dynamite sticks strapped to the front bumper with rope, and a long curling fuse hanging off the side. The most dangerous truck in the West!",
+    "metaDescription": "Free printable Dynamite Bundle Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a bundle of dynamite sticks strapped to the front bumper with a fuse",
+    "imagePath": "/images/coloring-pages/dynamite-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dynamite-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-cowboy-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:37.865Z",
+    "updatedAt": "2026-04-18T14:22:37.865Z"
+  },
+  {
+    "id": "page-cannon-b-fcb1",
+    "slug": "cannon-barrel-exhaust-truck",
+    "title": "Cannon Barrel Exhaust Truck",
+    "description": "This truck fires up in style! Two exhaust pipes shaped like old pirate ship cannons point backward from the cab, complete with round barrel ends and cannon rings. Smoke comes out the back like a real cannonball launcher!",
+    "metaDescription": "Free printable Cannon Barrel Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two pirate ship cannon shaped exhaust pipes pointing backward",
+    "imagePath": "/images/coloring-pages/cannon-barrel-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cannon-barrel-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-skull-cr-fcb1",
+    "slug": "skull-crossbones-grille-truck",
+    "title": "Skull Crossbones Grille Truck",
+    "description": "Ahoy! The front of this truck is a huge skull and crossbones grille! The eye sockets are the headlights, the nose is the air intake, and two crossed bones form the lower bumper. No pirate ship is scarier than this truck!",
+    "metaDescription": "Free printable Skull Crossbones Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a skull and crossbones shaped front grille and eye socket headlights",
+    "imagePath": "/images/coloring-pages/skull-crossbones-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/skull-crossbones-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-baby-pir-fcb1",
+    "slug": "baby-pirate-truck",
+    "title": "Baby Pirate Truck",
+    "description": "This cute little truck is ready to sail the seas! It has a pirate hat shape on the roof, an eye patch over one headlight, and a small anchor decoration on the door. Easy to color and adorable!",
+    "metaDescription": "Free printable Baby Pirate Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a pirate hat on the roof and eye patch over one headlight",
+    "imagePath": "/images/coloring-pages/baby-pirate-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-pirate-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-pirate-h-fcb1",
+    "slug": "pirate-hook-bumper-truck",
+    "title": "Pirate Hook Bumper Truck",
+    "description": "Watch out! This truck's front bumper is made of two giant curved pirate hooks! Each hook curves outward and forward, ready to snag anything in its path. The metal hooks gleam with detailed ridges and a sharp pointed tip.",
+    "metaDescription": "Free printable Pirate Hook Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two large curved pirate hooks as the front bumper structure",
+    "imagePath": "/images/coloring-pages/pirate-hook-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pirate-hook-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-ship-whe-fcb1",
+    "slug": "ship-wheel-steering-truck",
+    "title": "Ship Wheel Steering Truck",
+    "description": "This truck keeps it nautical! A large wooden ship's steering wheel is mounted flat on the hood as a decoration. Eight spokes radiate from the center hub to the outer ring, just like a real pirate ship helm!",
+    "metaDescription": "Free printable Ship Wheel Steering Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a large wooden ship steering wheel mounted on the hood",
+    "imagePath": "/images/coloring-pages/ship-wheel-steering-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ship-wheel-steering-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-treasure-fcb1",
+    "slug": "treasure-chest-truck-bed",
+    "title": "Treasure Chest Truck Bed",
+    "description": "X marks the spot — and the spot is the truck bed! The open cargo bed is shaped like an overflowing treasure chest, with coins and gems spilling out over the sides. The chest lid is propped open at the back. Easy and fun to color!",
+    "metaDescription": "Free printable Treasure Chest Truck Bed coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a treasure chest shaped bed overflowing with coins and gems",
+    "imagePath": "/images/coloring-pages/treasure-chest-truck-bed.png",
+    "thumbnailPath": "/images/coloring-pages/treasure-chest-truck-bed-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-cutlass--fcb1",
+    "slug": "cutlass-spoiler-truck",
+    "title": "Cutlass Spoiler Truck",
+    "description": "This truck cuts through the air with style! The rear spoiler is shaped exactly like a curved pirate cutlass sword blade — wide at the base, tapering to a curved point. The blade shape arcs up dramatically over the truck bed.",
+    "metaDescription": "Free printable Cutlass Spoiler Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a rear spoiler shaped like a curved pirate cutlass sword blade",
+    "imagePath": "/images/coloring-pages/cutlass-spoiler-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cutlass-spoiler-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-jolly-ro-fcb1",
+    "slug": "jolly-roger-sail-truck",
+    "title": "Jolly Roger Sail Truck",
+    "description": "Sail away in this truck! A tall mast is mounted in the truck bed with a big rectangular flag flying from the top. The flag shows a big skull and crossbones — the famous Jolly Roger! Simple shapes make it fun for the youngest kids.",
+    "metaDescription": "Free printable Jolly Roger Sail Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a mast and Jolly Roger skull flag in the truck bed",
+    "imagePath": "/images/coloring-pages/jolly-roger-sail-truck.png",
+    "thumbnailPath": "/images/coloring-pages/jolly-roger-sail-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-plank-wa-fcb1",
+    "slug": "plank-walker-truck",
+    "title": "Plank Walker Truck",
+    "description": "Walk the plank! This truck has a long wooden plank extending forward from the front bumper, just like on a pirate ship. The cab windows are round porthole shapes with bolted frames, and the wooden plank has visible plank boards and a railing.",
+    "metaDescription": "Free printable Plank Walker Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a wooden plank extending from the front bumper and porthole shaped cab windows",
+    "imagePath": "/images/coloring-pages/plank-walker-truck.png",
+    "thumbnailPath": "/images/coloring-pages/plank-walker-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
+  },
+  {
+    "id": "page-kraken-a-fcb1",
+    "slug": "kraken-anchor-truck",
+    "title": "Kraken Anchor Truck",
+    "description": "This truck is an absolute beast! A massive ship anchor is mounted on the front as a battering ram, chain and all. The rear has two tentacle-shaped tow hooks curling outward. Built to drag anything to the bottom of the ocean!",
+    "metaDescription": "Free printable Kraken Anchor Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a massive ship anchor on the front and tentacle shaped tow hooks on the rear",
+    "imagePath": "/images/coloring-pages/kraken-anchor-truck.png",
+    "thumbnailPath": "/images/coloring-pages/kraken-anchor-truck-thumb.png",
+    "categoryIds": [
+      "cat-pirate-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T14:22:40.909Z",
+    "updatedAt": "2026-04-18T14:22:40.909Z"
   }
 ]
