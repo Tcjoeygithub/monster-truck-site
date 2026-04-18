@@ -13664,5 +13664,405 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T23:04:35.386Z",
     "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-mammoth--7kee",
+    "slug": "mammoth-tusk-bumper-truck",
+    "title": "Mammoth Tusk Bumper Truck",
+    "description": "This truck charges forward with two massive curved mammoth tusks extending from the front bumper! Each tusk sweeps outward in a long arc, just like a real woolly mammoth. The front end is reinforced with heavy steel to hold the enormous tusks.",
+    "metaDescription": "Free printable Mammoth Tusk Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two huge curved mammoth tusks as the front bumper",
+    "imagePath": "/images/coloring-pages/mammoth-tusk-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/mammoth-tusk-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-trunk-cr-7kee",
+    "slug": "trunk-crane-truck",
+    "title": "Trunk Crane Truck",
+    "description": "A long mammoth trunk is mounted right on the hood of this truck, curving upward like a crane arm! The trunk coils up toward the sky and looks like it could lift anything. Two short tusks poke out from the front bumper.",
+    "metaDescription": "Free printable Trunk Crane Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a mammoth trunk shape on the hood curving up like a crane",
+    "imagePath": "/images/coloring-pages/trunk-crane-truck.png",
+    "thumbnailPath": "/images/coloring-pages/trunk-crane-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-baby-mam-7kee",
+    "slug": "baby-mammoth-truck",
+    "title": "Baby Mammoth Truck",
+    "description": "The cutest truck in the Ice Age! This little monster truck has small rounded tusks on the bumper, floppy ear-shaped fenders on each side, big round friendly eyes, and a short stubby trunk on the hood. So adorable and easy to color!",
+    "metaDescription": "Free printable Baby Mammoth Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with small tusks, floppy ear fenders, big round eyes, and a short trunk",
+    "imagePath": "/images/coloring-pages/baby-mammoth-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-mammoth-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-woolly-f-7kee",
+    "slug": "woolly-fender-truck",
+    "title": "Woolly Fender Truck",
+    "description": "This truck looks like it grew its own fur! The wheel fenders have long shaggy hanging fur texture along their bottom edges, making the truck look like it is covered in woolly mammoth hair. The fender skirts droop down in thick shaggy strands.",
+    "metaDescription": "Free printable Woolly Fender Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with shaggy woolly fur texture hanging from the fender edges",
+    "imagePath": "/images/coloring-pages/woolly-fender-truck.png",
+    "thumbnailPath": "/images/coloring-pages/woolly-fender-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-mammoth--7kee",
+    "slug": "mammoth-foot-wheels-truck",
+    "title": "Mammoth Foot Wheels Truck",
+    "description": "Look at those wild wheels! Each tire on this truck is shaped wide and round like a mammoth's enormous foot, complete with toenail shapes along the front. These prehistoric wheels look like they could stomp anything flat!",
+    "metaDescription": "Free printable Mammoth Foot Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with wide round tires shaped like mammoth feet with toenail shapes",
+    "imagePath": "/images/coloring-pages/mammoth-foot-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/mammoth-foot-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-tusk-ram-7kee",
+    "slug": "tusk-ram-hood-truck",
+    "title": "Tusk Ram Hood Truck",
+    "description": "The entire hood of this truck tapers forward into one single massive tusk shape — a giant battering ram built right into the truck! The tusk hood narrows to a blunt point at the very front and is thick as armor all the way to the cab.",
+    "metaDescription": "Free printable Tusk Ram Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the entire hood shaped as a single massive tusk battering ram",
+    "imagePath": "/images/coloring-pages/tusk-ram-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tusk-ram-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-ice-age--7kee",
+    "slug": "ice-age-armor-truck",
+    "title": "Ice Age Armor Truck",
+    "description": "This truck rode out of the Ice Age covered head to toe in frozen armor! The cab is wrapped in thick angular ice plate shapes, and long icicle edges hang from the running boards and bumpers. It looks frozen solid and totally unstoppable.",
+    "metaDescription": "Free printable Ice Age Armor Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck covered in thick ice armor plates with icicles hanging from the edges",
+    "imagePath": "/images/coloring-pages/ice-age-armor-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ice-age-armor-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-mammoth--7kee",
+    "slug": "mammoth-ear-door-truck",
+    "title": "Mammoth Ear Door Truck",
+    "description": "The doors on this truck are shaped just like a mammoth's giant floppy ears! Each door has a large rounded ear outline with the inner ear ridges visible. When the truck drives by, it looks like a mammoth flapping its ears.",
+    "metaDescription": "Free printable Mammoth Ear Door Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with doors shaped like large floppy mammoth ears",
+    "imagePath": "/images/coloring-pages/mammoth-ear-door-truck.png",
+    "thumbnailPath": "/images/coloring-pages/mammoth-ear-door-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-trunk-ex-7kee",
+    "slug": "trunk-exhaust-truck",
+    "title": "Trunk Exhaust Truck",
+    "description": "Instead of a regular exhaust pipe, this truck has a mammoth trunk! The trunk-shaped exhaust curls up from the engine, rises high above the cab, and sprays exhaust smoke right from the tip just like a real mammoth trumpeting. The tip flares open wide.",
+    "metaDescription": "Free printable Trunk Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with an exhaust pipe shaped like a curling mammoth trunk",
+    "imagePath": "/images/coloring-pages/trunk-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/trunk-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-prehisto-7kee",
+    "slug": "prehistoric-king-truck",
+    "title": "Prehistoric King Truck",
+    "description": "All hail the Prehistoric King! This bold truck has two short tusks sticking out from the bumper, a simple crown shape sitting on top of the cab roof, and a short round trunk bumper guard on the front. Simple shapes, big personality!",
+    "metaDescription": "Free printable Prehistoric King Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with two short tusks, a crown on the roof, and a short trunk bumper",
+    "imagePath": "/images/coloring-pages/prehistoric-king-truck.png",
+    "thumbnailPath": "/images/coloring-pages/prehistoric-king-truck-thumb.png",
+    "categoryIds": [
+      "cat-mammoth-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:08:30.854Z",
+    "updatedAt": "2026-04-18T23:08:30.854Z"
+  },
+  {
+    "id": "page-yeti-cla-8xh3",
+    "slug": "yeti-claw-bumper-truck",
+    "title": "Yeti Claw Bumper Truck",
+    "description": "Watch out! Two massive yeti claws reach forward from the front bumper, each one tipped with long curved nails. This truck looks ready to swipe through anything that stands in its way!",
+    "metaDescription": "Free printable Yeti Claw Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two massive yeti claw shapes as the front bumper",
+    "imagePath": "/images/coloring-pages/yeti-claw-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/yeti-claw-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-yeti-fac-8xh3",
+    "slug": "yeti-face-grille-truck",
+    "title": "Yeti Face Grille Truck",
+    "description": "The front of this truck is a giant yeti face! A wide open mouth with big flat teeth forms the grille, and the headlights are two round angry yeti eyes glaring at everything ahead.",
+    "metaDescription": "Free printable Yeti Face Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a yeti face shaped front grille and angry eye headlights",
+    "imagePath": "/images/coloring-pages/yeti-face-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/yeti-face-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-baby-yet-8xh3",
+    "slug": "baby-yeti-truck",
+    "title": "Baby Yeti Truck",
+    "description": "This little truck is as cute as a baby yeti! It has a round fluffy body shape, big friendly yeti eyes on the front, two tiny rounded horns on the roof, and little mitten shapes on the side mirrors.",
+    "metaDescription": "Free printable Baby Yeti Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with big yeti eyes, tiny horns on roof, and mitten shaped mirrors",
+    "imagePath": "/images/coloring-pages/baby-yeti-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-yeti-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-frozen-f-8xh3",
+    "slug": "frozen-fist-bumper-truck",
+    "title": "Frozen Fist Bumper Truck",
+    "description": "Two giant yeti fists covered in jagged ice crystal shapes form the front bumper of this beast! Each knuckle is coated in sharp icicle spikes, making this the most dangerous front end on the track.",
+    "metaDescription": "Free printable Frozen Fist Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two giant yeti fists covered in ice crystal shapes as the front bumper",
+    "imagePath": "/images/coloring-pages/frozen-fist-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/frozen-fist-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-shaggy-r-8xh3",
+    "slug": "shaggy-roof-truck",
+    "title": "Shaggy Roof Truck",
+    "description": "This truck has a wild yeti mane! Long shaggy fur hangs down from all four edges of the cab roof, draping over the windows like a yeti's wild hair. The longer it gets, the scarier it looks!",
+    "metaDescription": "Free printable Shaggy Roof Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with long shaggy fur hanging down from the cab roof edges",
+    "imagePath": "/images/coloring-pages/shaggy-roof-truck.png",
+    "thumbnailPath": "/images/coloring-pages/shaggy-roof-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-yeti-foo-8xh3",
+    "slug": "yeti-foot-wheels-truck",
+    "title": "Yeti Foot Wheels Truck",
+    "description": "Instead of normal wheels, this truck rolls on four giant yeti footprints! Each wheel is shaped like a big flat yeti foot with five wide toes across the top. Simple and super fun to color!",
+    "metaDescription": "Free printable Yeti Foot Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with giant yeti footprint shaped wheels with big toes",
+    "imagePath": "/images/coloring-pages/yeti-foot-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/yeti-foot-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-ice-crys-8xh3",
+    "slug": "ice-crystal-exhaust-truck",
+    "title": "Ice Crystal Exhaust Truck",
+    "description": "This truck's exhaust pipes end in sharp ice crystal and icicle shapes pointing upward! Each pipe splits into a cluster of jagged crystal spikes at the top, like frozen yeti breath shooting into the sky.",
+    "metaDescription": "Free printable Ice Crystal Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with exhaust pipes ending in sharp ice crystal and icicle shapes",
+    "imagePath": "/images/coloring-pages/ice-crystal-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ice-crystal-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-yeti-roa-8xh3",
+    "slug": "yeti-roar-hood-truck",
+    "title": "Yeti Roar Hood Truck",
+    "description": "The entire hood of this truck is shaped like a yeti's wide open roaring mouth! Sharp fangs line the front edge, and two large nostril holes on top act as air scoops. This truck screams wild power!",
+    "metaDescription": "Free printable Yeti Roar Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a hood shaped like a yeti roaring mouth with fangs and nostril air scoops",
+    "imagePath": "/images/coloring-pages/yeti-roar-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/yeti-roar-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-snowball-8xh3",
+    "slug": "snowball-cargo-truck",
+    "title": "Snowball Cargo Truck",
+    "description": "This truck is hauling a full load of giant snowballs! The truck bed is packed with large round snowball shapes stacked on top of each other, and the cab has two rounded yeti ears on the roof.",
+    "metaDescription": "Free printable Snowball Cargo Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck bed filled with large round snowballs and yeti ears on the cab roof",
+    "imagePath": "/images/coloring-pages/snowball-cargo-truck.png",
+    "thumbnailPath": "/images/coloring-pages/snowball-cargo-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
+  },
+  {
+    "id": "page-abominab-8xh3",
+    "slug": "abominable-spoiler-truck",
+    "title": "Abominable Spoiler Truck",
+    "description": "The rear spoiler on this truck is shaped like a giant yeti hand! Five wide fingers spread out across the back of the cab, grabbing the air and keeping this truck glued to the ground.",
+    "metaDescription": "Free printable Abominable Spoiler Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a wide yeti hand shape as the rear spoiler with fingers spread out",
+    "imagePath": "/images/coloring-pages/abominable-spoiler-truck.png",
+    "thumbnailPath": "/images/coloring-pages/abominable-spoiler-truck-thumb.png",
+    "categoryIds": [
+      "cat-yeti-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:09:34.454Z",
+    "updatedAt": "2026-04-18T23:09:34.454Z"
   }
 ]

@@ -467,5 +467,19 @@
     "name": "Cerberus Monster Truck Coloring Pages",
     "description": "Free printable Cerberus monster truck coloring pages for kids ages 2-8. Three-headed hood designs, spiked collar grilles, chain leash bumpers, hellhound exhaust pipes — every truck is built like a mythical beast. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-mammoth-monster-truck-coloring-pages",
+    "slug": "mammoth-monster-truck-coloring-pages",
+    "name": "Mammoth Monster Truck Coloring Pages",
+    "description": "Free printable mammoth monster truck coloring pages for kids ages 2-8. Tusk bumpers, trunk cranes, woolly fenders, ice age armor — every truck is built like a prehistoric beast. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-yeti-monster-truck-coloring-pages",
+    "slug": "yeti-monster-truck-coloring-pages",
+    "name": "Yeti Monster Truck Coloring Pages",
+    "description": "Free printable yeti monster truck coloring pages for kids ages 2-8. Yeti claw bumpers, frozen fist fronts, shaggy fur roofs, roaring yeti hoods — every truck is built like an abominable snowman. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
