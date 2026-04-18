@@ -11724,5 +11724,405 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T17:29:57.210Z",
     "updatedAt": "2026-04-18T17:29:57.210Z"
+  },
+  {
+    "id": "page-panthercla-jlxa",
+    "slug": "panther-claw-bumper-truck",
+    "title": "Panther Claw Bumper Truck",
+    "description": "Four sharp panther claws extend forward from the front bumper of this fierce monster truck! Each claw is thick and curved, built right into the steel bumper like the truck is ready to swipe.",
+    "metaDescription": "Free printable Panther Claw Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with four sharp panther claws extending from the front bumper",
+    "imagePath": "/images/coloring-pages/panther-claw-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/panther-claw-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-sleekpanth-2lbs",
+    "slug": "sleek-panther-hood-truck",
+    "title": "Sleek Panther Hood Truck",
+    "description": "This truck has a long low hood shaped exactly like a panther's skull — sleek and aggressive. The front grille is a snarling panther mouth and the headlights are narrow slitted cat eyes. Pure predator!",
+    "metaDescription": "Free printable Sleek Panther Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a long sleek hood shaped like a panther skull with snarling grille and slit headlights",
+    "imagePath": "/images/coloring-pages/sleek-panther-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sleek-panther-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-babypanthe-pbfl",
+    "slug": "baby-panther-truck",
+    "title": "Baby Panther Truck",
+    "description": "How cute! This little monster truck has round panther ears on the roof, whisker lines on the bumper, big round eyes, and a long curved panther tail sweeping off the back. Easy and adorable to color!",
+    "metaDescription": "Free printable Baby Panther Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with panther ears on the roof, whiskers on the bumper, and a long curved tail on the back",
+    "imagePath": "/images/coloring-pages/baby-panther-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-panther-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-pouncingst-awjx",
+    "slug": "pouncing-stance-truck",
+    "title": "Pouncing Stance Truck",
+    "description": "This truck looks like it's about to leap! The front end is dipped low to the ground while the rear is raised high, just like a panther crouching before a pounce. Ready to launch!",
+    "metaDescription": "Free printable Pouncing Stance Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck in a low aggressive pouncing stance with front dipped down and rear raised up",
+    "imagePath": "/images/coloring-pages/pouncing-stance-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pouncing-stance-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-pantherjaw-fgdc",
+    "slug": "panther-jaw-grille-truck",
+    "title": "Panther Jaw Grille Truck",
+    "description": "The entire front of this truck is a panther's open jaw! Long curved fangs hang down from the top of the grille opening, and the bumper forms the lower jaw. This truck bites!",
+    "metaDescription": "Free printable Panther Jaw Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the front grille shaped like an open panther mouth with long curved fangs",
+    "imagePath": "/images/coloring-pages/panther-jaw-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/panther-jaw-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-tailwhipan-leiw",
+    "slug": "tail-whip-antenna-truck",
+    "title": "Tail Whip Antenna Truck",
+    "description": "This truck has the coolest antenna ever — a long flexible panther tail that curves and whips back from the top of the roof! Simple and fun with extra thick lines perfect for little hands.",
+    "metaDescription": "Free printable Tail Whip Antenna Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a long curved panther tail as the roof antenna",
+    "imagePath": "/images/coloring-pages/tail-whip-antenna-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tail-whip-antenna-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-retractabl-ddup",
+    "slug": "retractable-claw-wheels-truck",
+    "title": "Retractable Claw Wheels Truck",
+    "description": "Look at those wheels! Each tire has curved claw blades extending outward from the sidewalls, like a cat's claws popping out all around. These wheels don't just roll — they rip!",
+    "metaDescription": "Free printable Retractable Claw Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck where each wheel has curved claw blades extending outward from the tire sidewalls",
+    "imagePath": "/images/coloring-pages/retractable-claw-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/retractable-claw-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-panthereye-766g",
+    "slug": "panther-eye-visor-truck",
+    "title": "Panther Eye Visor Truck",
+    "description": "This truck gives you the stare-down! A visor over the windshield is shaped like two narrow panther eyes, with an arched brow ridge above giving the cab a fierce squinting menacing look.",
+    "metaDescription": "Free printable Panther Eye Visor Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a windshield visor shaped like narrow panther eyes giving the cab a menacing squint",
+    "imagePath": "/images/coloring-pages/panther-eye-visor-truck.png",
+    "thumbnailPath": "/images/coloring-pages/panther-eye-visor-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-stealthhun-q6si",
+    "slug": "stealth-hunter-truck",
+    "title": "Stealth Hunter Truck",
+    "description": "Built to hunt silently. This truck has an ultra-low flat profile with a wedge-shaped front end. Everything is streamlined and aerodynamic — hood flush to the body, no wasted angles, just pure predatory speed.",
+    "metaDescription": "Free printable Stealth Hunter Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of an ultra low flat profile monster truck with a wedge-shaped front end streamlined like a stalking panther",
+    "imagePath": "/images/coloring-pages/stealth-hunter-truck.png",
+    "thumbnailPath": "/images/coloring-pages/stealth-hunter-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-pantherroa-clfg",
+    "slug": "panther-roar-exhaust-truck",
+    "title": "Panther Roar Exhaust Truck",
+    "description": "When this truck revs up, the exhaust pipe on the back is shaped like an open roaring panther mouth! Two small round panther ears sit on the cab roof. Simple fun shapes for easy coloring.",
+    "metaDescription": "Free printable Panther Roar Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with the exhaust pipe shaped like an open panther mouth and small ears on the cab",
+    "imagePath": "/images/coloring-pages/panther-roar-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/panther-roar-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-panther-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:52.528Z",
+    "updatedAt": "2026-04-18T17:47:52.528Z"
+  },
+  {
+    "id": "page-battle-h-rc3h",
+    "slug": "battle-horn-bumper-truck",
+    "title": "Battle Horn Bumper Truck",
+    "description": "This truck is built to charge! A massive spiral unicorn horn is mounted dead center on the front bumper like a battering ram. The horn is thick, twisted, and armored — ready to smash through anything on the track.",
+    "metaDescription": "Free printable Battle Horn Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a massive spiral unicorn horn mounted on the front bumper as a battering ram",
+    "imagePath": "/images/coloring-pages/battle-horn-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/battle-horn-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-armored--rc3h",
+    "slug": "armored-unicorn-cab-truck",
+    "title": "Armored Unicorn Cab Truck",
+    "description": "The cab is a fortress! Shaped like an armored unicorn head with a battle visor over the windshield and a long pointed horn jutting from the roof. This war unicorn truck is built for battle, not beauty.",
+    "metaDescription": "Free printable Armored Unicorn Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the cab shaped like an armored unicorn head with a visor and horn on top",
+    "imagePath": "/images/coloring-pages/armored-unicorn-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/armored-unicorn-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-baby-uni-rc3h",
+    "slug": "baby-unicorn-truck",
+    "title": "Baby Unicorn Truck",
+    "description": "The cutest little monster truck on four wheels! A small spiral horn on the hood, star-shaped hubcaps, and tiny wings on the fenders. Simple and adorable — perfect for little colorers.",
+    "metaDescription": "Free printable Baby Unicorn Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a small spiral horn on the hood, star hubcaps, and wings on the fenders",
+    "imagePath": "/images/coloring-pages/baby-unicorn-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-unicorn-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-spiral-h-rc3h",
+    "slug": "spiral-horn-exhaust-truck",
+    "title": "Spiral Horn Exhaust Truck",
+    "description": "Instead of a normal smokestack, this truck's exhaust pipe is a tall twisted spiral horn shape rising behind the cab! The spiral gets narrower toward the pointed tip — roaring fumes out the top like a battle unicorn.",
+    "metaDescription": "Free printable Spiral Horn Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a tall twisted spiral unicorn horn shaped exhaust pipe behind the cab",
+    "imagePath": "/images/coloring-pages/spiral-horn-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/spiral-horn-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-mane-spo-rc3h",
+    "slug": "mane-spoiler-truck",
+    "title": "Mane Spoiler Truck",
+    "description": "Check out that rear spoiler! It's shaped like a wild flowing mane with individual thick hair strands fanning out behind the truck like a war horse charging into battle. One horn on the hood seals the deal.",
+    "metaDescription": "Free printable Mane Spoiler Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a rear spoiler shaped like a flowing mane with individual hair strands fanning out",
+    "imagePath": "/images/coloring-pages/mane-spoiler-truck.png",
+    "thumbnailPath": "/images/coloring-pages/mane-spoiler-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-unicorn--rc3h",
+    "slug": "unicorn-hoof-wheels-truck",
+    "title": "Unicorn Hoof Wheels Truck",
+    "description": "Every wheel hub on this truck is shaped like a unicorn hoof! A simple truck with a small horn on the hood and four hoof-hubcaps on the massive tires. Easy to color and totally awesome.",
+    "metaDescription": "Free printable Unicorn Hoof Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with unicorn hoof shaped wheel hubs and a horn on the hood",
+    "imagePath": "/images/coloring-pages/unicorn-hoof-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/unicorn-hoof-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-pegasus--rc3h",
+    "slug": "pegasus-wing-door-truck",
+    "title": "Pegasus Wing Door Truck",
+    "description": "The doors on this beast swing open upward like giant feathered wings! When closed they fold tight against the cab and look like massive armored wings on a war pegasus. A sharp horn sits on the roof.",
+    "metaDescription": "Free printable Pegasus Wing Door Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with doors shaped like large feathered wings that open upward, and a horn on the roof",
+    "imagePath": "/images/coloring-pages/pegasus-wing-door-truck.png",
+    "thumbnailPath": "/images/coloring-pages/pegasus-wing-door-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-star-bur-rc3h",
+    "slug": "star-burst-grille-truck",
+    "title": "Star Burst Grille Truck",
+    "description": "The grille on this truck is a massive starburst explosion radiating from the center! At the very center where all the rays meet sits a sharp horn point like the eye of a star. Pure monster energy.",
+    "metaDescription": "Free printable Star Burst Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a starburst pattern grille radiating from a center horn point",
+    "imagePath": "/images/coloring-pages/star-burst-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/star-burst-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-crystal--rc3h",
+    "slug": "crystal-horn-crown-truck",
+    "title": "Crystal Horn Crown Truck",
+    "description": "A row of crystal horn spikes runs along the entire roof ridge like a mohawk! Each horn is a different size, pointed and sharp, forming a crown of battle horns down the center of the truck's roofline.",
+    "metaDescription": "Free printable Crystal Horn Crown Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a row of crystal horn spikes along the roof ridge like a mohawk crown",
+    "imagePath": "/images/coloring-pages/crystal-horn-crown-truck.png",
+    "thumbnailPath": "/images/coloring-pages/crystal-horn-crown-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
+  },
+  {
+    "id": "page-thunder--rc3h",
+    "slug": "thunder-unicorn-truck",
+    "title": "Thunder Unicorn Truck",
+    "description": "Simple and powerful! One big horn dominates the front hood, and lightning bolt shapes serve as the side mirrors. A bold star emblem on the door and a no-nonsense monster truck body. Thunder unicorn style!",
+    "metaDescription": "Free printable Thunder Unicorn Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with one big horn, lightning bolt side mirrors, and a star on the door",
+    "imagePath": "/images/coloring-pages/thunder-unicorn-truck.png",
+    "thumbnailPath": "/images/coloring-pages/thunder-unicorn-truck-thumb.png",
+    "categoryIds": [
+      "cat-unicorn-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T17:47:57.821Z",
+    "updatedAt": "2026-04-18T17:47:57.821Z"
   }
 ]

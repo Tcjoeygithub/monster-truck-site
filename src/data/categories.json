@@ -397,5 +397,19 @@
     "name": "Griffin Monster Truck Coloring Pages",
     "description": "Free printable griffin monster truck coloring pages for kids ages 2-8. Eagle beak hoods, lion paw bumpers, wing fenders, talon wheel spokes — every truck is built from the mythical lion-eagle hybrid. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-panther-monster-truck-coloring-pages",
+    "slug": "panther-monster-truck-coloring-pages",
+    "name": "Panther Monster Truck Coloring Pages",
+    "description": "Free printable panther monster truck coloring pages for kids ages 2-8. Panther claw bumpers, sleek panther hoods, jaw grilles, stealth hunters — every truck is built with fierce panther features. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-unicorn-monster-truck-coloring-pages",
+    "slug": "unicorn-monster-truck-coloring-pages",
+    "name": "Unicorn Monster Truck Coloring Pages",
+    "description": "Free printable unicorn monster truck coloring pages for kids ages 2-8. Armored horn bumpers, battle cab trucks, crystal horn crowns, pegasus wing doors — every truck is a war unicorn built to dominate. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
