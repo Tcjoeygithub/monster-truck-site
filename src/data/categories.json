@@ -425,5 +425,12 @@
     "name": "Minotaur Monster Truck Coloring Pages",
     "description": "Free printable minotaur monster truck coloring pages for kids ages 2-8. Bull horn bumpers, labyrinth grilles, battle axe exhausts, hoof wheels — every truck is built like a mythical warrior. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-wolverine-monster-truck-coloring-pages",
+    "slug": "wolverine-monster-truck-coloring-pages",
+    "name": "Wolverine Monster Truck Coloring Pages",
+    "description": "Free printable wolverine animal monster truck coloring pages for kids ages 2-8. Claw bumpers, snarling hoods, burrowing plows, snapping jaw grilles — every truck is built with wolverine animal features. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
