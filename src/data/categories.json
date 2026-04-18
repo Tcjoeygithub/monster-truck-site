@@ -383,5 +383,19 @@
     "name": "Crocodile Monster Truck Coloring Pages",
     "description": "Free printable crocodile monster truck coloring pages for kids ages 2-8. Croc jaw bumpers, armored spine roofs, claw-spoke wheels, snorkel pipes — every truck has crocodile design features built right into the body. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-octopus-monster-truck-coloring-pages",
+    "slug": "octopus-monster-truck-coloring-pages",
+    "name": "Octopus Monster Truck Coloring Pages",
+    "description": "Free printable octopus monster truck coloring pages for kids ages 2-8. Tentacle bumpers, suction cup tires, dome head cabs, kraken grips — every truck is built with octopus features. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-griffin-monster-truck-coloring-pages",
+    "slug": "griffin-monster-truck-coloring-pages",
+    "name": "Griffin Monster Truck Coloring Pages",
+    "description": "Free printable griffin monster truck coloring pages for kids ages 2-8. Eagle beak hoods, lion paw bumpers, wing fenders, talon wheel spokes — every truck is built from the mythical lion-eagle hybrid. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
