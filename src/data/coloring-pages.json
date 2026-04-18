@@ -9544,5 +9544,405 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T13:10:10.370Z",
     "updatedAt": "2026-04-18T13:10:10.370Z"
+  },
+  {
+    "id": "page-werewolf-5x8s",
+    "slug": "werewolf-claw-bumper-truck",
+    "title": "Werewolf Claw Bumper Truck",
+    "description": "This monster truck means business! The entire front bumper is shaped like two massive werewolf claws curling forward, ready to grab anything in its path. Thick curved talons jut out from each side of the grille.",
+    "metaDescription": "Free printable Werewolf Claw Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two large werewolf claw shapes forming the front bumper",
+    "imagePath": "/images/coloring-pages/werewolf-claw-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/werewolf-claw-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-full-moo-5x8s",
+    "slug": "full-moon-roof-light-truck",
+    "title": "Full Moon Roof Light Truck",
+    "description": "This wild truck has a giant circular spotlight mounted on the roof shaped exactly like a full moon. Two pointed werewolf ear shapes stick up from the corners of the cab roof. It glows across the night sky!",
+    "metaDescription": "Free printable Full Moon Roof Light Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a full moon shaped roof spotlight and werewolf ears on the cab",
+    "imagePath": "/images/coloring-pages/full-moon-roof-light-truck.png",
+    "thumbnailPath": "/images/coloring-pages/full-moon-roof-light-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-baby-wer-5x8s",
+    "slug": "baby-werewolf-truck",
+    "title": "Baby Werewolf Truck",
+    "description": "This cute little monster truck has fluffy rounded ear shapes on top, two little fangs poking out of the front bumper, big round friendly eyes as headlights, and tiny claw shapes used as side mirrors. So adorable!",
+    "metaDescription": "Free printable Baby Werewolf Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with fluffy ears on roof, tiny fangs on bumper, and claw mirrors",
+    "imagePath": "/images/coloring-pages/baby-werewolf-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-werewolf-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-howling--5x8s",
+    "slug": "howling-hood-truck",
+    "title": "Howling Hood Truck",
+    "description": "The entire hood of this truck is sculpted like a werewolf head tilted back in a full howl! The mouth opens upward toward the sky, rows of fangs visible inside. The brow ridge forms a built-in spoiler above the windshield.",
+    "metaDescription": "Free printable Howling Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a hood shaped like a howling werewolf head tilted back",
+    "imagePath": "/images/coloring-pages/howling-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/howling-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-werewolf-5x8s",
+    "slug": "werewolf-jaw-grille-truck",
+    "title": "Werewolf Jaw Grille Truck",
+    "description": "The entire front grille of this truck is shaped like a wide open werewolf mouth! Long sharp fangs line the top and bottom of the grille opening, and the headlights are set into the upper jaw like glowing eyes.",
+    "metaDescription": "Free printable Werewolf Jaw Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with an open werewolf mouth grille with long fangs top and bottom",
+    "imagePath": "/images/coloring-pages/werewolf-jaw-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/werewolf-jaw-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-shaggy-f-5x8s",
+    "slug": "shaggy-fender-truck",
+    "title": "Shaggy Fender Truck",
+    "description": "This wild truck looks like it grew a fur coat! Each fender has thick jagged fur-like edges sticking outward in every direction, giving the whole truck a shaggy untamed silhouette. The roof line also has jagged fur tufts.",
+    "metaDescription": "Free printable Shaggy Fender Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with jagged fur-like fender edges giving it a shaggy wild appearance",
+    "imagePath": "/images/coloring-pages/shaggy-fender-truck.png",
+    "thumbnailPath": "/images/coloring-pages/shaggy-fender-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-werewolf-5x8s",
+    "slug": "werewolf-paw-wheels-truck",
+    "title": "Werewolf Paw Wheels Truck",
+    "description": "Every single wheel hub on this truck is shaped like a werewolf paw! Five thick claw shapes extend outward from each hub like a spinning paw swipe. The truck itself is clean and simple so you can focus on those amazing wheels.",
+    "metaDescription": "Free printable Werewolf Paw Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck where each wheel hub is shaped like a werewolf paw with claws extending out",
+    "imagePath": "/images/coloring-pages/werewolf-paw-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/werewolf-paw-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-transfor-5x8s",
+    "slug": "transformation-truck",
+    "title": "Transformation Truck",
+    "description": "Half truck, half beast! The left side of this truck is a normal clean pickup, but the right side is mid-transformation with claws ripping through the fender metal, fangs pushing out through the front bumper edge, and fur ridges erupting from the body panels.",
+    "metaDescription": "Free printable Transformation Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck half normal half transforming into werewolf with claws and fangs emerging",
+    "imagePath": "/images/coloring-pages/transformation-truck.png",
+    "thumbnailPath": "/images/coloring-pages/transformation-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-wolf-fan-5x8s",
+    "slug": "wolf-fang-exhaust-truck",
+    "title": "Wolf Fang Exhaust Truck",
+    "description": "Four exhaust pipes rise behind the cab of this beast, but each pipe is curved and pointed just like a werewolf fang! They curve slightly inward at the tips, like four massive fangs biting at the sky.",
+    "metaDescription": "Free printable Wolf Fang Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with four curved fang-shaped exhaust pipes rising behind the cab",
+    "imagePath": "/images/coloring-pages/wolf-fang-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wolf-fang-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-moonligh-5x8s",
+    "slug": "moonlight-runner-truck",
+    "title": "Moonlight Runner Truck",
+    "description": "A fast and simple truck built for moonlit runs! Two pointed ear shapes stick straight up from the roof, and a large round moon disc is mounted behind the cab like a satellite dish. Clean bold lines make this one super easy to color!",
+    "metaDescription": "Free printable Moonlight Runner Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with pointed ear roof shapes and a large round moon disc mounted behind the cab",
+    "imagePath": "/images/coloring-pages/moonlight-runner-truck.png",
+    "thumbnailPath": "/images/coloring-pages/moonlight-runner-truck-thumb.png",
+    "categoryIds": [
+      "cat-werewolf-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:22.251Z",
+    "updatedAt": "2026-04-18T13:19:22.251Z"
+  },
+  {
+    "id": "page-throwing-63x1",
+    "slug": "throwing-star-wheels-truck",
+    "title": "Throwing Star Wheels Truck",
+    "description": "Check out these wild wheels! Every single hub cap is shaped exactly like a ninja throwing star (shuriken) with sharp pointed blades radiating outward. This truck spins its deadly star wheels across every track.",
+    "metaDescription": "Free printable Throwing Star Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with shuriken throwing star shaped wheel hub caps",
+    "imagePath": "/images/coloring-pages/throwing-star-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/throwing-star-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-katana-e-63x1",
+    "slug": "katana-exhaust-truck",
+    "title": "Katana Exhaust Truck",
+    "description": "This truck's exhaust pipes are shaped like katana sword blades! Two curved katana shapes extend from behind the cab, curving upward with the distinctive long blade shape of a Japanese sword.",
+    "metaDescription": "Free printable Katana Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two katana sword shaped exhaust pipes behind the cab",
+    "imagePath": "/images/coloring-pages/katana-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/katana-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-baby-nin-63x1",
+    "slug": "baby-ninja-truck",
+    "title": "Baby Ninja Truck",
+    "description": "The cutest little ninja truck around! This simple truck has a ninja mask shape covering the headlight area so only two eyes are showing, and a tiny sword shape sits on the roof. Simple and adorable!",
+    "metaDescription": "Free printable Baby Ninja Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a ninja mask over the headlights and a small sword on the roof",
+    "imagePath": "/images/coloring-pages/baby-ninja-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-ninja-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-ninja-ma-63x1",
+    "slug": "ninja-mask-grille-truck",
+    "title": "Ninja Mask Grille Truck",
+    "description": "This truck's entire front end is designed as a ninja face! The grille and headlights form a ninja mask with narrow horizontal eye slit openings — the whole front looks like a ninja staring you down.",
+    "metaDescription": "Free printable Ninja Mask Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the front grille and headlights designed as a ninja face mask with narrow eye slits",
+    "imagePath": "/images/coloring-pages/ninja-mask-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ninja-mask-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-smoke-bo-63x1",
+    "slug": "smoke-bomb-exhaust-truck",
+    "title": "Smoke Bomb Exhaust Truck",
+    "description": "This sneaky truck has exhaust pipes shaped like round ninja smoke bombs! The stealthy low sleek profile makes it look like it could vanish at any moment, with round smoke bomb shapes on top of the exhaust stacks.",
+    "metaDescription": "Free printable Smoke Bomb Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a low sleek monster truck with round smoke bomb shaped exhaust pipe tops",
+    "imagePath": "/images/coloring-pages/smoke-bomb-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/smoke-bomb-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-nunchuck-63x2",
+    "slug": "nunchuck-roll-bar-truck",
+    "title": "Nunchuck Roll Bar Truck",
+    "description": "The roll cage on this truck is connected by chain links like nunchucks! Each roll bar section is joined by a thick chain link joint like nunchaku handles. A ninja headband is tied around the antenna.",
+    "metaDescription": "Free printable Nunchuck Roll Bar Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a roll cage connected by chain links like nunchucks and a headband on the antenna",
+    "imagePath": "/images/coloring-pages/nunchuck-roll-bar-truck.png",
+    "thumbnailPath": "/images/coloring-pages/nunchuck-roll-bar-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-hidden-b-63x2",
+    "slug": "hidden-blade-door-truck",
+    "title": "Hidden Blade Door Truck",
+    "description": "This truck has hidden blades built right into the doors! Retractable blade shapes slide out from the bottom edge of each door like hidden ninja weapons. The blades point outward at an angle.",
+    "metaDescription": "Free printable Hidden Blade Door Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with blade shapes sliding out from the bottom edges of the doors",
+    "imagePath": "/images/coloring-pages/hidden-blade-door-truck.png",
+    "thumbnailPath": "/images/coloring-pages/hidden-blade-door-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-ninja-sc-63x2",
+    "slug": "ninja-scroll-hood-truck",
+    "title": "Ninja Scroll Hood Truck",
+    "description": "This truck carries a ninja scroll! A rolled-up scroll shape is mounted on top of the hood with the ends curled up. A simple headband shape wraps across the very front of the truck. Easy and fun!",
+    "metaDescription": "Free printable Ninja Scroll Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a rolled scroll on the hood and a headband shape across the front",
+    "imagePath": "/images/coloring-pages/ninja-scroll-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ninja-scroll-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-kunai-bu-63x2",
+    "slug": "kunai-bumper-truck",
+    "title": "Kunai Bumper Truck",
+    "description": "Three kunai knives point forward from this truck's front bumper like battering rams! The classic ring-topped kunai knife shapes are built right into the bumper, ready to charge.",
+    "metaDescription": "Free printable Kunai Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with three kunai knife shapes pointing forward from the front bumper",
+    "imagePath": "/images/coloring-pages/kunai-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/kunai-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
+  },
+  {
+    "id": "page-shadow-s-63x2",
+    "slug": "shadow-stealth-truck",
+    "title": "Shadow Stealth Truck",
+    "description": "This truck is built to be invisible! Extra low and flat profile, a very pointed front end, and narrow squinting headlight slits like a ninja's eyes. This is the sneakiest truck around.",
+    "metaDescription": "Free printable Shadow Stealth Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of an extra low flat monster truck with a pointed front and narrow squinting headlight slits",
+    "imagePath": "/images/coloring-pages/shadow-stealth-truck.png",
+    "thumbnailPath": "/images/coloring-pages/shadow-stealth-truck-thumb.png",
+    "categoryIds": [
+      "cat-ninja-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:19:30.901Z",
+    "updatedAt": "2026-04-18T13:19:30.901Z"
   }
 ]

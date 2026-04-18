@@ -320,5 +320,19 @@
     "name": "Bull Monster Truck Coloring Pages",
     "description": "Free printable bull monster truck coloring pages for kids ages 2-8. Bull horn bumpers, charging hood designs, longhorn exhausts, hoof wheels — every truck is built like a bull. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-werewolf-monster-truck-coloring-pages",
+    "slug": "werewolf-monster-truck-coloring-pages",
+    "name": "Werewolf Monster Truck Coloring Pages",
+    "description": "Free printable werewolf monster truck coloring pages for kids ages 2-8. Werewolf claw bumpers, howling hoods, fang exhausts, shaggy fenders, paw wheels — every truck is a beast. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-ninja-monster-truck-coloring-pages",
+    "slug": "ninja-monster-truck-coloring-pages",
+    "name": "Ninja Monster Truck Coloring Pages",
+    "description": "Free printable ninja monster truck coloring pages for kids ages 2-8. Shuriken wheels, katana exhausts, kunai bumpers, ninja mask grilles — every truck is built with ninja weapons and stealth features. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
