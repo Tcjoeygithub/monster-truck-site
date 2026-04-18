@@ -453,5 +453,19 @@
     "name": "Pegasus Monster Truck Coloring Pages",
     "description": "Free printable Pegasus monster truck coloring pages for kids ages 2-8. Wing doors, horse head hoods, feathered exhaust, hoof wheels, mane spoilers — every truck is built with mythical winged horse power. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-bat-monster-truck-coloring-pages",
+    "slug": "bat-monster-truck-coloring-pages",
+    "name": "Bat Monster Truck Coloring Pages",
+    "description": "Free printable bat monster truck coloring pages for kids ages 2-8. Bat wing fenders, fang grilles, sonar dish roofs, cave cabs — every truck is built with wild bat-inspired structural mods. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-cerberus-monster-truck-coloring-pages",
+    "slug": "cerberus-monster-truck-coloring-pages",
+    "name": "Cerberus Monster Truck Coloring Pages",
+    "description": "Free printable Cerberus monster truck coloring pages for kids ages 2-8. Three-headed hood designs, spiked collar grilles, chain leash bumpers, hellhound exhaust pipes — every truck is built like a mythical beast. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]

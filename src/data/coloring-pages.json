@@ -13284,5 +13284,385 @@
     "publishDate": "2026-04-18",
     "createdAt": "2026-04-18T22:26:55.035Z",
     "updatedAt": "2026-04-18T22:26:55.035Z"
+  },
+  {
+    "id": "page-bat-wing-1qhy",
+    "slug": "bat-wing-fender-truck",
+    "title": "Bat Wing Fender Truck",
+    "description": "The rear fenders on this monster truck stretch out and curve upward into full spread bat wings! You can see the individual finger bones running through each wing panel, just like a real bat's wing structure.",
+    "metaDescription": "Free printable Bat Wing Fender Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with rear fenders shaped like spread bat wings with finger bone details",
+    "imagePath": "/images/coloring-pages/bat-wing-fender-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bat-wing-fender-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-bat-ear--1qhy",
+    "slug": "bat-ear-cab-truck",
+    "title": "Bat Ear Cab Truck",
+    "description": "This truck has two tall pointed bat ears rising straight up from the cab roof! The headlights are narrow slits, just like the sharp night-vision eyes of a bat on the hunt.",
+    "metaDescription": "Free printable Bat Ear Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two tall pointed bat ear shapes on the cab roof and narrow slit headlights",
+    "imagePath": "/images/coloring-pages/bat-ear-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bat-ear-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-baby-bat-1qhy",
+    "slug": "baby-bat-truck",
+    "title": "Baby Bat Truck",
+    "description": "This adorable little monster truck has small rounded bat wings on its fenders, big round friendly eyes, and two tiny fangs poking down from the front bumper. Super cute and easy to color!",
+    "metaDescription": "Free printable Baby Bat Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with small rounded bat wings on the fenders, big round eyes, and tiny fangs on the bumper",
+    "imagePath": "/images/coloring-pages/baby-bat-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-bat-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-sonar-di-1qhy",
+    "slug": "sonar-dish-roof-truck",
+    "title": "Sonar Dish Roof Truck",
+    "description": "A large round sonar dish sits on top of the cab, tilted forward like the cupped ear of a bat tuned in to every sound. This truck can sense what's coming from miles away!",
+    "metaDescription": "Free printable Sonar Dish Roof Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a large round sonar dish mounted on the cab roof angled forward",
+    "imagePath": "/images/coloring-pages/sonar-dish-roof-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sonar-dish-roof-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-bat-claw-1qhy",
+    "slug": "bat-claw-bumper-truck",
+    "title": "Bat Claw Bumper Truck",
+    "description": "The front bumper of this beast is shaped like a bat's feet — with hooked curved claws hanging downward from the bumper bar. Those talons mean business!",
+    "metaDescription": "Free printable Bat Claw Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a front bumper shaped like bat feet with hooked claws hanging downward",
+    "imagePath": "/images/coloring-pages/bat-claw-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bat-claw-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-upside-d-1qhy",
+    "slug": "upside-down-exhaust-truck",
+    "title": "Upside Down Exhaust Truck",
+    "description": "The exhaust pipes on this truck curve down and then hook back upward at the ends — just like a bat hanging upside down! Each pipe makes a perfect U-hook shape along the cab sides.",
+    "metaDescription": "Free printable Upside Down Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with exhaust pipes that curve downward and hook back up like upside-down bats",
+    "imagePath": "/images/coloring-pages/upside-down-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/upside-down-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-bat-cave-1qhy",
+    "slug": "bat-cave-cab-truck",
+    "title": "Bat Cave Cab Truck",
+    "description": "The cab of this truck is built to look like the entrance to a bat cave! Jagged stalactite shapes hang from the roof edge all the way around, and the windshield sits inside the dark cave opening.",
+    "metaDescription": "Free printable Bat Cave Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a cab shaped like a cave entrance with stalactites hanging from the roof edge",
+    "imagePath": "/images/coloring-pages/bat-cave-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/bat-cave-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-fang-gri-1qhy",
+    "slug": "fang-grille-truck",
+    "title": "Fang Grille Truck",
+    "description": "Check out that grille! Two huge vampire bat fangs hang down from the top of the front grille, making this simple monster truck look ready to bite. Bold, simple, and fun to color!",
+    "metaDescription": "Free printable Fang Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with two large vampire fangs hanging from the top of the front grille",
+    "imagePath": "/images/coloring-pages/fang-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/fang-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-wing-wra-1qhy",
+    "slug": "wing-wrap-doors-truck",
+    "title": "Wing Wrap Doors Truck",
+    "description": "The doors on this truck are shaped like folded bat wings wrapped snugly around the cab body! The wing-fold lines run across the door panels, giving the truck a seriously cool wrapped look.",
+    "metaDescription": "Free printable Wing Wrap Doors Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with doors shaped like folded bat wings wrapped around the cab",
+    "imagePath": "/images/coloring-pages/wing-wrap-doors-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wing-wrap-doors-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-echo-scr-1qhy",
+    "slug": "echo-screech-truck",
+    "title": "Echo Screech Truck",
+    "description": "This truck screams! The front bumper has a wide open mouth shape on it, and sound wave rings radiate outward from the mouth. Two small bat ears sit on top of the cab. Simple, loud, and fun!",
+    "metaDescription": "Free printable Echo Screech Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a wide open mouth on the front bumper and sound wave rings radiating out",
+    "imagePath": "/images/coloring-pages/echo-screech-truck.png",
+    "thumbnailPath": "/images/coloring-pages/echo-screech-truck-thumb.png",
+    "categoryIds": [
+      "cat-bat-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:03:58.822Z",
+    "updatedAt": "2026-04-18T23:03:58.822Z"
+  },
+  {
+    "id": "page-triple-e-2ipn",
+    "slug": "triple-exhaust-bark-truck",
+    "title": "Triple Exhaust Bark Truck",
+    "description": "Three exhaust pipes rise up behind the cab of this wild truck, and each one is shaped like an open barking dog mouth! Round pipe body with teeth and lips at the top opening on every pipe. Loud and mean!",
+    "metaDescription": "Free printable Triple Exhaust Bark Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with three exhaust pipes shaped like open barking dog mouths",
+    "imagePath": "/images/coloring-pages/triple-exhaust-bark-truck.png",
+    "thumbnailPath": "/images/coloring-pages/triple-exhaust-bark-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-baby-cer-2ipn",
+    "slug": "baby-cerberus-truck",
+    "title": "Baby Cerberus Truck",
+    "description": "This adorable little monster truck has three tiny puppy heads on the hood, all with big friendly eyes and floppy ears! Simple chunky truck shape, easy to color, and super cute.",
+    "metaDescription": "Free printable Baby Cerberus Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with three small puppy heads on the hood with big eyes and floppy ears",
+    "imagePath": "/images/coloring-pages/baby-cerberus-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-cerberus-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-chain-le-2ipn",
+    "slug": "chain-leash-bumper-truck",
+    "title": "Chain Leash Bumper Truck",
+    "description": "Heavy chain shapes hang from the front bumper like giant leashes! The grille is framed by a thick spiked dog collar shape with sharp spikes all around. This truck looks like it belongs in the underworld.",
+    "metaDescription": "Free printable Chain Leash Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with heavy chain shapes hanging from the bumper and a spiked collar grille frame",
+    "imagePath": "/images/coloring-pages/chain-leash-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/chain-leash-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-spiked-c-2ipn",
+    "slug": "spiked-collar-grille-truck",
+    "title": "Spiked Collar Grille Truck",
+    "description": "The front grille of this monster truck is surrounded by a thick spiked dog collar! Sharp spikes stick out all around the grille opening, making this truck look like the guard dog of the underworld.",
+    "metaDescription": "Free printable Spiked Collar Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a front grille surrounded by a thick spiked dog collar shape",
+    "imagePath": "/images/coloring-pages/spiked-collar-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/spiked-collar-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-dog-bone-2ipn",
+    "slug": "dog-bone-spoiler-truck",
+    "title": "Dog Bone Spoiler Truck",
+    "description": "Check out that spoiler! The rear wing on this truck is shaped exactly like a big dog bone. Up front, there is one cute dog head on the hood. Simple shapes, easy to color, and totally fun!",
+    "metaDescription": "Free printable Dog Bone Spoiler Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a rear spoiler shaped like a giant dog bone and one dog head on the hood",
+    "imagePath": "/images/coloring-pages/dog-bone-spoiler-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dog-bone-spoiler-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-paw-prin-2ipn",
+    "slug": "paw-print-wheels-truck",
+    "title": "Paw Print Wheels Truck",
+    "description": "Every wheel hub on this truck is shaped like a dog paw print with four toe pads! The cab has small rounded dog ears on each corner of the roof. Fun and simple to color!",
+    "metaDescription": "Free printable Paw Print Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with paw print shaped wheel hubs and small ears on the cab roof",
+    "imagePath": "/images/coloring-pages/paw-print-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/paw-print-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-guard-do-2ipn",
+    "slug": "guard-dog-stance-truck",
+    "title": "Guard Dog Stance Truck",
+    "description": "This truck is built in a wide aggressive stance like a guard dog bracing for action! Extra wide wheelbase, low center of gravity, front end dipped down like a dog ready to pounce. Built to protect and dominate.",
+    "metaDescription": "Free printable Guard Dog Stance Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck in a wide aggressive low stance like a guard dog bracing",
+    "imagePath": "/images/coloring-pages/guard-dog-stance-truck.png",
+    "thumbnailPath": "/images/coloring-pages/guard-dog-stance-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-hellhoun-2ipn",
+    "slug": "hellhound-fire-exhaust-truck",
+    "title": "Hellhound Fire Exhaust Truck",
+    "description": "Three exhaust pipes shaped like dog snouts rise from behind the cab, and each one shoots bold flame shapes from the opening! The flames are drawn as bold outlined shapes rising upward from each snout pipe. Hellfire power!",
+    "metaDescription": "Free printable Hellhound Fire Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with three dog snout exhaust pipes shooting flame shapes from each opening",
+    "imagePath": "/images/coloring-pages/hellhound-fire-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/hellhound-fire-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
+  },
+  {
+    "id": "page-wagging--2ipn",
+    "slug": "wagging-tail-antenna-truck",
+    "title": "Wagging Tail Antenna Truck",
+    "description": "This happy truck has a curved dog tail as the antenna, wagging upward from the roof! On the front grille, three small cute dog faces are arranged side by side. Simple and cheerful, perfect for little kids.",
+    "metaDescription": "Free printable Wagging Tail Antenna Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a curved dog tail antenna and three small dog faces on the grille",
+    "imagePath": "/images/coloring-pages/wagging-tail-antenna-truck.png",
+    "thumbnailPath": "/images/coloring-pages/wagging-tail-antenna-truck-thumb.png",
+    "categoryIds": [
+      "cat-cerberus-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T23:04:35.386Z",
+    "updatedAt": "2026-04-18T23:04:35.386Z"
   }
 ]
