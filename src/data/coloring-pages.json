@@ -8744,5 +8744,405 @@
     "publishDate": "2026-04-17",
     "createdAt": "2026-04-17T13:20:13.166Z",
     "updatedAt": "2026-04-17T13:20:13.166Z"
+  },
+  {
+    "id": "page-baby-sna-kawb",
+    "slug": "baby-snake-truck",
+    "title": "Baby Snake Truck",
+    "description": "A cute little monster truck with two small fangs on the front bumper, a forked tongue shape as the antenna, and big round friendly eyes as headlights. Simple and adorable — perfect for the youngest colorers!",
+    "metaDescription": "Free printable Baby Snake Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with two small fangs on the bumper and a forked tongue antenna",
+    "imagePath": "/images/coloring-pages/baby-snake-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-snake-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-rattlesn-kawb",
+    "slug": "rattlesnake-tail-truck",
+    "title": "Rattlesnake Tail Truck",
+    "description": "This fun truck has a rattlesnake rattle shape mounted on the rear bumper! The rattle is made of big chunky segments stacked together. Simple truck body, easy to color for little kids.",
+    "metaDescription": "Free printable Rattlesnake Tail Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a rattlesnake rattle shape on the rear bumper",
+    "imagePath": "/images/coloring-pages/rattlesnake-tail-truck.png",
+    "thumbnailPath": "/images/coloring-pages/rattlesnake-tail-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-cobra-ey-kawb",
+    "slug": "cobra-eye-headlight-truck",
+    "title": "Cobra Eye Headlight Truck",
+    "description": "Two narrow vertical slit-shaped cobra eye headlights give this truck a fierce stare! A small hood scoop shaped like a snake nose sits between them. Simple design, great for beginners.",
+    "metaDescription": "Free printable Cobra Eye Headlight Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with narrow slit cobra eye headlights and a snake nose hood scoop",
+    "imagePath": "/images/coloring-pages/cobra-eye-headlight-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cobra-eye-headlight-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-cobra-fa-kawb",
+    "slug": "cobra-fang-bumper-truck",
+    "title": "Cobra Fang Bumper Truck",
+    "description": "Two long curved cobra fangs extend downward from the front bumper — this truck means business! The fangs are hollow and grooved just like real cobra fangs, built right into the steel bumper structure.",
+    "metaDescription": "Free printable Cobra Fang Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two long curved cobra fang shapes as the front bumper",
+    "imagePath": "/images/coloring-pages/cobra-fang-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cobra-fang-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-viper-st-kawb",
+    "slug": "viper-strike-exhaust-truck",
+    "title": "Viper Strike Exhaust Truck",
+    "description": "The exhaust pipes on this truck are shaped like striking snake heads with wide open mouths! Two viper-head exhausts rise from the hood, jaws open wide, ready to breathe fire.",
+    "metaDescription": "Free printable Viper Strike Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with exhaust pipes shaped like open-mouthed striking viper heads",
+    "imagePath": "/images/coloring-pages/viper-strike-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/viper-strike-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-snake-ja-kawb",
+    "slug": "snake-jaw-grille-truck",
+    "title": "Snake Jaw Grille Truck",
+    "description": "The entire front grille of this truck is shaped like a snake's open jaw! Long pointed fangs line the top and bottom of the grille opening, with a ribbed throat visible inside. Menacing and cool.",
+    "metaDescription": "Free printable Snake Jaw Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a front grille shaped like a snake's open jaw with fangs top and bottom",
+    "imagePath": "/images/coloring-pages/snake-jaw-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/snake-jaw-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-sidewind-kawb",
+    "slug": "sidewinder-wheel-truck",
+    "title": "Sidewinder Wheel Truck",
+    "description": "The wheels on this truck have S-shaped snake-body spokes radiating from the center hub! Each spoke curves in an S-shape like a sidewinder snake in motion. Unique and striking wheel design.",
+    "metaDescription": "Free printable Sidewinder Wheel Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with wheels featuring S-shaped snake-body spokes radiating from the center",
+    "imagePath": "/images/coloring-pages/sidewinder-wheel-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sidewinder-wheel-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-cobra-ho-kawb",
+    "slug": "cobra-hood-flare-truck",
+    "title": "Cobra Hood Flare Truck",
+    "description": "The hood panels of this truck flare out dramatically wide on each side like a cobra spreading its hood! The wide flared panels sweep back from the front and frame the cab, giving the truck an unmistakable cobra spread silhouette.",
+    "metaDescription": "Free printable Cobra Hood Flare Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with hood panels that flare wide like a cobra spreading its hood",
+    "imagePath": "/images/coloring-pages/cobra-hood-flare-truck.png",
+    "thumbnailPath": "/images/coloring-pages/cobra-hood-flare-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-coiled-c-kawb",
+    "slug": "coiled-cobra-suspension-truck",
+    "title": "Coiled Cobra Suspension Truck",
+    "description": "Look closely at the suspension — each spring is shaped like a coiled cobra ready to strike! Four visible coiled cobra suspension springs hold the massive body high off the ground, heads raised at the top.",
+    "metaDescription": "Free printable Coiled Cobra Suspension Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with suspension springs shaped like coiled cobras",
+    "imagePath": "/images/coloring-pages/coiled-cobra-suspension-truck.png",
+    "thumbnailPath": "/images/coloring-pages/coiled-cobra-suspension-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-python-w-kawb",
+    "slug": "python-wrap-roll-cage-truck",
+    "title": "Python Wrap Roll Cage Truck",
+    "description": "This truck's roll cage is made from bars bent and twisted to look like a giant python snake wrapping around the cab! The python's head rests on top of the cab roof, and the thick body winds around the entire cage structure.",
+    "metaDescription": "Free printable Python Wrap Roll Cage Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a roll cage shaped like a python snake wrapping around the cab",
+    "imagePath": "/images/coloring-pages/python-wrap-roll-cage-truck.png",
+    "thumbnailPath": "/images/coloring-pages/python-wrap-roll-cage-truck-thumb.png",
+    "categoryIds": [
+      "cat-cobra-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:02:33.515Z",
+    "updatedAt": "2026-04-18T13:02:33.515Z"
+  },
+  {
+    "id": "page-baby-sco-n07w",
+    "slug": "baby-scorpion-truck",
+    "title": "Baby Scorpion Truck",
+    "description": "The cutest little scorpion truck around! This adorable monster truck has a small curved tail on the back, tiny pincers on the front bumper, and big round friendly eyes. Super simple and perfect for little colorers!",
+    "metaDescription": "Free printable Baby Scorpion Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a small curved scorpion tail on back and tiny pincers on bumper",
+    "imagePath": "/images/coloring-pages/baby-scorpion-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-scorpion-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-desert-s-n07w",
+    "slug": "desert-scorpion-truck",
+    "title": "Desert Scorpion Truck",
+    "description": "A big bold truck inspired by the desert scorpion! This simple truck has a wide flat body like a scorpion, one large curving tail sweeping up from the back, and thick outlines that are easy and fun to color!",
+    "metaDescription": "Free printable Desert Scorpion Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple wide flat monster truck with a single large curving scorpion tail at the rear",
+    "imagePath": "/images/coloring-pages/desert-scorpion-truck.png",
+    "thumbnailPath": "/images/coloring-pages/desert-scorpion-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-king-crown-truck",
+    "title": "Scorpion King Crown Truck",
+    "description": "All hail the Scorpion King! This awesome truck wears a crown shape on the roof, has two pincer shapes as side mirrors sticking out from the doors, and a small curved tail on the back. Fit for royalty!",
+    "metaDescription": "Free printable Scorpion King Crown Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a crown shape on the roof, pincer side mirrors, and a small scorpion tail on back",
+    "imagePath": "/images/coloring-pages/scorpion-king-crown-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-king-crown-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-claw-bumper-truck",
+    "title": "Scorpion Claw Bumper Truck",
+    "description": "Watch out — this truck can grab! Two huge scorpion pincers form the entire front bumper, each claw open wide and ready to clamp down. This truck charges into anything with claws first!",
+    "metaDescription": "Free printable Scorpion Claw Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with two large open scorpion pincer claw shapes as the front bumper",
+    "imagePath": "/images/coloring-pages/scorpion-claw-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-claw-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-stinger--n07w",
+    "slug": "stinger-exhaust-truck",
+    "title": "Stinger Exhaust Truck",
+    "description": "That exhaust pipe is no ordinary exhaust! A single massive exhaust pipe shaped like a scorpion stinger curves up and over from the rear, the pointed tip aimed forward just like a real scorpion ready to strike!",
+    "metaDescription": "Free printable Stinger Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a single exhaust pipe shaped like a curved scorpion stinger arching over from the rear",
+    "imagePath": "/images/coloring-pages/stinger-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/stinger-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-double-p-n07w",
+    "slug": "double-pincer-door-truck",
+    "title": "Double Pincer Door Truck",
+    "description": "Every door on this wild truck is shaped like an open scorpion pincer! The curved claw shape is built right into each door panel, making this truck look like it has claws on both sides. Totally unique design!",
+    "metaDescription": "Free printable Double Pincer Door Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck where each door panel is shaped like an open scorpion pincer claw",
+    "imagePath": "/images/coloring-pages/double-pincer-door-truck.png",
+    "thumbnailPath": "/images/coloring-pages/double-pincer-door-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-shield-hood-truck",
+    "title": "Scorpion Shield Hood Truck",
+    "description": "The hood of this beast is shaped like a flat scorpion head! Two small eyes sit on the front edge corners, and mandible shapes jut out from the front of the hood like a scorpion's mouth parts. Fierce and detailed!",
+    "metaDescription": "Free printable Scorpion Shield Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a hood shaped like a flat scorpion head with two eyes and mandibles at the front edge",
+    "imagePath": "/images/coloring-pages/scorpion-shield-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-shield-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-tail-crane-truck",
+    "title": "Scorpion Tail Crane Truck",
+    "description": "This is the most extreme scorpion truck of all! A massive curved scorpion tail is mounted on the truck bed, arching high over the cab with a sharp stinger at the tip. The tail is segmented like a real scorpion and towers over everything!",
+    "metaDescription": "Free printable Scorpion Tail Crane Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a massive curved segmented scorpion tail mounted on the truck bed arching over the cab with a stinger tip",
+    "imagePath": "/images/coloring-pages/scorpion-tail-crane-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-tail-crane-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-armor-shell-truck",
+    "title": "Scorpion Armor Shell Truck",
+    "description": "The entire cab of this monster truck is shaped like a scorpion's armored body segment! Every surface has thick ridged plates layered over it like scorpion exoskeleton armor. This truck is basically a rolling tank.",
+    "metaDescription": "Free printable Scorpion Armor Shell Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the cab shaped like a scorpion armored body segment covered in thick ridged plates",
+    "imagePath": "/images/coloring-pages/scorpion-armor-shell-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-armor-shell-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
+  },
+  {
+    "id": "page-scorpion-n07w",
+    "slug": "scorpion-leg-suspension-truck",
+    "title": "Scorpion Leg Suspension Truck",
+    "description": "Instead of a normal suspension, this truck has eight small leg-shaped supports visible underneath! Each leg is jointed like a real scorpion leg, giving this truck the most unique and detailed undercarriage you've ever seen on a monster truck.",
+    "metaDescription": "Free printable Scorpion Leg Suspension Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with eight scorpion leg shaped supports visible underneath instead of normal suspension",
+    "imagePath": "/images/coloring-pages/scorpion-leg-suspension-truck.png",
+    "thumbnailPath": "/images/coloring-pages/scorpion-leg-suspension-truck-thumb.png",
+    "categoryIds": [
+      "cat-scorpion-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-18",
+    "createdAt": "2026-04-18T13:04:39.644Z",
+    "updatedAt": "2026-04-18T13:04:39.644Z"
   }
 ]

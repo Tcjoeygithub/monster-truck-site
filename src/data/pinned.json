@@ -2596,5 +2596,65 @@
     "board_id": "33b3c91f-7b62-4716-a796-9c65ff1c6b3c",
     "zippy_pin_id": "f1f5ca86-b5ac-4cf7-81cf-83be2f9a9664",
     "pinned_at": "2026-04-17T13:22:18.082Z"
+  },
+  "page-baby-sna-kawb": {
+    "scheduled_for": "2026-04-18T13:10:00.971Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "89926a73-6a80-459e-a90d-fada1b97c392",
+    "pinned_at": "2026-04-18T13:05:01.747Z"
+  },
+  "page-rattlesn-kawb": {
+    "scheduled_for": "2026-04-20T01:10:01.747Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "6b1359c4-f1b6-4904-93cc-cf3cafa15179",
+    "pinned_at": "2026-04-18T13:05:02.253Z"
+  },
+  "page-cobra-ey-kawb": {
+    "scheduled_for": "2026-04-21T13:10:02.253Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "a2358898-b18c-4aae-99a7-32cdb59eded9",
+    "pinned_at": "2026-04-18T13:05:02.645Z"
+  },
+  "page-cobra-fa-kawb": {
+    "scheduled_for": "2026-04-23T01:10:02.645Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "18eedc64-899d-47c1-9889-b21c3c1646ea",
+    "pinned_at": "2026-04-18T13:05:02.996Z"
+  },
+  "page-viper-st-kawb": {
+    "scheduled_for": "2026-04-24T13:10:02.996Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "37c8923f-2fa0-43bc-8b65-8558bfed4448",
+    "pinned_at": "2026-04-18T13:05:03.364Z"
+  },
+  "page-snake-ja-kawb": {
+    "scheduled_for": "2026-04-26T01:10:03.364Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "2af4d05f-01b2-43ab-8bc9-3e7dea709535",
+    "pinned_at": "2026-04-18T13:05:03.721Z"
+  },
+  "page-sidewind-kawb": {
+    "scheduled_for": "2026-04-27T13:10:03.721Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "453f59cd-e242-4a8d-8570-09e28d7d7c6c",
+    "pinned_at": "2026-04-18T13:05:04.026Z"
+  },
+  "page-cobra-ho-kawb": {
+    "scheduled_for": "2026-04-29T01:10:04.026Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "debd7d16-f37f-4cb8-a294-b76bdc76ed97",
+    "pinned_at": "2026-04-18T13:05:04.336Z"
+  },
+  "page-coiled-c-kawb": {
+    "scheduled_for": "2026-04-30T13:10:04.336Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "6f1bdc17-852d-470f-8ef3-0162d9558b53",
+    "pinned_at": "2026-04-18T13:05:04.650Z"
+  },
+  "page-python-w-kawb": {
+    "scheduled_for": "2026-05-02T01:10:04.650Z",
+    "board_id": "96d4cb7d-8c33-4e62-aa6c-58748bcd4ef5",
+    "zippy_pin_id": "9d655dcd-3b76-4257-8b5d-14c6af8b69eb",
+    "pinned_at": "2026-04-18T13:05:05.117Z"
   }
 }

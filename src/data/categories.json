@@ -292,5 +292,19 @@
     "name": "Rhino Monster Truck Coloring Pages",
     "description": "Free printable rhino monster truck coloring pages for kids ages 2-8. Rhino horn bumpers, armored hide bodies, tusk exhaust pipes, battering ram fronts — every truck is built like a rhino. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-cobra-monster-truck-coloring-pages",
+    "slug": "cobra-monster-truck-coloring-pages",
+    "name": "Cobra Monster Truck Coloring Pages",
+    "description": "Free printable cobra monster truck coloring pages for kids ages 2-8. Fang bumpers, cobra hood flares, snake jaw grilles, coiled suspension springs — every truck has real cobra snake features built into the design. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-scorpion-monster-truck-coloring-pages",
+    "slug": "scorpion-monster-truck-coloring-pages",
+    "name": "Scorpion Monster Truck Coloring Pages",
+    "description": "Free printable scorpion monster truck coloring pages for kids ages 2-8. Scorpion tail cranes, claw bumpers, armor shell cabs, leg suspensions — every truck is built like a scorpion. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
