@@ -432,5 +432,12 @@
     "name": "Wolverine Monster Truck Coloring Pages",
     "description": "Free printable wolverine animal monster truck coloring pages for kids ages 2-8. Claw bumpers, snarling hoods, burrowing plows, snapping jaw grilles — every truck is built with wolverine animal features. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-hydra-monster-truck-coloring-pages",
+    "slug": "hydra-monster-truck-coloring-pages",
+    "name": "Hydra Monster Truck Coloring Pages",
+    "description": "Free printable hydra monster truck coloring pages for kids ages 2-8. Three-headed hoods, serpent neck exhausts, fang bumpers, scale armor cabs, regenerating bodies — every truck is built with mythical hydra features. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
