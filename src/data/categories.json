@@ -411,5 +411,19 @@
     "name": "Unicorn Monster Truck Coloring Pages",
     "description": "Free printable unicorn monster truck coloring pages for kids ages 2-8. Armored horn bumpers, battle cab trucks, crystal horn crowns, pegasus wing doors — every truck is a war unicorn built to dominate. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-hawk-monster-truck-coloring-pages",
+    "slug": "hawk-monster-truck-coloring-pages",
+    "name": "Hawk Monster Truck Coloring Pages",
+    "description": "Free printable hawk monster truck coloring pages for kids ages 2-8. Hawk beak bumpers, talon grab fronts, dive bomb stances, wing spoilers, feather exhaust pipes — every truck has hawk features built right into its structure. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-minotaur-monster-truck-coloring-pages",
+    "slug": "minotaur-monster-truck-coloring-pages",
+    "name": "Minotaur Monster Truck Coloring Pages",
+    "description": "Free printable minotaur monster truck coloring pages for kids ages 2-8. Bull horn bumpers, labyrinth grilles, battle axe exhausts, hoof wheels — every truck is built like a mythical warrior. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
