@@ -362,5 +362,19 @@
     "name": "Pirate Monster Truck Coloring Pages",
     "description": "Free printable pirate monster truck coloring pages for kids ages 2-8. Cannon exhausts, skull grilles, hook bumpers, treasure chest beds — every truck is built like a pirate ship on wheels. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-alien-ufo-monster-truck-coloring-pages",
+    "slug": "alien-ufo-monster-truck-coloring-pages",
+    "name": "Alien UFO Monster Truck Coloring Pages",
+    "description": "Free printable alien UFO monster truck coloring pages for kids ages 2-8. Flying saucer roofs, alien eye headlights, tentacle bumpers, ray gun exhausts — every truck is built with out-of-this-world alien features. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-zombie-monster-truck-coloring-pages",
+    "slug": "zombie-monster-truck-coloring-pages",
+    "name": "Zombie Monster Truck Coloring Pages",
+    "description": "Free printable zombie monster truck coloring pages for kids ages 2-8. Zombie hand hoods, jaw grilles, brain dome cabs, coffin truck beds, eyeball wheels — every truck has cartoon zombie features built right into the body. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
