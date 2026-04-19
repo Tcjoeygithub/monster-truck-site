@@ -14464,5 +14464,385 @@
     "publishDate": "2026-04-19",
     "createdAt": "2026-04-19T13:31:32.346Z",
     "updatedAt": "2026-04-19T13:31:32.346Z"
+  },
+  {
+    "id": "page-falcon-b-7bfd",
+    "slug": "falcon-beak-visor-truck",
+    "title": "Falcon Beak Visor Truck",
+    "description": "This truck has a wild windshield visor shaped just like a curved falcon beak pointing straight down! The beak visor wraps over the top of the windshield, giving the truck a fierce bird-of-prey look.",
+    "metaDescription": "Free printable Falcon Beak Visor Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a curved falcon beak shaped windshield visor",
+    "imagePath": "/images/coloring-pages/falcon-beak-visor-truck.png",
+    "thumbnailPath": "/images/coloring-pages/falcon-beak-visor-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-dive-fal-7bfd",
+    "slug": "dive-falcon-stance-truck",
+    "title": "Dive Falcon Stance Truck",
+    "description": "Built for speed! This truck has an extremely aerodynamic wedge shape angled steeply nose-down like a falcon mid-dive. Every surface sweeps back sharply — hood, roof, fenders — all pointing forward at attack angle.",
+    "metaDescription": "Free printable Dive Falcon Stance Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a steep nose-down wedge shape like a diving falcon",
+    "imagePath": "/images/coloring-pages/dive-falcon-stance-truck.png",
+    "thumbnailPath": "/images/coloring-pages/dive-falcon-stance-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-baby-fal-7bfd",
+    "slug": "baby-falcon-truck",
+    "title": "Baby Falcon Truck",
+    "description": "The cutest truck around! A little beak shape on the front bumper, tiny wing-shaped side mirrors, and two big round friendly eyes as headlights. So easy and fun to color!",
+    "metaDescription": "Free printable Baby Falcon Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with a small beak on the front and tiny wing mirrors",
+    "imagePath": "/images/coloring-pages/baby-falcon-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-falcon-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-peregrin-7bfd",
+    "slug": "peregrine-speed-truck",
+    "title": "Peregrine Speed Truck",
+    "description": "This ultra-sleek truck is built purely for speed! An extremely low profile body, swept-back windshield, swept-back fenders, and a long pointed hood. Everything flows backward like a peregrine falcon at full speed.",
+    "metaDescription": "Free printable Peregrine Speed Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of an ultra sleek low profile monster truck with swept back lines",
+    "imagePath": "/images/coloring-pages/peregrine-speed-truck.png",
+    "thumbnailPath": "/images/coloring-pages/peregrine-speed-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-falcon-t-7bfd",
+    "slug": "falcon-talon-tow-hooks-truck",
+    "title": "Falcon Talon Tow Hooks Truck",
+    "description": "The rear of this truck is wild! Instead of regular tow hooks, massive falcon talons grip backward from the rear bumper — curved claws reaching out like a falcon snatching prey from the air.",
+    "metaDescription": "Free printable Falcon Talon Tow Hooks Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with falcon talon shaped tow hooks on the rear bumper",
+    "imagePath": "/images/coloring-pages/falcon-talon-tow-hooks-truck.png",
+    "thumbnailPath": "/images/coloring-pages/falcon-talon-tow-hooks-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-flight-f-7bfd",
+    "slug": "flight-feather-exhaust-truck",
+    "title": "Flight Feather Exhaust Truck",
+    "description": "The exhaust pipes on this truck are shaped like long flight feathers fanned out! Several individual feather-shaped pipes stand up from the hood, each with a pointed tip and feather detail lines etched in.",
+    "metaDescription": "Free printable Flight Feather Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with exhaust pipes shaped like long fanned flight feathers",
+    "imagePath": "/images/coloring-pages/flight-feather-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/flight-feather-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-falcon-h-7bfd",
+    "slug": "falcon-hood-ornament-truck",
+    "title": "Falcon Hood Ornament Truck",
+    "description": "A simple tough truck with a falcon bird sculpture perched right on the center of the hood, wings folded close to its body, looking straight ahead. Classic and cool!",
+    "metaDescription": "Free printable Falcon Hood Ornament Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a falcon sculpture hood ornament wings folded",
+    "imagePath": "/images/coloring-pages/falcon-hood-ornament-truck.png",
+    "thumbnailPath": "/images/coloring-pages/falcon-hood-ornament-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-hunting--7bfd",
+    "slug": "hunting-eye-headlight-truck",
+    "title": "Hunting Eye Headlight Truck",
+    "description": "One single massive round headlight sits dead center in the front of this truck, just like a falcon's large focused hunting eye. The headlight has a detailed iris ring and is surrounded by a heavy circular housing.",
+    "metaDescription": "Free printable Hunting Eye Headlight Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with one large round central headlight like a falcon hunting eye",
+    "imagePath": "/images/coloring-pages/hunting-eye-headlight-truck.png",
+    "thumbnailPath": "/images/coloring-pages/hunting-eye-headlight-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-falcon-n-7bfd",
+    "slug": "falcon-nest-cargo-truck",
+    "title": "Falcon Nest Cargo Truck",
+    "description": "The truck bed is an incredible woven falcon nest with oval eggs nestled inside! A protective cage of thick bars arches over the entire bed to keep the eggs safe. Intricate and fascinating to color!",
+    "metaDescription": "Free printable Falcon Nest Cargo Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a woven nest truck bed full of eggs under a protective cage",
+    "imagePath": "/images/coloring-pages/falcon-nest-cargo-truck.png",
+    "thumbnailPath": "/images/coloring-pages/falcon-nest-cargo-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-talons-o-7bfd",
+    "slug": "talons-out-bumper-truck",
+    "title": "Talons Out Bumper Truck",
+    "description": "Ready to grab! This simple truck has two big spread talon shapes on the front bumper, claws reaching forward like a falcon striking. Bold and easy to color!",
+    "metaDescription": "Free printable Talons Out Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with two spread falcon talon shapes on the front bumper",
+    "imagePath": "/images/coloring-pages/talons-out-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/talons-out-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-falcon-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:07.321Z",
+    "updatedAt": "2026-04-19T13:36:07.321Z"
+  },
+  {
+    "id": "page-kraken-t-7xh2",
+    "slug": "kraken-tentacle-bumper-truck",
+    "title": "Kraken Tentacle Bumper Truck",
+    "description": "This truck looks like it crawled up from the deep! Massive kraken tentacles curl forward from both sides of the bumper, each covered in rows of large suction cups. The tentacles wrap around the front like the truck is ready to grab and crush everything in its path.",
+    "metaDescription": "Free printable Kraken Tentacle Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with giant kraken tentacles with suction cups curling out from the front bumper",
+    "imagePath": "/images/coloring-pages/kraken-tentacle-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/kraken-tentacle-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-giant-ey-7xh2",
+    "slug": "giant-eye-hood-truck",
+    "title": "Giant Eye Hood Truck",
+    "description": "Look at that hood! The entire hood of this monster truck is one gigantic kraken eye with a long vertical slit pupil staring straight ahead. The eyelid edges are built into the hood panels. Creepy and cool!",
+    "metaDescription": "Free printable Giant Eye Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the entire hood shaped as one enormous kraken eye with a vertical slit pupil",
+    "imagePath": "/images/coloring-pages/giant-eye-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/giant-eye-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-baby-kra-7xh2",
+    "slug": "baby-kraken-truck",
+    "title": "Baby Kraken Truck",
+    "description": "Aww, this little sea monster truck is so cute! Small chubby tentacles stick out from the bumper like little arms, a big round friendly eye sits on the hood, and a tiny dorsal fin pokes up from the roof. Easy and adorable to color!",
+    "metaDescription": "Free printable Baby Kraken Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with small tentacles as bumper, big round eye on hood, and tiny fin on roof",
+    "imagePath": "/images/coloring-pages/baby-kraken-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-kraken-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-ship-wre-7xh2",
+    "slug": "ship-wreck-cargo-truck",
+    "title": "Ship Wreck Cargo Truck",
+    "description": "The truck bed is hauling something wild! A broken ship hull sits in the cargo bed, splintered and crushed by thick tentacle shapes squeezing around it. The mast is snapped in half and the hull planks are cracked apart. A deep sea destroyer!",
+    "metaDescription": "Free printable Ship Wreck Cargo Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a broken ship hull being crushed by tentacle shapes in the truck bed",
+    "imagePath": "/images/coloring-pages/ship-wreck-cargo-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ship-wreck-cargo-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-ink-clou-7xh2",
+    "slug": "ink-cloud-exhaust-truck",
+    "title": "Ink Cloud Exhaust Truck",
+    "description": "When this truck revs up, it sprays like a kraken! The rear exhaust pipe is shaped like a wide nozzle that fans out into a big cloud spray shape — just like a kraken squirting ink to escape predators. Unique and fun to color!",
+    "metaDescription": "Free printable Ink Cloud Exhaust Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a rear exhaust pipe shaped like an ink spray nozzle fanning out in a cloud shape",
+    "imagePath": "/images/coloring-pages/ink-cloud-exhaust-truck.png",
+    "thumbnailPath": "/images/coloring-pages/ink-cloud-exhaust-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-deep-sea-7xh2",
+    "slug": "deep-sea-pressure-cab-truck",
+    "title": "Deep Sea Pressure Cab Truck",
+    "description": "This cab is built to survive the deep ocean! The entire cab is shaped like a deep sea diving bell — a round dome with thick walls and rows of large rivets around every panel edge. A small round porthole window replaces the windshield. Built like a submarine!",
+    "metaDescription": "Free printable Deep Sea Pressure Cab Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with the cab shaped like a deep sea diving bell dome covered in rivets with a porthole window",
+    "imagePath": "/images/coloring-pages/deep-sea-pressure-cab-truck.png",
+    "thumbnailPath": "/images/coloring-pages/deep-sea-pressure-cab-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-anchor-c-7xh2",
+    "slug": "anchor-crusher-bumper-truck",
+    "title": "Anchor Crusher Bumper Truck",
+    "description": "The front bumper of this truck IS a giant ship anchor! The anchor shape is bolted to the front as a massive battering ram, crossbar and all, ready to smash through anything. A true sea monster of the monster truck arena!",
+    "metaDescription": "Free printable Anchor Crusher Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a large ship anchor shape as the front bumper battering ram",
+    "imagePath": "/images/coloring-pages/anchor-crusher-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/anchor-crusher-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-tentacle-7xh2",
+    "slug": "tentacle-wrap-roll-cage-truck",
+    "title": "Tentacle Wrap Roll Cage Truck",
+    "description": "The roll cage on this truck looks like a kraken is giving it a hug! The roll cage bars are shaped like thick tentacles that wrap and curl around the cab from below, holding the roof in their grip. Easy to color with big bold shapes!",
+    "metaDescription": "Free printable Tentacle Wrap Roll Cage Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with roll cage bars shaped like tentacles wrapping around the cab",
+    "imagePath": "/images/coloring-pages/tentacle-wrap-roll-cage-truck.png",
+    "thumbnailPath": "/images/coloring-pages/tentacle-wrap-roll-cage-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-sea-mons-7xh2",
+    "slug": "sea-monster-crown-truck",
+    "title": "Sea Monster Crown Truck",
+    "description": "This truck wears a crown fit for a sea monster king! A row of small tentacle tips rises up from the roof in a crown shape — some curling left, some right, some straight up. Simple, fun, and great for little colorers!",
+    "metaDescription": "Free printable Sea Monster Crown Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with small tentacle tips rising from the roof in a crown shape",
+    "imagePath": "/images/coloring-pages/sea-monster-crown-truck.png",
+    "thumbnailPath": "/images/coloring-pages/sea-monster-crown-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:36:35.893Z",
+    "updatedAt": "2026-04-19T13:36:35.893Z"
   }
 ]

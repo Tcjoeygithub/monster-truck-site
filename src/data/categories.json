@@ -495,5 +495,19 @@
     "name": "Komodo Dragon Monster Truck Coloring Pages",
     "description": "Free printable komodo dragon monster truck coloring pages for kids ages 2-8. Forked tongue bumpers, jaw hoods, venom drip grilles, scaly armor fenders, claw wheels — every truck is built like the world's biggest lizard. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-falcon-monster-truck-coloring-pages",
+    "slug": "falcon-monster-truck-coloring-pages",
+    "name": "Falcon Monster Truck Coloring Pages",
+    "description": "Free printable falcon monster truck coloring pages for kids ages 2-8. Beak visors, talon tow hooks, feather exhausts, falcon hood ornaments — every truck is built like a bird of prey. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-kraken-monster-truck-coloring-pages",
+    "slug": "kraken-monster-truck-coloring-pages",
+    "name": "Kraken Monster Truck Coloring Pages",
+    "description": "Free printable kraken monster truck coloring pages for kids ages 2-8. Tentacle bumpers, giant kraken eyes, suction cup wheels, deep sea diving bell cabs — every truck rises from the deep. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
