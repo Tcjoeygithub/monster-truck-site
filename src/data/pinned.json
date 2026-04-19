@@ -4048,5 +4048,59 @@
     "board_id": "135e60e4-ce08-4fa9-9f2b-d732d2926d76",
     "zippy_pin_id": "a349eaae-3cca-4a1f-953d-4fb6bc1e3bf6",
     "pinned_at": "2026-04-18T23:10:43.878Z"
+  },
+  "page-gargoyle-vbs6": {
+    "scheduled_for": "2026-04-25T13:37:47.775Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "7d13c914-d5ce-43ac-9608-9adef633f78f",
+    "pinned_at": "2026-04-19T13:32:48.109Z"
+  },
+  "page-stone-wi-vbs6": {
+    "scheduled_for": "2026-04-21T01:37:46.591Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "8d69604c-d66a-49d4-9887-cfd0226ffdf0",
+    "pinned_at": "2026-04-19T13:32:47.102Z"
+  },
+  "page-baby-gar-vbs6": {
+    "scheduled_for": "2026-04-22T13:37:47.102Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "b090be91-1b58-4a93-8a60-45db5618533a",
+    "pinned_at": "2026-04-19T13:32:47.456Z"
+  },
+  "page-gothic-s-vbs6": {
+    "scheduled_for": "2026-04-24T01:37:47.456Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "cfa97fa9-d52f-439a-a547-304d1f924ed9",
+    "pinned_at": "2026-04-19T13:32:47.775Z"
+  },
+  "page-stone-cl-vbs6": {
+    "scheduled_for": "2026-04-27T01:37:48.109Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "e9e67fa0-fbf9-4869-a399-fc7dce2db6df",
+    "pinned_at": "2026-04-19T13:32:48.422Z"
+  },
+  "page-cathedra-vbs6": {
+    "scheduled_for": "2026-04-28T13:37:48.422Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "40a3b3aa-9867-481e-8b10-1eed788b78cf",
+    "pinned_at": "2026-04-19T13:32:48.739Z"
+  },
+  "page-waterspo-vbs6": {
+    "scheduled_for": "2026-04-30T01:37:48.739Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "6e5153b0-fa2b-4bfc-9ef5-2a1826b33365",
+    "pinned_at": "2026-04-19T13:32:49.043Z"
+  },
+  "page-demon-ho-vbs6": {
+    "scheduled_for": "2026-05-01T13:37:49.043Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "73dc29a5-6c60-45a0-bbc7-66a469d29e94",
+    "pinned_at": "2026-04-19T13:32:49.378Z"
+  },
+  "page-guardian-vbs6": {
+    "scheduled_for": "2026-05-03T01:37:49.378Z",
+    "board_id": "e6ee8c07-8380-48dc-a130-8778db4227b1",
+    "zippy_pin_id": "77c7b59c-30a5-4998-bb8a-eb035cf9ffd3",
+    "pinned_at": "2026-04-19T13:32:49.689Z"
   }
 }

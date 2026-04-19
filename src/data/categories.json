@@ -481,5 +481,19 @@
     "name": "Yeti Monster Truck Coloring Pages",
     "description": "Free printable yeti monster truck coloring pages for kids ages 2-8. Yeti claw bumpers, frozen fist fronts, shaggy fur roofs, roaring yeti hoods — every truck is built like an abominable snowman. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-gargoyle-monster-truck-coloring-pages",
+    "slug": "gargoyle-monster-truck-coloring-pages",
+    "name": "Gargoyle Monster Truck Coloring Pages",
+    "description": "Free printable gargoyle monster truck coloring pages for kids ages 2-8. Stone wing fenders, gargoyle face grilles, gothic spire exhausts, cathedral window doors — every truck is a stone guardian on wheels. Bold outlines, ready to print!",
+    "type": "theme"
+  },
+  {
+    "id": "cat-komodo-dragon-monster-truck-coloring-pages",
+    "slug": "komodo-dragon-monster-truck-coloring-pages",
+    "name": "Komodo Dragon Monster Truck Coloring Pages",
+    "description": "Free printable komodo dragon monster truck coloring pages for kids ages 2-8. Forked tongue bumpers, jaw hoods, venom drip grilles, scaly armor fenders, claw wheels — every truck is built like the world's biggest lizard. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]
