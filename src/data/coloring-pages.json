@@ -14844,5 +14844,25 @@
     "publishDate": "2026-04-19",
     "createdAt": "2026-04-19T13:36:35.893Z",
     "updatedAt": "2026-04-19T13:36:35.893Z"
+  },
+  {
+    "id": "page-kraken-s-apk6",
+    "slug": "kraken-suction-cup-wheels-truck",
+    "title": "Suction Cup Wheels Truck",
+    "description": "These wheels grip everything! Each of the four huge tires is covered in large raised suction cup bulges across the entire surface, just like a kraken tentacle. This truck could climb straight up a wall!",
+    "metaDescription": "Free printable Suction Cup Wheels Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with all four tires covered in large suction cup bulge shapes",
+    "imagePath": "/images/coloring-pages/kraken-suction-cup-wheels-truck.png",
+    "thumbnailPath": "/images/coloring-pages/kraken-suction-cup-wheels-truck-thumb.png",
+    "categoryIds": [
+      "cat-kraken-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:38:45.605Z",
+    "updatedAt": "2026-04-19T13:38:45.605Z"
   }
 ]
