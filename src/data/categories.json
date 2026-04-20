@@ -509,5 +509,12 @@
     "name": "Kraken Monster Truck Coloring Pages",
     "description": "Free printable kraken monster truck coloring pages for kids ages 2-8. Tentacle bumpers, giant kraken eyes, suction cup wheels, deep sea diving bell cabs — every truck rises from the deep. Bold outlines, ready to print!",
     "type": "theme"
+  },
+  {
+    "id": "cat-chimera-monster-truck-coloring-pages",
+    "slug": "chimera-monster-truck-coloring-pages",
+    "name": "Chimera Monster Truck Coloring Pages",
+    "description": "Free printable chimera monster truck coloring pages for kids ages 2-8. Lion jaws, goat horns, serpent tails, dragon wings — every truck mashes up multiple mythical beasts into one wild ride. Bold outlines, ready to print!",
+    "type": "theme"
   }
 ]

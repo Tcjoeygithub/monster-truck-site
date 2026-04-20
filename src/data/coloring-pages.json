@@ -14864,5 +14864,205 @@
     "publishDate": "2026-04-19",
     "createdAt": "2026-04-19T13:38:45.605Z",
     "updatedAt": "2026-04-19T13:38:45.605Z"
+  },
+  {
+    "id": "page-lion-goa-crzv",
+    "slug": "lion-goat-serpent-hood-truck",
+    "title": "Lion Goat Serpent Hood Truck",
+    "description": "The ultimate mythical mashup! This truck's hood has three heads — a lion on the left, a goat in the center, and a serpent on the right. Three beasts, one monster truck!",
+    "metaDescription": "Free printable Lion Goat Serpent Hood Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a lion head, goat head, and serpent head mounted on the hood",
+    "imagePath": "/images/coloring-pages/lion-goat-serpent-hood-truck.png",
+    "thumbnailPath": "/images/coloring-pages/lion-goat-serpent-hood-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-chimera--crzv",
+    "slug": "chimera-wing-fender-truck",
+    "title": "Chimera Wing Fender Truck",
+    "description": "Dragon wings on one side, bat wings on the other! This chimera truck has mismatched fenders — one feathered, one leathery — because it's part of every beast at once.",
+    "metaDescription": "Free printable Chimera Wing Fender Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a dragon wing fender on one side and a bat wing fender on the other",
+    "imagePath": "/images/coloring-pages/chimera-wing-fender-truck.png",
+    "thumbnailPath": "/images/coloring-pages/chimera-wing-fender-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-baby-chi-crzv",
+    "slug": "baby-chimera-truck",
+    "title": "Baby Chimera Truck",
+    "description": "A cute little chimera truck with a tiny lion nose on the front, small goat horns on the roof, and a curly snake tail on the back. Three animals in one adorable truck!",
+    "metaDescription": "Free printable Baby Chimera Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple cute monster truck with lion nose, goat horns, and snake tail",
+    "imagePath": "/images/coloring-pages/baby-chimera-truck.png",
+    "thumbnailPath": "/images/coloring-pages/baby-chimera-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-fire-bre-crzv",
+    "slug": "fire-breath-exhaust-chimera-truck",
+    "title": "Fire Breath Exhaust Chimera Truck",
+    "description": "This chimera truck breathes fire from three exhaust pipes — each shaped like a different animal mouth! A lion mouth, a goat mouth, and a snake mouth all blasting flames backward.",
+    "metaDescription": "Free printable Fire Breath Exhaust Chimera Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with three animal-mouth shaped exhaust pipes",
+    "imagePath": "/images/coloring-pages/fire-breath-exhaust-chimera-truck.png",
+    "thumbnailPath": "/images/coloring-pages/fire-breath-exhaust-chimera-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-chimera--crzv",
+    "slug": "chimera-claw-wheel-truck",
+    "title": "Chimera Claw Wheel Truck",
+    "description": "Every wheel on this truck is different! Front left has lion claws, front right has eagle talons, rear left has goat hooves, rear right has dragon claws. A true chimera of wheels!",
+    "metaDescription": "Free printable Chimera Claw Wheel Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck where each wheel hub has a different animal claw design",
+    "imagePath": "/images/coloring-pages/chimera-claw-wheel-truck.png",
+    "thumbnailPath": "/images/coloring-pages/chimera-claw-wheel-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "hard",
+    "ageRange": "6-8",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-serpent--crzv",
+    "slug": "serpent-tail-bumper-truck",
+    "title": "Serpent Tail Bumper Truck",
+    "description": "The rear bumper of this truck IS a living snake tail! It curves up and over the truck bed with a snake head at the tip looking backward. The front has a lion jaw grille.",
+    "metaDescription": "Free printable Serpent Tail Bumper Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a snake tail curving from the rear bumper and a lion jaw grille",
+    "imagePath": "/images/coloring-pages/serpent-tail-bumper-truck.png",
+    "thumbnailPath": "/images/coloring-pages/serpent-tail-bumper-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-goat-hor-crzv",
+    "slug": "goat-horn-roll-cage-truck",
+    "title": "Goat Horn Roll Cage Truck",
+    "description": "The roll cage bars on this truck curve into goat horn shapes at each corner! Four massive curved horns point outward from the cab, making this truck look ready to charge.",
+    "metaDescription": "Free printable Goat Horn Roll Cage Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with roll cage bars that curve into goat horn shapes",
+    "imagePath": "/images/coloring-pages/goat-horn-roll-cage-truck.png",
+    "thumbnailPath": "/images/coloring-pages/goat-horn-roll-cage-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-chimera--crzv",
+    "slug": "chimera-shield-grille-truck",
+    "title": "Chimera Shield Grille Truck",
+    "description": "The front of this truck is a massive shield with three animal faces on it — a lion at the top, a goat in the middle, and a snake at the bottom. Three-headed protection!",
+    "metaDescription": "Free printable Chimera Shield Grille Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a monster truck with a shield grille showing three animal faces stacked",
+    "imagePath": "/images/coloring-pages/chimera-shield-grille-truck.png",
+    "thumbnailPath": "/images/coloring-pages/chimera-shield-grille-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "medium",
+    "ageRange": "4-6",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-chimera--crzv",
+    "slug": "chimera-rider-truck",
+    "title": "Chimera Rider Truck",
+    "description": "A cute cartoon chimera creature is riding on top of this monster truck! It has a lion head, goat body, and snake tail — all sitting on the cab roof holding on tight.",
+    "metaDescription": "Free printable Chimera Rider Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with a small cartoon chimera creature sitting on top",
+    "imagePath": "/images/coloring-pages/chimera-rider-truck.png",
+    "thumbnailPath": "/images/coloring-pages/chimera-rider-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
+  },
+  {
+    "id": "page-triple-c-crzv",
+    "slug": "triple-crown-chimera-truck",
+    "title": "Triple Crown Chimera Truck",
+    "description": "The champion of all mythical trucks! This simple truck has a triple crown on the roof — three small crowns for the three chimera beasts. A lion paw, goat hoof, and snake coil decorate the door.",
+    "metaDescription": "Free printable Triple Crown Chimera Truck coloring page for kids. Bold outlines, easy to color. Download and print for free!",
+    "altText": "Black and white coloring page of a simple monster truck with three small crowns on the roof",
+    "imagePath": "/images/coloring-pages/triple-crown-chimera-truck.png",
+    "thumbnailPath": "/images/coloring-pages/triple-crown-chimera-truck-thumb.png",
+    "categoryIds": [
+      "cat-chimera-monster-truck-coloring-pages"
+    ],
+    "difficulty": "easy",
+    "ageRange": "2-4",
+    "status": "published",
+    "featured": false,
+    "publishDate": "2026-04-19",
+    "createdAt": "2026-04-19T13:40:22.075Z",
+    "updatedAt": "2026-04-19T13:40:22.075Z"
   }
 ]
