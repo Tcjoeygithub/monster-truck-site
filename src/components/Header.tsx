@@ -96,6 +96,13 @@ export default function Header({ collections }: Props) {
             >
               All Collections
             </Link>
+
+            <Link
+              href="/blog"
+              className="hover:text-brand-orange transition-colors"
+            >
+              Blog
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -165,6 +172,13 @@ export default function Header({ collections }: Props) {
               onClick={() => setMobileMenuOpen(false)}
             >
               View All Collections →
+            </Link>
+            <Link
+              href="/blog"
+              className="block py-2 px-3 rounded hover:bg-brand-dark text-sm mt-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Blog
             </Link>
           </nav>
         )}
