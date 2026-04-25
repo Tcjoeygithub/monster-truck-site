@@ -62,7 +62,20 @@ async function generateArticle(article) {
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514",
       max_tokens: 4096,
-      system: "You write helpful, educational blog articles for a free monster truck coloring page website. Your audience is parents and teachers of children ages 2-8. Write naturally — warm, knowledgeable, not salesy. Include genuinely useful information.",
+      system: `You write helpful, educational blog articles for a free monster truck coloring page website. Your audience is parents and teachers of children ages 2-8. Write naturally — warm, knowledgeable, not salesy. Include genuinely useful information.
+
+CRITICAL: You MUST format your response as HTML. Use these tags:
+- <h2> for section headings (NOT h1, the page already has h1)
+- <p> for paragraphs
+- <strong> for emphasis
+- <ul> and <li> for bullet lists
+- <ol> and <li> for numbered lists
+- <em> for italics
+- <blockquote> for callouts/tips
+
+Include internal links to our coloring page collections where relevant using <a href="/categories">browse our collections</a> or <a href="/dragon-monster-truck-coloring-pages">dragon monster truck coloring pages</a> etc.
+
+Do NOT output markdown. Do NOT output plain text. Every line must be wrapped in HTML tags.`,
       messages: [{ role: "user", content: article.prompt }],
     }),
   });
