@@ -17,11 +17,19 @@ export interface ColoringPage {
   updatedAt: string;
 }
 
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
 export interface Category {
   id: string;
   slug: string;
   name: string;
   description: string;
+  richDescription?: string;
+  faqs?: FAQ[];
+  coloringTips?: string[];
   type: "truck-type" | "difficulty" | "age-range" | "theme";
   pageCount?: number;
   thumbnailPath?: string;

@@ -138,14 +138,37 @@ export default function CategoryPage({ params }: Props) {
             {pages.length > 0 ? `${pages.length} ` : ""}
             {seoName} (Free PDF Printables)
           </h1>
-          <div className="text-gray-700 text-base leading-relaxed max-w-3xl space-y-3">
-            <p>{category.description}</p>
-            <p>
-              To start coloring, click the Print or Download PDF button on any
-              page below. Every sheet is free &mdash; no signup, no watermark
-              mess, just print and color.
-            </p>
-          </div>
+          {category.richDescription ? (
+            <div
+              className="prose prose-gray max-w-3xl text-gray-700 leading-relaxed"
+              dangerouslySetInnerHTML={{ __html: category.richDescription }}
+            />
+          ) : (
+            <div className="text-gray-700 text-base leading-relaxed max-w-3xl space-y-3">
+              <p>{category.description}</p>
+            </div>
+          )}
+          <p className="text-gray-600 text-sm mt-4">
+            To start coloring, click the Print or Download PDF button on any
+            page below. Every sheet is free &mdash; no signup, no watermark
+            mess, just print and color.
+          </p>
+
+          {category.coloringTips && category.coloringTips.length > 0 && (
+            <div className="mt-6 bg-brand-cream/40 border-2 border-gray-100 rounded-xl p-5">
+              <h2 className="font-bold text-brand-black text-sm uppercase tracking-wide mb-3">
+                Coloring Tips for This Collection
+              </h2>
+              <ul className="space-y-2 text-sm text-gray-700">
+                {category.coloringTips.map((tip, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span className="text-brand-orange font-bold shrink-0">•</span>
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </header>
 
         {preRelated.length > 0 && (
@@ -183,6 +206,45 @@ export default function CategoryPage({ params }: Props) {
             heading="More Free Printable Coloring Pages"
             collections={postRelated}
           />
+        )}
+
+        {category.faqs && category.faqs.length > 0 && (
+          <>
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "FAQPage",
+                  mainEntity: category.faqs.map((faq) => ({
+                    "@type": "Question",
+                    name: faq.question,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: faq.answer,
+                    },
+                  })),
+                }),
+              }}
+            />
+            <section className="mt-10 bg-white border-2 border-gray-100 rounded-xl p-6">
+              <h2 className="font-[var(--font-display)] text-2xl font-bold text-brand-black mb-6">
+                Frequently Asked Questions
+              </h2>
+              <dl className="space-y-5">
+                {category.faqs.map((faq, i) => (
+                  <div key={i}>
+                    <dt className="font-bold text-brand-black text-base mb-1">
+                      {faq.question}
+                    </dt>
+                    <dd className="text-gray-600 text-sm leading-relaxed">
+                      {faq.answer}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          </>
         )}
       </TwoColumnLayout>
     </>
